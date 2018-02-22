@@ -113,7 +113,7 @@ def readfile1(filename=''):
     return dict
 
 
-def _test_LDA(l, path1, file='', data_samples=[], term=7):
+def _test_LDA( path1, file='', data_samples=[], term=7, **l):
     topics = []
     for i in range(10):
         shuffle(data_samples)
@@ -121,7 +121,7 @@ def _test_LDA(l, path1, file='', data_samples=[], term=7):
         tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, stop_words='english')
         tf = tf_vectorizer.fit_transform(data_samples)
 
-        lda1 = lda.LDA(n_topics=int(l[0]), alpha=l[1], eta=l[2], n_iter=100)
+        lda1 = lda.LDA(n_iter=100,**l)
 
         lda1.fit_transform(tf)
 
@@ -133,20 +133,24 @@ def _test_LDA(l, path1, file='', data_samples=[], term=7):
 ## main(k,alpha,beta,tune='tuned',file='',term='',data_samples='')
 
 def main(*x, **r):
+
     base = ROOT+"/../temp/"
-    path = os.path.join(base, r['tune'], r['file'], str(r['term']))
+    path = os.path.join(base, r['file'], str(r['term']))
     if not os.path.exists(path):
         os.makedirs(path)
     l = np.asarray(x)
-    b = int(l[0])
-    path1 = path + "/K_" + str(b) + "_a_" + str(l[1]) + "_b_" + str(l[2]) + ".txt"
+    b = l[0]['n_topics']
+    alpha=l[0]['alpha']
+    eta=l[0]['eta']
+    path1 = path + "/K_" + str(b) + "_a_" + str(alpha) + "_b_" + str(eta) + ".txt"
     with open(path1, "w") as f:
         f.truncate()
 
-    topics = _test_LDA(l, path1, file=r['file'],data_samples=r['data_samples'],term=int(r['term']))
+    topics = _test_LDA(path1, file=r['file'],data_samples=r['data_samples'],term=int(r['term']),n_topics=b,
+                       alpha=alpha,eta=eta)
 
     a = jaccard(b, score_topics=topics, term=int(r['term']))
     fo = open(path1, 'a+')
     fo.write("\nScore: " + str(a))
     fo.close()
-    return a
+    return a, [{},[]]

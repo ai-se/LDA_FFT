@@ -6,7 +6,7 @@ import sys
 
 sys.dont_write_bytecode = True
 from sklearn.feature_extraction.text import HashingVectorizer,CountVectorizer,TfidfVectorizer
-from sklearn.decomposition import LatentDirichletAllocation
+import lda
 
 def TF(doc):
     vect= CountVectorizer(max_df=0.95, min_df=2,)
@@ -23,6 +23,8 @@ def HASHING(doc):
     X= vect.fit_transform(doc)
     return X.A, ''
 
-def LDA(doc,**k):
+def LDA_(doc,**k):
     corpus, vocab=TF(doc)
-    return LatentDirichletAllocation(max_iter=1000, **k).fit_transform(corpus), vocab
+    model=lda.LDA(n_iter=1000,**k)
+    model.fit(corpus)
+    return model.doc_topic_, vocab

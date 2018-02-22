@@ -57,7 +57,7 @@ class FFT(object):
         data = self.train
         for i in range(self.tree_cnt):
             self.grow(data, i, 0, [0, 0, 0, 0])
-            self.loc_aucs[i] = self.get_tree_loc_auc(data, i)
+            #self.loc_aucs[i] = self.get_tree_loc_auc(data, i)
 
 
     "Evaluate all tress built on TEST data."

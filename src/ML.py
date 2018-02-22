@@ -23,7 +23,7 @@ def DT(k,train_data,train_labels,test_data,test_labels, metric):
     dic = {}
 
     for i in metrics:
-        dic[i] = evaluation(i, prediction, test_labels)
+        dic[i] = round(evaluation(i, prediction, test_labels),3)
 
     return dic[metric], [dic, model.feature_importances_]
 
@@ -33,7 +33,7 @@ def RF(k,train_data,train_labels,test_data,test_labels, metric):
     prediction = model.predict(test_data)
     dic = {}
     for i in metrics:
-        dic[i] = evaluation(i, prediction, test_labels)
+        dic[i] = round(evaluation(i, prediction, test_labels),3)
     return dic[metric], [dic, model.feature_importances_]
 
 
@@ -48,7 +48,7 @@ def SVM(k,train_data,train_labels,test_data,test_labels, metric):
     prediction = model.predict(test_data)
     dic = {}
     for i in metrics:
-        dic[i] = evaluation(i, prediction, test_labels)
+        dic[i] = round(evaluation(i, prediction, test_labels),3)
     return dic[metric], [dic, []]
 
 
@@ -64,13 +64,13 @@ def FFT1(k,train_data,train_labels,test_data,test_labels, metric):
     training_df.rename(columns={training_df.columns[-1]: "bug"},inplace=True)
     testing_df.rename(columns={testing_df.columns[-1]: "bug"},inplace=True)
 
-    fft.criteria = metric
     fft.target = "bug"
     fft.train, fft.test = training_df, testing_df
     fft.build_trees()  # build and get performance on TEST data
     t_id = fft.find_best_tree()  # find the best tree on TRAIN data
     fft.eval_tree(t_id)  # eval all the trees on TEST data
-    dic={"accuracy": fft.performance_on_test[t_id][-2], "precision": fft.performance_on_test[t_id][-8],
+
+    dic={"accuracy": fft.performance_on_test[t_id][-2], "precision": fft.performance_on_test[t_id][-7],
      "recall": fft.performance_on_test[t_id][-6], "false_alarm": fft.performance_on_test[t_id][-4]}
     return dic[metric], [dic,[]]
 

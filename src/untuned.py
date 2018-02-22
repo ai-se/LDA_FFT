@@ -25,7 +25,7 @@ MLS_para_dic=[OrderedDict([("min_samples_split",2),("min_impurity_decrease",0.0)
                                 ("degree", 3)]), OrderedDict()]
 
 metrics=['accuracy','recall','precision','false_alarm']
-features=[TF, TFIDF, HASHING]
+features=[TFIDF, HASHING]
 
 def readfile1(filename=''):
     dict = []

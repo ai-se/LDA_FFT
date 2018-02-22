@@ -67,17 +67,19 @@ class DE(object):
             return self.late_termination(fitness,**r)
 
     def early_termination(self,fitness,**r):
-        for x in range(self.GEN):
-            trial_generation = []
-            for ind in self.cur_gen:
-                v = self._extrapolate(ind)
-                temp=fitness(v,**r)
-                trial_generation.append(Individual(OrderedDict(v),temp[0] ))
+        if self.GEN>1:
+            for x in range(self.GEN):
+                trial_generation = []
+                for ind in self.cur_gen:
+                    v = self._extrapolate(ind)
+                    temp=fitness(v,**r)
+                    trial_generation.append(Individual(OrderedDict(v),temp[0] ))
 
-            current_generation = self._selection(trial_generation)
-            self.cur_gen=current_generation
-        best_index = self._get_best_index()
-        return self.cur_gen[best_index], self.cur_gen
+                current_generation = self._selection(trial_generation)
+                self.cur_gen=current_generation
+        else:
+            best_index = self._get_best_index()
+            return self.cur_gen[best_index], self.cur_gen
 
     def late_termination(self,fitness,**r):
         lives=1

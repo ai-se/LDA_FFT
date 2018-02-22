@@ -64,7 +64,7 @@ target/
 .DS_Store
 *.pyc
 Datasets/StackExchange
-
+temp/
 # Compressed files
 *.tar.gz
 *.gz

@@ -11,7 +11,7 @@ from collections import OrderedDict
 import os
 from collections import Counter
 from featurization import *
-from ML import DT, SVM, RF, FFT
+from ML import DT, SVM, RF, FFT1
 from sklearn.model_selection import StratifiedKFold
 import pickle
 
@@ -21,7 +21,7 @@ learners_para_bounds=[[(10,100), (0.1,1), (0.01,1)]]
 learners_para_categories=[[ "integer", "continuous", "continuous"]]
 ROOT=os.getcwd()
 files=["pitsA", "pitsB", "pitsC", "pitsD", "pitsE", "pitsF"]
-MLS=[DT,RF, SVM,  FFT]
+MLS=[DT,RF, SVM,  FFT1]
 MLS_para_dic=[OrderedDict([("min_samples_split",2),("min_impurity_decrease",0.0), ("max_depth",None),
                                ("min_samples_leaf", 1)]), OrderedDict([("min_samples_split",2),
                                 ("max_leaf_nodes",None), ("min_samples_leaf",1), ("min_impurity_decrease",0.0),("n_estimators",10)]),
@@ -53,17 +53,20 @@ def _test(res=''):
     raw_data,labels=readfile1(path)
     temp={}
 
-    for i in range(1):
+    for i in range(5):
         ranges=range(len(labels))
         shuffle(ranges)
         raw_data=raw_data[ranges]
         labels=labels[ranges]
 
-        de = DE(Goal="Max", GEN=1, NP=10)
+        de = DE(Goal="Max", GEN=5, NP=10,termination="Early")
         v, _ = de.solve(learners[0], OrderedDict(learners_para_dic[0]),
                         learners_para_bounds[0], learners_para_categories[0],
-                        tune='tuned', file=res, term=7, data_samples=raw_data)
-        corpus,_=LDA(raw_data,v.ind)
+                        file=res, term=7, data_samples=raw_data)
+        n_topics = v.ind['n_topics']
+        alpha = v.ind['alpha']
+        eta = v.ind['eta']
+        corpus,_=LDA_(raw_data,n_topics=n_topics,alpha=alpha,eta=eta)
 
         skf = StratifiedKFold(n_splits=5)
         for train_index, test_index in skf.split(corpus, labels):
@@ -78,6 +81,7 @@ def _test(res=''):
                     if m not in temp[le.__name__]:
                         temp[le.__name__][m]=[]
                     temp[le.__name__][m].append(val[0][m])
+    print(temp)
     with open('../dump/LDADE' +res+ '.pickle', 'wb') as handle:
         pickle.dump(temp, handle)
 
