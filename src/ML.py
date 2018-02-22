@@ -38,10 +38,10 @@ def RF(k,train_data,train_labels,test_data,test_labels, metric):
 
 
 def SVM(k,train_data,train_labels,test_data,test_labels, metric):
-    # from sklearn.preprocessing import MinMaxScaler
-    # scaling = MinMaxScaler(feature_range=(-1, 1)).fit(train_data)
-    # train_data = scaling.transform(train_data)
-    # test_data = scaling.transform(test_data)
+    from sklearn.preprocessing import MinMaxScaler
+    scaling = MinMaxScaler(feature_range=(-1, 1)).fit(train_data)
+    train_data = scaling.transform(train_data)
+    test_data = scaling.transform(test_data)
     model = SVC(cache_size=20000,**k)
     model.fit(train_data, train_labels)
     #print(model.coef_)
@@ -53,7 +53,7 @@ def SVM(k,train_data,train_labels,test_data,test_labels, metric):
 
 
 def FFT1(k,train_data,train_labels,test_data,test_labels, metric):
-    fft = FFT(max_level=2)
+    fft = FFT(max_level=5)
     train_labels=np.reshape(train_labels,(-1,1))
     test_labels = np.reshape(test_labels, (-1, 1))
 

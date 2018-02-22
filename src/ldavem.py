@@ -11,6 +11,7 @@ import os
 import lda
 from sklearn.feature_extraction.text import CountVectorizer
 import copy
+from sklearn.decomposition import NMF, LatentDirichletAllocation
 
 ROOT=os.getcwd()
 seed(1)
@@ -121,7 +122,7 @@ def _test_LDA( path1, file='', data_samples=[], term=7, **l):
         tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, stop_words='english')
         tf = tf_vectorizer.fit_transform(data_samples)
 
-        lda1 = lda.LDA(n_iter=100,**l)
+        lda1 = LatentDirichletAllocation(max_iter=10,learning_method='batch',**l)
 
         lda1.fit_transform(tf)
 
@@ -139,17 +140,17 @@ def main(*x, **r):
     if not os.path.exists(path):
         os.makedirs(path)
     l = np.asarray(x)
-    b = l[0]['n_topics']
-    alpha=l[0]['alpha']
-    eta=l[0]['eta']
-    path1 = path + "/K_" + str(b) + "_a_" + str(alpha) + "_b_" + str(eta) + ".txt"
+    n_components = l[0]['n_components']
+    doc_topic_prior=l[0]['doc_topic_prior']
+    topic_word_prior=l[0]['topic_word_prior']
+    path1 = path + "/K_" + str(n_components) + "_a_" + str(doc_topic_prior) + "_b_" + str(topic_word_prior) + ".txt"
     with open(path1, "w") as f:
         f.truncate()
 
-    topics = _test_LDA(path1, file=r['file'],data_samples=r['data_samples'],term=int(r['term']),n_topics=b,
-                       alpha=alpha,eta=eta)
+    topics = _test_LDA(path1, file=r['file'],data_samples=r['data_samples'],term=int(r['term']),n_components=n_components,
+                       doc_topic_prior=doc_topic_prior,topic_word_prior=topic_word_prior)
 
-    a = jaccard(b, score_topics=topics, term=int(r['term']))
+    a = jaccard(n_components, score_topics=topics, term=int(r['term']))
     fo = open(path1, 'a+')
     fo.write("\nScore: " + str(a))
     fo.close()

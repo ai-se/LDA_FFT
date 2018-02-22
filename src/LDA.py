@@ -65,7 +65,7 @@ def _test(res=''):
         for fea in features:
             if fea not in temp:
                 temp[fea] = {}
-            corpus, _ = LDA_(raw_data,n_topics=int(fea))
+            corpus, _ = LDA_(raw_data,n_components=int(fea))
 
             skf = StratifiedKFold(n_splits=5)
             for train_index, test_index in skf.split(corpus, labels):

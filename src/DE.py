@@ -77,6 +77,8 @@ class DE(object):
 
                 current_generation = self._selection(trial_generation)
                 self.cur_gen=current_generation
+            best_index = self._get_best_index()
+            return self.cur_gen[best_index], self.cur_gen
         else:
             best_index = self._get_best_index()
             return self.cur_gen[best_index], self.cur_gen

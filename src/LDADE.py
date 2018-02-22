@@ -6,7 +6,7 @@ import sys
 from demo import cmd
 sys.dont_write_bytecode = True
 from DE import DE
-from ldagibbs import *
+from ldavem import *
 from collections import OrderedDict
 import os
 from collections import Counter
@@ -16,7 +16,7 @@ from sklearn.model_selection import StratifiedKFold
 import pickle
 
 learners=[main]
-learners_para_dic=[OrderedDict([("n_topics",10),("alpha",0.1), ("eta",0.01)])]
+learners_para_dic=[OrderedDict([("n_components",10),("doc_topic_prior",0.1), ("topic_word_prior",0.01)])]
 learners_para_bounds=[[(10,100), (0.1,1), (0.01,1)]]
 learners_para_categories=[[ "integer", "continuous", "continuous"]]
 ROOT=os.getcwd()
@@ -58,15 +58,12 @@ def _test(res=''):
         shuffle(ranges)
         raw_data=raw_data[ranges]
         labels=labels[ranges]
-
+        #print(raw_data)
         de = DE(Goal="Max", GEN=5, NP=10,termination="Early")
         v, _ = de.solve(learners[0], OrderedDict(learners_para_dic[0]),
                         learners_para_bounds[0], learners_para_categories[0],
                         file=res, term=7, data_samples=raw_data)
-        n_topics = v.ind['n_topics']
-        alpha = v.ind['alpha']
-        eta = v.ind['eta']
-        corpus,_=LDA_(raw_data,n_topics=n_topics,alpha=alpha,eta=eta)
+        corpus,_=LDA_(raw_data,**v.ind)
 
         skf = StratifiedKFold(n_splits=5)
         for train_index, test_index in skf.split(corpus, labels):
