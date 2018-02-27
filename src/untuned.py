@@ -5,7 +5,6 @@ __author__ = 'amrit'
 import sys
 from demo import cmd
 sys.dont_write_bytecode = True
-from ldagibbs import *
 from collections import OrderedDict
 import os
 from collections import Counter
@@ -13,8 +12,9 @@ from featurization import *
 from ML import DT, SVM, RF, FFT1
 from sklearn.model_selection import StratifiedKFold
 import pickle
+import numpy as np
+from random import seed, shuffle
 
-learners=[main]
 ROOT=os.getcwd()
 files=["pitsA", "pitsB", "pitsC", "pitsD", "pitsE", "pitsF"]
 MLS=[DT,RF, SVM,  FFT1]
@@ -77,7 +77,6 @@ def _test(res=''):
                         if m not in temp[fea.__name__][le.__name__]:
                             temp[fea.__name__][le.__name__][m]=[]
                         temp[fea.__name__][le.__name__][m].append(val[0][m])
-    print(temp)
     with open('../dump/untuned' +res+ '.pickle', 'wb') as handle:
         pickle.dump(temp, handle)
 

@@ -78,7 +78,7 @@ def _test(res=''):
                     if m not in temp[le.__name__]:
                         temp[le.__name__][m]=[]
                     temp[le.__name__][m].append(val[0][m])
-    print(temp)
+
     with open('../dump/LDADE' +res+ '.pickle', 'wb') as handle:
         pickle.dump(temp, handle)
 

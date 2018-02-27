@@ -80,7 +80,6 @@ def _test(res=''):
                         if m not in temp[fea][le.__name__]:
                             temp[fea][le.__name__][m] = []
                         temp[fea][le.__name__][m].append(val[0][m])
-    print(temp)
     with open('../dump/LDA' + res + '.pickle', 'wb') as handle:
         pickle.dump(temp, handle)
 

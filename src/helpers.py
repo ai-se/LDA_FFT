@@ -64,7 +64,7 @@ def get_score(criteria, metrics):   # The smaller the better
     tp, fp, tn, fn = metrics
     pre, rec, spec, fpr, npv, acc, f1 = get_performance([tp, fp, tn, fn])
     all_metrics = [tp, fp, tn, fn, pre, rec, spec, fpr, npv, acc, f1]
-    if criteria == "Accuracy":
+    if criteria == "accuracy":
         score = -all_metrics[-ACC]
     elif criteria == "Dist2Heaven":
         score = all_metrics[-FPR] ** 2 + (1 - all_metrics[-REC]) ** 2
@@ -77,6 +77,8 @@ def get_score(criteria, metrics):   # The smaller the better
         score=-all_metrics[-PRE]
     elif criteria== "recall":
         score=-all_metrics[-REC]
+    elif criteria == "false_alarm":
+        score = all_metrics[-FPR]
     else:  # Information Gain
         P, N = all_metrics[0] + all_metrics[3], all_metrics[1] + all_metrics[2]
         p = 1.0 * P / (P + N) if P + N > 0 else 0  # before the split
