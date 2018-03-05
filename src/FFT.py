@@ -39,7 +39,7 @@ class FFT(object):
         self.predictions = [None] * cnt
         self.loc_aucs = [None] * cnt
         self.print_enabled = False
-        self.results = {}
+        #self.results = {}
 
     "Get the loc_auc for a specific tree"
     def get_tree_loc_auc(self, data, i):
@@ -363,8 +363,8 @@ class FFT(object):
         self.node_descriptions[t_id][i] += [description]
         dist2heaven = get_score("Dist2Heaven", self.performance_on_test[t_id][:4])
         loc_auc = -self.get_tree_loc_auc(self.test, t_id)
-        self.results[t_id] = {"accuracy": self.performance_on_test[t_id][-2], "precision": self.performance_on_test[t_id][-8],
-                              "recall": self.performance_on_test[t_id][-6], "false_alarm": self.performance_on_test[t_id][-4]}
+        # self.results[t_id] = {"accuracy": self.performance_on_test[t_id][-2], "precision": self.performance_on_test[t_id][-8],
+        #                       "recall": self.performance_on_test[t_id][-6], "false_alarm": self.performance_on_test[t_id][-4]}
 
         if self.print_enabled:
             print self.node_descriptions[t_id][i][1]

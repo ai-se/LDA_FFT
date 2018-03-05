@@ -75,7 +75,7 @@ def FFT1(k,train_data,train_labels,test_data,test_labels, metric):
         t_id = fft.find_best_tree()  # find the best tree on TRAIN data
         fft.eval_tree(t_id)  # eval all the trees on TEST data
 
-        dic=fft.performance_on_test[t_id][metrics_dic[i]]
+        dic[i]=fft.performance_on_test[t_id][metrics_dic[i]]
     return dic[metric], [dic,[]]
 
 
@@ -96,9 +96,9 @@ def evaluation(measure, prediction, test_labels, class_target=1):
             return recall / len(tp)
         else:
             if tp[class_target] != 0 and (tp[class_target] + fn[class_target]) != 0:
-                float(tp[class_target]) / (tp[class_target] + fn[class_target])
+                return float(tp[class_target]) / (tp[class_target] + fn[class_target])
             else:
-                return 0
+                return 0.0
 
     if measure == "precision":
         precision = 0
@@ -109,9 +109,9 @@ def evaluation(measure, prediction, test_labels, class_target=1):
             return precision / len(tp)
         else:
             if tp[class_target] != 0 and (tp[class_target] + fp[class_target]) != 0:
-                float(tp[class_target]) / (tp[class_target] + fp[class_target])
+                return float(tp[class_target]) / (tp[class_target] + fp[class_target])
             else:
-                return 0
+                return 0.0
     if measure == "false_alarm":
         fals=0
         if class_target==-1:
@@ -121,9 +121,9 @@ def evaluation(measure, prediction, test_labels, class_target=1):
             return fals/len(fp)
         else:
             if fp[class_target] != 0 and (fp[class_target] + tn[class_target]) != 0:
-                float(fp[class_target]) / (fp[class_target] + tn[class_target])
+                return float(fp[class_target]) / (fp[class_target] + tn[class_target])
             else:
-                return 0
+                return 0.0
 
     if measure == "f1":
         if class_target==-1:

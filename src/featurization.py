@@ -26,4 +26,4 @@ def HASHING(doc):
 
 def LDA_(doc,**k):
     corpus, vocab=TF(doc)
-    return LatentDirichletAllocation(max_iter=1000,learning_method='batch',**k).fit_transform(corpus), vocab
+    return LatentDirichletAllocation(max_iter=1000,learning_method='online',**k).fit_transform(corpus), vocab

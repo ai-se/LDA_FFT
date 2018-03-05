@@ -8,10 +8,9 @@ sys.dont_write_bytecode = True
 from random import shuffle, seed
 import numpy as np
 import os
-import lda
 from sklearn.feature_extraction.text import CountVectorizer
 import copy
-from sklearn.decomposition import NMF, LatentDirichletAllocation
+from sklearn.decomposition import LatentDirichletAllocation
 
 ROOT=os.getcwd()
 seed(1)
@@ -122,7 +121,7 @@ def _test_LDA( path1, file='', data_samples=[], term=7, **l):
         tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, stop_words='english')
         tf = tf_vectorizer.fit_transform(data_samples)
 
-        lda1 = LatentDirichletAllocation(max_iter=10,learning_method='batch',**l)
+        lda1 = LatentDirichletAllocation(max_iter=100,learning_method='online',**l)
 
         lda1.fit_transform(tf)
 
