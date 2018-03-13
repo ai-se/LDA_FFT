@@ -14,6 +14,7 @@ from featurization import *
 from ML import DT, SVM, RF, FFT1
 from sklearn.model_selection import StratifiedKFold
 import pickle
+import time
 
 learners=[main]
 learners_para_dic=[OrderedDict([("n_components",10),("doc_topic_prior",0.1), ("topic_word_prior",0.01)])]
@@ -59,11 +60,13 @@ def _test(res=''):
         raw_data=raw_data[ranges]
         labels=labels[ranges]
         #print(raw_data)
+        start_time=time.time()
         de = DE(Goal="Max", GEN=5, NP=10,termination="Early")
         v, _ = de.solve(learners[0], OrderedDict(learners_para_dic[0]),
                         learners_para_bounds[0], learners_para_categories[0],
                         file=res, term=7, data_samples=raw_data)
         corpus,_=LDA_(raw_data,**v.ind)
+        end_time = time.time()-start_time
 
         skf = StratifiedKFold(n_splits=5)
         for train_index, test_index in skf.split(corpus, labels):
@@ -73,11 +76,20 @@ def _test(res=''):
             for j, le in enumerate(MLS):
                 if le.__name__ not in temp:
                     temp[le.__name__]={}
+                start_time1=time.time()
                 _,val=MLS[j](MLS_para_dic[j], train_data, train_labels, test_data, test_labels, 'recall')
+                end_time1=time.time()-start_time1
                 for m in metrics:
                     if m not in temp[le.__name__]:
                         temp[le.__name__][m]=[]
-                    temp[le.__name__][m].append(val[0][m])
+                if 'times' not in temp[le.__name__]:
+                    temp[le.__name__]['times']=[]
+                else:
+                    temp[le.__name__]['times'].append(end_time1+end_time)
+                if 'features' not in temp[le.__name__]:
+                    temp[le.__name__]['features'] = []
+                else:
+                    temp[le.__name__]['features'].append(val[1])
 
     with open('../dump/LDADE' +res+ '.pickle', 'wb') as handle:
         pickle.dump(temp, handle)

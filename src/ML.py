@@ -56,9 +56,11 @@ def SVM(k,train_data,train_labels,test_data,test_labels, metric):
 
 def FFT1(k,train_data,train_labels,test_data,test_labels, metric):
     dic={}
+    dic1={}
     for i in metrics:
         fft = FFT(max_level=5)
         fft.criteria=i
+        #fft.print_enabled=True
         train_labels=np.reshape(train_labels,(-1,1))
         test_labels = np.reshape(test_labels, (-1, 1))
 
@@ -75,8 +77,11 @@ def FFT1(k,train_data,train_labels,test_data,test_labels, metric):
         t_id = fft.find_best_tree()  # find the best tree on TRAIN data
         fft.eval_tree(t_id)  # eval all the trees on TEST data
 
+        description=fft.print_tree(t_id)
+
         dic[i]=fft.performance_on_test[t_id][metrics_dic[i]]
-    return dic[metric], [dic,[]]
+        dic1[i]=description
+    return dic[metric], [dic, dic1]
 
 
 def evaluation(measure, prediction, test_labels, class_target=1):

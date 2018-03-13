@@ -129,8 +129,8 @@ class FFT(object):
         else:
             mappings = {"inside":"outside", "outside":"inside"}
         direction = mappings[direction] if reversed else direction+" "
-        description = ("\t| " * (level + 1) + \
-                       " ".join([cue, direction, str(threshold)]) + \
+        description = ("\t| " * (level + 1) +
+                       " ".join([str(cue), direction, str(threshold)]) +
                        "\t--> " + results[1 - decision if reversed else decision]).ljust(30, " ")
         pos = "\tFalse Alarm: " + str(fp) + ", Hit: " + str(tp)
         neg = "\tCorrect Rej: " + str(tn) + ", Miss: " + str(fn)
@@ -345,39 +345,41 @@ class FFT(object):
     def print_tree(self, t_id):
         data = self.test
         depth = self.tree_depths[t_id]
+        string=''
         if not self.node_descriptions[t_id]:
             self.node_descriptions[t_id] = [[] for _ in range(depth + 1)]
         for i in range(depth + 1):
             if self.node_descriptions[t_id][i]:
-                print self.node_descriptions[t_id][i][0]
+                #print self.node_descriptions[t_id][i][0]
+                string+=self.node_descriptions[t_id][i][0]+'\n'
             else:
                 cue, direction, threshold, decision = self.selected[t_id][i]
                 undecided, metrics, loc_auc = self.eval_decision(data, cue, direction, threshold, decision)
                 description = self.describe_decision(t_id, i, metrics)
                 self.node_descriptions[t_id][i] += [description]
-                print description
+                #print description
+                string+=description+'\n'
                 if len(undecided) == 0:
                     break
                 data = undecided
-        description = self.describe_decision(t_id, i, metrics, reversed=True)
-        self.node_descriptions[t_id][i] += [description]
-        dist2heaven = get_score("Dist2Heaven", self.performance_on_test[t_id][:4])
-        loc_auc = -self.get_tree_loc_auc(self.test, t_id)
-        # self.results[t_id] = {"accuracy": self.performance_on_test[t_id][-2], "precision": self.performance_on_test[t_id][-8],
-        #                       "recall": self.performance_on_test[t_id][-6], "false_alarm": self.performance_on_test[t_id][-4]}
-
-        if self.print_enabled:
-            print self.node_descriptions[t_id][i][1]
-            print "\t----- CONFUSION MATRIX -----"
-            print MATRIX
-            print "\t" + "\t".join(map(str, self.performance_on_test[t_id][:4]))
-
-            print "\t----- PERFORMANCES ON TEST DATA -----"
-            print PERFORMANCE + " \tD2H"+ " \tLOC"
-            print "\t" + "\t".join(
-                ["FFT(" + str(self.best) + ")"] + \
-                [str(x).ljust(5, "0") for x in self.performance_on_test[t_id][4:11] + [dist2heaven, loc_auc]])
-                # map(str, ["FFT(" + str(self.best) + ")"] + self.performance_on_test[t_id][4:] + [dist2heaven]))
+        return string
+        # description = self.describe_decision(t_id, i, metrics, reversed=True)
+        # self.node_descriptions[t_id][i] += [description]
+        # dist2heaven = get_score("Dist2Heaven", self.performance_on_test[t_id][:4])
+        # loc_auc = -self.get_tree_loc_auc(self.test, t_id)
+        #
+        # if self.print_enabled:
+        #     print self.node_descriptions[t_id][i][1]
+        #     print "\t----- CONFUSION MATRIX -----"
+        #     print MATRIX
+        #     print "\t" + "\t".join(map(str, self.performance_on_test[t_id][:4]))
+        #
+        #     print "\t----- PERFORMANCES ON TEST DATA -----"
+        #     print PERFORMANCE + " \tD2H"+ " \tLOC"
+        #     print "\t" + "\t".join(
+        #         ["FFT(" + str(self.best) + ")"] + \
+        #         [str(x).ljust(5, "0") for x in self.performance_on_test[t_id][4:11] + [dist2heaven, loc_auc]])
+        #         # map(str, ["FFT(" + str(self.best) + ")"] + self.performance_on_test[t_id][4:] + [dist2heaven]))
 
     "Get all possible tree structure"
 
