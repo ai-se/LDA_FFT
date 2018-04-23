@@ -4,7 +4,7 @@ __author__ = 'amrit'
 
 import sys
 from demo import cmd
-sys.dont_write_bytecode = True
+#sys.dont_write_bytecode = True
 from DE import DE
 from ldavem import *
 from collections import OrderedDict
@@ -82,6 +82,7 @@ def _test(res=''):
                 for m in metrics:
                     if m not in temp[le.__name__]:
                         temp[le.__name__][m]=[]
+                    temp[le.__name__][m].append(val[0][m])
                 if 'times' not in temp[le.__name__]:
                     temp[le.__name__]['times']=[]
                 else:
@@ -90,6 +91,7 @@ def _test(res=''):
                     temp[le.__name__]['features'] = []
                 else:
                     temp[le.__name__]['features'].append(val[1])
+                print(temp)
 
     with open('../dump/LDADE' +res+ '.pickle', 'wb') as handle:
         pickle.dump(temp, handle)

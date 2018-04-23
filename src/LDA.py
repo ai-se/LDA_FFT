@@ -5,7 +5,7 @@ __author__ = 'amrit'
 import sys
 from demo import cmd
 
-sys.dont_write_bytecode = True
+#sys.dont_write_bytecode = True
 from collections import OrderedDict
 import os
 from random import seed, shuffle
@@ -19,7 +19,7 @@ import time
 
 ROOT = os.getcwd()
 files = ["pitsA", "pitsB", "pitsC", "pitsD", "pitsE", "pitsF"]
-MLS = [FFT1, DT, RF, SVM]
+MLS = [DT, RF, SVM,FFT1]
 MLS_para_dic = [OrderedDict([("min_samples_split", 2), ("min_impurity_decrease", 0.0), ("max_depth", None),
                              ("min_samples_leaf", 1)]), OrderedDict([("min_samples_split", 2),
                                                                      ("max_leaf_nodes", None), ("min_samples_leaf", 1),
@@ -77,6 +77,7 @@ def _test(res=''):
                     if le.__name__ not in temp[fea]:
                         temp[fea][le.__name__] = {}
                     start_time1 = time.time()
+
                     _,val = MLS[j](MLS_para_dic[j], train_data, train_labels, test_data, test_labels, 'recall')
                     end_time1 = time.time() - start_time1
                     for m in metrics:

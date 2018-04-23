@@ -3,7 +3,7 @@ from __future__ import print_function, division
 __author__ = 'amrit'
 
 import sys
-sys.dont_write_bytecode = True
+#sys.dont_write_bytecode = True
 
 from collections import OrderedDict, namedtuple
 from random import random, randint, uniform, seed, choice, sample

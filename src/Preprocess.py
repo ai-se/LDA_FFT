@@ -4,7 +4,7 @@ __author__ = 'amrit'
 
 import sys
 
-sys.dont_write_bytecode = True
+#sys.dont_write_bytecode = True
 import re, unicodedata
 import nltk.corpus
 import os

@@ -4,7 +4,7 @@ __author__ = 'amrit'
 
 import sys
 from demo import cmd
-sys.dont_write_bytecode = True
+#sys.dont_write_bytecode = True
 from collections import OrderedDict
 import os
 from collections import Counter
@@ -14,10 +14,11 @@ from sklearn.model_selection import StratifiedKFold
 import pickle
 import numpy as np
 from random import seed, shuffle
+import time
 
 ROOT=os.getcwd()
 files=["pitsA", "pitsB", "pitsC", "pitsD", "pitsE", "pitsF"]
-MLS=[DT,RF, SVM,  FFT1]
+MLS=[DT,RF, SVM]#,  FFT1]
 MLS_para_dic=[OrderedDict([("min_samples_split",2),("min_impurity_decrease",0.0), ("max_depth",None),
                                ("min_samples_leaf", 1)]), OrderedDict([("min_samples_split",2),
                                 ("max_leaf_nodes",None), ("min_samples_leaf",1), ("min_impurity_decrease",0.0),("n_estimators",10)]),
@@ -61,7 +62,9 @@ def _test(res=''):
         for fea in features:
             if fea.__name__ not in temp:
                 temp[fea.__name__] = {}
+            start_time = time.time()
             corpus,_=fea(raw_data)
+            end_time = time.time() - start_time
 
             skf = StratifiedKFold(n_splits=5)
             for train_index, test_index in skf.split(corpus, labels):
@@ -72,11 +75,23 @@ def _test(res=''):
                     if le.__name__ not in temp[fea.__name__]:
                         temp[fea.__name__][le.__name__]={}
 
+                    start_time1 = time.time()
                     _,val=MLS[j](MLS_para_dic[j], train_data, train_labels, test_data, test_labels, 'recall')
+                    end_time1 = time.time() - start_time1
                     for m in metrics:
                         if m not in temp[fea.__name__][le.__name__]:
                             temp[fea.__name__][le.__name__][m]=[]
                         temp[fea.__name__][le.__name__][m].append(val[0][m])
+
+                    if 'times' not in temp[fea.__name__][le.__name__]:
+                        temp[fea.__name__][le.__name__]['times']=[]
+                    else:
+                        temp[fea.__name__][le.__name__]['times'].append(end_time1 + end_time)
+                    if fea.__name__ not in temp[fea.__name__][le.__name__]:
+                        temp[fea.__name__][le.__name__]['features']=[]
+                    else:
+                        temp[fea.__name__][le.__name__]['features'].append(val[1])
+
     with open('../dump/untuned' +res+ '.pickle', 'wb') as handle:
         pickle.dump(temp, handle)
 

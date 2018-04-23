@@ -4,7 +4,7 @@ __author__ = 'amrit'
 
 import sys
 
-sys.dont_write_bytecode = True
+#sys.dont_write_bytecode = True
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
