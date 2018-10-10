@@ -25,7 +25,7 @@ MLS_para_dic=[OrderedDict([("min_samples_split",2),("min_impurity_decrease",0.0)
                    OrderedDict([("C", 1.0), ("kernel", 'linear'),
                                 ("degree", 3)]), OrderedDict()]
 
-metrics=['accuracy','recall','precision','false_alarm']
+metrics=['recall','precision']
 features=[TFIDF, HASHING]
 
 def readfile1(filename=''):
@@ -53,46 +53,46 @@ def _test(res=''):
     raw_data,labels=readfile1(path)
     temp={}
 
-    for i in range(5):
-        ranges=range(len(labels))
-        shuffle(ranges)
-        raw_data=raw_data[ranges]
-        labels=labels[ranges]
+    for m in metrics:
+        for i in range(5):
+            ranges=range(len(labels))
+            shuffle(ranges)
+            raw_data=raw_data[ranges]
+            labels=labels[ranges]
 
-        for fea in features:
-            if fea.__name__ not in temp:
-                temp[fea.__name__] = {}
-            start_time = time.time()
-            corpus,_=fea(raw_data)
-            end_time = time.time() - start_time
+            for fea in features:
+                if fea.__name__ not in temp:
+                    temp[fea.__name__] = {}
+                start_time = time.time()
+                corpus,_=fea(raw_data)
+                end_time = time.time() - start_time
 
-            skf = StratifiedKFold(n_splits=5)
-            for train_index, test_index in skf.split(corpus, labels):
-                train_data, train_labels = corpus[train_index], labels[train_index]
-                test_data, test_labels = corpus[test_index], labels[test_index]
+                skf = StratifiedKFold(n_splits=5)
+                for train_index, test_index in skf.split(corpus, labels):
+                    train_data, train_labels = corpus[train_index], labels[train_index]
+                    test_data, test_labels = corpus[test_index], labels[test_index]
 
-                for j, le in enumerate(MLS):
-                    if le.__name__ not in temp[fea.__name__]:
-                        temp[fea.__name__][le.__name__]={}
+                    for j, le in enumerate(MLS):
+                        if le.__name__ not in temp[fea.__name__]:
+                            temp[fea.__name__][le.__name__]={}
 
-                    start_time1 = time.time()
-                    _,val=MLS[j](MLS_para_dic[j], train_data, train_labels, test_data, test_labels, 'recall')
-                    end_time1 = time.time() - start_time1
-                    for m in metrics:
+                        start_time1 = time.time()
+                        _,val=MLS[j](MLS_para_dic[j], train_data, train_labels, test_data, test_labels, m)
+                        end_time1 = time.time() - start_time1
                         if m not in temp[fea.__name__][le.__name__]:
                             temp[fea.__name__][le.__name__][m]=[]
                         temp[fea.__name__][le.__name__][m].append(val[0][m])
 
-                    if 'times' not in temp[fea.__name__][le.__name__]:
-                        temp[fea.__name__][le.__name__]['times']=[]
-                    else:
-                        temp[fea.__name__][le.__name__]['times'].append(end_time1 + end_time)
-                    if fea.__name__ not in temp[fea.__name__][le.__name__]:
-                        temp[fea.__name__][le.__name__]['features']=[]
-                    else:
-                        temp[fea.__name__][le.__name__]['features'].append(val[1])
+                        if 'times' not in temp[fea.__name__][le.__name__]:
+                            temp[fea.__name__][le.__name__]['times']=[]
+                        else:
+                            temp[fea.__name__][le.__name__]['times'].append(end_time1 + end_time)
+                        if fea.__name__ not in temp[fea.__name__][le.__name__]:
+                            temp[fea.__name__][le.__name__]['features']=[]
+                        else:
+                            temp[fea.__name__][le.__name__]['features'].append(val[1])
 
-    with open('../dump/untuned' +res+ '.pickle', 'wb') as handle:
+    with open('../dump/untuned' +res+ '_1.pickle', 'wb') as handle:
         pickle.dump(temp, handle)
 
 if __name__ == '__main__':
