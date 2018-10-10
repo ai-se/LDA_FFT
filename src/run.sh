@@ -13,5 +13,5 @@ rm log/*
 #end
 
 foreach VAR ("pitsA" "pitsB" "pitsC" "pitsD" "pitsE" "pitsF")
-  bsub -q standard -W 5000 -n 16 -o ./out/$VAR.out.%J -e ./err/$VAR.err.%J ~/anaconda3/bin/python LDA.py _test "$VAR" > log/"$VAR".log
+  srun -n 16 --pty /bin/bash -o ./out/$VAR.out.%J -e ./err/$VAR.err.%J ~/anaconda3/bin/python LDA.py _test "$VAR" > log/"$VAR".log
 end
