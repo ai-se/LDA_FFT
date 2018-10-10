@@ -12,9 +12,10 @@ from sklearn.feature_extraction.text import CountVectorizer
 import copy
 from sklearn.decomposition import LatentDirichletAllocation
 
-ROOT=os.getcwd()
+ROOT = os.getcwd()
 seed(1)
 np.random.seed(1)
+
 
 def calculate(topics=[], lis=[], count1=0):
     count = 0
@@ -113,22 +114,24 @@ def readfile1(filename=''):
     return dict
 
 
-def _test_LDA( path1, file='', data_samples=[], term=7, **l):
-    topics = []
-    for i in range(10):
+def _test_LDA(path1, file='', data_samples=[], term=7, **l):
+    #topics = []
+    threshold = None
+    for i in range(1):
         shuffle(data_samples)
 
         tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, stop_words='english')
         tf = tf_vectorizer.fit_transform(data_samples)
 
-        lda1 = LatentDirichletAllocation(max_iter=100,learning_method='online',**l)
+        lda1 = LatentDirichletAllocation(max_iter=200, learning_method='online', **l)
 
         lda1.fit_transform(tf)
+        threshold = min([lda1.score([x]) for x in tf])
 
         # print("done in %0.3fs." % (time() - t0))
-        tf_feature_names = tf_vectorizer.get_feature_names()
-        topics.extend(get_top_words(lda1, path1, tf_feature_names, term, i=i, file1=file))
-    return topics
+        #tf_feature_names = tf_vectorizer.get_feature_names()
+        #topics.extend(get_top_words(lda1, path1, tf_feature_names, term, i=i, file1=file))
+    return threshold
 
 ## main(k,alpha,beta,tune='tuned',file='',term='',data_samples='')
 
@@ -146,11 +149,14 @@ def main(*x, **r):
     with open(path1, "w") as f:
         f.truncate()
 
-    topics = _test_LDA(path1, file=r['file'],data_samples=r['data_samples'],term=int(r['term']),n_components=n_components,
-                       doc_topic_prior=doc_topic_prior,topic_word_prior=topic_word_prior)
+    #topics = _test_LDA(path1, file=r['file'],data_samples=r['data_samples'],term=int(r['term']),n_components=n_components,
+    #                   doc_topic_prior=doc_topic_prior,topic_word_prior=topic_word_prior)
+    #a = jaccard(n_components, score_topics=thresholds, term=int(r['term']))
+    a = _test_LDA(path1, file=r['file'], data_samples=r['data_samples'], term=int(r['term']),
+                       n_components=n_components, doc_topic_prior=doc_topic_prior, topic_word_prior=topic_word_prior)
 
-    a = jaccard(n_components, score_topics=topics, term=int(r['term']))
+
     fo = open(path1, 'a+')
     fo.write("\nScore: " + str(a))
     fo.close()
-    return a, [{},[]]
+    return a, [{}, []]
