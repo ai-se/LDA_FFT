@@ -4,7 +4,6 @@ __author__ = 'amrit'
 
 import sys
 from demo import cmd
-#sys.dont_write_bytecode = True
 from DE import DE
 from ldavem import *
 from collections import OrderedDict
@@ -29,7 +28,9 @@ MLS_para_dic=[OrderedDict([("min_samples_split",2),("min_impurity_decrease",0.0)
                    OrderedDict([("C", 1.0), ("kernel", 'linear'),
                                 ("degree", 3)]), OrderedDict()]
 
-metrics=['accuracy','recall','precision','false_alarm']
+metrics = ['recall', 'precision', 'f1']
+
+
 def readfile1(filename=''):
     dict = []
     labels=[]
@@ -51,49 +52,48 @@ def _test(res=''):
     seed(1)
     np.random.seed(1)
     path=ROOT+"/../data/preprocessed/"+res+".txt"
-    raw_data,labels=readfile1(path)
+    raw_data, labels=readfile1(path)
     temp={}
 
-    for i in range(5):
-        ranges=range(len(labels))
-        shuffle(ranges)
-        raw_data=raw_data[ranges]
-        labels=labels[ranges]
-        #print(raw_data)
-        start_time=time.time()
-        de = DE(Goal="Max", GEN=5, NP=10,termination="Early")
-        v, _ = de.solve(learners[0], OrderedDict(learners_para_dic[0]),
-                        learners_para_bounds[0], learners_para_categories[0],
-                        file=res, term=7, data_samples=raw_data)
-        corpus,_=LDA_(raw_data,**v.ind)
-        end_time = time.time()-start_time
+    for m in metrics:
+        for i in range(5):
+            ranges=range(len(labels))
+            shuffle(ranges)
+            raw_data=raw_data[ranges]
+            labels=labels[ranges]
+            start_time=time.time()
+            de = DE(Goal="Max", GEN=5, NP=10,termination="Early")
+            v, _ = de.solve(learners[0], OrderedDict(learners_para_dic[0]),
+                            learners_para_bounds[0], learners_para_categories[0],
+                            file=res, term=7, data_samples=raw_data)
+            corpus,_=LDA_(raw_data,**v.ind)
+            end_time = time.time()-start_time
 
-        skf = StratifiedKFold(n_splits=5)
-        for train_index, test_index in skf.split(corpus, labels):
-            train_data, train_labels = corpus[train_index], labels[train_index]
-            test_data, test_labels = corpus[test_index], labels[test_index]
+            skf = StratifiedKFold(n_splits=5)
+            for train_index, test_index in skf.split(corpus, labels):
+                train_data, train_labels = corpus[train_index], labels[train_index]
+                test_data, test_labels = corpus[test_index], labels[test_index]
 
-            for j, le in enumerate(MLS):
-                if le.__name__ not in temp:
-                    temp[le.__name__]={}
-                start_time1=time.time()
-                _,val=MLS[j](MLS_para_dic[j], train_data, train_labels, test_data, test_labels, 'recall')
-                end_time1=time.time()-start_time1
-                for m in metrics:
+                for j, le in enumerate(MLS):
+                    if le.__name__ not in temp:
+                        temp[le.__name__]={}
+                    start_time1 = time.time()
+                    _, val = MLS[j](MLS_para_dic[j], train_data, train_labels, test_data, test_labels, m)
+                    end_time1=time.time()-start_time1
                     if m not in temp[le.__name__]:
                         temp[le.__name__][m]=[]
                     temp[le.__name__][m].append(val[0][m])
-                if 'times' not in temp[le.__name__]:
-                    temp[le.__name__]['times']=[]
-                else:
-                    temp[le.__name__]['times'].append(end_time1+end_time)
-                if 'features' not in temp[le.__name__]:
-                    temp[le.__name__]['features'] = []
-                else:
-                    temp[le.__name__]['features'].append(val[1])
-                print(temp)
+                    if 'times' not in temp[le.__name__]:
+                        temp[le.__name__]['times']=[]
+                    else:
+                        temp[le.__name__]['times'].append(end_time1+end_time)
+                    if 'features' not in temp[le.__name__]:
+                        temp[le.__name__]['features'] = []
+                    else:
+                        temp[le.__name__]['features'].append(val[1])
+                    print(temp)
 
-    with open('../dump/LDADE' +res+ '.pickle', 'wb') as handle:
+    with open('../dump/LDADE' +res+ '_1.pickle', 'wb') as handle:
         pickle.dump(temp, handle)
 
 if __name__ == '__main__':
