@@ -39,7 +39,7 @@ def readfile1(filename=''):
                 pass
     count=Counter(labels)
     import operator
-    key = max(count.iteritems(), key=operator.itemgetter(1))[0]
+    key = max(count.items(), key=operator.itemgetter(1))[0]
     labels=map(lambda x: 1 if x == key else 0, labels)
     return np.array(dict), np.array(labels)
 

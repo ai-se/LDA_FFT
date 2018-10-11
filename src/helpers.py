@@ -119,7 +119,7 @@ def get_auc(data):
     try:
         ret = -round(auc(xx, yy), 3)
     except:
-        print "?"
+        print("?")
         ret = 0
     return ret
 

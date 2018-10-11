@@ -33,21 +33,21 @@ features = ['10', '25', '50', '100']
 
 
 def readfile1(filename=''):
-    dict = []
+    text_dict = []
     labels = []
     with open(filename, 'r') as f:
         for doc in f.readlines():
             try:
                 row = doc.lower().split(">>>")
-                dict.append(row[0].strip())
+                text_dict.append(row[0].strip())
                 labels.append(row[1].strip())
             except:
                 pass
     count = Counter(labels)
     import operator
-    key = max(count.iteritems(), key=operator.itemgetter(1))[0]
+    key = max(count.items(), key=operator.itemgetter(1))[0]
     labels = map(lambda x: 1 if x == key else 0, labels)
-    return np.array(dict), np.array(labels)
+    return np.array(text_dict), np.array(labels)
 
 
 def _test(res=''):
@@ -58,7 +58,7 @@ def _test(res=''):
     temp = {}
     for m in metrics:
         for i in range(5):
-            ranges = range(len(labels))
+            ranges = range(labels.shape[0])
             shuffle(ranges)
             raw_data = raw_data[ranges]
             labels = labels[ranges]
