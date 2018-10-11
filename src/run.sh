@@ -13,7 +13,6 @@ rm log/*
 #end
 
 source requirements.sh
-source ~/.bashrc
 conda activate experiment
 
 foreach VAR ("pitsA" "pitsB" "pitsC" "pitsD" "pitsE" "pitsF")
