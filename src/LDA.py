@@ -35,6 +35,7 @@ features = ['10', '25', '50', '100']
 def readfile1(filename=''):
     text_dict = []
     labels = []
+    print(filename)
     with open(filename, 'r') as f:
         for doc in f.readlines():
             try:
