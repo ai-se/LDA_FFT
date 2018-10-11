@@ -95,8 +95,8 @@ class FFT(object):
         if not self.performance_on_train or not self.performance_on_train[0]:
             self.grow()
         if self.print_enabled:
-            print "\t----- PERFORMANCES FOR ALL FFTs on Training Data -----"
-            print PERFORMANCE + " \t" + self.criteria
+            print("\t----- PERFORMANCES FOR ALL FFTs on Training Data -----")
+            print(PERFORMANCE + " \t" + self.criteria)
         best = [-1, float('inf')]
         for i in range(self.tree_cnt):
             all_metrics = self.performance_on_train[i][self.tree_depths[i]]
@@ -109,12 +109,12 @@ class FFT(object):
             if score < best[-1]:
                 best = [i, score]
             if self.print_enabled:
-                print "\t" + "\t".join(
+                print( "\t" + "\t".join(
                     ["FFT(" + str(i) + ")"] + \
                     [str(x).ljust(5, "0") for x in all_metrics[4:] + \
-                     [score if self.criteria == "Dist2Heaven" else -score]])
+                    [score if self.criteria == "Dist2Heaven" else -score]]))
         if self.print_enabled:
-            print "\tThe best tree found on training data is: FFT(" + str(best[0]) + ")"
+            print("\tThe best tree found on training data is: FFT(" + str(best[0]) + ")")
         self.best = best[0]
         return best[0]
 
@@ -153,7 +153,7 @@ class FFT(object):
                 decided = data.loc[(data[cue] >= threshold[0]) & (data[cue] < threshold[1])]
                 undecided = data.loc[(data[cue] < threshold[0]) | (data[cue] >= threshold[1])]
         except:
-            print "Exception"
+            print("Exception")
             return 1, 2, 3
         if decision == 1:
             pos, neg = decided, undecided
@@ -192,7 +192,7 @@ class FFT(object):
         original.loc[data.index, 'prediction'] = 1 if decision == 0 else 0
         # original['prediction'][undecided.index] = 1 if decision == 0 else 0
         if None in original['prediction']:
-            print "ERROR!"
+            print("ERROR!")
         self.predictions[t_id] = original['prediction'].values
         return self.predictions[t_id]
 
@@ -294,9 +294,9 @@ class FFT(object):
                         interval = X_interval[indexes]
                         try:
                             if len(np.unique(interval, axis=0)) != 1:
-                                print "???????????????????????????????????????????????????"
+                                print("???????????????????????????????????????????????????")
                         except:
-                            print 'ha'
+                            print('ha')
                         interval = interval[0]
                         if interval[0] == float('-inf'):
                             threshold = interval[1]
