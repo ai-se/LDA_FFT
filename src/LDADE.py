@@ -14,6 +14,8 @@ from ML import DT, SVM, RF, FFT1
 from sklearn.model_selection import StratifiedKFold
 import pickle
 import time
+from multiprocessing import Process
+
 
 learners=[main]
 learners_para_dic=[OrderedDict([("n_components",10),("doc_topic_prior",0.1), ("topic_word_prior",0.01)])]
@@ -95,6 +97,19 @@ def _test(res=''):
 
     with open('../dump/LDADE' +res+ '_1.pickle', 'wb') as handle:
         pickle.dump(temp, handle)
+
+
+def run(res=''):
+    procs = []
+    if res == "pits":
+        res = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF']
+    for r in res:
+        proc = Process(target=_test, args=(r,))
+        procs.append(proc)
+        proc.start()
+
+    for proc in procs:
+        proc.join()
 
 if __name__ == '__main__':
     eval(cmd ())

@@ -15,6 +15,8 @@ import pickle
 import numpy as np
 from random import seed, shuffle
 import time
+from multiprocessing import Process
+
 
 ROOT=os.getcwd()
 files=["pitsA", "pitsB", "pitsC", "pitsD", "pitsE", "pitsF"]
@@ -94,6 +96,20 @@ def _test(res=''):
 
     with open('../dump/untuned' +res+ '_1.pickle', 'wb') as handle:
         pickle.dump(temp, handle)
+
+
+def run(res=''):
+    procs = []
+    if res == "pits":
+        res = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF']
+    for r in res:
+        proc = Process(target=_test, args=(r,))
+        procs.append(proc)
+        proc.start()
+
+    for proc in procs:
+        proc.join()
+
 
 if __name__ == '__main__':
     eval(cmd ())
