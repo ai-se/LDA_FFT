@@ -46,9 +46,10 @@ def readfile1(filename=''):
                 pass
     count = Counter(labels)
     import operator
+    #print(count, labels)
     key = max(count.items(), key=operator.itemgetter(1))[0]
-    labels = map(lambda x: 1 if x == key else 0, labels)
-    return np.array(text_dict), np.array(labels)
+    update_labels = list(map(lambda x: 1 if x == key else 0, labels))
+    return np.array(text_dict), np.array(update_labels)
 
 
 def _test(res=''):
@@ -59,7 +60,7 @@ def _test(res=''):
     temp = {}
     for m in metrics:
         for i in range(5):
-            ranges = range(labels.shape[0])
+            ranges = list(range(labels.shape[0]))
             shuffle(ranges)
             raw_data = raw_data[ranges]
             labels = labels[ranges]
