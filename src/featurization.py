@@ -6,7 +6,6 @@ import sys
 
 #sys.dont_write_bytecode = True
 from sklearn.feature_extraction.text import HashingVectorizer,CountVectorizer,TfidfVectorizer
-import lda
 from sklearn.decomposition import LatentDirichletAllocation
 
 def TF(doc):
