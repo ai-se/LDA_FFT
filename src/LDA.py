@@ -100,12 +100,14 @@ def _test(res=''):
 
 
 def run(res=''):
+    if res == "pits":
+        res = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF']
     pool_size = multiprocessing.cpu_count() * 2
     pool = multiprocessing.Pool(processes=pool_size,
                                 maxtasksperchild=4,)
-    pool.apply_async(_test, args=(res, ))
-    pool.close()  # no more tasks
-    pool.join()  # wrap up current tasks
+    for r in res:
+        pool.apply_async(_test, args=(r, ))
+
     '''
     procs = []
     proc = Process(target=_test, args=(5,))
