@@ -12,6 +12,10 @@ rm log/*
 #  end
 #end
 
+source requirements.sh
+source ~/.bashrc
+conda activate experiment
+
 foreach VAR ("pitsA" "pitsB" "pitsC" "pitsD" "pitsE" "pitsF")
-  srun -n 16 --pty /bin/bash -o ./out/$VAR.out.%J -e ./err/$VAR.err.%J ~/anaconda3/bin/python LDA.py _test "$VAR" > log/"$VAR".log
+  ~/anaconda3/bin/python LDA.py _test "$VAR" > log/"$VAR".log
 end
