@@ -14,7 +14,7 @@ from ML import DT, SVM, RF, FFT1
 from sklearn.model_selection import StratifiedKFold
 import pickle
 import time
-from multiprocessing import Process
+import multiprocessing
 
 
 learners=[main]
@@ -100,7 +100,15 @@ def _test(res=''):
 
 
 def run(res=''):
+    pool_size = multiprocessing.cpu_count() * 2
+    pool = multiprocessing.Pool(processes=pool_size,
+                                maxtasksperchild=4,)
+    pool.apply_async(_test, args=(res, ))
+    pool.close()  # no more tasks
+    pool.join()  # wrap up current tasks
+    '''
     procs = []
+    proc = Process(target=_test, args=(5,))
     if res == "pits":
         res = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF']
     for r in res:
@@ -110,6 +118,8 @@ def run(res=''):
 
     for proc in procs:
         proc.join()
+    '''
+
 
 if __name__ == '__main__':
     eval(cmd ())
