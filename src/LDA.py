@@ -16,6 +16,7 @@ from ML import DT, SVM, RF, FFT1
 from sklearn.model_selection import StratifiedKFold
 import pickle
 import time
+import multiprocessing
 
 ROOT = os.getcwd()
 files = ["pitsA", "pitsB", "pitsC", "pitsD", "pitsE", "pitsF"]
@@ -59,12 +60,12 @@ def _test(res=''):
     raw_data, labels = readfile1(path)
     temp = {}
     for m in metrics:
+        print(m)
         for i in range(5):
             ranges = list(range(labels.shape[0]))
             shuffle(ranges)
             raw_data = raw_data[ranges]
             labels = labels[ranges]
-
             for fea in features:
                 if fea not in temp:
                     temp[fea] = {}
@@ -94,9 +95,32 @@ def _test(res=''):
                         else:
                             temp[fea][le.__name__]['features'].append(val[1])
 
+    print("hello")
     with open('../dump/LDA' + res + '_1.pickle', 'wb') as handle:
         pickle.dump(temp, handle)
 
+
+def run(res=''):
+    if res == "pits":
+        res = files
+    pool_size = multiprocessing.cpu_count() * 2
+    pool = multiprocessing.Pool(processes=pool_size,)
+    for r in res:
+        pool.apply_async(_test, args=(r, ))
+
+    '''
+    procs = []
+    proc = Process(target=_test, args=(5,))
+    if res == "pits":
+        res = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF']
+    for r in res:
+        proc = Process(target=_test, args=(r,))
+        procs.append(proc)
+        proc.start()
+
+    for proc in procs:
+        proc.join()
+    '''
 
 if __name__ == '__main__':
     eval(cmd())

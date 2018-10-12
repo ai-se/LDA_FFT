@@ -15,6 +15,8 @@ import pickle
 import numpy as np
 from random import seed, shuffle
 import time
+import multiprocessing
+
 
 ROOT=os.getcwd()
 files=["pitsA", "pitsB", "pitsC", "pitsD", "pitsE", "pitsF"]
@@ -94,6 +96,30 @@ def _test(res=''):
 
     with open('../dump/untuned' +res+ '_1.pickle', 'wb') as handle:
         pickle.dump(temp, handle)
+
+
+def run(res=''):
+    if res == "pits":
+        res = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF']
+    pool_size = multiprocessing.cpu_count() * 2
+    pool = multiprocessing.Pool(processes=pool_size,
+                                maxtasksperchild=4,)
+    for r in res:
+        pool.apply_async(_test, args=(r, ))
+    '''
+    procs = []
+    proc = Process(target=_test, args=(5,))
+    if res == "pits":
+        res = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF']
+    for r in res:
+        proc = Process(target=_test, args=(r,))
+        procs.append(proc)
+        proc.start()
+
+    for proc in procs:
+        proc.join()
+    '''
+
 
 if __name__ == '__main__':
     eval(cmd ())

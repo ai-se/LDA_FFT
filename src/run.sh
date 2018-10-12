@@ -13,8 +13,8 @@ rm log/*
 #end
 
 source requirements.sh
-conda activate experiment
+#conda activate experiment
 
-foreach VAR ("pitsA" "pitsB" "pitsC" "pitsD" "pitsE" "pitsF")
-  ~/anaconda3/bin/python LDA.py _test "$VAR" > log/"$VAR".log
+foreach VAR ("pits")
+  ~/anaconda3/bin/python LDA.py run "$VAR" > log/"$VAR".log
 end
