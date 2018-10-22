@@ -7,7 +7,7 @@ import collections
 import numpy as np
 import pandas as pd
 from helpers import get_performance, get_score, get_auc
-from mdlp import MDLP
+from mdlp.discretization import MDLP
 
 PRE, REC, SPEC, FPR, NPV, ACC, F1 = 7, 6, 5, 4, 3, 2, 1
 MATRIX = "\t".join(["\tTP", "FP", "TN", "FN"])

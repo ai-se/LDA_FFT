@@ -13,9 +13,9 @@ import numpy as np
 import pandas as pd
 from FFT import FFT
 
-metrics=['accuracy','recall','precision','false_alarm']
+metrics=['recall', 'precision', 'f1']
 
-metrics_dic={'accuracy':-2,'recall':-6,'precision':-7,'false_alarm':-4}
+metrics_dic={'accuracy':-2,'recall':-6,'precision':-7,'false_alarm':-4, 'f1':-1}
 
 def DT(k,train_data,train_labels,test_data,test_labels, metric):
 
@@ -57,30 +57,31 @@ def SVM(k,train_data,train_labels,test_data,test_labels, metric):
 def FFT1(k,train_data,train_labels,test_data,test_labels, metric):
     dic={}
     dic1={}
-    for i in metrics:
-        fft = FFT(max_level=5)
-        fft.criteria=i
-        #fft.print_enabled=True
-        train_labels=np.reshape(train_labels,(-1,1))
-        test_labels = np.reshape(test_labels, (-1, 1))
+    #for i in metrics:
+    i = metric
+    fft = FFT(max_level=5)
+    fft.criteria=i
+    #fft.print_enabled=True
+    train_labels=np.reshape(train_labels,(-1,1))
+    test_labels = np.reshape(test_labels, (-1, 1))
 
-        training=np.hstack((train_data, train_labels))
-        testing = np.hstack((test_data, test_labels))
-        training_df = pd.DataFrame(training)
-        testing_df = pd.DataFrame(testing)
-        training_df.rename(columns={training_df.columns[-1]: "bug"},inplace=True)
-        testing_df.rename(columns={testing_df.columns[-1]: "bug"},inplace=True)
+    training=np.hstack((train_data, train_labels))
+    testing = np.hstack((test_data, test_labels))
+    training_df = pd.DataFrame(training)
+    testing_df = pd.DataFrame(testing)
+    training_df.rename(columns={training_df.columns[-1]: "bug"},inplace=True)
+    testing_df.rename(columns={testing_df.columns[-1]: "bug"},inplace=True)
 
-        fft.target = "bug"
-        fft.train, fft.test = training_df, testing_df
-        fft.build_trees()  # build and get performance on TEST data
-        t_id = fft.find_best_tree()  # find the best tree on TRAIN data
-        fft.eval_tree(t_id)  # eval all the trees on TEST data
+    fft.target = "bug"
+    fft.train, fft.test = training_df, testing_df
+    fft.build_trees()  # build and get performance on TEST data
+    t_id = fft.find_best_tree()  # find the best tree on TRAIN data
+    fft.eval_tree(t_id)  # eval all the trees on TEST data
 
-        description=fft.print_tree(t_id)
+    description=fft.print_tree(t_id)
 
-        dic[i]=fft.performance_on_test[t_id][metrics_dic[i]]
-        dic1[i]=description
+    dic[i]=fft.performance_on_test[t_id][metrics_dic[i]]
+    dic1[i]=description
     return dic[metric], [dic, dic1]
 
 

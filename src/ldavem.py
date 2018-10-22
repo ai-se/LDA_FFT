@@ -123,15 +123,16 @@ def _test_LDA(path1, file='', data_samples=[], term=7, **l):
         tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, stop_words='english')
         tf = tf_vectorizer.fit_transform(data_samples)
 
-        lda1 = LatentDirichletAllocation(max_iter=200, learning_method='online', **l)
+        lda1 = LatentDirichletAllocation(max_iter=1000, learning_method='online', **l)
 
-        lda1.fit_transform(tf)
-        threshold = min([lda1.score([x]) for x in tf])
+        lda1.fit(tf)
+        log_likehood_score = lda1.score(tf)
+        #threshold = min(log_likehood_scores)
 
         # print("done in %0.3fs." % (time() - t0))
         #tf_feature_names = tf_vectorizer.get_feature_names()
         #topics.extend(get_top_words(lda1, path1, tf_feature_names, term, i=i, file1=file))
-    return threshold
+    return log_likehood_score
 
 ## main(k,alpha,beta,tune='tuned',file='',term='',data_samples='')
 

@@ -15,6 +15,7 @@ import pickle
 import numpy as np
 from random import seed, shuffle
 import time
+import operator
 import multiprocessing as mp
 
 
@@ -27,7 +28,7 @@ MLS=[SVM]#,  FFT1]
 MLS_para_dic = [OrderedDict([("C", 1.0), ("kernel", 'linear'), ("degree", 3)]),
                 OrderedDict()]
 
-metrics=['recall','precision']
+metrics=['precision', 'recall', 'f1']
 features=[TFIDF, HASHING]
 
 
@@ -50,6 +51,17 @@ def readfile1(filename=''):
     return np.array(dict), np.array(labels)
 
 
+def readfile(filename=''):
+    df = pd.read_csv(filename, delimiter=";", index_col=False)
+
+    #print(df)
+    text_dict_raw = df['texts'].values.tolist()
+    labels_raw = df['labels'].values.tolist()
+    labels = np.array(labels_raw)
+    text_dict = np.array([x.strip() for x in text_dict_raw])
+    return text_dict, labels
+
+
 def mining_parallel(MLS, corpus, labels, train_index, test_index, end_time, m):
     train_data, train_labels = corpus[train_index], labels[train_index]
     test_data, test_labels = corpus[test_index], labels[test_index]
@@ -68,8 +80,10 @@ def mining_parallel(MLS, corpus, labels, train_index, test_index, end_time, m):
 def parallel_test(res=''):
     seed(1)
     np.random.seed(1)
-    path=ROOT+"/../data/pits_preprocessed/"+res+".txt"
-    raw_data,labels=readfile1(path)
+    raw_p = res.split("_")
+    folder = ROOT + "/../data/" + ("%s_preprocessed" % raw_p[0])
+    path = folder + "/" + res + ".csv"
+    raw_data,labels=readfile(path)
     temp={}
 
     for m in metrics:
@@ -80,18 +94,21 @@ def parallel_test(res=''):
             raw_data=raw_data[ranges]
             labels=labels[ranges]
             for fea in features:
-                temp[m][fea.__name__] = {}
+                if fea.__name__ not in temp[m].keys():
+                    temp[m][fea.__name__] = {}
+                    for le in MLS:
+                        temp[m][fea.__name__][le.__name__] = {}
                 start_time = time.time()
                 corpus,_=fea(raw_data)
                 end_time = time.time() - start_time
                 skf = StratifiedKFold(n_splits=5)
-                for le in MLS:
-                    temp[m][fea.__name__][le.__name__] = {}
                 results = []
                 pool = mp.Pool()
                 for train_index, test_index in skf.split(corpus, labels):
                     #results.append(mining_parallel(MLS, corpus, labels, train_index, test_index, end_time, m))
-                    pool.apply_async(mining_parallel, args=(MLS, corpus, labels, train_index, test_index, end_time, m,), callback=results.append)
+                    pool.apply_async(mining_parallel,
+                                     args=(MLS, corpus, labels, train_index, test_index, end_time, m,),
+                                     callback=results.append)
                 pool.close()
                 pool.join()
                 for res in results:
@@ -102,20 +119,60 @@ def parallel_test(res=''):
                             else:
                                 temp[m][fea.__name__][k][sub_k].append(res[k][sub_k])
 
-    #import pdb
-    #pdb.set_trace()
-    with open('../dump/untuned' +res+ '_1.pickle', 'wb') as handle:
-        pickle.dump(temp, handle)
+        #import pdb
+        #pdb.set_trace()
+        with open('../dump/untuned_' + res + '_1.pickle', 'wb') as handle:
+            pickle.dump(temp, handle)
 
 
-def run(res=''):
-    if res == "pits":
-        res = ['pitsA', 'pitsB', 'pitsC', 'pitsD', 'pitsE', 'pitsF']
-    pool_size = multiprocessing.cpu_count() * 2
-    pool = multiprocessing.Pool(processes=pool_size,
-                                maxtasksperchild=2,)
-    for r in res:
-        pool.apply_async(_test, args=(r, ))
+def _test(res=''):
+    seed(1)
+    np.random.seed(1)
+    path=ROOT+"/../data/preprocessed/"+res+".txt"
+    raw_data,labels=readfile1(path)
+    temp={}
+
+    for m in metrics:
+        for i in range(5):
+            ranges=list(range(len(labels)))
+            shuffle(ranges)
+            raw_data=raw_data[ranges]
+            labels=labels[ranges]
+
+            for fea in features:
+                if fea.__name__ not in temp:
+                    temp[fea.__name__] = {}
+                start_time = time.time()
+                corpus,_=fea(raw_data)
+                end_time = time.time() - start_time
+
+                skf = StratifiedKFold(n_splits=5)
+                for train_index, test_index in skf.split(corpus, labels):
+                    train_data, train_labels = corpus[train_index], labels[train_index]
+                    test_data, test_labels = corpus[test_index], labels[test_index]
+
+                    for j, le in enumerate(MLS):
+                        if le.__name__ not in temp[fea.__name__]:
+                            temp[fea.__name__][le.__name__]={}
+
+                        start_time1 = time.time()
+                        _,val=MLS[j](MLS_para_dic[j], train_data, train_labels, test_data, test_labels, m)
+                        end_time1 = time.time() - start_time1
+                        if m not in temp[fea.__name__][le.__name__]:
+                            temp[fea.__name__][le.__name__][m]=[]
+                        temp[fea.__name__][le.__name__][m].append(val[0][m])
+
+                        if 'times' not in temp[fea.__name__][le.__name__]:
+                            temp[fea.__name__][le.__name__]['times']=[end_time1 + end_time]
+                        else:
+                            temp[fea.__name__][le.__name__]['times'].append(end_time1 + end_time)
+                        if fea.__name__ not in temp[fea.__name__][le.__name__]:
+                            temp[fea.__name__][le.__name__]['features']=[val[1]]
+                        else:
+                            temp[fea.__name__][le.__name__]['features'].append(val[1])
+
+        with open('../dump/untuned' +res+ '_1.pickle', 'wb') as handle:
+            pickle.dump(temp, handle)
 
 
 if __name__ == '__main__':
