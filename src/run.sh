@@ -1,4 +1,4 @@
-#! /bin/tcsh
+#! /bin/bash
 rm out/*
 rm err/*
 rm log/*
@@ -12,9 +12,12 @@ rm log/*
 #  end
 #end
 
-source requirements.sh
-#conda activate experiment
-
-foreach VAR ("pits")
-  ~/anaconda3/bin/python LDA.py run "$VAR" > log/"$VAR".log
-end
+#source requirements.sh
+#source activate tensorflow_gpu
+for e in "untuned.py" "LDA.py" "LDADE.py";
+do
+for f in "cs_abinit" "cs_lammps" "cs_libmeh" "cs_mdanalysis";
+do
+    sbatch run.mpi $e $f
+done;
+done;

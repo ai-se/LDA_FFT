@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#SBATCH -J LDA_FFT  # job name
+#SBATCH -o out/job.%j.out # name of stdout
+#SBATCH -e err/job.%j.err # name of stderr
+#SBATCH -N 1   # total number of nodes
+#SBATCH -n 16   # total number of mpi cores
+#SBATCH -x c[79-98,101-107]  # avoid
+#SBATCH -t 23:59:00   # rum time (hhmmss)
+
+python $1 parallel_test $2
