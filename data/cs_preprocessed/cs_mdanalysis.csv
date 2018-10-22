@@ -1,0 +1,3303 @@
+;texts;labels
+0;except test unit part ;1
+1;document test set array type ;1
+2;enabl pylint warn ;1
+3;run pylint python ;1
+4;namedstream class requir fspath method ;1
+5;resolv conflict merg ;1
+6;chang includ step univers transfer memori ;1
+7;make topolog pass test python ;1
+8;ref resolv conflict ;1
+9;fixup dcd sphinx error ;1
+10;test detect memleak test test basi close ;1
+11;global selction keyword close deprec warn fullgroup ;1
+12;remov atomgroup cach close ;1
+13;close issu ;1
+14;netcdf test skip librari miss close ;1
+15;port topolog modul ;1
+16;pbc amber test case pbc amber trajectori provid ranjit vijayan variou fix bug uncov testcas function fortranread class amber format trj test exampl convers amber dcd ;1
+17;garbag collect univers atomgroup unpickl close ;1
+18;port coordin modul ;1
+19;summari patch resolv issu whitespac longer requir around parenthes selectatom string modul mdanalysi core select class selectionpars method pars self selectstr add bound whitespac around input string parser handl lack whitespac method consum token self class also streamlin incorpor built pop method rather verbos altern place chang pass unit test introduc enhanc changelog ;1
+20;small fix chang futur divis six rang test psa separ pair analysi run pair analysi run move plot coupl distanc matrix check psanalysi method psanalysi cluster use gener distanc matrix default check proper dist matrix format dist mat kwarg specifi updat docstr psanalysi cluster ;1
+21;complet changelog updat recent teneleven chang fix ;1
+22;tst mdanalysistest asv depend matrix along appropri conda channel combin modif fork asv fix ;1
+23;dcd xtc convers work exampl script dcdxtc hack fix xdr writer substitut miss paramet mayb need someth similar dcd writer well test ;1
+24;mdanalysi correctli write float data time coordin field ncdf file fix ;1
+25;test topolog string type variou format fix ;1
+26;fix segid tpr parser python ;1
+27;manifest fix add file distribut also make sure html doc includ cleanup ;1
+28;patch argument type check logic function dist mat vec correspond unit test thorough check specif error messag string fix ;1
+29;doc html gitignor fix ;1
+30;fix distanc test run deprec code remov ;1
+31;tst test segid str type test str type fix ;1
+32;fix dcd writer wrote wrong unitcel ;1
+33;fix trzwriter handl non trz timestep ;1
+34;leafletfind remov deprec atom method rest fix ;1
+35;fix hyperlink extern resourc doc mdanalysi coordin pqr ;1
+36;releas fix enhanc data file move separ packag mdanalysistestdata ;1
+37;fix tri write empti atomgroup give clear messag ;1
+38;select keyword fix ;1
+39;releas fix enhanc remov depend lapack ;1
+40;minor rest fix doc volunt anyon ;1
+41;select keyword fix ;1
+42;improp test case rest fix ;1
+43;rest fix analysi densiti ;1
+44;hole fix cpoint ignor ;1
+45;move teneleven fix insid packag ;1
+46;hbond analysi fix new featur start stop step ;1
+47;fix rmsd select appli atomgroup ;1
+48;singl frame reader fix ;1
+49;fix incompat leafletfind newer numpi close ;1
+50;unstabl fix hbond least run ;1
+51;fix enhanc analysi align ;1
+52;rest format fix ;1
+53;rest fix analysi psa ;1
+54;nuclinfo test fix ;1
+55;fix lammp data parser ;1
+56;hydrogenbondanalysi check select fix ;1
+57;rest fix ;1
+58;rest fix throughout ;1
+59;helan fix test case ;1
+60;fix parallel build travi nose requir ;1
+61;fix nose call caus coverag misreport ;1
+62;fix lammp data parser ;1
+63;helan minor fix request review ;1
+64;minor fix coordin code doc ;1
+65;fix ;1
+66;final fix ;1
+67;fix libdcd ;1
+68;rest fix ;1
+69;fix primitivepdbwrit primitivepdbread ;1
+70;minor fix primitivepdb reader writer ;1
+71;fix pdb gro writer ;1
+72;duecredit small fix ;1
+73;fix issu ;1
+74;aesthet fix test gro ;1
+75;fix topologygroup ;1
+76;fix ;1
+77;fix issu ;1
+78;fix compat ;1
+79;fix interrdf ;1
+80;new teneleven modul run mda convers directli command line without copi modul elsewher new fix packag directori hold fix ;1
+81;new test import modul enforc ban rel import unit test modul issu manual repair unit test modul caught unit test import statement ;1
+82;minor fix primitivepdbwrit ;1
+83;fix stochasticproxemb pyx cython compil error ;1
+84;frame writer take univers fix one half issu univers attribut univers alter gro crd primitivepdb writer deal univers argument get coordin atom instead select perform penalti make use improv hierarchi fact atom true atomgroup test case pass ;1
+85;veloc may access gro file atomgroup veloc atom veloc veloc unit test includ commit verifi atomgroup atom specif veloc read function preserv gro file implement use veloc attribut address issu ;1
+86;incorpor new fixer cover part chang introduc issu method properti return object crude test exampl also updat ;1
+87;merg luka grossar hydrogenbondanalysi issu ;1
+88;new fixer deal torsion dihedr convers issu involv atomgroup atom univers crude exampl test also ;1
+89;support pdb charact resnam segid output write primitivepdbwrit issu patch dcaplan tri read write pdb charact resnam use namd vmd end improperli format pdb file also issu segid written made quick patch add support charact resnam chang format string output write segid also simpl support better guess atom type sinc function guess atom type return still sure deal type format string write pdb ;1
+90;issu access coordin function univers segment fail caus previou skip check empti atomgroup revert previou version ;1
+91;chain reader issu univers read list file concaten transpar fli univers psf dcd dcd basic trajectori api implement index slice mix format simpl test case ;1
+92;fix issu handl case number item exactli divis number item per line previous code would alway round instead round exactli divis ;1
+93;mani differ code correct accord code review issu inculd testsuit topolog reader testsuit topolog reader modifi ;1
+94;atomgroup index rework implement advanc slice issu index atomgroup alway behav like list integ atom slice atomgroup list array atomgroup new fix issu test case modifi older test case basic atom cannot use test equal atomgroup use atom updat changelog reorgan big atomgroup section ;1
+95;trr fulli awar miss coord vel forc inform issu except rais access miss data ;1
+96;experiment support special lammp dcd reder writer issu ;1
+97;rmsf analysi class analysi rmsf close issu ;1
+98;resolv issu trajectori slice possibl mdanalysi analysi contact contactanalysi run method ;1
+99;remov trajectori test data issu ;1
+100;merg featur xpdb extend pdb develop close issu ;1
+101;patch issu frame iter test coord match unit test pass ;1
+102;increas requir biopython version issu ;1
+103;guess bond univers atomgroup issu ;1
+104;rebuilt doc sphinx check issu ;1
+105;custom select contactanalysi close issu ;1
+106;sphinx conf specifi secur http mathjax path rebuilt html doc resolv issu ;1
+107;issu test extend function ;1
+108;issu remov assert statment test unit ;1
+109;close issu atomgroup packintobox merg ;1
+110;contact analysi use centroid select atom per residu close issu ;1
+111;test write file densiti issu ;1
+112;test select writer close issu ;1
+113;replac netcdf scipi netcdf issu ;1
+114;new featur support pdb altloc record issu ;1
+115;chang issu ;1
+116;abil slice reader object use list array integ issu ;1
+117;issu move master packag dir ;1
+118;cach decor issu ;1
+119;issu parallel distanc matrix comput use cython close ;1
+120;test ncdfreader finish issu ;1
+121;move mani extens file alongsid python code issu ;1
+122;hbond analysi new distanc type keyword close issu ;1
+123;issu move unittest code packag testsuit ;1
+124;name group select accept issu ;1
+125;issu parallel distanc matrix comput use cython ;1
+126;issu recip make pca trr array ;1
+127;discontinu support python issu ;1
+128;ncdfreader issu load coordin right away ;1
+129;fix issu fail write amber netcdf trajectori atomgroup ;1
+130;slice residuegroup segmentgroup produc group fix issu ;1
+131;test issu ;1
+132;close issu tprparser gromac ;1
+133;netcdfread work issu ;1
+134;name stream issu ;1
+135;netcdfwrit work close issu ;1
+136;start timestep api solidif issu ;1
+137;issu testsuit along packag ;1
+138;close issu ;1
+139;close issu ;1
+140;empti atomgroup allow issu ;1
+141;finish work issu ;1
+142;test issu ;1
+143;close issu bond inform guess pdb ;1
+144;close issu ;1
+145;close issu ;1
+146;copi slice slice method base timestep fix issu ;1
+147;test issu ;1
+148;test issu ;1
+149;fix issu helan addit output local bend unit twist angl ;1
+150;fix issu helan addit output local bend unit twist angl ;1
+151;unittest issu ;1
+152;finish issu ;1
+153;issu moltyp ;1
+154;correct read write dcd unit cell inform fix issu ;1
+155;detect openmp capabl compil setup fix issu ;1
+156;merg luka grossar hbondanalysi improv fix issu ;1
+157;fix issu alig fastaselect use outdat biopython ;1
+158;fix issu read namd vmd space separ psf file ;1
+159;fix issu atomgroup dimens alway return copi ;1
+160;fix issu alignto check two select describ atom ;1
+161;fix issu make netcdf option depend ;1
+162;hydrogenbond analysi fix test issu ;1
+163;fix issu univers dimens broken ;1
+164;pbc angl torsion calcul fix issu ;1
+165;test issu pass ;1
+166;issu fix enhanc relat glycam ;1
+167;issu fix enhanc relat glycam ;1
+168;close fix issu guess bond ;1
+169;fix issu clustalw would run align fastaselect ;1
+170;energi unit convers fix issu ;1
+171;issu ;1
+172;issu ;1
+173;fix issu futurewarn numpi pyqcprot ;1
+174;fix issu read write trr veloc ;1
+175;fix issu infinit loop write singl frame ;1
+176;fix issu multipdb support write singl pdb frame ;1
+177;fix issu qcprot would sometim return nan ;1
+178;fix issu ;1
+179;fix issu ;1
+180;fix issu ;1
+181;fix issu ;1
+182;fix issu ;1
+183;fix issu ;1
+184;fix issu ;1
+185;fix issu ;1
+186;fix issu ;1
+187;fix issu ;1
+188;fix issu ;1
+189;fix issu ;1
+190;fix issu ;1
+191;fix issu ;1
+192;fix issu ;1
+193;fix issu ;1
+194;fix issu ;1
+195;fix issu ;1
+196;fix issu ;1
+197;fix issu ;1
+198;fix issu ;1
+199;fix issu ;1
+200;fix issu ;1
+201;fix issu ;1
+202;fix issu ;1
+203;patch issu jandom ;1
+204;comment format header file issu issu name url copyright licenc gpl issu citat inform need updat full citat avail modelin emac vim ensur tab use issu might take closer look licenc bundl packag custom comment header ;1
+205;improv best like contact analysi issu ;1
+206;quantifi code fix issu ;1
+207;issu integr jjlight patch ;1
+208;pep fix topolog test topolog str type ;1
+209;parallel distanc array issu core parallel distanc ;1
+210;pep fix coordin test txyz ;1
+211;mdanalysi truncat atom number write gro file atom manner consist genbox gromac note appear gromac util trjconv actual write instead atom format read mdanalysi vmd overal improv allow write larg gro file workabl manner fix ;1
+212;issu gener bond list use pdb instead psf ;1
+213;improv pdb perform issu ;1
+214;issu chainread format ;1
+215;fix error introduc differ return tupl libxdrfil read trr ;1
+216;test issu issu issu pass except crd crd reader miss see issu issu fail solut implement yet ;1
+217;fix bug topolog guesser valid atom type ;1
+218;small bug distanc helper code correspond code mdanalysi ;1
+219;stupid bug calcul centerofmass timeseri correl correspond code mdanalysi ;1
+220;better error messag topolog coordin format issu ;1
+221;improv test issu includ line coordin file improv error messag ;1
+222;cleanup code minor bug fix relat esoter index trajectori correspond code mdanalysi ;1
+223;chang format due resolv error test ;1
+224;resolv issu unit test includ hole analysi modul miss close call temporari pdb file descriptor ;1
+225;patch jandom complet fix issu coordin check gro pdb writer http manual gromac org current onlin gro html posit column posit decim place veloc column posit decim place mean max valu coord veloc decim move digit left valid gro write move coordin check method parent writer class ;1
+226;minor error correctionin mdamath ;1
+227;prepar releas bump version updat readm variou packag licenc updat contact remov doc developmentbranch txt outdat short readm point user doc fix pqr must includ test case ;1
+228;pdbqt small chang fix pdbqt test case pass sensibl doc remov comment bio pdb stuff pdbqt need updat changelog author paul rigor contribut pdbqt list support format ;1
+229;fix race condit test suit test reli valu intern flag chang set behaviour keyword argument instead manipul flag affect gromac convers length gro xtc trr convert gromac length flag use permiss pdb reader permiss pdb reader flag test could fail perform parallel differ test thread chang global flag test check default valu use flag test ;1
+230;fix race condit test suit test reli valu intern flag chang set behaviour keyword argument instead manipul flag affect gromac convers length gro xtc trr convert gromac length flag use permiss pdb reader permiss pdb reader flag test could fail perform parallel differ test thread chang global flag test check default valu use flag test ;1
+231;complet fix issu delet univers teardown refer held data structur reduc maximum memori footprint roughli one test process test run faster process get macbook pro core test ;1
+232;analysi align quick hack make work must use atom select writer workaround issu write pdb gro tol mass paramet avoid rais except small mass differ one structur defin via psf via pdb atom mass heurist fix progress counter mayb use analysi util progress meter instead ;1
+233;fix issu optim patch test case move coordin check loop test whole coordin array one better perform error report wors report offend atom anymor remov open pdb file rais valueerror test case one primitivepdbwrit anyway ;1
+234;rewrot testlammpsdatawrit use pytest fixtur ;1
+235;flip format modul run use pytest ;1
+236;run pytest testsuit parallel ;1
+237;port core modul pytest ;1
+238;enabl pytest warn ;1
+239;port auxiliari modul pytest ;1
+240;fix issu simul box convert coordin core triclin box triclin vector handl convers function convert dimens unitcel writer requir trajectori api growrit introduc temporari growriterstandard class replac current growrit got deprecationwarn ;1
+241;new attribut atom radiu bfactor enhanc atom object radiu valu read pqr reader radii atomgroup make easier handl pqr file chang way factor store also store individu atom compat old behaviour atomgroup bfactor still manag attribut like chang method releas uniform interfac fix bug bio pdb reader absenc segid file would throw error ;1
+242;bond analysi default updat select time step fix issu ;1
+243;gromac trajectori fix improv fix trr xtc test fail mac mdanalysi properli instal egg directori develop instal forgot includ trr xtc file packag learn xdrfile open segfault least mac file addit check prevent gromac xdr reader behav like dcdreader rais ioerror done continu rais repeat next reason trr file alway return statu exdrint end file catch read next timestep regener swig file libxdrfil minor doc thing ;1
+244;gromac trajectori fix improv fix trr xtc test fail mac mdanalysi properli instal egg directori develop instal forgot includ trr xtc file packag learn xdrfile open segfault least mac file addit check prevent gromac xdr reader behav like dcdreader rais ioerror done continu rais repeat next reason trr file alway return statu exdrint end file catch read next timestep regener swig file libxdrfil minor doc thing ;1
+245;fix pdb writer would fail atom type integ use new guess atom element right guess atom type alway guess element atomnam improv guess atom type also check name start number hydrogen atom ;1
+246;updat number exampl write figur figur subdirectori write data output exampl output figur block backbon dihedr radial distribut function fix updat number exampl block block averag see exampl paper radial distribut function optim version see paper correct normalis backbon dihedr exampl timeseri collect use new special residu phi select residu psi select method common backbon dihedr script ran dim adk trajectori produc figur todo script made script execut ;1
+247;chang sphinx configur make close default configur doc makefil fix make clean actual clean someth ;1
+248;resolv issu regard helan finish argument new unit test fix basic rais except indic finish time specifi user trajectori start time ;1
+249;crdreader streamlin improv fix default unit angstrom influenc behaviour far offici crd format comment futur refer improv robust ext detect use stage detect line continu block check length field addit saniti check number atom get crd header ;1
+250;port lib test util pytest ;1
+251;convert tab space issu use emac untabifi file see http code googl com mdanalysi issu detail unit test pass todo add marker line editor togeth fix issu ;1
+252;distanc select around point work appli univers still bug present prevent proper use atomgroup fix bug made select spit total garbag crash around use default kdtree neighbor search faster distanc matrix base routin still even better explicitli construct select atomgroup kdtree neighborsearch atomneighborsearch ;1
+253;fix issu attribut residu select segnam alway return residuegroup chang old undocu behaviour might break code also document segment select made base make sens user point view structur topolog start number updat changelog test pass includ one issu ;1
+254;exampl script improv addit exampl simpl fanci fit graph simpl fit fix filenam exampl ;1
+255;releas bugfix enhanc accru last month see changelog detail licens updat uiuc open sourc licens catdcd code updat email address etc readm updat todo distanc array bug fix keyword expans doc file line properli shown ;1
+256;convert test libdcd pytest ;1
+257;instal pytest ;1
+258;pytest stylecor test topolog ;1
+259;charmm crd format fix inconsist writer totr realli digit wide wide realli problem simpli pad field everyth right colum technic one could problem totr coordin make sure strip larger valu write extend format ;1
+260;addit testcas testcas select need note testcas issu parenthesi without space current throw error issu fix initi testcas import method atomgroup ;1
+261;coordin return brand new array break numtool function check contigu long term fix function work properli non contigu array correspond code mdanalysi ;1
+262;fix bug psf parser would read charg correctli would read lead except mean anyth done mdanalysi charg analysi past need recheck referencedd charmm sourc code authorit psf format correspond code mdanalysi ;1
+263;fix bug must introduc tri make psf read faster prealloc bond angl etc list includ last item read line also disabl build bondlist atom bond select sinc noon use realli slow read psf correspond code mdanalysi ;1
+264;fix test remov temporari file forgotten import file get properli unlink problem silent ignor put indiscrimin tri except pass block pass unlink temp produc oserror otherwis rais ;1
+265;numpi array make copi forc fix problem atomgroup coordin function distanc array ;1
+266;fix instal bug python setyp prefix pydir cost instal doc howev realli clear doc new scheme label unstabl releas get global revis svnversion put number reles way weill abl produc nice svn snapshot tarbal ;1
+267;crdwriter denniej fix bug primitivepdbwrit would work run base atomgroup deriv class segment updat changelog todo ;1
+268;test case dcdwriter unitcel fix updat changelog ;1
+269;fix test write select test write atom extern file forgotten add blanket kwarg gro reader requir one pass numatom none requir revis trajectori api ;1
+270;fix timeseri bug upgrad work numpi individu timeseri object treat like numpi array correspond code mdanalysi ;1
+271;fix issu suppli gener file develop need cython provid gener file provid simpl setup user setup develop ;1
+272;fix issu principleax return valu confus new principalax method correct name bonu return three eigenvector directli requir unpack kept old method deprec ;1
+273;possibl fix issu least mac bug littl consequ user dcd dcd header function implement debug purpos never document use code ;1
+274;enh fix ioerror messag libdcd pyx refer trr file instead dcd file ;1
+275;fix bug equal test use instead also potenti profil exampl correspond code mdanalysi ;1
+276;fix issu instant select atom residu also termini remov cach atom residu decreas perform probabl least return correct select ;1
+277;fix protein select charmm histidin residu left protein select correspond code mdanalysi ;1
+278;fix issu naveen michaudagraw dcdwriter check input coordin array contingu dcd store data fortran format singl timestep magic numpi array usual transpar handl ;1
+279;issu fix univers trajectori delta valu round read dcd header file use round decim peopl suggest full precis would better ;1
+280;minor omiss fix changelog oop atomgroup atom still realli necessari setup scipi requir analysi need spars matrix contact matrix ;1
+281;fix mdanalysi import get univers collect main name space way old mdanalysi ;1
+282;fix bug load new dcd univers atom would refer previou dcd timestep object correspond code mdanalysi ;1
+283;fix error dcd reader remov confus comment ;1
+284;updat todo remov fix stuff new idea ;1
+285;fix start stop step valu analysisbas ;1
+286;backport log changelog tyler fix issu ;1
+287;fix angl angl angl ;1
+288;fix adk oplsaa gro test file includ test fail done non develop instal ;1
+289;fix adk oplsaa gro test file includ test fail done non develop instal ;1
+290;pytest style coordin test netcdf coordin test trj ;1
+291;fix issu analysi align fit tri mess horribl elif construct fix report joshua adelman unit test mark slow updat changelog note fit trj function rewritten speed better handl trajectori format ;1
+292;fix issu htaoyu amber top parser failur relat chang ;1
+293;ref fix accuraci fail test ;1
+294;final fix test failur due chdir tempdir ;1
+295;fix hbond cannot deal atom far ;1
+296;fix encor requir reader timeseri capabl ;1
+297;rest fix align psa changelog fix ;1
+298;bug fix untest mdanalysi visual code ;1
+299;regener doc fix issu parser trr parser sub argument ;1
+300;fix coverag drop coordin modul ;1
+301;fix atomgroup write fail use lower case file format string chang ;1
+302;fix issu gro file column width ;1
+303;fix concanten select dih broken new atomgroup atom attribut make sure get atom atomgroup atom test case clean atomgroup doc fix test case got broken ;1
+304;fix trz file reader big endian arch ;1
+305;fix leaflet atomgroup must import mdanalysi core ;1
+306;fix leaflet atomgroup must import mdanalysi core ;1
+307;fix header length inform dcd ;1
+308;principleax fix addit nucleic acid select ;1
+309;forgot check half fix issu ;1
+310;fix forgotten stopiter gener ;1
+311;fix miss edg case typeerror aux ;1
+312;fix cython band aid solut ;1
+313;doc pqr fix ;1
+314;testfil testsuit setup dmsparser fix rais ioerror file found ;1
+315;fix syntax error mdanalysi init ;1
+316;chang bare except gropars tri fix coverag detect ;1
+317;issu sort fix check dcd size rais ioerror instead segfault ;1
+318;fix pdb file output could read charmm even though technic legal pdb ;1
+319;close issu fix doc mention base frame base ;1
+320;fix issu support file onlin doc includ sourc distribut ;1
+321;fix int type assert testdownshiftarray ;1
+322;fix copi error cython setup ;1
+323;fix test crd file would fail crd setup distribut ;1
+324;fix cython error travi ;1
+325;fix cython compil error ;1
+326;fix test crd file would fail crd setup distribut ;1
+327;issubclass isinst fix issu ;1
+328;fix comparison none int auxiliari ;1
+329;fix centerofmass centerofgeometri radiusofgyr broken numpi sum includ axi correspond code mdanalysi ;1
+330;time unit minor fix flag ;1
+331;fix ndim dcd reader error ;1
+332;fix regress pdb file python ;1
+333;fix group yield test ;1
+334;richard extra align principalaxi camelcas fix ;1
+335;fix xdr writer incorrect use delta paramet issu ;1
+336;fix codi error format ;1
+337;fix yield coordin test pdb ;1
+338;fix pars pdb header data primitivepdbread close ;1
+339;fix miss occup primitivepdbread ;1
+340;analysi nuclinfo fix test ;1
+341;dirti fix issu ;1
+342;fix issu hydrogenbondinganalysi ;1
+343;primitivepdbread fix bug relat base frame index broken multi model pdb pars ;1
+344;remov duplic testcas test util fix potenti segfault test ;1
+345;fix trajectori reader read non exist frame ;1
+346;fix issu lib mdamath make whole ;1
+347;analysi hbond fix merg error chang implement count type correl match count type ;1
+348;fix backward step readfram ;1
+349;fix molnum topolog attr scope ;1
+350;final fix manifest ;1
+351;fix memori blowup unit test introduc commit ebe ;1
+352;fix memori blowup unit test introduc commit ebe ;1
+353;fix bug coordin base test ;1
+354;doc fix broken link charmm doc ;1
+355;fix yield test atomgroup ;1
+356;updat changelog fix ;1
+357;fix test streamio python ;1
+358;fix issu spars contact matrix distanc ;1
+359;fix align aligntrj bug ;1
+360;fix align test ;1
+361;fix issu ;1
+362;fix hydrogenbondautocorrel scipi ;1
+363;rest fix qcprot ;1
+364;fix scope class ;1
+365;fix simpl rmsd issu ;1
+366;fix weight deprec ;1
+367;fix potenti issu xtc trr gro pdb writer convert unit fals ;1
+368;fix compat python posit argument specifi omit python ;1
+369;fix test ;1
+370;fix test ;1
+371;fix bug compil addit fix compil ;1
+372;fix rmsf run return ;1
+373;trr veloc fix ;1
+374;fix issu chainread crd bug timestep problem ;1
+375;trr writer fix write forc without unit convers ;1
+376;issu improv fix ;1
+377;small fix bond topologyattr ;1
+378;fix setup time depend numpi broke pip instal ;1
+379;fix spuriou test failur timestep api test ;1
+380;fix citat doc ;1
+381;minor chang test fix issu issu attrib chang text ;1
+382;version bump devel maintain chang releas fix ;1
+383;tree fix test minor upgrad packag ;1
+384;fix crdwriter test fail bug use statement ;1
+385;unstabl fix init fle realli present name mdanalysi name space reorgan ;1
+386;test topolog fix deprec import core distanc lib distanc ;1
+387;fix misus delta arg chainread doc mdanalysi writer ;1
+388;fix adk testcas totaltim broken fix issu round anymor henc report use assert almost equal test case ;1
+389;fix issu psfparser rais indexerror miss segid ;1
+390;fix pdb format appar one strip space name resnam ;1
+391;adjust gro veloc test case fix issu ;1
+392;correct suggest document fix updat ;1
+393;updat test fix issu doc ;1
+394;fix dcdreader sync timestep ;1
+395;fix pdb blank line gave indexerror fix issu ;1
+396;primitivepdbread fix getitem iter return none singl frame ;1
+397;fix dcd writer error ;1
+398;fix lampp dcd set user ;1
+399;fix fail test ;1
+400;fix test moltyp ;1
+401;parser coordin entri point fix would allow build psf univers issu warn ;1
+402;fix small render error doc ;1
+403;review need pytest style testencor ;1
+404;work groread testgroread fix timestep numatom issu ;1
+405;fix psf pars number residu greater correspond code mdanalysi ;1
+406;wip pytest style analysi test align ;1
+407;review need pytest style coordin test trj ;1
+408;version bump doc fix regener ;1
+409;version bump doc fix regener ;1
+410;fix changelog ;1
+411;updat changelog issu fix ;1
+412;updat changelog issu fix ;1
+413;review need pytest style analysi test hydrogenbondautocorrel ;1
+414;review need pytest style coordin test ;1
+415;fix trr coordin access via issu ;1
+416;pytest style topolog test ;1
+417;fix problem pdb pdbwriter also bump version work toward ;1
+418;fix docstr fix copi standard librari dir longer need ;1
+419;review need pytest style coordin test chainread ;1
+420;review need pytest style coordin test lammp ;1
+421;pytest style coordin test gro ;1
+422;pytest style coordin test xyz ;1
+423;pytest style topolog test pdbqt ;1
+424;pytest style coordin test pdbqt ;1
+425;pytest style coordin test memori ;1
+426;testgmsread fix error data file includ ;1
+427;fix doc build error ;1
+428;fix error rst file ;1
+429;merg develop fix changelog conflict ;1
+430;fix except messag coordin format guess minor doc typo ;1
+431;fix issu bolean correct variou flot check etc ;1
+432;fix coordin base select atomgroup correspond code mdanalysi ;1
+433;fix frame attribut dcdreader remov dimens properti ;1
+434;fix issu fail write segment residu residuegroup need make sure access underli list atom also fix unreport issu crdwriter wrote wrong number atom select simplifi code crdwriter ;1
+435;topolog core fix updat pyk convent clean avoid cyclic import ;1
+436;pytest style coordin test crd ;1
+437;fix typo lead nameerror result correspond code mdanalysi ;1
+438;pytest style auxiliari base ;1
+439;small adjust get work analysi hbond fix bug call save tabl coordin xyz two dummi variabl core util chang regex detect glycam style residu name ;1
+440;fix document atomgroup light chang ;1
+441;hydrogenbondanalysi fix acceptor doc improv ;1
+442;dmsreader fix dictionari typo replac dict ;1
+443;fix doc deploy ;1
+444;fix deprec warn missfir ;1
+445;fix fit attribut shadow fit method ;1
+446;pytest style topolog base ;1
+447;fix linter problem ;1
+448;mass guess pdbparser unknown set fix backbon dihedr exampl ;1
+449;fix onlin doc point select report joe ;1
+450;fix pep issu ;1
+451;rest fix ;1
+452;hbond still return timeseri run fix rest ;1
+453;pytest style analysi test base ;1
+454;pytest style analysi test gnm ;1
+455;review need pytest style core test updat atomgroup ;1
+456;pytest style test import ;1
+457;pytest style test util ;1
+458;unittest fix doc string ;1
+459;wip pytest style analysi test densiti ;1
+460;fix xtc trrreader would fail obtain appropri writer ;1
+461;wip pytest style analysi test helan ;1
+462;fix xyz format act standalon topolog coordin ;1
+463;wip pytest style analysi test contact ;1
+464;pytest style analysi test psa ;1
+465;pytest style analysi test persistencelength ;1
+466;fix problem read process triclin unitcel issu fix read cryst complet mess issu order angl wrong convert box vector represent box length angl see http wikipedia org wiki lattic constant definit issu revisit old bug chang test case would catch angl mix overlook previou fix ;1
+467;pytest style coordin test timestep api ;1
+468;pytest style coordin test ;1
+469;fix testest broken new primitivepdb reader writer ;1
+470;pytest style coordin test mmtf ;1
+471;pytest style coordin test writer registr ;1
+472;fix testest broken new primitivepdb reader writer ;1
+473;pytest style core test index dtype ;1
+474;pytest style core test segmentgroup ;1
+475;pytest style core test atomselect ;1
+476;pytest style core test group traj access ;1
+477;fix write element column primitivepdbwrit ;1
+478;hbond analysi fix incorrect residu handl trail number ;1
+479;import common object base namespac also fix thing atomgroup correspond code mdanalysi ;1
+480;fix pdb format hole test file pdb hole ;1
+481;fix utf angstrom symbol core unit ;1
+482;new gsd topolog unit test fix assign resnam ;1
+483;fix cach decor break function doc ;1
+484;gro reader fix case entri unitcel ;1
+485;fix timeseri pass atomgroup correspond code mdanalysi ;1
+486;fix issu fix unitcel xtc trr box vector extract wrongli move raddeg angl veclength coordin core use test case ;1
+487;fix object ;1
+488;fix read pqr file gromac ;1
+489;fix align principalaxi ;1
+490;fix neighborsearch ;1
+491;fix timeseri ;1
+492;fix unitcel handl ;1
+493;fix python imcompat core ;1
+494;fix topolog base guess atom element rais indexerror ;1
+495;fix unitcel initi ;1
+496;pytest style topolog test crd ;1
+497;pytest style core test topologyattr ;1
+498;pytest style core test segment ;1
+499;pytest style core test atom ;1
+500;pytest style core test fragment ;1
+501;pytest style core test requir ;1
+502;pytest style core test residu ;1
+503;fix syntax error test case lost commit somewher ;1
+504;fix timestep unitcel initi instead none ;1
+505;pytest style analysi test ;1
+506;pytest style topolog test psf ;1
+507;pytest style topolog test dlpoli ;1
+508;pytest style topolog test top ;1
+509;fix amber toppars format ;1
+510;fix util angl would sometim produc nan ;1
+511;fix gropars strip atom residu name ;1
+512;fix threw except atom found return empti index list ;1
+513;pytest style test streamio ;1
+514;pytest style test xvg ;1
+515;pytest style test datafil ;1
+516;pytest style test select ;1
+517;pytest style test altloc ;1
+518;fix unicod name open ;1
+519;fix doc pdbparser conect keyword ;1
+520;fix nuclinfo doc testcas ;1
+521;atomgroup picklabl test fix cosmet ;1
+522;fix dmstimestep initi unitcel wrong ;1
+523;fix dmstimestep initi unitcel wrong ;1
+524;trj reader fix ;1
+525;fix warn ;1
+526;fix warn ;1
+527;fix copi take arg ;1
+528;fix around select naveen correspond code mdanalysi ;1
+529;fix summari txt distribut sourc dist ;1
+530;fix parenthes argument mass charg ;1
+531;fix calc dihedr dihedr dihedr ;1
+532;pytest style test nuclinfo ;1
+533;fix usag format kwarg reader ;1
+534;fix alignto rais keyerror target ;1
+535;fix memori dealloc certain condit offset array could freed ;1
+536;fix mpi fork warn import mdanalysi mpi init call ;1
+537;bond fix repr fail coordin avail ;1
+538;pytest style analysi test nuclinfo ;1
+539;fix historyread use base frame indic ;1
+540;fix circular refer reader caus memleak ;1
+541;fix hydrogenbondinganalysi backbon donor list ;1
+542;fix timestep frame number issu ;1
+543;pytest style test model ;1
+544;fix charg parser correspond code mdanalysi ;1
+545;fix link amber nctraj format ;1
+546;pytest style topolog test pqr ;1
+547;pytest style topolog test gro ;1
+548;pytest style topolog test hoomdxml ;1
+549;pytest style topolog test guesser ;1
+550;pytest style topolog test lammpsdata ;1
+551;pytest style topolog test xyz ;1
+552;pytest style topolog test topolog base ;1
+553;pytest style topolog test xpdb ;1
+554;pytest style topolog test ;1
+555;fix python incompat topolog bond ;1
+556;fix alignto fit trj select ;1
+557;fix bug core util iter fail unicod ;1
+558;fix issu chainedread fail access ;1
+559;fix incorrect requir hbond autocorrel tool ;1
+560;fix broken atom add ;1
+561;fix univers load new rais nameerror ;1
+562;writer class fix repr even numatom provid ;1
+563;wateranalysi fix case water molecul select ;1
+564;fix circular import ;1
+565;fix analysi class warn fix ;1
+566;fix duecredit import error report due stub ;1
+567;fix mass weight rmsd fit ;1
+568;fix forc convers commit caafebcaabdbbdb ;1
+569;fix residu segment merg ;1
+570;fix fail test test model ;1
+571;pytest style coordin test xdr ;1
+572;fix scalar array comparison custom mass ;1
+573;kdtree fix compil warn comparison sign unsign integ express ;1
+574;fix maintain chang releas ;1
+575;fix known failur transit ;1
+576;fix pkdtree biopython ;1
+577;pytest style test deprec ;1
+578;pytest style test persist ;1
+579;pytest style test log ;1
+580;fix fail test issu ;1
+581;fix test issu ;1
+582;fix numpi partial import instal ;1
+583;fix xtc trr reader fail python ;1
+584;fix setup correctli pars cython string ;1
+585;fix import tinker coordin reader ;1
+586;fix document correspond code mdanalysi ;1
+587;fix conda instal path travi ;1
+588;fix delaunay tetrahedron correspond code mdanalysi ;1
+589;partial fix test ;1
+590;fix nameerror atomgroup contain ;1
+591;fix timestep copi correctli fix issu ;1
+592;fix issu correct link exampl ;1
+593;fix failur time present inpread ;1
+594;fix pqr coordin read gromac flavour ;1
+595;fix trz reader iter properli ;1
+596;hbond fix failur import warn ;1
+597;defaul valu hbond fix minor error xyz ;1
+598;test datafil fix import list crd small crd ;1
+599;fix pointselect kdtree remov ;1
+600;fix dihedr function atomgroup ;1
+601;fix requir numpi setup ;1
+602;fix test reindex growrit ;1
+603;fix fail test test model ;1
+604;fix wrong knownfailur import ;1
+605;exampl updat fix normal radial distribut function redrew figur ;1
+606;pdb fix accord discuss commit bfffdbc ;1
+607;fix regress pdb introduc commit cfdedc ;1
+608;fix check dcd extens alway fail ;1
+609;fix principleax return garbag port trunk ;1
+610;fix lib util greedi splitext ;1
+611;fix saniti check result seg fault ;1
+612;fix numpi import ;1
+613;fix mdanalysistest instal inpcrd data ;1
+614;fix author file includ distribut ;1
+615;fix empti univers topolog dict ;1
+616;fix chainread format kwarg ;1
+617;fix lammpspars like compress format ;1
+618;fix import name collis test atomgroup quantifiedcod ;1
+619;fix log tprparser ;1
+620;fix numpi leafletfind ;1
+621;fix bond select ;1
+622;fix encor compil warn ;1
+623;fix issu xtc writer broken fix provid danni parton unit test pass ;1
+624;fix broken link hole doc ;1
+625;fix lammp pdb merg confict ;1
+626;fix get writer ;1
+627;fix residuegroup segmentgroup index ;1
+628;fix usag tempdir ;1
+629;fix residuegroup segmentgroup recordtyp access ;1
+630;fix duplic name test ;1
+631;fix test case test atomgroup testwritepdb test write univers ;1
+632;fix anoth veloc test ;1
+633;fix code get mash ;1
+634;pytest style topolog test mol ;1
+635;fix sphinx warn ;1
+636;fix txyz rst bullet list ;1
+637;fix test contact ;1
+638;fix test persistencelength ;1
+639;fix test psa ;1
+640;fix whitelist singular plural attribut ;1
+641;fix rmsd fit trj fail write xtc file ;1
+642;fix import tpr parser ;1
+643;fix test hbond ;1
+644;pytest style analysi test leaflet ;1
+645;fix atomgroup bbox ;1
+646;fix type select ;1
+647;fix analysi densiti requir deprec trajectori attribut ;1
+648;fix except display psf file name ;1
+649;fix python requir statement use ;1
+650;fix type select ;1
+651;fix type check metric filenam ;1
+652;fix issu primitivepdbwrit bug ;1
+653;fix psa conflict numpi ;1
+654;partial fix test hbond ;1
+655;fix unit must utf ;1
+656;hbond fix bug save ;1
+657;fix run test script ;1
+658;fix xdna trj bug ;1
+659;fix rest helan ;1
+660;fix array comparison bug helan ;1
+661;fix miss test file ;1
+662;fix bug divisionbyzero except analysi waterdinam survivalprob class ;1
+663;fix bug initi self box ;1
+664;fix bug due neg bodi indic ;1
+665;fix fit bug ;1
+666;fix core distanc ;1
+667;gro reader fix fix run test ;1
+668;fix rest latex psa close ;1
+669;progressmet fix doc ;1
+670;fix comparison array none distanc parallel ;1
+671;fix docstr block ;1
+672;fix lone star space must ;1
+673;fix divis error ;1
+674;fix warn ;1
+675;fix improv doc ;1
+676;fix modul import ;1
+677;fix tprparser ;1
+678;shebang line fix ;1
+679;fix frame number rewind ;1
+680;fix backbon dihedr exampl ;1
+681;fix write file function ;1
+682;fix fail test ;1
+683;fix fail test ;1
+684;fix xyzreaderastopolog test ;1
+685;fix compress test ;1
+686;fix ;1
+687;fix issu statement recogn pdb python ;1
+688;fix bug xdna trj analysi ;1
+689;fix issu ;1
+690;fix trzwriter issu ;1
+691;tprreader fix failur angl could found ;1
+692;fix major pair issu nuclinfo ;1
+693;fix issu ;1
+694;fix issu ;1
+695;fix python error analysi hole test ;1
+696;fix uag restrict attribut set ;1
+697;fix bug dcd reader jump begin trajectori fix atom correspond code mdanalysi ;1
+698;fix test ;1
+699;fix test align ;1
+700;fix test nuclinfo ;1
+701;fix test base ;1
+702;fix test hydrogenbondautocorrel ;1
+703;fix test gnm ;1
+704;fix test densiti ;1
+705;miss camelcas fix ;1
+706;fix xtc trr testcas fix issu broke totaltim ;1
+707;fix default creation writer xtc trr trjreader fix doc ;1
+708;fix trajectori iobas convert time nativ opposit ;1
+709;fix miss doc dlpolypars ;1
+710;fix hbond analysi gener tabl ;1
+711;fix bug access gsd trajectori fix frame ;1
+712;analysi align fix error messag fix use atom ;1
+713;fix test diffusionmap ;1
+714;fix test rdf ;1
+715;fix bug ;1
+716;revert psf parser fix need atom number fix ;1
+717;fix bad commit ;1
+718;hbond fix nhnh ;1
+719;fix xyz psf made avail ;1
+720;fix stop log ;1
+721;fix stop log ;1
+722;fix testcas ;1
+723;fix improv helan main ;1
+724;fix test ;1
+725;fix progressmet ;1
+726;fix write select fix test select writin gave fals posit fix growrit ;1
+727;fix import iii ;1
+728;fix converagerc coverag ;1
+729;fix test encor ;1
+730;fix test pca ;1
+731;fix issu fix ;1
+732;chang coverag build ;1
+733;fix mime type new html onlin doc text html ;1
+734;minor fix ;1
+735;fix issu distanc array properli observ pbc ;1
+736;bond analysi default updat select time step fix issu ;1
+737;pytest style analysi test hbond ;1
+738;pytest style analysi test lineardens ;1
+739;pytest style analysi test diffusionmap ;1
+740;pytest style analysi test waterdynam ;1
+741;pytest style analysi test rdf ;1
+742;pytest style analysi test distanc ;1
+743;pytest style analysi test hole ;1
+744;fix issu bolean correct variou flot check etc ;1
+745;fix minimum requir python check setup explicitli say changelog need python ;1
+746;psa psa properti fix plot method ;1
+747;fix issu write dcd minor thing need correct also remov deprec dcdfilenam attribut ;1
+748;instal fix requir help first sentenc wrongli state cython still requir link web site mail list ;1
+749;fix issu easi instal tar file price copi numpi pxd subdirectori easi instal break symbol hard link ;1
+750;fix mdanalysi analysi rmsd select fail ;1
+751;fix point select atomselect correct docstr convert coordin array dtype float ;1
+752;fix pbc parallel distanc array close issu ;1
+753;patch lost last orbeckst trunk merg crucial fix old pyrex loop src dcd dcdtimeseri pyx experiment hbond fix date changelog ;1
+754;hbond analysi possibl fix bug progressmet ;1
+755;fix test group subtract ;1
+756;fix deprec warn occurr code ;1
+757;fix bug tpr util data unpack data unpack float ;1
+758;tidi atomgroup class fix minor bug correspond code mdanalysi ;1
+759;fix test error ;1
+760;fix test dcd ;1
+761;atomgroup fix allow topolog file load without coordin ;1
+762;fix issu check slice indic numpi int ;1
+763;fix releas date ;1
+764;fix doc topologyobject includ ;1
+765;psf parser fix ;1
+766;psf parser fix ;1
+767;fix helan analysi miss import statement ;1
+768;fix kain list author doc ;1
+769;fix gro lammp doc ;1
+770;small fix miss import ;1
+771;fix import tinker coordin reader topolog parser ;1
+772;fix file close timestep dimens angl ;1
+773;fix integ divis ;1
+774;fix modul import ;1
+775;move one test back test modul ;0
+776;move one test back test modul ;0
+777;updat wiki link file reflect move github ;0
+778;adjust test analysi replac rel import absolut import nosetest test analysi test helan nosetest test analysi test helan call signatur work ;0
+779;reader get method caus problem ;0
+780;split test coordin differ file ;0
+781;merg white space comment debug log topolog lammpspars ;0
+782;remov test gener test atomselect ;0
+783;setup modifi use cython present setup develop delet ;0
+784;minor tweak nearest neighbor plot method ;0
+785;python compat still like break test ;0
+786;analysi align streamlin fit trj alignto use common select interfac consist usag mobil refer set fastaselect return dict mobil refer key might break old code think anyon use common select code process select hack accept old target key instead mobil test case unit test rmsd adjust valu fit trj test case realli sure least consist vmd show ;0
+787;numfram trjreader cach attribut get numfram xtc trr take long time access first time test case broke correl test case individu test case ;0
+788;adjust agsetterplur fixer handl patholog test case caus issu unit test ;0
+789;ignor file build gener exampl data ;0
+790;decim correct test case ;0
+791;exampl output nativ contact analysi ;0
+792;spatial align conveni function analysi align rotat matrix weight none get matrix alignto mobil ref select backbon mass weight fals align univers mobil atomgroup rmsd use qcprot fit trj minor optim prealloc ;0
+793;trajectori api totaltim attribut base reader totaltim numfram test case made dcdreader error messag slightli verbos ;0
+794;copi method chainread ;0
+795;ref valid dimens ;0
+796;conflict document solv revis ffdbdbd ;0
+797;wrap import author ;0
+798;chang unpack float unpack real tpr set tpr util ;0
+799;python compat still like break test ;0
+800;python compat still like break test ;0
+801;analysi hbond chang default donor default acceptor dict allow switch differ forcefield ;0
+802;manifest file correct ;0
+803;move distanc array workaround function simpli copi array seem fine dare soul provid copi fals disclaim respons ;0
+804;self atom self atom chang back self atom self atom ;0
+805;updat test account weight ;0
+806;segment alia segment name make interfac consist ;0
+807;make pointselect use period flag way aroundselect even work properli least consist ;0
+808;make instant selector emit deprecationwarn ;0
+809;exampl script use gnm analysi ;0
+810;growrit write either univers atomgroup ;0
+811;atomgroup gain residu segment attribut manag attribut cach contain full list residu segment object make atomgroup use residu segment simplifi implement resid resnam numberof method ;0
+812;order make clear array layout chang anyth numpi default anyway ;0
+813;tri make new contact class close contactanalysi class ;0
+814;deprec warn appear per deprec featur ;0
+815;fast rmsd align base dougla theobald qcp method contribut joshua adelman pyqcprot packag http github com synapticarbor pyqcprot new modul core qcprot use drop replac core fit rotat matrix rotat matrix deprec schedul remov test case qcprot use josh exampl analysi align fit trj got addit function thank qcprot mass weight rmsd fit new mass weight true keyword write rmsd timeseri text file rmsdfile keyword ;0
+816;chang gener except specif one dcd modul ;0
+817;chang gener except specif one dcd modul ;0
+818;pqr support ;0
+819;gro reader unitcel unit convers unit convers groread behav like reader automat convert distanc angstroem read unitcel accord file format spec requir special timestep class appropri dimens properti convers doc trajectori api better explain expect timestep properli document test case gro note precis comparison goe singl decim case subtract posit minor clean variou reader remov explicit set unit attribut class attribut set class declar need set init ;0
+820;ref enabl period tree search select around atom ;0
+821;trajectori api deriv base class base class reader writer timestep coordin base reader writer deriv api full spell base class though see comment code descript modul doc string unit reader writer pure inform moment note write angstrom format attribut class move dcd timestep base note dcdreader dcdwriter becom new style class inherit base reader object move common method base class del len repr full api crdwriter reorgan write open close file similar pdbwriter also made individu write method privat ;0
+822;test deprec old modul import still work ;0
+823;remov pylint warn ;0
+824;gamess output reader featur ;0
+825;dmsreader topolog coordin ;0
+826;dmsreader topolog coordin ;0
+827;mdanalysi visual namespac properli label experiment changelog matthieu chavent credit author list recent set chang matthieu chavent author file author list document conf file chang citat format chavent reddi consist mda format standard python assert statement streamplot modul remov case perform type check user input remain algorithm level integr check expect array shape differ stage streamplot code rais use importerror messag user matplotlib instal ;0
+828;finish coordin tidi ;0
+829;atomgroup univers rais nodataerror failur ;0
+830;move reader api test coordin directori ;0
+831;add array type valid lib distanc transform stor ;0
+832;remov unus orphan code core select ;0
+833;except rais xtc trr traj files big xdrfile lib ;0
+834;allow python test fail time ;0
+835;calcul distanc array without minimum imag set bpx none make sens work fit trajectori obey origin pbc code avoid use stupid hack like box box perhap faster leav minimag correspond code mdanalysi ;0
+836;altern schlitter code calcul entropi use determin correspond code mdanalysi ;0
+837;test reorgan analysi coordin ;0
+838;verbos packag instal ;0
+839;odd case index trajectori correspond code mdanalysi ;0
+840;topolog move atom type mass separ tabl new topolog tabl modul later expand read tabl file mass atom type use charmm top gromac atommass dat unit test mass note atomtyp mass test case incomplet todo new function get atom mass guess atom element much yet allow finer grain control later ;0
+841;file regener ;0
+842;exclud test file coverag ;0
+843;superposit rmsd default ;0
+844;hbond analysi addit method gener tabl ;0
+845;made bfactor properti univers dimens properti atomgroup requir around point select work atomgroup reformat doc line break initi white space ;0
+846;new chi select method residu ;0
+847;switch fullgroup deprec method class decor ;0
+848;method atomgroup bsphere ;0
+849;test initi method ;0
+850;version number chang back ;0
+851;improv log header ;0
+852;simpl test case distanc array ;0
+853;nativecontact exampl exampl script make figur work contact remov deprec usag univers load method simpli read exist contact file improv doc figur dim adk ;0
+854;remov mock class sphinx conf ;0
+855;error code correct ;0
+856;increas nose version tri definit solv coverag problem ;0
+857;new fixer variou camelcas convers mdanalysi along simpl test case ;0
+858;new fixer crude test convers numatom argument atom argument writer function toler varieti call signatur ;0
+859;version number chang ;0
+860;patch heurist detect get bond hydrogen list chang hydrogen found also within maximum distanc donor maximum distanc store defaultdict hydrogenbondanalysi cov coval donor distanc hard code anyth els get default valu ;0
+861;coordin test make sure gromac test convers flag set correctli set core flag convert gromac length explicitli setup encount failur possibl run multipl test process came convers flag set fals even though true ;0
+862;chang name flag convert gromac length convert length ;0
+863;chang atomgroup occup occup ;0
+864;remov offset file testsuit avoid side effect modif trajectori ctime without actual modif file ctime guarante preserv instal ;0
+865;hydrogenbondanalysi run return result anymor ;0
+866;deprec atomgroup atomgroup veloc attribut ;0
+867;hydrogenbondanalysi small improv ;0
+868;remov superflu scipi import psa modul ;0
+869;use new style python class ;0
+870;file duecredit modul load ;0
+871;simplifi execut modul checker ;0
+872;pdbqt support paul rigor http www uci edu prigor ;0
+873;comment test tprparser make easier understand ;0
+874;ref enabl period tree search select around point ;0
+875;densiti correct doc densiti unit better error messag ;0
+876;new analysi modul ;0
+877;tst chang need get mdanalysi asv benchmark work reloc setup ;0
+878;upgrad analysi deped instal right away ;0
+879;simplifi code test iter unit test base comment ;0
+880;fixup last ;0
+881;fixup ;0
+882;handl pbc correctli contact matrix spars ;0
+883;bond chang use base atom indic pdb guess bond ;0
+884;test flavor dcdreader writer ;0
+885;use assert nowarn test ;0
+886;pbc hbond analysi requir chang made ;0
+887;remov weakref system atom univers atom hold strong real refer univers ;0
+888;includ tpr test file setup ;0
+889;suppli trajectori topolog reader kwarg univers ;0
+890;includ forgotten amber data file ;0
+891;univers hold onto initi kwarg ;0
+892;chang univers load new return univers ;0
+893;work amber trj format enhanc trajectori api reader must abl accept ignor keyword necessari pass number atom amber trj reader need updat reader accept kwarg done alreadi made trjreader work without box trajectori read first frame look box inform document quirk trj reader amber trj reader also read compress file introduc registri format compress file mdanalysi coordin compress format ;0
+894;manifest correct testsuit includ licens relat file ;0
+895;replac dunderscor trajectori univers ;0
+896;chang assert almost equal assert allclos correct precis error ;0
+897;add reindex option write atom gro file ;0
+898;primit pdb parser read simpl pdb without fuzz primitivepdbread parser stupidli read well format pdb file without rais stink resid oddli number multipl atom name occur residu permiss fals default flag univers true switch primit reader right pdb distinct move guess atom type mass charg function pdb topolog core permiss keyword arg get parser get reader function second dictionari permiss parser reader bit ugli hack unit test primit pdbreader parser pass ;0
+899;dynam atom select densiti densiti univers ;0
+900;major restructur modul core function core coordin reader writer coordin topolog contain topolog parser util misc kdtree copi thoma hamelryck kdtree neighbour search code biopython copyright boilerpl biopython licens code use fast distanc select bond analysi load psf dcd univers work select univers work noth els test ;0
+901;remov wrong atom type default acceptor ;0
+902;rest doc addit atom atomgroup ;0
+903;auxiliari data correl function mass weight exampl correspond code mdanalysi ;0
+904;renam atom number atom index ;0
+905;remov unnecessari check ;0
+906;move special coord test data normal data folder ;0
+907;tst atomgroup method attribut asv benchmark ;0
+908;trajectoryread gain new writer method return appropri trajectorywrit read trajectori ;0
+909;updat core select includ amber termini resnam list prot ;0
+910;pep pass ;0
+911;chainread fake time delta keyword ;0
+912;new builder modul helper creat charmm readi structur ;0
+913;method atomgroup return numpi array ;0
+914;getstat setstat rais notimplementederror univers atomgroup ;0
+915;merg branch alfr tpr issu ;0
+916;forc method properti atomgroup ;0
+917;chang atomgroup method properti ;0
+918;coordin test make sure gromac test convers flag set correctli set core flag convert gromac length explicitli setup encount failur possibl run multipl test process came convers flag set fals even though true ;0
+919;unit unit convers simpl convers facil unit length time core unit taken hop packag flag convert gromac length set true xtc trr reader test writer untest automat convert base unit defin mdanalysi base unit angstrom flag test case pass ;0
+920;exclud visual code coverag ;0
+921;test includ miss test file packag data mol data cap lammp data ;0
+922;file manifest think need build fulli function egg untest ;0
+923;griddataformat requir ;0
+924;simpl exampl use rotatebi build mthk tetram sort ;0
+925;simpl exampl use rotatebi build mthk tetram sort ;0
+926;simpl exampl block averag ;0
+927;cleanup build matrix ;0
+928;dmsreader topolog coordin ;0
+929;dmsreader topolog coordin ;0
+930;shapeparamet aspher calcul atomgroup ;0
+931;analysi hbond renam count type correl timestep type ;0
+932;add xtc seek index capabl ;0
+933;select write improv clean atomgroup write use coordin get writer function standard way nowaday test case note get writer get reader import mdanalysi coordin ;0
+934;rewrot atomgroup momentofinertia ;0
+935;readfram start stop step ;0
+936;specifi file format build univers ;0
+937;dcd write ;0
+938;updat script exampl ;0
+939;conda build script ;0
+940;make travi run test osx ;0
+941;analysi align fit trj new quiet kwarg suppress statu error output ;0
+942;error test ;0
+943;new fixer atomgroup method set plural convers along crude test ;0
+944;check delet charmm format alter titl ;0
+945;sphinx make sphinx fail warn verbos local sphinx makefil ;0
+946;gener doc sphinx includ qcp rotat distanc modul miss ;0
+947;analysi code cosmet ;0
+948;test surviv probabl actual result chang select water around one interfac residu glu short radiu make analysi select faster ;0
+949;tweak david caplan hbond make work gromac water ;0
+950;new function neighborsearch coordinateneighborsearch take coordin array atomneighborsearch take atomgroup anyth coordin method mdanalysi use coordinateneighborsearch moment new search list method find within ;0
+951;chang default offset progressmet ;0
+952;improv test assert test atomgroup test also run numpi mini exampl script exampl run test ;0
+953;remov problem ignor chang organis function use mroe consist variabl name remov mention parallel select implement inlin function much ;0
+954;chang non python symmetr distanc matrix assign ;0
+955;port sphericallay select new kdtree ;0
+956;test atomgroup assert miss numpi earlier lead fail test ;0
+957;improv write trajectori ;0
+958;ref spheric zone select test ;0
+959;ref spheric layer select test ;0
+960;python xtc reader benjamin hall origin name xtcio use gpl correspond code mdanalysi ;0
+961;ref refactor valid dimens ;0
+962;analysi nativ contact analysi adk lib python adk contact ;0
+963;make filenam fixtur ;0
+964;made python support offici ;0
+965;calcul distanc matrix two set atom correspond code mdanalysi ;0
+966;leafletfind use group instead deprec atom atom method clash conceptu atom attribut atomgroup remov final deprec warn separ group function like old atom better doc ;0
+967;hierarchi made consist atomgroup atom atomgroup atomgroup atom manag attribut atom list immut old atom atom restifi doc use properti possibl atomgroup adjusetd testcas ;0
+968;mdanalysi analysi distanc dist comput distanc match atom two group ;0
+969;updat script exampl ;0
+970;self distanc function comput distanc within group atom return linear array correspond upper triangular distanc matrix correspond code mdanalysi ;0
+971;analysi modul fit option select deriv sequenc align ;0
+972;psfparser grace handl psf file contain natom field correspond code mdanalysi ;0
+973;forc unit convers test case ;0
+974;atom set get forc veloc ;0
+975;rewrot part ncdf float test ;0
+976;remov unus expect error select ;0
+977;code cleanup remov delaunay code releas remov experiment hbond code ;0
+978;test libdcd test seek max appropri check eoferror instead ioerror ;0
+979;misspelt luka grossar name handl sorri ;0
+980;chang handl knownfailur test due miss execut ;0
+981;clean contact matrix cython code ;0
+982;enh new dcd read code appear handl unit cell inform properli test test libdcd pass python ;0
+983;hbond analysi enhanc detect count type ;0
+984;make error messag clearer test tpr parser ;0
+985;coordin use close throughout instead deprec close trajectori ;0
+986;merg remot track branch richardjgow issu issu ;0
+987;correct document file ;0
+988;port sphericalzoneselect new kdtree ;0
+989;centroid atomgroup atom synonym centerofgeometri allow use atom instead atomgroup translat rotatebi method ;0
+990;chang none none consist ;0
+991;experiment primitivepdbread writer support multifram pdb file ;0
+992;test write pdbqt file ;0
+993;switch kdtree use numpi neighbor search method work principl select implement function neighborsearch use atom data structur instead bio pdb entiti ;0
+994;resolv changelog conflict ;0
+995;minor rest cleanup atomgroup ;0
+996;link gro file setup ;0
+997;small chang start test ;0
+998;skip test use netcdf netcdf miss ;0
+999;unit test preserv float data type amber ncdf file written mdanalysi time coordin field ;0
+1000;deprec core timeseri modul ;0
+1001;improv manipul topolog inform ;0
+1002;get path metric func rais keyerror error string unit test check keyerror rais ;0
+1003;disabl delaunay librari resolv compil issu differ platform correspond code mdanalysi ;0
+1004;small tidi coordin dcd ;0
+1005;releas final adjust includ use canon growrit releas set remov origin growrit replac growriterstandard invis user growrit could use explicitli anyway olf growrit function write whole univers simpli obtain pass univers univers atom atomgroup write method ;0
+1006;updat iparam util addit function type gromac ;0
+1007;hydrogen bond analysi luka grossar patch heurist detect ;0
+1008;count type count type correl analysi hbond ;0
+1009;univers conveni function interact work dcd argument extens pdb tri load pdb dcd except handl robust enough yet segment fault occur access self dcd erron load dcd cannot simpl tri load dcd except ioerror ;0
+1010;add test check warn topolog atom type load ;0
+1011;trzreader coordin read trz file ;0
+1012;danni gro writer changelog forgotten ;0
+1013;pqdbqt use atom charg partial charg atom type atomtyp remov partialcharg element attribut atom minor comment streamlin adjust format descript match pdbqt ;0
+1014;wrong import test pdbqt ;0
+1015;sparat tpr test test topolog test tprparser ;0
+1016;select writer vmd pymol charmm gromac work use get writer encapsul choos appropri writer base filenam default format implement similarli singl frame writer correspond chang atomgroup class write comment commentfmt none write preambl comment use select writer leafletfind instead simpl vmd writer ;0
+1017;reach coverag dcd ;0
+1018;small exampl readm ;0
+1019;new leafletfind exampl membran composit meman composit clean leaflet exampl use class modul ;0
+1020;adjust camelcas fixer account centerofmass miss crude test convers well ;0
+1021;updat gro ;0
+1022;atomgroup atom proper attribut deprec atom access correspond code mdanalysi ;0
+1023;comment exampl potenti profil ;0
+1024;enabl new style reader writer test ;0
+1025;xtc trr file write offset disk ;0
+1026;releas tar ball chang version signifi alpha statu later use patch version manifest includ doc file necessari header file automat pick distutil appar bug get librari sourc current broken get sourc file method build clib also need pick pyrex file doc revamp doc littl bit note python setup instal prefix mydir work properli still tri instal someth site wide dir link googlecod templat acknowledg test sdist manag compil bot mac linux cento modern numpi updat changelog correspond code mdanalysi ;0
+1027;port contact matrix pbc cython ;0
+1028;test warn rais atomgroup segid ;0
+1029;docstr four analysi modul locat mdanalysi analysi modifi reason consist restructuredtext format produc readabl html page doc html built sphinx sourc doc sphinx file doc index html remov old build mdanalysi websit docstr chang distanc pyx necessari object import modul analysi distanc ;0
+1030;forc recompil cython file ;0
+1031;makefil doc sphinx modifi put output doc html folder simpli use command make html newli includ sphinx rst document sourc includ built html modul mdanalysi core ;0
+1032;port contact matrix pbc cython ;0
+1033;changelog white space fix note edit changelog gcode web interfac whitespac mess ;0
+1034;includ import gsd hoomd tri except pass block ;0
+1035;standard document updat phil fowler author reformat updat readm link wiki minor doc fix schedul releas author file includ distribut ;0
+1036;primitivepdbwrit write chainid letter segid ;0
+1037;write select trajectori writer class gain new high level write method take either timestep univers atomgroup atom contain argument written next frame trajectori atomgroup gain properti build timestep fli contain coordin atom group frame unitcel copi parent trajectori top level import coordin core writer factori function writer make clearer user provid writer class instanc updat trajectori api writer class ;0
+1038;basic xyz trajectori reader compress support see coordin xyz detail ;0
+1039;basic xyz trajectori reader compress support see coordin xyz detail ;0
+1040;check tell iter ;0
+1041;veloc write gro format ;0
+1042;remov deprec legaci code old code might break atomgroup atom remov atomgroup principleax issu dcd dcdreader dcd header dcd dcdwriter dcd header use dcd header univers dcd univers xtc univers trr univers trajectori support break legaci code remov follow packag top level mdanalysi name space atomgroup select import mdanalysi core realli need import mdanalysi core atomgroup distanc fit import mdanalysi analysi distanc import mdanalysi analysi align fit actual modul still live mdanalysi core might get move futur bundl transform mdanalysi import get timeseri univers asunivers writer collect remov copi flag distanc array self distanc array set fals would alway give wrong result good reason keep around also remov test case known failur ;0
+1043;lapack lib librari see issu http code googl com mdanalysi issu detail document fast math lib switch via setup cfg merg instal websit current version cover lapack alway linker line ;0
+1044;releas updat reformat changelog bump version includ chang sinc branch xyz reader fix unit test pass mac macport revis ;0
+1045;document fix small thing amber ncdf reader writer ;0
+1046;updat changelog danni parton fix ;0
+1047;fix typo docstr topolog guesser valid atom type ;0
+1048;doc fix remov bio pdbparser ;0
+1049;fix doc string coordin base ;0
+1050;doc fix dima refer ;0
+1051;regener doc helan rest fix ;0
+1052;fix doc persistencelength ;0
+1053;rest fix version atomgroup topolog helan ;0
+1054;rest fix mainli note format ;0
+1055;improv mass atomtyp detect white space fix throughout ;0
+1056;rest doc fix updat ;0
+1057;rest fix doc string ;0
+1058;rest doc fix ;0
+1059;document updat fix ;0
+1060;minor doc fix ;0
+1061;final docstr fix ;0
+1062;minor doc fix ;0
+1063;minor fix doc ;0
+1064;docstr fix ;0
+1065;fix document ;0
+1066;attempt format fix test libdcd ;0
+1067;merg branch develop issu ;0
+1068;merg branch issu pdb writer develop ;0
+1069;merg branch issu develop ;0
+1070;merg branch develop issu ;0
+1071;merg branch issu develop ;0
+1072;merg branch develop issu ;0
+1073;merg branch issu develop ;0
+1074;trajectori api addit delta skip timestep comput xdr trj hard code singl frame format read usual dcd header unit describ length time unit use possibl later automat convers deprec dcdreader dcd header part api realli support xdr also broken see issu ;0
+1075;trajectori api clarifi use writer write method respons issu code chang doc trajectori writer take timestep rgument write frame writer take atomgroup univers write ;0
+1076;relax test mdanalysi analysi align rmsd rmsd rmsd equal decim jandom report spuriou test failur issu ;0
+1077;test case address issu delet univers test case teardown reduc memori footprint need test ;0
+1078;merg branch issu github com mdanalysi mdanalysi issu ;0
+1079;doc fix see paul rigor email comment issu http code googl com mdanalysi issu detail ;0
+1080;mdanalysistestdata data test separ librari see issu detail ;0
+1081;doc small issu analysi align set svn properti doc ;0
+1082;updat changelog reflect resolut issu ;0
+1083;updat changelog reflect resolut issu ;0
+1084;bigbox gro replac compress version file involv test resolut issu ;0
+1085;mime type serv doc googlecod see issu ;0
+1086;testcas issu empti dcd segfault univers ;0
+1087;made unit test issu timestep copi function properli ;0
+1088;unit test associ data issu ;0
+1089;issu deprec warn univers ;0
+1090;updat changelog issu ;0
+1091;move test issu class improv discuss thread ;0
+1092;tag test issu known failur ;0
+1093;changelog head link issu ;0
+1094;changelog adjust reflect resolutin issu ;0
+1095;forgot includ test case issu packag ;0
+1096;test issu ;0
+1097;test issu ;0
+1098;test issu ;0
+1099;test issu ;0
+1100;test issu ;0
+1101;use attribut issu mark test relat record problem run separ ;0
+1102;updat link issu attach move github still seem depend googl way though ;0
+1103;test amber trajectori issu ;0
+1104;atomgroup instant selector rais attributeerror issu ;0
+1105;data file test case issu ;0
+1106;test issu ;0
+1107;test issu ;0
+1108;initi test case issu ;0
+1109;test issu ;0
+1110;tidi changelog issu ;0
+1111;unit test issu ;0
+1112;updat unittest pertain issu ;0
+1113;unit test new issu ;0
+1114;work issu ;0
+1115;wip issu ;0
+1116;issu get name atom warn success call ;0
+1117;work issu ;0
+1118;wip issu ;0
+1119;refer arc file test txyz ;0
+1120;chang legal coordin valu gro pdb limit chang actual check min max see issu comment test min test max test reli somehow sharpli discrimin gro pass pdb pass sure made test littl bit weaker pdb gro practic probabl matter ;0
+1121;improv perform gro file read ;0
+1122;upgrad setup ;0
+1123;upgrad setup ;0
+1124;contact analysi move exampl cookbook remov accident includ coordinateneighborsearch singl test class test contact remov test contact best ;0
+1125;comment non default valu ;0
+1126;enh restor dcd relat import check mdanalysi coordin init upstream python fix ;0
+1127;updat guesser ;0
+1128;test case write gro file optim fix issu test write gro limit sharpen test pdb limit note unit conceiv could includ boundari legal valu still round need adjust test legal coordin check gro move file even open get rid remov open file gro writer use open instead tri final close ;0
+1129;revert issu gener bond list use pdb instead psf ;0
+1130;merg pull request mdanalysi fix setup ;0
+1131;replac old issu link new github issu link except attach link file mda project ;0
+1132;merg pull request mdanalysi fix assert statement ;0
+1133;merg pull request mdanalysi fix lammp ;0
+1134;merg pull request mdanalysi travi fix ;0
+1135;merg pull request mdanalysi gro fix truncat ;0
+1136;merg pull request mdanalysi fix align errormessag ;0
+1137;merg pull request mdanalysi fix trz endian ;0
+1138;merg pull request mdanalysi fix cython build ;0
+1139;merg pull request mdanalysi fix rmsd mobilegroup ;0
+1140;revert issu gener bond list use pdb instead psf ;0
+1141;new select write snapshot pdb file experiment simpl pdb writer requir bio pdb rewrit pdbwriter core util helper function like filenam mangl small step toward unifi trajectori api univers trajectori point reader object coord init advertis reader writer dict ;0
+1142;disabl bio pdb warn pdbreader ;0
+1143;extend format pdb reader test case ;0
+1144;test made coordin test work consist also crd chang precis match file format pdb crd otherwis test pass consist new crd file match small pdb use tester class ;0
+1145;univers read structur pdb file pdb modul reader attempt fake dcdreader pdb use biopython pdb manag attribut univers class ;0
+1146;extend format pdb reader ;0
+1147;use primitivepdbread default pdb reader bio pdb reader drop atom name residu happen system gener simul primitivepdbread cope fine tho case handl esoter pdb featur altern atom insert code need handl simul data default behaviour mdanalysi set flag mdanalysi core flag permiss pdb reader default true one alway manual select pdb reader provid permiss keyword univers univers permiss fals read input file bio pdb reader might use process true protein databank pdb file ;0
+1148;test import test test file individu ;0
+1149;remov last test gener core test atomgroup ;0
+1150;densiti friendli error messag griddataformat instal ;0
+1151;crd reader writer standard extend format ;0
+1152;releas number chang setup remov numpi requir need anyway even setup thu check earlier easi instal sometim tri download version numpi even though requir version exist system huge annoy prevent remov requir rais error import numpi fail order make debug easier ;0
+1153;tprparser work gromac gromac updat read tpxheader functino sinc tpx header format chang updat variabl tpr set updat docstr tprparser ;0
+1154;crd reader crd psf parser still miss lead unit test error ;0
+1155;use pbc flag core flag toggl pbc flag atomgroup method ;0
+1156;setup write author packag ;0
+1157;chang timeseri refer individu timeseri correspond code mdanalysi ;0
+1158;forgot actual pars token select correspond code mdanalysi ;0
+1159;document atomselect function also point select select atom around point optim around point properti select correspond code mdanalysi ;0
+1160;updat trr doc improv error check ;0
+1161;changelog updat polish ;0
+1162;mdanalysi bug dcd slice correspond code mdanalysi ;0
+1163;bug dcd correl function run bit machin correspond code mdanalysi ;0
+1164;test hole chang form error warn hole binaray ;0
+1165;allow empti atomgroup remov check length one intermedi select select anyth use select ;0
+1166;chang coordin writer use ltruncat int ;0
+1167;hydrogen bond analysi chang atom list ;0
+1168;pass preform array distanc function useful repeat call set atom group correspond code mdanalysi ;0
+1169;crd parser quick dirti topolog build charmm card coordin file ;0
+1170;updat error string analysi psa ;0
+1171;chang ioerror error code window compat see issu ;0
+1172;parallel distanc array ;0
+1173;primit pdb writer work structur read pdb simpli replac pdb coordin time step coordin someth complic segment residu list mdanalysi perhap save read psf filenam attribut dcdreader pdbreader make easier write unifi code import method attribut alreadi ident name ;0
+1174;test select test updat properli close trajectori object caus unit test fail system due open file descriptor limit ;0
+1175;test case argument ignor correct origin test survivalprob first point autocorrel chang univers test timeseri mean noth chang test naiv could improv use actual verifi valu ;0
+1176;atomgroup bug getitem residuegroup correspond code mdanalysi ;0
+1177;chang old style divis dist mat vec ensur integ output ;0
+1178;small psf pars bug entri particular potenti term correspond code mdanalysi ;0
+1179;hole analysi better error check streamlin code ;0
+1180;atom timeseri pass list atom correspond code mdanalysi ;0
+1181;psa psanalysi less namespac confus import psa test analysi ;0
+1182;testcas testtprv test topolog ;0
+1183;refer tinker file format tabl topolog init coordin init ;0
+1184;omit due coverag report ;0
+1185;minor chang test distanc ;0
+1186;framework organ flag setup core flag instanc init import necessari valu chang interact includ error check valu ;0
+1187;analysi hbond slice work xyz file need comment ;0
+1188;move function tprparser tpr util make pars work flow obviou ;0
+1189;distanc array bug need copi get contigi array around select period fals use minimum imag convent look neighbour default true get behaviour previou version mdanalysi note sure around select work properli work need test ;0
+1190;addit test coordin reader gro test coordin distanc fail moment gro reader convert unit fix test pdb file use gro parser xtc trr test instead pdb bit faster nativ ;0
+1191;make atomgroup coordin return array type numpi float default distanc array need float interfac also coordin store make sens enforc crucial entri point leafletfind would rais error build adjac matrix array return coordin float ;0
+1192;instal pytest rais setup test keep depend mdanalysistest setup ;0
+1193;pytest rais avail conda ;0
+1194;enabl parallel pytest ;0
+1195;pytest rais ;0
+1196;document gromac trr xtc format libxdrfil new rest doc also fix document writer still dcd one sanit argument process xdrfile core trjreader writer dcd argument use xtc trr ;0
+1197;merg pull request mdanalysi fix dcd witer ;0
+1198;merg pull request mdanalysi fix align step ;0
+1199;push test loop pytest parametr ;0
+1200;use pytest importorskip ;0
+1201;merg pull request kain fix test bug ;0
+1202;releas bump releas fix document made head start text modul name document topolog modul bump develop releas devel ;0
+1203;numpi style doc string ;0
+1204;doc sphinx sourc logo licens delet avoid lintian warn doc sphinx sourc logo author alreadi fix includ link licens text ;0
+1205;port util pytest ;0
+1206;remov pytest xdist ;0
+1207;finish pytest transit ;0
+1208;switch pytest fixtur ;0
+1209;merg pull request mdanalysi fix coverag ;0
+1210;updat docstr numpi style analysi psa ;0
+1211;joe goos author document fix issu changelog pick releas branch ;0
+1212;merg branch fix tpr develop ;0
+1213;atomgroup coordin return view array copi fals copi true hack suppos help old distanc array bug fix independ think need copi true perhap one proceed caution test argument left method ;0
+1214;updat inpcrdread singleframeread style ;0
+1215;joe goos author document fix issu changelog ;0
+1216;merg branch develop fix trz endian ;0
+1217;changelog entri teneleven centerofmass camelcas fix ;0
+1218;changelog entri fix issu ;0
+1219;add comment fix waterorientationrelax class ;0
+1220;merg pull request kain basetest fix ;0
+1221;use pytest style test dcd ;0
+1222;rebuilt onlin doc fix point select ;0
+1223;updat test libdcd pytest style guid ;0
+1224;pytest fixtur ;0
+1225;revert fix cython band aid solut ;0
+1226;fix doc warn mdanalysi packag ;0
+1227;test log fix warn ;0
+1228;version chang date changelog fix document regener ;0
+1229;doc fix lammp dcdwriter ;0
+1230;fix hole download ;0
+1231;doc fix gener link select doc ;0
+1232;fix futurewarn comparison none result elementwis object comparison futur ;0
+1233;doc fix broken link charmm doc ;0
+1234;fix doc ;0
+1235;fix typo entiti unwrap segment realli return segment ;0
+1236;pytest style coordin test dlpoli ;0
+1237;fix path onlin doc doc readm ;0
+1238;review need pytest style core test residuegroup ;0
+1239;pytest style coordin test trz ;0
+1240;pytest style core test atomgroup ;0
+1241;pytest style coordin test null ;0
+1242;pytest style topolog test tprparser ;0
+1243;fix doc new atom method ;0
+1244;pytest style topolog test pdb ;0
+1245;readm fix link text footnot ;0
+1246;fix treatment label argument clean ;0
+1247;fix remain sphinx warn doc touchup ;0
+1248;fix document recent chang ;0
+1249;shebang line fix ;0
+1250;fix changelog ;0
+1251;fix changelog chronolog ;0
+1252;fix typo ;0
+1253;minor doc fix xtc ;0
+1254;fix typo tprparser fer err fver err ;0
+1255;fix typo ;0
+1256;fix doc ;0
+1257;fix changelog ;0
+1258;testsuit prepar setup pypi ;0
+1259;clean setup littl bit ;0
+1260;gener clean setup ;0
+1261;updat setup ;0
+1262;final chang give pull request core util adjust work glycam residu name analysi hbond revert default acceptor donor origin ;0
+1263;rotatebi method atomgroup use atomgroup instead array use transform comput transform matrix allow use atomgroup specifi axi point absolut cartesian coordin allow atomgroup tupl translat fix rotat sure properli updat ;0
+1264;renam bilay analysi script adher common scheme membran xxx ;0
+1265;fix chang author sseyler changelog updat run pair analysi doc dist matrix ;0
+1266;remov spuriou header write fix issu write method dcdfile singl frame namd dcd trajectori write exactli reproduc coordin input file ;0
+1267;fix typo name function dcd class correspond code mdanalysi ;0
+1268;remov depend conda pin ;0
+1269;tst first draft trajectori reader asv benchmark test ;0
+1270;updat test nuclinfo reflect segid select option ;0
+1271;add changelog ;0
+1272;merg pull request khuston hoomdxmlpars ;0
+1273;renam error variabl ;0
+1274;use python check empti atomgroup ;0
+1275;final updat make whole follow review ;0
+1276;doc updat timestep ;0
+1277;finalis version ;0
+1278;merg branch develop github com mdanalysi mdanalysi develop ;0
+1279;time offset timestep api ;0
+1280;merg pull request cyanezstang patch ;0
+1281;rebuilt doc ;0
+1282;merg pull request mdanalysi featur utilmov ;0
+1283;extra test coordin timestep constructor ;0
+1284;merg pull request mdanalysi featur readercleanup ;0
+1285;move core util lib util ;0
+1286;bump version dev ;0
+1287;move core log lib log ;0
+1288;final chang follow review ;0
+1289;move except file ;0
+1290;updat sourc ;0
+1291;move core unit mdanalysi unit ;0
+1292;triclin dimens timestep ;0
+1293;make openmp detect work debian ;0
+1294;move core unit mdanalysi unit ;0
+1295;updat outdat topolog doc ;0
+1296;finalis chang ;1
+1297;test renam test select test atomselect ;0
+1298;rebuilt html doc sphinx ;0
+1299;updat coordin doc ;0
+1300;doc new refer page ;0
+1301;updat timestep api doc ;0
+1302;overhaul test subsystem ;0
+1303;mdanalysi select test partial address ;0
+1304;updat analysi init relat ;0
+1305;add new author ;0
+1306;merg pull request mdanalysi issu ;0
+1307;tag releas ;0
+1308;updat waterdynam ;0
+1309;merg pull request mdanalysi featur timesteptim ;0
+1310;updat waterdynam ;0
+1311;merg pull request cyanezstang develop ;0
+1312;merg pull request alejob patch ;0
+1313;updat ;0
+1314;wheel option setup cfg ;0
+1315;use time offset test ;0
+1316;doc new modul ;0
+1317;selectionwrit jmol ;0
+1318;merg branch develop github com mdanalysi mdanalysi develop ;0
+1319;merg branch develop ;0
+1320;merg branch develop github com mdanalysi mdanalysi develop ;0
+1321;tri new nosetest ;0
+1322;new lammp test file ;0
+1323;test lammp dcdwriter except dcdreader ;0
+1324;remov refer travi ;0
+1325;function lib mdamath make whole ;0
+1326;test jmol select writer ;0
+1327;merg branch develop github com mdanalysi mdanalysi develop ;0
+1328;merg pull request mdanalysi featur testoverhaul ;0
+1329;doc new jmol select writer ;0
+1330;code chang move core distanc lib distanc ;0
+1331;merg pull request mdanalysi featur make whole ;0
+1332;merg branch develop issu ;0
+1333;merg pull request mdanalysi featur distancesmov ;0
+1334;doc chang core distanc move ;0
+1335;rebuilt html doc sphinx ;0
+1336;new memleak test travi test ;0
+1337;doc purg last remnant googl code link ;0
+1338;updat changelog chang setup ;0
+1339;merg pull request mdanalysi issu ;0
+1340;merg pull request kain openmp detect ;0
+1341;merg branch featur newtestrun develop ;0
+1342;merg pull request mdanalysi featur testselectionwrit ;0
+1343;coverag work new test system ;0
+1344;merg pull request mdanalysi featur buildmatrix ;0
+1345;mark test knownfailur ;0
+1346;updat reader api ;0
+1347;merg pull request mdanalysi issu ;0
+1348;updat doc lammp trajectori reader unit ;0
+1349;updat distanc calcul doc ;0
+1350;move mathemat function lib util lib mdamath ;0
+1351;hoomdxmlpars basic test ;0
+1352;compress xml test data amend doc ;0
+1353;rel import minor ;0
+1354;check travi nose version ;0
+1355;updat travi use contain base system ;0
+1356;address comment ;1
+1357;add kdtree remov changelog ;0
+1358;merg pull request mdanalysi featur triclin dimens ;0
+1359;merg pull request mdanalysi issu ;0
+1360;residu residu merg default ;0
+1361;merg pull request mdanalysi missedcamelcas ;0
+1362;test align principalaxi ;0
+1363;merg pull request richardjgow master ;0
+1364;initi effort place warn comment frame line still need work deal parenthes prefix etc ;0
+1365;chang string uppercas string ascii uppercas compat ;0
+1366;merg pull request mdanalysi fix ;0
+1367;merg branch teneleven master develop ;0
+1368;updat frame fixer test code ;0
+1369;merg pull request mdanalysi featur merg teneleven ;0
+1370;merg pull request dotsdl issu ;0
+1371;merg merg bond topolog ;0
+1372;merg pull request dotsdl doc scan ;0
+1373;univers work stringio object ;0
+1374;note changelog surviv api chang ;0
+1375;exclud migrat coverag ;0
+1376;merg pull request mdanalysi exclud migrat ;0
+1377;finalis changelog ;0
+1378;updat version number ;0
+1379;rebuilt doc releas ;0
+1380;speed xyz reader ;0
+1381;merg pull request mdanalysi issu ;0
+1382;updat sphinx document kdtree remov ;0
+1383;tidi import lib util ;0
+1384;test ;0
+1385;fixer correspond test code convers numfram frame mda releas ;0
+1386;updat changelog ;0
+1387;compress filenam check get reader ;0
+1388;pqrparser read icod ;0
+1389;wateranalysi format accord pep ;0
+1390;merg pull request mdanalysi issu ;0
+1391;new fixer torsion dihedr class name chang along set simpl test ;0
+1392;new fixer associ test code mda calc torsion calc dihedr convers ;0
+1393;replac seealso numpi section ;0
+1394;speed pqr ;0
+1395;merg pull request mdanalysi doc warn ;0
+1396;updat changelog ;0
+1397;updat mathjax cdn ;0
+1398;updat travi file ;0
+1399;merg pull request mdanalysi tidyup ;0
+1400;deprec warn use old singular setter atomgroup ;0
+1401;turn doc warn error ;0
+1402;speed pdbqt ;0
+1403;speed pdb read ;0
+1404;remov incorrect test ;0
+1405;merg pull request mdanalysi lint absolut import ;0
+1406;merg tag releas develop ;0
+1407;creat tag releas ;0
+1408;compil dcdmodul ;0
+1409;remov window end line ;0
+1410;switch sphinx theme alabast mdanalysi style ;0
+1411;dcd unit test improv ;0
+1412;enh proper dcdfile remark header string handl unit test pass python ;0
+1413;dcdfile variabl test implement detail prefix underscor respons comment ;0
+1414;replac standard librari assert numpi assert libdcd test suit base review feedback ;0
+1415;dcdfile allow overwrit base feedback ;0
+1416;current frame variabl updat write method dcdfile ;0
+1417;creat tag releas ;0
+1418;version updat dev doc regener accordingli ;0
+1419;dcd regress test data old dcdreader ;0
+1420;dcd unit cell data handl test ;0
+1421;test header remark adjust perform direct string comparison request comment ;0
+1422;releas code chang rel doc ;0
+1423;dcdwritetestrandom pin random seed test robust ;0
+1424;releas candid updat changelog ;0
+1425;refactor libdcd test ;0
+1426;new properti base unit test test written remark properti reveal dcdfile abl handl write empti remark string provid ;0
+1427;add write dtype handl ;0
+1428;enh compat block import ;0
+1429;avoid isinst someth int ;0
+1430;except handl dcd ;0
+1431;numpyfi docstr ;0
+1432;merg branch develop http code googl com mdanalysi develop ;0
+1433;abil read xyz file without topolog file ;0
+1434;remov duplic import ;0
+1435;merg pull request mdanalysi lint divis ;0
+1436;start ;0
+1437;simpl testcas gmsreader data file ;0
+1438;remov undocu mdanalysi builder modul ;0
+1439;updat gitignor ;0
+1440;remov refer mdanalysi builder setup ;0
+1441;xyz file remov data test topolog reader gamess file ;0
+1442;use absolut import ;0
+1443;alway use divis ;0
+1444;merg branch featur gamess reader develop ;0
+1445;version chang doc regener ;0
+1446;ncdfreader support mmap kwarg test ;0
+1447;new cython base dcd file handl code ;0
+1448;implement frame read ;0
+1449;tst first draft test modul new cython base dcd file handl interfac ;0
+1450;initi work dcd write ;0
+1451;merg pull request kain sklearn kdtree ;0
+1452;add document neighborsearch ;0
+1453;regener onlin doc sphinx ;0
+1454;updat doc file analysi distanc ;0
+1455;use symmetri contact matrix calcul ;0
+1456;remov progressbar spars contact matrix ;0
+1457;diagon element contact matrix alway true ;0
+1458;refactor contact matrix test ;0
+1459;merg pull request mdanalysi issu select writer doc ;0
+1460;add test gener pbc condit contact matrix ;0
+1461;add author changelog inform ;0
+1462;updat docstr contact matrix ;0
+1463;updat changelog ;0
+1464;merg pull request kain cython contact map ;0
+1465;add comment ;0
+1466;merg pull request kain dcd new remov ;0
+1467;replac new type ;0
+1468;chang python requir setup ;0
+1469;move version mdanalysi version ;0
+1470;primit test lib log start log stop log ;0
+1471;merg branch develop github com mdanalysi mdanalysi develop ;0
+1472;hole modul updat url oliv smart new site http www smartsci hole ;0
+1473;switch atom residu segment frame ;0
+1474;correspond chang sourc ;0
+1475;merg pull request mdanalysi featur atomgroup properti ;0
+1476;merg pull request mdanalysi new sphinx style ;0
+1477;add neighborsearch lib init ;0
+1478;use timestep api reader speed boost ;0
+1479;updat trajectori api histori ;0
+1480;doc fixup ;0
+1481;updat pca tutori ;0
+1482;fixup last ;1
+1483;import stub core parallel ;0
+1484;move core qcprot lib qcprot ;0
+1485;remov import align doc ;0
+1486;rebuilt doc sphinx ;0
+1487;mdanalysi analysi distanc contact matrix docstr updat reflect data type input detail oper progress meter ;0
+1488;updat nose requir setup ;0
+1489;add spars pbc test contact matrix ;0
+1490;everyth expect nose ;0
+1491;merg pull request mdanalysi parallel test ;0
+1492;test ;0
+1493;merg pull request mdanalysi reader speed boost ;0
+1494;doc updat atomgroup ;0
+1495;updat test new properti ;0
+1496;add test contac matrix pbc ;0
+1497;chang url doc new http doc mdanalysi org ;0
+1498;use correct axi contact matrix pbc ;0
+1499;improv select export doc ;0
+1500;merg pull request mdanalysi issu ;0
+1501;doc fixup ;0
+1502;doc updat renam calc torsion ;0
+1503;new fixer mdanalysi modul displac pass new test though presum toler import mdanalysi mda etc ;0
+1504;numpi doc visual modul ;0
+1505;add atomneighborsearch class ;0
+1506;use new atomneighborsearch hbond analysi ;0
+1507;use new atomneighborsearch pdbqt test ;0
+1508;switch biopython kdtree atomneighborsearch ;0
+1509;use bio kdtree select ;0
+1510;test testtimestepinterfac known failur decor ;0
+1511;merg pull request khuston testtimeunit ;0
+1512;remov fail cron build job ;0
+1513;merg pull request mdanalysi issu ;0
+1514;chang oauth token doc deploy travi ;0
+1515;merg pull request mdanalysi featur camelcaseapocalyps ;0
+1516;use consist format ;0
+1517;add mdanalysi kdtree ;0
+1518;merg pull request mdanalysi minor fix ;0
+1519;add doc string atomneighborsearch ;0
+1520;regener html doc devel ;0
+1521;merg pull request mdanalysi issu ;0
+1522;merg pull request quantumentangledandi issu ;0
+1523;new fixer deal atomgroup count method chang camelcas new properti name correspond test code line ;0
+1524;new fixer convert atomgroup method properti updat test file contain suitabl test case ;0
+1525;crude fixer selectatom chang mda correspond simpl test file ;0
+1526;updat changelog entri ;0
+1527;remov duplic file ;0
+1528;made deprecationwarn alway loud ;0
+1529;updat test follow selectatom deprec ;0
+1530;updat changelog ;0
+1531;updat changelog ;0
+1532;merg pull request mdanalysi featur louddeprec ;0
+1533;use scikit learn kdtree around select ;0
+1534;use sphinx readabl css alabast ;0
+1535;enabl cron job ;0
+1536;merg branch develop ;0
+1537;remov kdtree modul ;0
+1538;default list hydrogen bond acceptor ;0
+1539;merg pull request mdanalysi featur global keyword ;0
+1540;maintain script updat ;0
+1541;regener distanc parallel ;0
+1542;regener html doc sphinx big api chang ;0
+1543;doc hoomd xml topolog parser ;0
+1544;maintain deploy script ;0
+1545;updat changelog ;0
+1546;touch singleframeread test ;0
+1547;renam append regist make sens ;0
+1548;doc rebuilt releas ;0
+1549;add test pbx pbx ;0
+1550;make tpr parser read bond interact ;0
+1551;add test gromac bond interact ;0
+1552;updat author list chang log ;0
+1553;bump version releas ;0
+1554;merg pull request jbarnoud updat tpr ;0
+1555;updat doc pbx pbx support ;0
+1556;merg pull request mdanalysi issu ;0
+1557;merg pull request mdanalysi issu ;0
+1558;start ;0
+1559;updat tpr parser pbx pbx ;0
+1560;merg pull request mdanalysi issu ;0
+1561;atomgroup sequenc work atom ;0
+1562;semant version changelog rule ;0
+1563;merg pull request mdanalysi issu ;0
+1564;correct progressmet display load correctli adjust code adher charact line width limit ;1
+1565;reader copi method ;0
+1566;merg pull request jbarnoud tpr interact ;0
+1567;core topolog topolog copi ;0
+1568;introduc basic setup cfg pars ;0
+1569;topologyattr copi ;0
+1570;use configpars setup ;0
+1571;handl extens function ;0
+1572;core topolog transtabl copi method ;0
+1573;helan minor doc chang numpyf ;0
+1574;version bump ;0
+1575;mdanalysi analysi rmsd new center keyword ;0
+1576;use system instal setup tool ;0
+1577;maintain instal quick instal ;0
+1578;merg remot track branch richardjgow tscopi develop ;0
+1579;merg pull request jbarnoud tpr doc ;0
+1580;updat changelog reflect ;0
+1581;merg pull request mdanalysi issu ;0
+1582;read record type ;0
+1583;test default record type ;0
+1584;merg pull request mdanalysi featur fancytrajindex ;0
+1585;basic test psa ;0
+1586;revert dcd dim adk transit datafil ;0
+1587;dcdwriter option set istart ;0
+1588;back dcd datafil ;0
+1589;seaborn extra requir setup tri except seaborn import psa plot method ;0
+1590;author name first contribut ;0
+1591;updat changelog psa test new adk dim dcd test file ;0
+1592;note psa psanalysi changelog ;0
+1593;instanc psa psanalysi ;0
+1594;made get psa pair properti ;0
+1595;updat document psa pair nearest neighbor hausdorff pair properti psanalysi ;0
+1596;psa pair nearest neighbor hausdorff pair properti whose correspond instanc variabl psa pair remov api ;0
+1597;import explicitli waterdynam sinc modul test file decreas precis decim ;0
+1598;note direct doc getter method analys must perform prior psanalysi ;0
+1599;refactor lib distanc check array add lib distanc check aray dtype ;0
+1600;refin comment discuss http github com mdanalysi mdanalysi pull ;0
+1601;merg pull request sseyler develop ;0
+1602;sseyler changelog ;0
+1603;merg branch develop featur fancytrajindex ;0
+1604;test lib mdamath make whole ;0
+1605;add test lib distanc transform stor ;0
+1606;merg pull request mdanalysi make whole fix ;0
+1607;improv indexerror messag ;0
+1608;merg pull request mdanalysi issu dimens copi ;0
+1609;extra test atom comparison ;0
+1610;remov cmp atom ;0
+1611;merg pull request mdanalysi issu add recordtyp ;0
+1612;remov cmp lammpspars ;0
+1613;test move univers scope ;0
+1614;encod recordtyp ;0
+1615;updat doc reflect ;0
+1616;add scipi extra requir agai ;0
+1617;test read fanci index ;0
+1618;move remain method contactanalysi contact ;0
+1619;doc string upgrad analysi contact ;0
+1620;improv distanc ;0
+1621;correct doc move thing around gener featur cleanup ;0
+1622;correct align function ;0
+1623;updat align tutori new rmsd behavior ;0
+1624;deprec old contactanalysi class check test pass ;0
+1625;creat tag releas ;0
+1626;add richard maintain give devel list support ;0
+1627;clean doc bzip conf file ;0
+1628;singl class support cutoff best hummer contact scipi spars caus importexcept updat test appear pass ;0
+1629;add changelog ;0
+1630;add test rmsd function ;0
+1631;trajectori api use close close trajectori ;0
+1632;creat branch releas ;0
+1633;test docstr cleanup numpi style doc renam method staticmethod annot test ;0
+1634;back contactanalysi ;0
+1635;upat changelog brought back old contactanalysi class ;0
+1636;remov self call load method make nice static ;0
+1637;bump version dev ;0
+1638;merg branch issu contact develop ;0
+1639;univers load new cleanli load univers sole pdb gro noth els load new return file format filenam none input file build psf univers load new rais typeerror reader format found ;0
+1640;miss function class doc ;0
+1641;merg pull request mdanalysi issu miss doc ;0
+1642;first draft contribut file ;0
+1643;alter xyzread class use format also unit test simpl compress xyz file file test data comment ;0
+1644;trajectori api option attribut compress defin streamlin guess format introduc get ext ;0
+1645;move github correct locat repo root ;0
+1646;merg pull request mdanalysi issu contributingrst ;0
+1647;refactor contact class ;0
+1648;minor doc improv ;0
+1649;reduc precis distanc test default decim also pass bit ;0
+1650;pep chang ;0
+1651;correct typo test ;0
+1652;prepar releas set releas date ;0
+1653;replac izip six move zip ;0
+1654;reduc prec testpbcflag ;0
+1655;updat summari txt ;0
+1656;use proper config wrapper class ;0
+1657;atomgroup bond renam keyword minimag pbc consist ;0
+1658;reorder setup paramet ;0
+1659;remov flake config ;0
+1660;merg pull request kain setup config ;0
+1661;use sensibl warn header written ;0
+1662;appli yapf pep set ;0
+1663;merg pull request kain test coordin ;0
+1664;applypbc coord box function core distanc move atom within primari unit cell defin box work triclin orthogon box ;0
+1665;get test run ;0
+1666;merg branch xdrclean develop merg finish convert code use libxdrfil ;0
+1667;use find packag setup ;0
+1668;adapt renam libxdrfil ;0
+1669;use tempdir instead tempfil ;0
+1670;add tempdir instal travi setup ;0
+1671;bump version ;0
+1672;rebuilt doc releas ;0
+1673;updat manifest releas ;0
+1674;trzreader upgrad ;0
+1675;libxdrfil licens modifi gpl minor clean ;0
+1676;xdr relat cleanup unit test larg file index bit ;0
+1677;creat tag releas ;0
+1678;creat tag releas ;0
+1679;revert chang contact remov depend panda updat test ;0
+1680;argument refactor numpi style doc ;0
+1681;refactor univers ident check group option scipi spars import ;0
+1682;add test file packag renam test class contact ;0
+1683;add nabarun pal list author ;0
+1684;dcd dim adk transit datafil ;0
+1685;updat manifest test ;0
+1686;mock call fork duecredit ;0
+1687;pass paramet fixtur ;0
+1688;add citat mdanalysi ;0
+1689;correctli calcul start time dcd ;0
+1690;add test ;0
+1691;add nativ namd psf dcd ;0
+1692;extens need fulli qualifi setup ;0
+1693;handl atom style kwarg lammp data parser reader ;0
+1694;merg pull request mdanalysi doc fix ;0
+1695;add cylay ccyzon docstr atomgroup select atom ;0
+1696;remov utf duecredit citat ;0
+1697;valid dimens self pbc addit discript docstr ;0
+1698;atom style kwarg lammp data file read ;0
+1699;updat tpr test tpx ;0
+1700;updat doc author changelog ;0
+1701;fix istart nsavc writer ;1
+1702;cython setup clean ;0
+1703;remov unnecessari section copi testcas ;0
+1704;dcd test use decim time test ;0
+1705;merg pull request mdanalysi ayushsuhan duecredit ;0
+1706;copi seek new reader copi current timestep ;0
+1707;remov redund test case ;0
+1708;pbc calc angl hbond analysi ;0
+1709;bench add rdf asv benchmark ;0
+1710;merg branch develop issu dcd istart ;0
+1711;updat changelog ;0
+1712;merg pull request mdanalysi issu dcd istart ;0
+1713;add gsd doc ;0
+1714;testcas dist pbc ;0
+1715;make diffusionmap distancematrix full use analysisbas ;0
+1716;analysi doc explain verbos ;0
+1717;improv doc analysi densiti ;0
+1718;remov versionchang ;0
+1719;comment explain calledprocesserror caught rais ;0
+1720;rmsd doc improv ;0
+1721;changelog entri zemanj list author ;0
+1722;updat changelog add name author list ;0
+1723;updat http url download hole ;0
+1724;whitespac remov ;0
+1725;remov unnecessari docstr ;0
+1726;reorder docstr element better consist ;0
+1727;align get match atom check test ;0
+1728;amber ncdf reader mmap none default ;0
+1729;test unwant side effect import mdanalysi ;0
+1730;test unwant side effect import mdanalysi ;0
+1731;changelog entri import side effect ;0
+1732;list author ;0
+1733;amber ncdf clean mmap use ;0
+1734;made atom style kwarg option ;0
+1735;doc updat ;0
+1736;merg pull request mdanalysi issu mmap ;0
+1737;comment explain test dot fork none ;0
+1738;isol import test offload separ python instanc ;0
+1739;isol import test offload separ python instanc ;0
+1740;isol import test offload separ python instanc ;0
+1741;appli chang suggest orbeckst richardjgow ;0
+1742;merg pull request mdanalysi issu lammpspars ;0
+1743;split test two separ one otherwis one could never fail ;0
+1744;split test two separ one otherwis one could never fail ;0
+1745;split test two separ one otherwis one could never fail ;0
+1746;move one test back test modul ;0
+1747;updat hole download link ;0
+1748;maint config doc updat latest asv version ;0
+1749;updat docstr atomgroup select atom ;0
+1750;test case duecredit ;0
+1751;cleanup remov unnecessari line ;0
+1752;chang groupbi function accept multipl attribut ;0
+1753;pbc dist ;0
+1754;new dim adk trajectori test data ;0
+1755;restructur amber doc webcit origin amber format page ;0
+1756;doc deploy run first job ;0
+1757;doc deploy travi build ext step ;0
+1758;doc updat path matplotlib object ;0
+1759;updat amber trj doc ;0
+1760;merg pull request mdanalysi featur xyzimprov ;0
+1761;merg branch develop featur xyzimprov ;0
+1762;add machineri recogn dummi atom assign mass ;0
+1763;merg pull request mdanalysi issu pdbresid ;0
+1764;merg pull request mdanalysi extra occup ;0
+1765;set occup ;0
+1766;add new function topolog guesser valid atom type ;0
+1767;merg pull request kain pdb read ;0
+1768;rais minimum scipi version ;0
+1769;add test ;0
+1770;doc deploy fetch shallow doc branch speed ;0
+1771;merg pull request mdanalysi issu ;0
+1772;refactor topolog guesser chang criteria warn rais ;0
+1773;readm chang googl group badg ;0
+1774;add binder button ;0
+1775;chang changelog ;0
+1776;merg pull request dotsdl issu ;0
+1777;enh direct hausdorff scipi speed hausdorff calc ;0
+1778;remov topolog coordin reader dict coordin ;0
+1779;merg pull request mdanalysi featur topologycoordin ;0
+1780;proper null termin remark string ;0
+1781;psa updat new metric hausdorff nearest neigh analysi plot addit function featur ;0
+1782;updat test dcd ;0
+1783;updat changelog ;0
+1784;updat changelog ;0
+1785;enhanc psa changelog ;0
+1786;use istart inform dcd set correct time ;0
+1787;merg pull request mdanalysi issu ;0
+1788;add chang changelog ;0
+1789;use numpi style doc string ;0
+1790;doc link readm ;0
+1791;test pqr file read ;0
+1792;bump tpx version ;0
+1793;add test tpr gromac ;0
+1794;updat changelog doc tpx ;0
+1795;merg pull request mdanalysi issu pqrfix ;0
+1796;updat doc atomgroup clarifi init method ;0
+1797;fixup updat doc atomgroup clarifi init method ;1
+1798;updeprec older group init ;0
+1799;remov old test ;0
+1800;univers copi ;0
+1801;finalis ;0
+1802;merg branch develop ;0
+1803;updat file releas ;0
+1804;bump version dev ;0
+1805;test case pbc dist ;0
+1806;merg pull request kain doc ;0
+1807;use numpi abrevi consist ;0
+1808;merg pull request kain numpi ;0
+1809;use link mdanalysi org ;0
+1810;use current branch build doc ;0
+1811;activ sphinx ext napoleon numpi style doc ;0
+1812;pbc dist ;0
+1813;add fail test read pdb trajectori ;0
+1814;default occup given pdb ;0
+1815;add doc ;0
+1816;automat develop doc deploy ;0
+1817;readm updat doc badg ;0
+1818;add occup inform atom atomgroup ;0
+1819;add test occup field ;0
+1820;frame seek xyzread ;0
+1821;updat shear test number pass mkl ;0
+1822;releas doc version set ;0
+1823;add changelog entri ;0
+1824;merg branch develop featur netcdf forc ;0
+1825;poli config parser ;0
+1826;lightweight serial atomgroup reutil built univers ;0
+1827;temporarili verbos travi ;0
+1828;new modul anal water dynam modul five new analysi method hydrogen bond lifetim hbl water orient relax wor angular distribut mean squar displac msd suriviv probabl ;0
+1829;start doc updat ;0
+1830;merg branch develop featur newtimestepconstructor ;0
+1831;base timestep ;0
+1832;version inform changelog updat ;0
+1833;bump version number ;0
+1834;merg branch featur netcdf forc develop ;0
+1835;version chang doc regener ;0
+1836;chang timestep constructor accept integ argument defin size timestep ;0
+1837;merg branch develop github com mdanalysi mdanalysi develop ;0
+1838;split timestep test file ;0
+1839;poli histori reader parser ;0
+1840;test thing ;0
+1841;frame seek histori reader ;0
+1842;partial resolv still test like still broken complex case ;0
+1843;molwrit add limit exampl document resolv incorpor suggest richardjgow ;0
+1844;merg branch featur autobond develop ;0
+1845;updat topolog doc ;0
+1846;merg pull request mdanalysi featur dlpolyread ;0
+1847;updat readm rst ;0
+1848;merg branch develop featur newtimestepconstructor ;0
+1849;merg branch develop featur autobond ;0
+1850;forc read amber netcdf reader ;0
+1851;merg branch featur watdyn develop ;0
+1852;solv merg conflict ;0
+1853;merg branch develop github com mdanalysi mdanalysi develop ;0
+1854;merg pull request alejob develop ;0
+1855;merg branch develop github com mdanalysi mdanalysi develop ;0
+1856;creat tag prereleas ;0
+1857;better doc fast lib spell check instal distribut ;0
+1858;doc select keyword ;0
+1859;merg pull request mdanalysi featur ambercrdread ;0
+1860;minor cosmet clean ;0
+1861;initi work defin hydrogen bond ;0
+1862;merg branch fix cyzon develop ;0
+1863;cylind select work atomgroup instanc honor pbc ;0
+1864;basic outlin calcul pair within given radiu determin bond ;0
+1865;merg branch develop github com mdanalysi mdanalysi develop ;0
+1866;merg pull request mdanalysi featur readercleanup ;0
+1867;let around select use period true avail ;0
+1868;clean coordin pdb ;0
+1869;clean doc defin specif convent flag doc string ;0
+1870;merg pull request mdanalysi featur singleframeread ;0
+1871;doc spelt routin use kdtree flag use kdtree routin fast ;0
+1872;doc period select ;0
+1873;psfparser appear modul top well backward compat ;0
+1874;correct doc flag ;0
+1875;use python set fall back deprec set ;0
+1876;atomgroup init check input object index turn list necessari one use set input atomgroup instanc manual construct select speed ;0
+1877;dummi biopython pdb load function need biopythn avail ;0
+1878;cleanup pdb writer code doc ;0
+1879;use modern mkl develop releas ;0
+1880;releas candid updat doc readm instal exampl short readm txt crank releas ;0
+1881;singleframeread ;0
+1882;doc updat write atomgroup ;0
+1883;updat changelog ;0
+1884;use easi instal instal setup easyinstal line setup packag directori renam packag name use debug setup bump develop releas number ;0
+1885;anoth amber coordin reader ;0
+1886;improv instal disabl easi instal move fast numer instal config file doc ;0
+1887;liz author updat date move instal top dir ;0
+1888;merg branch develop github com mdanalysi mdanalysi develop ;0
+1889;devel instruct websit link onlin doc recent ;0
+1890;cleanup author changelog file ;0
+1891;squash ;0
+1892;merg pull request kain shear test ;0
+1893;new atomgroup moveto method test ;0
+1894;merg branch develop featur issu ;0
+1895;regener html onlin doc ;0
+1896;chang kdtree move follow review ;0
+1897;merg branch develop github com mdanalysi mdanalysi develop ;0
+1898;minim test kdtree ;0
+1899;merg branch develop github com mdanalysi mdanalysi develop ;0
+1900;merg branch develop github com mdanalysi mdanalysi develop ;0
+1901;doc fun ;0
+1902;move mdanalysi kdtree mdanalysi lib kdtree ;0
+1903;whitespac format ;0
+1904;note netcdf instal project releas date ;0
+1905;merg pull request mdanalysi featur unifi iter ;0
+1906;clean reader class ;0
+1907;trajectori api partial implement reader getitem ;0
+1908;merg pull request mdanalysi featur issu ;0
+1909;remov python travi temporarili ;0
+1910;test core util ;0
+1911;move core transform lib transform ;0
+1912;merg pull request mdanalysi featur transformationsmov ;0
+1913;dlpoli test file mdanalysistest setup ;0
+1914;updat coordin modul doc ;0
+1915;merg pull request mdanalysi featur pickleatomgroup ;0
+1916;address comment pull request ;0
+1917;releas ;0
+1918;merg branch develop issu fin ;0
+1919;merg branch develop releas ;0
+1920;merg pull request mdanalysi issu fin ;0
+1921;test delet topolog univers ;0
+1922;merg pull request mdanalysi issu ;0
+1923;leak detect work even offend object delet teardown ;0
+1924;requir numpi streamlin test ;0
+1925;merg pull request mdanalysi featur hbond ;0
+1926;merg branch develop luka hole ;0
+1927;regener onlin doc ;0
+1928;code pep fie ;0
+1929;merg branch develop featur newtimestepconstructor ;0
+1930;doc squash ;0
+1931;tyler back entri changelog ;0
+1932;merg branch develop http github com mdanalysi mdanalysi develop ;0
+1933;version updat dev doc regener ;0
+1934;merg pull request mdanalysi featur wrap ;0
+1935;nojekyl file disabl jekyl ;0
+1936;hydrogenbondanalysi test improv ;0
+1937;updat top level readm ;0
+1938;version chang dev document regener accordingli ;0
+1939;hydrogenbondanalysi allow frame without donor acceptor ;0
+1940;waterdynam cosmet improv ;0
+1941;distanc contact matrix minor improv ;0
+1942;merg pull request mdanalysi featur issu ;0
+1943;merg branch develop featur trzboxfix ;0
+1944;readm badg googl group ;0
+1945;merg branch develop featur newtimestepconstructor ;0
+1946;merg pull request richardjgow featur newtimestepconstructor ;0
+1947;merg branch xdrclean develop merg finish convert code use libxdrfil ;0
+1948;duplic line select rst remov ;0
+1949;merg branch develop http code googl com mdanalysi develop ;0
+1950;merg branch develop featur trzboxfix ;0
+1951;merg remot track branch alfr tprparser pytprpars ;0
+1952;test trz ;0
+1953;merg branch develop featur trzboxfix ;0
+1954;merg pull request mdanalysi featur trzboxfix ;0
+1955;verbos travi debug ;0
+1956;bugfix progressmet ;1
+1957;merg pull request dotsdl issu ;0
+1958;merg pull request dotsdl bugfix progressmet ;0
+1959;mdanalysi lib modul ;0
+1960;bond analysi read donor acceptor psf ;0
+1961;updat unstabl releas use merg revis equival tag releas ;0
+1962;dynam author list work python ;0
+1963;merg pull request jbarnoud issu coverag ;0
+1964;add test gnm ;0
+1965;regener onlin doc sphinx ;0
+1966;merg pull request jbarnoud issu dynam author ;0
+1967;wrap dynam author list gener setup ;0
+1968;merg pull request fiona naughton develop ;0
+1969;merg pull request pedrishi issu ;0
+1970;branch test pre unstabl given svn version may complet broken ;0
+1971;merg pull request jbarnoud issu dynam author ;0
+1972;merg branch develop github com mdanalysi mdanalysi develop ;0
+1973;onlin doc regener ;0
+1974;remov rel import introduc ;0
+1975;start test nuclinfo ;0
+1976;merg pull request jbarnoud issu dynam author ;0
+1977;activ coverag report analys ;0
+1978;merg pull request jbarnoud issu coverag ;0
+1979;updat readm reflect ;0
+1980;merg branch develop page ;0
+1981;updat comment init reflect nose test doc skip ;0
+1982;merg pull request jdetl develop ;0
+1983;merg pull request mdanalysi featur openmpdist ;0
+1984;elimin biopython pdb reader writer parser ;0
+1985;merg pull request endl develop ;0
+1986;cleanup relat biopdb remov ;0
+1987;updat travi run coverag report job ;0
+1988;updat travi run coverag report job ;0
+1989;sseyler author updat changelog ;0
+1990;merg pull request sseyler psa ;0
+1991;remov list append mol coordin read ;0
+1992;gener sphinx doc psa ;0
+1993;mol writer longer requir substructur ;0
+1994;merg pull request sseyler develop ;0
+1995;remov analysi coverag report ;0
+1996;updat changelog author ;0
+1997;merg pull request endl develop ;0
+1998;creat branch releas ;0
+1999;add anaconda badg ;0
+2000;duplic line select rst remov ;0
+2001;merg pull request kain rmsd ;0
+2002;merg pull request mdanalysi featur booleanindex ;0
+2003;index group via boolean array ;0
+2004;merg pull request mdanalysi orbeckst patch ;0
+2005;move changelog new version ;0
+2006;ensur header titl occur pdb file ;0
+2007;merg pull request abhinavgupta develop ;0
+2008;metadata updat link download url github releas ;0
+2009;explict import ;0
+2010;merg pull request abhinavgupta issu import star ;0
+2011;readm rst footnot coverag ;0
+2012;updat releas script ;0
+2013;remov unus tpr util coverag scope ;0
+2014;updat test add new test ;0
+2015;updat chang releas improv regex origin chang dev dev ;0
+2016;merg pull request kain conda ;0
+2017;tag obsolet part lammpspars cover ;0
+2018;test except rais gropars ;0
+2019;finish finish transform test ;0
+2020;merg pull request mdanalysi featur transform test ;0
+2021;finish write test core transform ;0
+2022;test core transform ;0
+2023;merg pull request jdetl develop ;0
+2024;add miss lennard van der felzt author ;0
+2025;sphinx use author ;0
+2026;gener author author test ;0
+2027;test author defin ;0
+2028;merg pull request mdanalysi issu ;0
+2029;merg pull request mdanalysi gropars coveragefix ;0
+2030;deprec atomgroup friend getter setter ;0
+2031;merg pull request jdetl hbond ;0
+2032;updat changelog ;0
+2033;ent file extens pdbreader writer parser updat test check succes load pdb file ent extens updat changelog allow read ent file testsuit shorten ent testfil updat doc show ent extens support trajectori reader writer topolog parser chang name truncat ent test file reflect test purpos ;0
+2034;merg pull request jdetl issu ;0
+2035;updat doc skip ;0
+2036;merg pull request jbarnoud pdb regress ;0
+2037;remov tempdir requir ;0
+2038;travi test ;0
+2039;remov tempdir conda script ;0
+2040;merg pull request kain tempdir remov ;0
+2041;merg branch develop featur openmpdist ;0
+2042;real trajectori test ;0
+2043;real trajectori test ;0
+2044;tidi hbond analysi slightli ;0
+2045;merg pull request richardjgow hbond ;0
+2046;amber trj format ;0
+2047;merg pull request mdanalysi issu atomtsview ;0
+2048;first draft faster pdb read ;0
+2049;updat handl cryst entri preced model header ;0
+2050;start translat core transform doctest unit test ;0
+2051;fixup ;1
+2052;test standalon pdbreader ;0
+2053;test compress pdb file seek read ;0
+2054;merg pull request mdanalysi issu fasterpdb ;0
+2055;travi coveral ;0
+2056;merg pull request mdanalysi issu dlpfix ;0
+2057;finalis releas ;0
+2058;mdanalysi lib distanc openmp ;0
+2059;mdanalysi lib distanc openmp ;0
+2060;doc pep fixup core distanc ;0
+2061;merg releas master ;0
+2062;merg pull request bartbruinink issu unit unittest rais ;0
+2063;merg branch develop issu atomtsview ;0
+2064;psa modul updat sphinx rst compil ;0
+2065;remov use residu name segment ;0
+2066;remov use deprec method ;0
+2067;merg branch featur improvedpdb develop ;0
+2068;add rmsd test ;0
+2069;merg branch develop github com mdanalysi mdanalysi develop ;0
+2070;updat changelog ;0
+2071;structur superposit analysi align use incomplet match ;0
+2072;remov support code bio pdbreader cleanup ;0
+2073;merg pull request mdanalysi issu simpl rmsd broken ;0
+2074;updat changelog ;0
+2075;add tempdir modul ;0
+2076;updat test use mdanalysistest tempdir ;0
+2077;mdanalysi align submodul automat import anymor ;0
+2078;updat changelog licens ;0
+2079;replac string interpol format ;0
+2080;fixup ;1
+2081;remov dict comprehens ;0
+2082;merg pull request jdetl rmsd weight ;0
+2083;merg pull request mdanalysi issu grovel ;0
+2084;bump releas dev ;0
+2085;merg pull request mdanalysi warnonc ;0
+2086;merg pull request mdanalysi depremov ;0
+2087;readm chang travi coveral badg ;0
+2088;merg pull request richardjgow develop ;0
+2089;testtopologyobject reduc test precis decim ;0
+2090;merg branch develop issu atomtsview ;0
+2091;merg pull request kain includ tempdir ;0
+2092;merg remot track branch origin contact improv develop ;0
+2093;remov test relat permiss pdbreader ;0
+2094;zero base indic donor acceptor hbond analysi updat doc reflect chang deprec warn base index ;0
+2095;merg pull request mdanalysi issu remov biopdb ;0
+2096;version number set date changelog updat document regener ;0
+2097;correct gsd trajectori test particl ;0
+2098;remov doubl definit ;0
+2099;integr doc david caplan hbond analysi modul onlin doc bond analysi changelog david caplan author ;0
+2100;doc pdbqst format integr onlin doc ;0
+2101;regener onlin doc ;0
+2102;updat mdanalysi paper citat publish onlin http doi org jcc also helan citat made everyth look similar googlecod home page ;0
+2103;regener onlin doc ;0
+2104;onlin doc link select export start page made export tabl clearer ;0
+2105;new attribut timestep volum unit cell volum test case ;0
+2106;note use appl gcc possibl problem run exampl sourc dir thank justin lemkul tip ;0
+2107;regener onlin doc new doc select export ;0
+2108;integr expand document select export ;0
+2109;regener onlin doc includ helan ;0
+2110;helan helix analysi integr ben hall python implement ben code licens gpl http www ccrnp ncifcrf gov user kumarsan helan helan html refer bansal kumar velavan helan program characteris helix geometri protein biomol struct dyn requir univers start stop residu helix analyz write number output file fulli test numpifi remov support code vector handl trajectori done numpi mdanalysi doc ;0
+2111;new attribut univers trajectori frame time report frame number time current time step singl frame format return frame time test case ;0
+2112;replac use cartesiantoolkit numpi untest ;0
+2113;origin helan python code benjamin hall licenc free distribut yet integr code provid ben ;0
+2114;updat changelog recent chang ;0
+2115;david caplan hydrogen bond analysi add http github com davecap labwork raw master mdanalysi hbond current gpl cannot use init ;0
+2116;regener onlin doc bond analysi pdbqt format ;0
+2117;regener doc ;0
+2118;atomgroup dihedr use faster numpi function calcul dihedr test case dihedr phi psi omega select method ;0
+2119;keyword format specif ;0
+2120;bump releas devel ;0
+2121;forgotten changelog entri releas wiki note ;0
+2122;releas chang releas number changelog ;0
+2123;regener onlin doc sphinx chang align exampl ;0
+2124;remov core fit ;0
+2125;enabl mass weight fit fit trj ;0
+2126;setup remov use fast numer includ transform ;0
+2127;regener onlin doc sphinx ;0
+2128;new atomgroup method bond angl ;0
+2129;dihedr function ;0
+2130;old dihedr function ;0
+2131;dihedr orig ;0
+2132;gener onlin doc new layout sphinxdoc logo ;0
+2133;mdanalysi new logo rebrand doc ;0
+2134;comment benchmark sqrt dot numpi linalg norm first one faster ;0
+2135;alignto fit trj chang keyword select default backbon lead less confus especi mobil ref group alreadi appropri chosen ;0
+2136;regener doc tabl support coordin format ;0
+2137;regener onlin doc ;0
+2138;rest doc topolog modul includ hard code tabl ;0
+2139;guess atom type ion mostli gromo unit test ;0
+2140;sync changelog http code googl com mdanalysi edit releasenot ;0
+2141;densiti use primitivepdbread get pdb factor break easili ;0
+2142;new method bbox atomgroup calcul orthorhomb bound box ;0
+2143;updat deprec usag potenti profil exampl note exampl requir user edit ;0
+2144;regener onlin doc mdanalysi citat ;0
+2145;accept mdanalysi paper citat readm onlin doc init also updat exampl section overview also ask user cite theobald articl qcp rotat code ;0
+2146;copi qcp rotat exampl exampl directori ;0
+2147;pdb topolog parser use chain segment segid defin file ;0
+2148;bump version devel develop ;0
+2149;regener onlin doc ;0
+2150;updat unit doc ;0
+2151;densiti new densiti pdb function use bfactordensitycr make densiti crystal water check ifc ;0
+2152;regener onlin doc coordin ;0
+2153;regener onlin doc new topolog reader doc ;0
+2154;mani residu name amber opl recognis protein ;0
+2155;regener onlin doc ;0
+2156;angl return nan ;0
+2157;better doc log ;0
+2158;regener onlin doc trr xtc addit ;0
+2159;bump releas devel ;0
+2160;onlin document releas ;0
+2161;intern rewir guess atom type use guess atom element chang doc accordingli ;0
+2162;regener onlin doc updat trajectori api align ;0
+2163;minor align doc fit trj pretti fast ;0
+2164;regener onlin doc ;0
+2165;improv doc align ;0
+2166;regener onlin doc new analysi align doc ;0
+2167;align modul improv alignto subselect transform arbitrari atomgroup much exhaust document includ step step tutori ;0
+2168;minor doc improv ;0
+2169;regener onlin doc http mdanalysi googlecod com svn trunk doc html index html ;0
+2170;alignto doc updat ;0
+2171;regener onlin doc http mdanalysi googlecod com svn trunk doc html index html ;0
+2172;changelog updat coordin format format ;0
+2173;updat classifi keyword ;0
+2174;small improv densiti doc ;0
+2175;bump releas devel ;0
+2176;updat pypi summari mdanalysistest ;0
+2177;onlin doc releas ;0
+2178;updat metadata releas ;0
+2179;regener onlin doc ;0
+2180;writer modifi coordin place anymor ;0
+2181;writer modifi coordin place anymor ;0
+2182;gener doc parent atomgroup ;0
+2183;docstr way treat non protein group base gnm altern base gnm use closest atom contact ;0
+2184;merg branch setup merg develop ;0
+2185;version attribut mdanalysi init ;0
+2186;metadata ben hall gnm trajectori analysi ;0
+2187;merg branch master http code googl com mdanalysi ;0
+2188;author copyright note format citat uniformli ;0
+2189;minor updat author utf instal ;0
+2190;gnm trajectori analysi tool pleas cite hall jac http doi org jay benjamin hall ucl ;0
+2191;merg branch build ;0
+2192;doc improv gnm univers ;0
+2193;regener onlin html doc devel densiti ;0
+2194;regener onlin doc includ mdanalysi analysi gnm ;0
+2195;merg branch orbeckst hbond develop ;0
+2196;resphinx doc ;0
+2197;merg branch develop http code googl com mdanalysi develop ;0
+2198;new atomgroup moveto method test ;0
+2199;test run script ;0
+2200;hbond get bond hydrogen also take distanc donor atom account avoid choos hydrogen close index bond ;0
+2201;updat ben hall analysi packag ;0
+2202;regener html onlin doc ;0
+2203;merg branch master http code googl com mdanalysi ;0
+2204;improv doc atomgroup timestep ;0
+2205;merg branch master http code googl com mdanalysi ;0
+2206;updat coordin modul doc ;0
+2207;mdanalysistest egg info ;0
+2208;delaunay stuff delet ;0
+2209;maintain script ;0
+2210;atomgroup set name method residu also modifi residu ;0
+2211;unifi cach atomgroup ;0
+2212;hbond analysi test updat ;0
+2213;enhanc primitivepdbread primitivepdbwrit ;0
+2214;regener onlin doc mainli hbond updat ;0
+2215;regener onlin doc ;0
+2216;regener onlin doc ;0
+2217;pars residu util ;0
+2218;hbond use norm angl core util ;0
+2219;hbond analysi updat doc output format ;0
+2220;jandom forgotten author changelog ;0
+2221;streamlin atomgroup dihedr numpi ;0
+2222;regener onlin doc ;0
+2223;hbond analysi minor chang doc ;0
+2224;regener onlin doc improv intro link ;0
+2225;rest link fix intro ;1
+2226;regener onlin doc ;0
+2227;chain reader frame index ;0
+2228;full paper citat ;0
+2229;move echo progress meter core log ;0
+2230;replac progress meter class progressmet ;0
+2231;alignto preserv atom order input atomgroup ;0
+2232;updat pypi metadata summari ;0
+2233;modif made instal reflect debian support ;0
+2234;updat html doc contact analysi exampl ;0
+2235;contact analysi addit exampl clean doc ;0
+2236;regener onlin doc devel ;0
+2237;updat changelog chang far ;0
+2238;new distanc function experiment ;0
+2239;merg chang pypi submiss master ;0
+2240;new set method atomgroup experiment ;0
+2241;test depend dedic setuptool variabl ;0
+2242;start develop bump version devel ;0
+2243;onlin doc ;0
+2244;releas ;0
+2245;regener html doc new setter resnum ;0
+2246;new attribut resnum atom residu ;0
+2247;doc iter slice trajectori api ;0
+2248;doc tabl support coordin format link top page ;0
+2249;restuctur libdcd test order ;0
+2250;self distanc array doc clarifi input output requir differ distanc array ;0
+2251;note unittest run ;0
+2252;restifi doc stub flag convert gromac ;0
+2253;merg branch orbeckst ;0
+2254;updat instal easi instal mostli work ;0
+2255;remov empti python dir done releas ;0
+2256;revert pyrex loop syntax compat old pyrex ;0
+2257;merg branch rel ;0
+2258;provid setup cfg templat let user copi modifi better otherwis local modif mess svn ;0
+2259;new water dipol correl time seri calcul vector dipol moment rigid site water model sanit format correl sorri start use specif except instead gener one ;0
+2260;univers know filenam psf file built dcd pdb instanc also filenam attribut ;0
+2261;keyword ;0
+2262;streamlin ;0
+2263;ben authorship ;0
+2264;hous keep gener file svn ignor littl bit todo made sure get tar ball ;0
+2265;new attribut filenam initi dcdfilenam also previous pdbreader class common api pdbreader dcdreader easili write code transpar use either ;0
+2266;bump releas includ devel ;0
+2267;unittest new test distanc array self distanc array distanc array test includ known failur copi fals classifi xtc trr test slow updat doc test consider move filenam need unittest separ modul note test target valu obtain macbook run python version mdanalysi probabl check independ evid vmd measur ;0
+2268;bfactor properti atomgroup set structur load pdb file bfactor array attribut univers make sens attach time step defin singl frame handl manag attribut atomgroup chang bfactor resid ;0
+2269;libxdr function count number frame trajectori read xtc numfram read trr numfram brain damag thing iter frame particular trr one abl better mayb cach frame offset way implement random access loo seem someth like simpl test case ;0
+2270;univers init comment debug messag build topolog chang vanilla except either notimplementederror valueerror defin better custom except ;0
+2271;move selectionerror top level ;0
+2272;gropars groread follow ;0
+2273;rest doc top init canon licenc blurb header ;0
+2274;chang minimum requir python mdanalysi probabl still work test also new code use statement set etc ;0
+2275;rest doc top init canon licenc blurb header ;0
+2276;contact analysi work rest doc ;0
+2277;asunivers conveni method unifi input use analysi input either take univers singl filenam pdb tupl topolog trajectori return univers import top level subject chang also rest doc atomgroup ;0
+2278;addit requir thought alreadi must lost ;0
+2279;merg branch topic exampl ;0
+2280;provid assert case numpi test pass ;0
+2281;prune top level import especi fit probabl break script ;0
+2282;setup improv better wane numpi found need even run setup setuptool depend numpi moot nose test option ;0
+2283;updat libxdrfil author mess origin file ;0
+2284;updat changelog unit ;0
+2285;refer doc ;0
+2286;updat version order put tar ball googl code correspond code mdanalysi ;0
+2287;regener onlin doc pqr trj ;0
+2288;prototyp compil complain correspond code mdanalysi ;0
+2289;updat schlitter exampl automat remov translat rotat degre freedom correspond code mdanalysi ;0
+2290;fit refer set coordin compil intel mkl librari correspond code mdanalysi ;0
+2291;new schlitter calcul use determin correspond code mdanalysi ;0
+2292;delet correspond code mdanalysi ;0
+2293;cleanup sourc code directori remov modul longer necessari correspond code mdanalysi ;0
+2294;updat exampl use new dcd attribut correspond code mdanalysi ;0
+2295;deprec ugli dcd refer usag univers use dcd correspond code mdanalysi ;0
+2296;chang timeseri object pretti print correspond code mdanalysi ;0
+2297;ever return copi timestep use index notat dcd reader know thinkingsvn statu correspond code mdanalysi ;0
+2298;frame rang dcd correl correspond code mdanalysi ;0
+2299;anastasia chang load one dcd file split trajectori correspond code mdanalysi ;0
+2300;mdanalysi center geometri timeseri correspond code mdanalysi ;0
+2301;mdanalysi momentofinertia call correspond code mdanalysi ;0
+2302;exampl usag mdanalysi correspond code mdanalysi ;0
+2303;initi import ;0
+2304;final mdanalysi updat use numpi fun ;0
+2305;comment chang make compil mac without intel compil lib current version still compil intel numpi includ fit well otherwis fail correspond code mdanalysi ;0
+2306;updat naveen email address googl code url correspond code mdanalysi ;0
+2307;use numpi linalg old numer linearalgebra work anymor correspond code mdanalysi ;0
+2308;reformat move function class work need integr standard mdanalysi frame work correspond code mdanalysi ;0
+2309;certain circumst numfram yet defin repr throw except remov numfram represent ;0
+2310;lammpspars proper psf format correspond code mdanalysi ;0
+2311;lammpspars one version lammpspars may use mdanalysi correspond code mdanalysi ;0
+2312;doc chang ;0
+2313;updat lammpspars version correspond code mdanalysi ;0
+2314;stupid differ numpi nonzero version numpi later version return tupl correspond code mdanalysi ;0
+2315;fit compil veclib intel mkl without chang header correspond code mdanalysi ;0
+2316;subselect atomgroup also incorpor select correspond code mdanalysi ;0
+2317;hse hsd etc merg somehow got lost ;0
+2318;doc string fit code correspond code mdanalysi ;0
+2319;doc string python code correspond code mdanalysi ;0
+2320;use standard distutil instead numpi version otherwis build least python numpi correspond code mdanalysi ;0
+2321;document releas correspond code mdanalysi ;0
+2322;readi distribut correspond code mdanalysi ;0
+2323;psfparser allow ext format psf select updat allow nucleic acid xstal structur resnam code ;0
+2324;analysi contact dcd trajectori although break xtc moment refer structur suppli ;0
+2325;trajectori reader improv slice xtc trr reader simpl slice sequenti iter move function dcdreader base class trjreader explicitli requir method trjreader trajectori api mostli notimplementederror enabl revers iter dcdreader disabl xtc trr would requir seek everi singl frame begin unittest slice ;0
+2326;transform improv align principalaxi method atomgroup two helper transform transform xmatrix atomgroup also made atomgroup dihedr rais valueerror group member ;0
+2327;gener doc sphinx ;0
+2328;enabl inter sphinx link numpi scipi ;0
+2329;sphinx sourc updat includ document modul mdanalysi kdtree except ckdtree modul docstr ;0
+2330;sphinx rst sourc chang commit suppli built html everyth format fulli consist least grab doc syntax warn pop build except allow index file made ;0
+2331;dihedr analysi atomgroupmust use hard specif select get correct dihedr valu ;0
+2332;document enhanc configur chang overview finish page select goe beyond current onlin doc includ doc instant selector made analysi modul separ page otherwis analysi page becom long clutter renam top level file index make easier serv via apach configur file chang bump version releas put author one variabl also joe remov special sphinx modul kept autodoc intersphinx add other peicewis need also might help reduc weird sphinx error link intersphinx comment develop load object inv alway take remov path fiddl simpli use full import name doc work well keep mind obtain doc import modul work best develop instal python setup develop make html work fine ;0
+2333;select updat nucleicxst ;0
+2334;contact write figur suppl filenam doc ;0
+2335;contact analsysi doc matrix plot ;0
+2336;new contactanalysi class ;0
+2337;name ;0
+2338;start develop ;0
+2339;updat changelog denniej crd addit http code googl com mdanalysi wiki releasenot ;0
+2340;crd reader test case ;0
+2341;start log stop log function top level simpl setup default logger must manual activ script must setup logger see doc ;0
+2342;regener doc make html sphinx ;0
+2343;bump doc version info doc invis function dihedr ;0
+2344;unifi parser coordin reader entri point use two stage process clean messi load univers determin file type guess format function current simpli look file extens look known file format sub modul top level approri dictionari connect format appropri reader return appropri parser get parser reader get reader load add new format topolog topolog parser coordin trajectori reader pdbparser made first failur wrong extens gener realli get anymor use guess format get parser updat changelog ;0
+2345;regener doc show ;0
+2346;pqr amber trj doc ;0
+2347;amber top parser convert charg mdanalysi base unit ;0
+2348;changelog amber ;0
+2349;protein select ace nme amber termini ;0
+2350;testcas amber trj thank ranjit vijayan ;0
+2351;hie residu amber protein select updat doc ;0
+2352;doc qcprot also distanc ;0
+2353;regener doc new densiti analysi modul ;0
+2354;densiti modul gener volumetr data trajectori densiti class densiti function water protein densiti origin hop sitemap doc custom except warn top level improv doc unit central densiti class use griddataformat http github com orbeckst griddataformat requir analysi modul setup download pypi ;0
+2355;onlin doc changelog tyler ;0
+2356;updat changelog bump numpi version requir histogram code ;0
+2357;amber support ;0
+2358;new exampl monitor multimer state helic peptid jan domanski ;0
+2359;regener sphinx doc ;0
+2360;updat beautifi doc trajectori api intro core wenth dcd xyz ;0
+2361;releas candid ;0
+2362;transform remov print function need introduc backward incomapt ;0
+2363;leaflet new exampl center planar membran approxim thick new script membran paramet updat membran composit atom group avoid deprec warn better default select doc ;0
+2364;trajectori api use close close trajectori ;0
+2365;merg branch printr ;0
+2366;gro writer clean write output within tri final put output format string class level dict make thing easier chang write file safe manner alway close via final claus ;0
+2367;topolog pars file format identifi upper case ;0
+2368;trajectori api format uppercas format specifi chang upper case extens consist name singl frame writer api definit new get writer conveni function refactor check compress file format check compress format ;0
+2369;creat mdanalysi analysi distanc simpli import core distanc distanc use analysi function peopl would expect analysi distanc also use select keep core ;0
+2370;univers load new cleanli load univers sole pdb gro noth els load new return file format filenam none input file build psf univers load new rais typeerror reader format found ;0
+2371;bump version devel updat changelog releas ;0
+2372;forgot svn add testfil comment test init ;0
+2373;alter xyzread class use format also unit test simpl compress xyz file ;0
+2374;trajectori api option attribut compress defin streamlin guess format introduc get ext ;0
+2375;standard document updat phil fowler author reformat updat readm link wiki ;0
+2376;minor doc improv ;0
+2377;reduc precis distanc test default decim also pass bit ;0
+2378;author file ;0
+2379;manag attribut reader comput time frame round decim get nice tidi number unit convers introduc small spuriou numer contamin ;0
+2380;merg branch printr ;0
+2381;danni atomgroup enhanc changelog sort backport branch ;0
+2382;releas final adjust includ use canon growrit releas set remov origin growrit replac growriterstandard invis user growrit could use explicitli anyway olf growrit function write whole univers simpli obtain pass univers univers atom atomgroup write method cherri pick branch adjust ;0
+2383;special select phi psi omega dihedr residu class ;0
+2384;remov undocu hbond setup work local branch ;0
+2385;updat changelog hierarchi improv ;0
+2386;new segmentgroup residu segment attribut return correspond group improv uniform access hierarchi new warn selectionwarn doc explain univers segment residu atom hierarchi testcas atom hierarch attribut ;0
+2387;test case contact matrix updat changelog ;0
+2388;merg branch cmatrix ;0
+2389;new except nodataerror ;0
+2390;transform improv trajectori write changelog ;0
+2391;releas code chang rel doc updat doc ;0
+2392;transform modul transform transform copyright christoph gohlk publish revis bsd licenc gpc compat obtain http www lfd uci edu gohlk bit overkil might abl use function homogen coordin later model build see http wikipedia org wiki homogen coordin http wikipedia org wiki transform matrix introduct ;0
+2393;atomgroup translat rotat translat rotat method atomgroup bump version devel ;0
+2394;reader writer factori function coordin core reader return appropri reader instanc filenam coordin core writer filenam numatom get writer instanc kwarg pass actual writer class updat doc remov get writer gener import statement favour writer doc test seem pass ;0
+2395;tyler author ;0
+2396;gener html doc rest sourc via sphinx ;0
+2397;sphinx sourc doc ;0
+2398;hbond analysi better detect bond hydrogen ;0
+2399;merg remot track branch mdanalysi master ;0
+2400;merg mdanalysi develop ;0
+2401;trz file testsuit setup ;0
+2402;idea egg gitignor ;0
+2403;warn comment psfparser ;0
+2404;tpr file locat testsuit data subfold ;0
+2405;util convert code recogn non standard residu name hse gluh glh ;0
+2406;extens select command ;0
+2407;extens select command ;0
+2408;triclin minimum imag convent ;0
+2409;document ;0
+2410;doc string tidi ;0
+2411;unit test new cython distanc modul calc bond calc angl calc torsion ;0
+2412;cython analysi work ;0
+2413;calc angl calc torsion core distanc cython implement mass angl torsion calcul ;0
+2414;work topologydict topologygroup ;0
+2415;topologygroup creat ;0
+2416;topologydict creat ;0
+2417;data merg pdb setup ;0
+2418;known failur implement hand sinc nosetest use numpi one testcoordin modifi accordingli ;0
+2419;vdw radiu phosphoru ;0
+2420;modifi analysi rmsd docstr clarifi import element algorithm ;0
+2421;doc updat ;0
+2422;merg branch develop topologydict ;0
+2423;updat top ;0
+2424;version number chang ;0
+2425;merg branch develop http code googl com mdanalysi develop ;0
+2426;minor chang test ;0
+2427;libxdr interfac modifi avoid bit portabl issu ;0
+2428;document regener ;0
+2429;releas number chang ;0
+2430;anoth pbc distanc test triclin box ;0
+2431;hole test skip instead rais warn hole found ;0
+2432;test system triclin box distanc ;0
+2433;merg branch featur triclin develop ;0
+2434;correct made alejandro merg ;0
+2435;extens select command ;0
+2436;new featur merg atomgroup togeth give new univers ;0
+2437;applic rotamerconvolvemd paper citat ;0
+2438;merg dfbbff orbeckst hbond ;0
+2439;spelt rmcgibbo robert mcgibbon ;0
+2440;regener htnl doc sphinx xdna ;0
+2441;xdna rest doc minor doc adjust ;0
+2442;merg branch develop http code googl com mdanalysi develop ;0
+2443;updat select test select ;0
+2444;updat xdna plugin nucl acid analysi ;0
+2445;mdanalyi analysi align fit trj minor usabl improv ;0
+2446;nucleic select enhanc ;0
+2447;setup test suit mdanalysistest ;0
+2448;test add teardown multi pdb reader test case ;0
+2449;merg branch develop http code googl com mdanalysi develop ;0
+2450;updat setuptool ;0
+2451;bump releas dev sync changelog ;0
+2452;maintain chang releas deal either dev devel releas suffix ;0
+2453;unittest dihedr angl decreas precis ;0
+2454;merg branch develop http code googl com mdanalysi develop ;0
+2455;merg branch develop http code googl com mdanalysi develop ;0
+2456;analysi align fit trj forc keyword control trajectori clobber ;0
+2457;trajectori api improv rest doc ;0
+2458;merg branch develop http code googl com mdanalysi develop ;0
+2459;googlecod upload maintain tool work jan ;0
+2460;app rotamerconvolvemd renam packag downgrad version ;0
+2461;merg branch applic develop ;0
+2462;app url http code googl com mdanalysi wiki applic readm ;0
+2463;mdanalysi applic rotamerconvolvemd packag ;0
+2464;mdanalysi applic convolv mtss rotatm ;0
+2465;touch doc trz reader ;0
+2466;packintobox method atom group shift atom lie box length unit test test ;0
+2467;made chang base code review much data custom timestep appropri unit test finish document trz format ;0
+2468;document trz relat stuff ;0
+2469;merg branch develop http code googl com mdanalysi develop ;0
+2470;univers load multipl trajectori posit arg ;0
+2471;correct direction pseudo dihe baseflip nuclinfo ;0
+2472;updat nuclinfo ;0
+2473;author joshua adelman also appear contributor ;0
+2474;merg remot track branch richard triclin develop ;0
+2475;bond bond guess non break chang ;0
+2476;test case base atom number psf tpr top pdb ;0
+2477;mdanalysistestdata releas ;0
+2478;releas test data appli least mdanalysi ;0
+2479;updat sourc releas ;0
+2480;bump version releas ;0
+2481;merg pull request mdanalysi releas ;0
+2482;merg branch master releas ;0
+2483;add utkbans changelog ;0
+2484;break build packagewis ;0
+2485;use common setup script rather specif one ;0
+2486;remov explicit deprecationwarn atomgroup name ;0
+2487;atomgroup getitem depreact warn remov releas ;0
+2488;minor cleanup test ;0
+2489;minor clean ;0
+2490;updat copyright year ;0
+2491;use explicit deprec warn ;0
+2492;add getitem warn messag ;0
+2493;split test data file separ packag ;0
+2494;alex nesterenko comconadin changelog sphinx doc ;0
+2495;unittest topologydict function ;0
+2496;version chang dev document regener accordingli ;0
+2497;merg branch develop github com mdanalysi mdanalysi develop ;0
+2498;merg pull request mdanalysi featur wrap ;0
+2499;wrap method atomgroup ;0
+2500;tidi topolog relat thing ;0
+2501;chang url sphinx doc googl code github ;0
+2502;regener onlin doc new url ;0
+2503;googl code link cleanup ;0
+2504;replac old mdanalysi webpag url new post github webpag url mda packag file end ;0
+2505;move github updat top level inform ;0
+2506;remov applic ;0
+2507;merg branch master develop ;0
+2508;updat top level readm top level licens ;0
+2509;updat top level readm ;0
+2510;regener html doc sphinx ;0
+2511;topolog doc clean extens ;0
+2512;new mdanalysistest core util assert nowarn function ;0
+2513;remov top level import timeseri ;0
+2514;mention option full depend doc ;0
+2515;remov condit skip test scipi matplotlib miss ;0
+2516;clean trr properti control code ;0
+2517;merg branch develop http code googl com mdanalysi develop ;0
+2518;improv hbond doc ;0
+2519;applic rotamerconvolvemd write licenc start ;0
+2520;applic rotamerconvolv releas ;0
+2521;merg branch develop http code googl com mdanalysi develop ;0
+2522;provid assert allclos numpi numpi test util ;0
+2523;new author onlin doc ;0
+2524;version updat doc regener ;0
+2525;merg remot track branch richard develop develop ;0
+2526;duplic line select rst remov ;0
+2527;robust bond ident test ;0
+2528;correct document file ;0
+2529;testpsf bond test bond ident chang test ;0
+2530;merg branch develop http code googl com mdanalysi develop ;0
+2531;trr timestep constructor accept kwarg timestep constructor alreadi ;0
+2532;trr document updat ;0
+2533;start version ;0
+2534;merg pull request mdanalysi issu gro resid truncat ;0
+2535;scipi matplotlib import top analysi ;0
+2536;make scipi matplotlib full depend ;0
+2537;add deprec warn api chang ;0
+2538;explicitli defin hash group ;0
+2539;merg pull request mdanalysi issu group hash ;0
+2540;merg pull request mdanalysi issu int type ;0
+2541;deprec dcdreader correl ;0
+2542;merg pull request mdanalysi start ;0
+2543;lib util ltruncat integ ;0
+2544;work make index array use intp ;0
+2545;relax test symmetri test due lower precis bit ;0
+2546;use correct int type ;1
+2547;updat conda badg ;0
+2548;chang definit test ;0
+2549;merg changelog ;0
+2550;initi xdna plugin ;0
+2551;updat nuclic acid select nuclinfo ;0
+2552;doc hole parallel ;0
+2553;holetraj read orderparamet file sequenc ;0
+2554;hole save profil pickl ;0
+2555;merg branch develop http code googl com mdanalysi develop ;0
+2556;hole analysi holetraj take mdanalysi univers ;0
+2557;updat changelog ;0
+2558;merg branch releas develop ;0
+2559;merg branch releas develop ;0
+2560;version bump devel ;0
+2561;hole analysi plot profil famili ;0
+2562;hole analysi ;0
+2563;new util function realpath ;0
+2564;hole analysi ;0
+2565;merg branch releas ;0
+2566;remov develop insid changelog ;0
+2567;merg branch releas ;0
+2568;merg branch develop luka hole ;0
+2569;regener html doc hole parallel ;0
+2570;merg branch develop pytprpars ;0
+2571;merg branch luka hole develop ;0
+2572;merg branch develop http code googl com mdanalysi develop ;0
+2573;remov gmxv tpr differ version tpr file test work ;0
+2574;print header function tprparser print tpr header info pars ;0
+2575;tprparser work tpr version ;0
+2576;gmxv tpr ;0
+2577;zhuyi xue changelog author ;0
+2578;tprparser mdanalysi topolog init ;0
+2579;imporov segment name make gener ;0
+2580;tpr support mdanalysi topolog init ;0
+2581;written tprparser tpx version ;0
+2582;regener onlin doc ;0
+2583;updat nucleic acid select definit ;0
+2584;aspher shapeparamet addit ;0
+2585;regener onlin doc ;0
+2586;rest doc better referenc qcp align ;0
+2587;docum regener ;0
+2588;mdanalysistest egg info gitignor ;0
+2589;html doc regener doc correct mistak ;0
+2590;merg branch develop http code googl com mdanalysi develop ;0
+2591;unit test atom posit atomgroup posit ;0
+2592;updat posit properti ;0
+2593;use null vector non period empti unit cell gromac trajectori ;0
+2594;delet testsuit mdanalysistest egg info ;0
+2595;regener onlin doc new amber reader omit lammp pdb extens ;0
+2596;analysi hbond alway initi dict updat select empti avoid problem donor lookup tabl byindex byre ;0
+2597;merg remot track branch lukasgrossar develop issu develop ;0
+2598;hbond remov doubl cov doc improv ;0
+2599;hbond analysi use tupl directli key ;0
+2600;merg branch develop issu develop ;0
+2601;merg orbeckst hbond luka grossar develop branch ;0
+2602;implement count time hydrogenbondanalysi ;0
+2603;remov cho eam resnam recogn protein ;0
+2604;chang accomod switch multipl avail forc field ;0
+2605;built tabl valu glycam forc field default tupl yet updat ;0
+2606;posit veloc atomgroup doc test ;0
+2607;regener onlin doc chang atomgroup ;0
+2608;remov experiment atomgroup moveto ;0
+2609;remov experiment moveto method changelog done previous ;0
+2610;merg branch develop http code googl com mdanalysi develop ;0
+2611;doc toppars ;0
+2612;merg origin develop local develop ;0
+2613;addit nuclinfo testcas ;0
+2614;merg branch develop http code googl com mdanalysi develop ;0
+2615;updat nuclinfo ;0
+2616;addit nucleic acid analysi ;0
+2617;regener onlin doc remov moveto gener nicer ;0
+2618;updat changelog ;0
+2619;hbondanalysi use new standard slice ;0
+2620;trajectori api partial implement reader getitem ;0
+2621;note netcdf instal project releas date ;0
+2622;deal changelog conflict resolut ;0
+2623;remov test moveto ;0
+2624;merg remot track branch alfr tprparser pytprpars ;0
+2625;rest updat chang versionad ;0
+2626;doc improv mdanalysi analysi distanc also use log ;0
+2627;simpl convert float function math doc util ;0
+2628;remov mdanalysi util use ;0
+2629;move util lamppspars topolog ;0
+2630;merg branch develop featur xtcindex ;0
+2631;immedi close tempfil mkstemp ;0
+2632;test case close tempfil mkstemp ;0
+2633;resolv changelog conflict ;0
+2634;merg develop featur branch ;0
+2635;merg manel updat ;0
+2636;compli libxdr relat unit test ;0
+2637;merg branch develop http code googl com mdanalysi develop ;0
+2638;clean debug print ;0
+2639;updat changelog xtc index enhac manuel nuno melo author list ;0
+2640;merg remot track branch manuelxtc master featur xtcindex ;0
+2641;sphinx intersphinx link extens ;0
+2642;updat nuclicinfo select specif function select remov nucleicxt ;0
+2643;merg branch develop http code googl com mdanalysi develop ;0
+2644;extend bond guess ;0
+2645;element mass tabl ;0
+2646;implement trjreader function save offset load offset ;0
+2647;setup script updat includ tpr pars machineri testsuit data ;0
+2648;featur xtc merg develop ;0
+2649;regener html doc sphinx ;0
+2650;doc updat rest ;0
+2651;rmsd analysi comput addit group ;0
+2652;merg branch pytprpars develop ;0
+2653;merg remot track branch alfr tprparser pytprpars ;0
+2654;tprparser store bond list tupl list list ;0
+2655;tprparser collect support version tupl set support version doc ;0
+2656;merg remot track branch alfr tprparser pytprpars ;0
+2657;gmx tpr testcas also updat correspond info testsuit mdanalysistest datafil testsuit mdanalysistest test tprparser ;0
+2658;ignor lele file gitignor ;0
+2659;increas speed twice separ namedtupl call tpr util tpr obj especi atom atom function ;0
+2660;data tpr gmx tpr prepar test ;0
+2661;applic librari ;0
+2662;trim comment tprparser ;0
+2663;remov redund line tpr util ;0
+2664;zhuyi xue author rest doc ;0
+2665;rebuilt doc tprparser ;0
+2666;merg branch develop pytprpars ;0
+2667;version number chang document regener sebastien buchoux contributor changelog ;0
+2668;updat manifest includ script ;0
+2669;version number bump ;0
+2670;merg branch code clean develop ;0
+2671;empti commit save state psfgen addit ;0
+2672;merg develop pytprpars ;0
+2673;updat author copyright readm ;0
+2674;logger report mdanalysi version start ;0
+2675;merg branch develop http code googl com mdanalysi develop ;0
+2676;merg branch xdrfile updat develop ;0
+2677;libxdrfil updat ;0
+2678;leafletfind use asunivers ;0
+2679;updat sphinx conf ;0
+2680;updat changelog ;0
+2681;version number chang dev ;0
+2682;updat changelog ;0
+2683;merg remot track branch alfr tprparser pytprpars ;0
+2684;boilerpl doc coordin topolog reader ;0
+2685;tprparser reorgan integr ;0
+2686;merg develop pytprpars featur branch ;0
+2687;hole analysi cpoint keyword select hole algorithm ;0
+2688;updat link summari txt pypi ;0
+2689;merg branch develop http code googl com mdanalysi develop ;0
+2690;hole analysi min radiu method made label plot configur ;0
+2691;merg branch develop http code googl com mdanalysi develop ;0
+2692;dihedr calcul separ function ;0
+2693;merg featur trr sub branch add sub arg trrreader ;0
+2694;merg featur trr sub branch add sub arg trrreader ;0
+2695;merg branch develop http code googl com mdanalysi develop ;0
+2696;remov non function timeseri principleaxi ;0
+2697;improv document waterdipol time seri ;0
+2698;mdanalysi analysi densiti updat doc ;0
+2699;creat tag releas ;0
+2700;releas increas version number ;0
+2701;rest doc top init canon licenc blurb header ;0
+2702;updat group ;0
+2703;document implicit select ;0
+2704;merg pull request mdanalysi issu implicit doc ;0
+2705;allow pickl dcdfile ;0
+2706;abstract traj dict object traj reader asv benchmark reduc code duplic test ;0
+2707;tri except import traj reader benchmark group format type enhanc commit hash histori sampl old new featur ;0
+2708;allow pickl xdr trajectori reader ;0
+2709;merg pull request mdanalysi use ssl url ;0
+2710;remov stopiter gener ;0
+2711;chang link doc comment ssl encrypt site ;0
+2712;triclin cell ;0
+2713;merg pull request camm periodickdtre ;0
+2714;acknowledg parval ;0
+2715;return empti list neighbor found ;0
+2716;test triclin box ;0
+2717;transform fraction real also accept singl vector ;0
+2718;updat group ;0
+2719;merg pull request mdanalysi asv traj stride ;0
+2720;keep offset xdr reopen ;0
+2721;test ;0
+2722;gsdparser set atom name ;0
+2723;wrote docstr gsdparser ;0
+2724;author updat changelog ;0
+2725;wrote docstr gsdreader ;0
+2726;exampl gsd contain frame ;0
+2727;gsd trajectori parser check consist number atom ;0
+2728;new testsuit gsd trajectori topolog ;0
+2729;remov debug code ;0
+2730;remov debug code comment ;0
+2731;new gsd trajectori parser ;0
+2732;open gsd file context manag ;0
+2733;gsdparser ;0
+2734;tst asv benchmark test simpl select atom select ;0
+2735;improv perform pktdree ;0
+2736;remov spuriou static function declar readdcd ;0
+2737;fixup warn ;0
+2738;merg pull request mdanalysi remov yield test ;0
+2739;libxdrfil xtc trr doc updat cleanup ;0
+2740;use valueerror shape check center point ;0
+2741;use distanc box check initi ;0
+2742;debug insert addit index ;0
+2743;entri author changelog ;0
+2744;use distanc appli pbc distanc check array ;0
+2745;add assert timestep equal ;0
+2746;replac yield base test ;0
+2747;use six move rang ;0
+2748;clean pkdtree sourc ;0
+2749;amend atomneighborsearch docstr ;0
+2750;unit test periodickdtre search ;0
+2751;test find center ;0
+2752;sourc test ;0
+2753;merg pull request utkbans coord trz ;0
+2754;merg pull request utkbans coord null ;0
+2755;use assert place assert equal ;0
+2756;use runtimeerror coordin set ;0
+2757;drop usag assert array ;0
+2758;updat adress networkx doc doc ;0
+2759;refactor search method gain speed ;0
+2760;remov remain test gener core test group ;0
+2761;remov test gener core test group testgroupsl ;0
+2762;replac assert plain assert ;0
+2763;ban yield ;0
+2764;anoth commit anoth yield gone ;0
+2765;remov yield test ;0
+2766;replac yield test fixtur ;0
+2767;extend search triclin system ;0
+2768;merg pull request utkbans tprparser ;0
+2769;renam tpr test detect ;0
+2770;remov need filenam fixtur ;0
+2771;use fixtur parametr instead individu class ;0
+2772;merg pull request utkbans coord xdr ;0
+2773;forgot sort list indic ;0
+2774;parameter test ;0
+2775;gsdparser set resid resnam atom ;0
+2776;remov print statement gsdparser ;0
+2777;correct appli pbc triclin system ;0
+2778;merg pull request mdanalysi issu travisfix ;0
+2779;remov tab ;0
+2780;tri travi latest imag ;0
+2781;merg pull request rcortini gsdparser featur ;0
+2782;merg branch develop gsdparser featur ;0
+2783;merg pull request sseyler issu psatest ;0
+2784;merg branch develop issu psatest ;0
+2785;workaround travi travi ;0
+2786;better warn messag hydrogenbond analysi ;0
+2787;gsd file testsuit setup ;0
+2788;merg branch develop gsdparser featur ;0
+2789;gsd depend ;0
+2790;tst mdanalysi analysi leaflet asv benchmark ;0
+2791;merg pull request mdanalysi issu restrict setattr ;0
+2792;updat univers add topologyattr docstr ;0
+2793;revert chang bond topologyattr ;0
+2794;tst show link commit github asv report ;0
+2795;merg pull request mdanalysi issu macbuildfail ;0
+2796;updat changelog correct inform ;0
+2797;allow osx build fail ;0
+2798;doc regener libxdrfil gener doc file git ;0
+2799;regener file ;0
+2800;updat conda recip releas ;0
+2801;merg branch develop ;0
+2802;bump version releas ;0
+2803;allow construct minim univers also topolog less coord load ;0
+2804;merg pull request jmborr spheric token pkdtree ;0
+2805;made test waterdynam robust ;0
+2806;tst first draft psa modul asv benchmark ;0
+2807;ref refactor box period definit ;0
+2808;updat changelog ;0
+2809;write deprec test ;0
+2810;chang format order timeseri method ;0
+2811;water bridg analysi ;0
+2812;tst asv benchmark analysi ;0
+2813;clarifi group topologyattrcontain subclass ;0
+2814;changelog attribut set chang ;0
+2815;clarifi uag upadt procedur ;0
+2816;renam topologyattrcontain singular group ;0
+2817;merg pull request jmborr test pkdtree ;0
+2818;test neighbor search ;0
+2819;skip implement test ;0
+2820;compil arg ;0
+2821;test attribut set ;0
+2822;enabl pkdtree atom select test ;0
+2823;allow failur numpi dev build ;0
+2824;updat changelog ;0
+2825;pep chang ;0
+2826;make api pkdtree gener updat doc ;0
+2827;merg branch develop gsdparser featur ;0
+2828;space function parenthes gsd parser ;0
+2829;sever new test gsd trajectori parser ;0
+2830;test absenc imag box center point ;0
+2831;new test gsd frame number ;0
+2832;chang setattr whitelist per class share ;0
+2833;fixup ;0
+2834;simplifi setattr across compon group ;0
+2835;select string unicod ;0
+2836;explan gen initi valu ;0
+2837;exampl add topologyattr ;0
+2838;asv geometr select benchmark ;0
+2839;use correct loop counter ;0
+2840;remov segment whitelist ;0
+2841;tst asv benchmark analysi distanc ;0
+2842;merg pull request sobuelow develop ;0
+2843;topologyattr regist upon definiton ;0
+2844;merg branch develop develop ;0
+2845;merg branch develop develop ;0
+2846;test univers add topologyattr ;0
+2847;remov testcas usag test univers ;0
+2848;add topologyattribut string ;0
+2849;speed rotat ;0
+2850;remov yield base test ;0
+2851;use minim version seaborn ;0
+2852;chang except rais lib util get weight ;0
+2853;improv doc libdcd dcd ;0
+2854;updat libdcd ;0
+2855;merg pull request mdanalysi scipi ncdf debug ;0
+2856;delet useless file ;0
+2857;shift analysi pytest list ;0
+2858;remov bundl lib netcdf ;0
+2859;use netcdf read amber netcdf netcdf write ;0
+2860;scipi netcdf lib netcdf fallback amber reader writer ;0
+2861;add libdcd rst doc ;0
+2862;add except name libdcd doc ;0
+2863;uniformli use xyz refer coordin libdcd ;0
+2864;add inform charm bitfield ;0
+2865;prefer use format string interpol ;0
+2866;add random unit cell test test dcd ;0
+2867;fixup changelog setup rebas clean ;0
+2868;delet old file ;0
+2869;use assert array equal ;0
+2870;avoid copi dcd writer ;0
+2871;remov mda nosetest ;0
+2872;modifi changelog ;0
+2873;add python travi ;0
+2874;convert libmdaxdr test ;0
+2875;updat readm remov ;0
+2876;open mode default ;0
+2877;remov unmaintain virtual machin repositori ;0
+2878;add explicit byte encod amber netcdf file ;0
+2879;merg pull request mdanalysi anyopen ;0
+2880;anyopen mode ;0
+2881;merg pull request mdanalysi test dep ;0
+2882;merg pull request mdanalysi dcd cython rebas ;0
+2883;instal hypothesi test setup ;0
+2884;updat licens header ;0
+2885;improv unitcel decod ;0
+2886;chang use nsavc write ;0
+2887;refactor libdcd header api ;0
+2888;remov plan deprec ;0
+2889;remov timeseriescollect ;0
+2890;updat version number ;0
+2891;fix changelog ;0
+2892;support order readfram ;0
+2893;remov dcd timestep api test ;0
+2894;use timeseri ;0
+2895;reactiv hypothesi test ;0
+2896;gener clean ;0
+2897;add hypothesi travi test ;0
+2898;dcd header improv ;0
+2899;move unitcel handl libdcd dcdreader ;0
+2900;remov old modul setup ;0
+2901;add header properti ;0
+2902;remov duplic test ;0
+2903;remov old dcd reader ;0
+2904;improv unit handl ;0
+2905;start work new dcd reader ;0
+2906;deactiv correl test ;0
+2907;allow subset read readfram ;0
+2908;speed ;0
+2909;add doc ;0
+2910;remov condit skip test scipi matplotlib miss ;0
+2911;remov useless file ;0
+2912;merg pull request mdanalysi issu analysi dep ;0
+2913;minor clean ;0
+2914;add new timeseri test test dcd ;0
+2915;add readfram test ;0
+2916;reorder test ;0
+2917;yapifi dcd ;0
+2918;copi timestep ;0
+2919;updat libdcd dcdreader doc ;0
+2920;scipi matplotlib import top analysi ;0
+2921;make scipi matplotlib full depend ;0
+2922;dcd test improv ;0
+2923;enh earli work asv benchmark suit mda ;0
+2924;updat changelog ;0
+2925;add commit someth stage ;0
+2926;merg pull request utkbans pytest analysi ;0
+2927;updat txyz doc ;0
+2928;doc changelog ;0
+2929;tinker topolog reader ;0
+2930;tinker testfil ;0
+2931;move assert loop ;0
+2932;merg pull request utkbans str ;0
+2933;merg pull request utkbans xpdb ;0
+2934;merg pull request utkbans xyz ;0
+2935;rmsd groupselect superimpos ;0
+2936;improv doc analysi ;0
+2937;undo parametr ;0
+2938;initi work ;0
+2939;merg pull request utkbans pdb ;0
+2940;merg pull request utkbans topolog laamp ;0
+2941;doc disabl travi button doc menu ;0
+2942;merg pull request utkbans topolog ;0
+2943;merg pull request mdanalysi note python packag ;0
+2944;tinker coordin reader ;0
+2945;rst stub tinker ;0
+2946;get rid attr ;0
+2947;document tinker file format ;0
+2948;doc improv rmsd rmsf ;0
+2949;add lib util get weight atom weight function ;0
+2950;updat txyz ;0
+2951;updat txyzpars ;0
+2952;analysi psa remov deprec mass weight ;0
+2953;analysi align clean import doc ;0
+2954;analysi align remov deprec mass weight ;0
+2955;drop testcas inherit ;0
+2956;updat init ;0
+2957;merg pull request utkbans topolog gro ;0
+2958;merg pull request utkbans mol ;0
+2959;merg pull request utkbans pqr ;0
+2960;improv handl weight analysi ;0
+2961;analysi remov deprec mass weight doc improv ;0
+2962;rel import tinker coordin reader topolog parser ;0
+2963;add note mock python remov ;0
+2964;tst speed gnm test ;0
+2965;maint yapf gnm ;0
+2966;tst test deprec warn ;0
+2967;gener clean travi yml ;0
+2968;merg pull request mdanalysi issu ;0
+2969;docstr psanalysi cluster dist mat kwarg ;0
+2970;python build matrix ;0
+2971;merg pull request utkbans nose ;0
+2972;remov parsernotfound ;0
+2973;new test hausdorff pair frame pair analysi pair analysi also give distanc matrix ;0
+2974;two test hausdorff neighbor distanc ;0
+2975;new name avg hausdorff test revert back old test name test asymmetr weight ;0
+2976;chang test name test asymmetr weight test asymmetr wavg weight test asymmetr avg weight need diff name test ;0
+2977;refactor pca test ;0
+2978;print slowest test ;0
+2979;prevent test litter ;0
+2980;drop comment run test nose ;0
+2981;remov mda nosetest nose plugin ;0
+2982;skip hole osx ;0
+2983;coveral dep list ;0
+2984;merg pull request mdanalysi pybuild ;0
+2985;add molnum topolog attribut tpr parser ;0
+2986;maint simplifi neighbor search algorithm ;0
+2987;gnm speed ;0
+2988;drop nose ;0
+2989;remov occur dec ;0
+2990;address review molnum ;0
+2991;test ;0
+2992;add ncdf format reader ;0
+2993;tst remov scipi specif info asv json file ;0
+2994;maint refactor word pep chang ;0
+2995;get rid assert rais ;0
+2996;tst traj reader stride asv test ;0
+2997;doc mda asv doc ;0
+2998;merg pull request mdanalysi asv bench simplifi ;0
+2999;replac deprec logger warn ;0
+3000;xtc trr relat doc updat cleanup ;0
+3001;doc updat ;0
+3002;biopython requir updat changelog ;0
+3003;test triclin lammp data ;0
+3004;test lammp topolog ;0
+3005;split lammp data test file ;0
+3006;updat lammp data read ;0
+3007;merg pull request mdanalysi issu ;0
+3008;merg pull request mdanalysi issu ;0
+3009;document select backend distanc calcul ;0
+3010;remov lib parallel distanc ;0
+3011;test openmp declar ;0
+3012;flag indic openmp use cython submodul ;0
+3013;merg pull request mdanalysi scipi ncdf precis ;0
+3014;merg pull request mdanalysi featur selectparallel ;0
+3015;small modif distanc calc backend select ;0
+3016;remov numpi pxd replac cimport numpi ;0
+3017;merg pull request mdanalysi issu ;0
+3018;enabl select serial openmp distanc function ;0
+3019;psa citat doi link refer list ;0
+3020;finish improv lammp data pars ;0
+3021;chang dimens place ;0
+3022;remov stray line ;0
+3023;use cython compil cython file ;0
+3024;merg pull request kain cython ;0
+3025;finalis chang analysi rdf analysi polym ;1
+3026;merg pull request hainm issu ;0
+3027;use context ;0
+3028;merg branch develop http github com mdanalysi mdanalysi develop ;0
+3029;merg pull request mdanalysi issu analysi test ;0
+3030;includ analysi test mdanalysistest ;0
+3031;test analysisbas ;0
+3032;merg branch develop featur polym ;0
+3033;basic test interrdf ;0
+3034;merg pull request mdanalysi issu ;0
+3035;merg pull request mdanalysi featur betterdata ;0
+3036;merg pull request sseyler develop ;0
+3037;tweak psa citat ;0
+3038;add zerodivisionerror except waterorientationrelax class ;0
+3039;add new writer test ;0
+3040;libxdrfil doc exdr symbol ;0
+3041;bond back core select ;0
+3042;test prop select ;0
+3043;remov unus compositeselect ;0
+3044;test point select ;0
+3045;merg pull request mdanalysi issu ;0
+3046;test ;0
+3047;chang basereadertest check typeerror ;0
+3048;rais typeerror write given timestep ;0
+3049;chang timestep test use float ;0
+3050;move timestep test new structur ;0
+3051;merg pull request mdanalysi singl base reader test ;0
+3052;add assert timestep almost equal ;0
+3053;analysi rdf interrdf ;0
+3054;merg branch develop featur polym ;0
+3055;add test file test packag ;0
+3056;convert xyz format test new test class ;0
+3057;merg pull request mdanalysi test tidyup ;0
+3058;remov unus select init ;0
+3059;chainread properli comput time ;0
+3060;remov unus associ featur select ;0
+3061;merg pull request kain new test ;0
+3062;merg pull request kain convert dimenson place ;0
+3063;merg pull request mdanalysi issu ;0
+3064;merg pull request mdanalysi issu ;0
+3065;distanc select test triclin box ;0
+3066;merg pull request mdanalysi issu ;0
+3067;merg pull request kain natom kwarg ;0
+3068;add test contain format ;0
+3069;rework spheric select effici ;0
+3070;test byre ;0
+3071;remov repr core select ;0
+3072;test select ;0
+3073;remov unus bitwis oper select ;0
+3074;warn bondedselect without bond ;0
+3075;test bond select ;0
+3076;chang find regex ;0
+3077;merg pull request jbarnoud issu ;0
+3078;merg pull request kain fix cython modul ;0
+3079;merg branch develop issu pdbwrite ;0
+3080;migrat string format ;0
+3081;merg pull request mdanalysi issu registerread ;0
+3082;fixup follow review ;1
+3083;merg pull request mdanalysi issu toponlyselect ;0
+3084;rewrot coordin core doc ;0
+3085;merg pull request mdanalysi issu molwritefix ;0
+3086;refactor mol encod slightli ;0
+3087;merg pull request mdanalysi balasubra balasubra issu ;0
+3088;remov superflu analysi densiti densiti trajectori ;0
+3089;enabl slice trajectori densiti univers ;0
+3090;test densiti calcul dynam select ;0
+3091;balasubra author ;0
+3092;merg pull request mdanalysi featur helan tlc ;0
+3093;merg pull request mdanalysi featur remov ezinstal ;0
+3094;remov easi instal setup mdanalysistest ;0
+3095;merg pull request jbarnoud issu format redo ;0
+3096;remov semicolon cython sourc file ;0
+3097;merg pull request kain forc cython ;0
+3098;merg pull request jbarnoud issu precis test helen ;0
+3099;provid assert case numpi test pass ;0
+3100;bump version ;0
+3101;prepar releas ;0
+3102;creat tag releas ;0
+3103;note unittest run ;0
+3104;releas bump version clean changelog remov experiment hbond ;0
+3105;creat branch releas ;0
+3106;finalis testsuit chang releas ;1
+3107;remov test check openmp use ;0
+3108;merg pull request jbarnoud add six requir ;0
+3109;add six requir ;0
+3110;finalis chang releas ;0
+3111;merg pull request mdanalysi issu cythonsemicolon ;0
+3112;reduc precis helen test ;0
+3113;merg pull request mdanalysi issu pdbwrite ;0
+3114;updat changelog helan chang ;0
+3115;helan use progressmet log instead print ;0
+3116;minor clean analysi helan ;0
+3117;merg pull request mdanalysi issu atomgroup recach ;0
+3118;merg branch develop http github com mdanalysi mdanalysi develop ;0
+3119;use tempdir test psa ;0
+3120;merg pull request cyanezstang develop ;0
+3121;merg pull request mdanalysi featur polym ;0
+3122;merg pull request jbarnoud issu ;0
+3123;merg pull request jbarnoud matrix ;0
+3124;reduc travi matrix ;0
+3125;move env section top travi yml ;0
+3126;travi instal cython minim setup ;0
+3127;test cython file ;0
+3128;increas test timeout travi ;0
+3129;cython modul name sourc ;0
+3130;merg pull request jbarnoud testdep ;0
+3131;travi run test minim full config ;0
+3132;skip test use scipi scipi miss ;0
+3133;use tempfil mkdtemp shutil delet ;0
+3134;merg pull request sseyler develop ;0
+3135;merg pull request mdanalysi issu ;0
+3136;merg pull request mdanalysi autofix wrap fix ;0
+3137;merg pull request mdanalysi issu basereaderimprov ;0
+3138;explicit number replac field ;0
+3139;use gener express ;0
+3140;avoid mutabl default argument ;0
+3141;merg pull request mdanalysi autofix wrap fix ;0
+3142;merg pull request mdanalysi autofix wrap fix ;0
+3143;merg pull request mdanalysi autofix wrap fix ;0
+3144;merg pull request mdanalysi recov develop ;0
+3145;use dict comprehens instead dict ;0
+3146;merg pull request mdanalysi issu ;0
+3147;merg pull request kain coveral ;0
+3148;merg pull request mdanalysi autofix wrap fix ;0
+3149;use oper compar none pep ;0
+3150;remov vim fileencod hint ;0
+3151;add base test reader writer class ;0
+3152;merg pull request sseyler develop ;0
+3153;merg pull request mdanalysi issu ;0
+3154;cython gener file regener ;0
+3155;small chang lammpspars ;0
+3156;new test case lammp data file ;0
+3157;updat copyright author header comment sourc file ;0
+3158;utf encod pep necessari ;0
+3159;vagrant virtualbox virtual machin debian wheezi ;0
+3160;leaflet finder control spars full ;0
+3161;test case tprdoubl ;0
+3162;defin unpack real defin data defin unpack real method base gromac precis tpr file ;0
+3163;improv test coverag mda core atomgroup current ;0
+3164;deprec topolog lammp lammpsdata proper data pars ;0
+3165;merg branch develop http code googl com mdanalysi develop ;0
+3166;vagrant virtualbox virtual machin full featur mdanalysi ;0
+3167;unit test data stuff ;0
+3168;support lammp data file ;0
+3169;rotat matrix doc analysi align ;0
+3170;maintain run test option log file default ;0
+3171;fragment ;0
+3172;remov unnecessari atomgroup intersect ;0
+3173;merg branch develop http code googl com mdanalysi develop ;0
+3174;doc rebuilt includ new hbond submodul ;0
+3175;maintain instal option user instal ;0
+3176;updat trz reader ;0
+3177;merg branch develop http code googl com mdanalysi develop ;0
+3178;test unitcel dimens pdbreader ;0
+3179;regener html doc ;0
+3180;streamio doc changelog entri ;0
+3181;unittest streamio function ;0
+3182;unitcel timestep ;0
+3183;testdcdwrit test statement specif except claus ;0
+3184;pqrwriter pqrreader updat ;0
+3185;merg branch develop http code googl com mdanalysi develop ;0
+3186;timestep dimens set ;0
+3187;topolog system updat ;0
+3188;merg branch featur wrap develop ;0
+3189;rework topolog system ;0
+3190;dcdwriter workaround new kwarg set time frame ;0
+3191;changelog updat reflect chang helan doc ;0
+3192;mdanalysi analysi helan helan trajectori docstr modif begin finish argument also specifi unit picosecond use inform serv remind user time frame number includ inform finishtimeexcept rais finish time preced start time trajectori current time stamp select updat particular html file develop doc ;0
+3193;merg branch develop issu ;0
+3194;meta data updat ;0
+3195;document regener version chang ;0
+3196;merg branch namedsel develop ;0
+3197;name ;0
+3198;mdanalysi visual streamlin adjust follow way assess proper grid cube geometri less sensit float point equal failur assert numpi test assert almost equal rather convent equal test print statement debug progress monitor suppress mostli delet sourc code gener streamlin function accept cartesian coordin limit analysi instead automat calcul limit system chang larg motiv increas consist version code mdanalysi visual streamlin gener streamlin ;0
+3199;remov toplevel matplotlib import ;0
+3200;rebuilt doc includ new mdanalysi visual modul ;0
+3201;name ;0
+3202;work sphinx document streamplot visual code mdanalysi packag doc sphinx sourc index rst adjust includ entri visual modul new visual modul rst entri packag doc sphinx sourc document page visual streamlin rst pull streamplot document automat major improv document relat mdanalysi visual streamlin includ inlin exampl usag output plot ;0
+3203;mdanalysi visual streamlin adjust follow way importerror appropri messag rais non standard depend modul avail rather print statement non standard outsid regular mdanalysi modul requir simplifi matplotlib nxutil ideal requir eventu remov deprec modul matplotlib also analyt rather plot use matplotlib standard depend mdanalysi multiprocess numpi scipi import separ statement improv depend saniti substanti amount extran debug code remov although bit clean could like still done placehold main function renam gener streamlin workflow may eventu adjust perhap encapsul class ;0
+3204;mdanalysi correctli initi namespac mdanalysi visual streamplot code mdanalysi visual streamlin appear function properli ;0
+3205;addit new mdanalysi visual streamlin namespac ;0
+3206;trr doc minor cleanup ;0
+3207;clean doc xtc trr ;0
+3208;mdanalysi visual streamlin adjust follow way suppress print statement via delet sourc code modul longer depend deprec matplotlib nxutil modul replac matplotlib path benchmark equival use timeit ipython real use biomolecular test case ;0
+3209;changelog updat recent streamplot modul adjust ;0
+3210;bump releas dev ;0
+3211;rebuilt html doc ;0
+3212;element tabl addit name guess inspir propka ;0
+3213;extract fep state fver instead fver ;0
+3214;merg branch develop http code googl com mdanalysi develop ;0
+3215;attempt improv mdanalysi readthedoc behaviour base mock import depend describ http read doc readthedoc org latest faq html ;0
+3216;stream coordin topolog reader writer streamio ;0
+3217;newer version fastio ;0
+3218;doc second exampl merg ;0
+3219;xyzwrit ;0
+3220;regener doc sphinx ;0
+3221;hydrogenbondautocorrel issu ;0
+3222;new featur cap protein ;0
+3223;new featur mol format support ;0
+3224;merg branch develop http code googl com mdanalysi develop ;0
+3225;upgrad trzreader much faster ;0
+3226;merg branch develop http code googl com mdanalysi develop ;0
+3227;tidi coordin modul ;0
+3228;updat psa citat doi ;0
+3229;merg pull request mdanalysi issu testfil reorgan ;0
+3230;virtual machin fedora ;0
+3231;merg pull request mdanalysi issu ;0
+3232;improv perform lib mdamath make whole slightli use set ;0
+3233;merg pull request kain xyzwrit ;0
+3234;merg pull request mdanalysi featur skip netcdf ;0
+3235;xyzwrit accept atom ;0
+3236;remov debug output ;1
+3237;netcdf pre test check test ;0
+3238;rebuilt doc ;0
+3239;bump version dev ;0
+3240;prepar hook analysisbas ;0
+3241;renam skip step uniform within mda ;0
+3242;move analysisbas analysi base ;0
+3243;merg branch develop featur polym ;0
+3244;test analysi polym persistencelength ;0
+3245;merg branch develop github com mdanalysi mdanalysi develop ;0
+3246;updat growrit use format syntax ;0
+3247;chang topolog read class base ;0
+3248;amber reader recogn parm suffix ;0
+3249;merg pull request mdanalysi issu amber format ;0
+3250;depend workaround concis less hackish ;0
+3251;merg pull request mdanalysi featur test ;0
+3252;test log progressmet ;0
+3253;xyzread writer handl atom kwarg ;0
+3254;updat changelog reflect chang html file version control polici ;0
+3255;merg pull request mdanalysi fix teneleven ;0
+3256;merg pull request tylerjereddi develop ;0
+3257;typo ;0
+3258;remov html folder git track ;0
+3259;test amber trajectori ;0
+3260;move amber test file datafil amber ;0
+3261;merg pull request mdanalysi growrit vel ;0
+3262;merg pull request mdanalysi issu ;0
+3263;amber ncdf writer conform spec ;0
+3264;fit plot analysi polym persistencelength ;0
+3265;bond length calcul ;0
+3266;wip polym analysi ;0
+3267;lib util block ;0
+3268;merg branch develop http code googl com mdanalysi develop ;0
+3269;new featur atomgroup split level list atomgroup one level hierarchi ;0
+3270;regener html doc updat dcd doc ;0
+3271;regener doc lot rest chang core unit ;0
+3272;core unit doc cleanup test ;0
+3273;support unicod utf encod version angtrom symbol ;0
+3274;new properti atom partner ;0
+3275;unit move futur import modul doc string ;0
+3276;correct emac vim mode line ;0
+3277;merg branch develop http code googl com mdanalysi develop ;0
+3278;rework atomgroup topolog repr method ;0
+3279;core unit addit doc tini chang constant test ;0
+3280;correct setup ;0
+3281;correct non work lipid order exampl ;0
+3282;code pep fie ;0
+3283;merg branch featur customread develop ;0
+3284;merg remot track branch origin featur atompartn develop ;0
+3285;new atomgroup sequenc extract sequenc inform ;0
+3286;regener html doc ;0
+3287;document regener ;0
+3288;remov incorrect test ;0
+3289;changelog updat releas date ;0
+3290;version chang document regener accordingli ;0
+3291;altern squar mdanalysi logo github ;0
+3292;merg branch develop http code googl com mdanalysi develop ;0
+3293;correct version dev use dev ;0
+3294;improv perform creat residuegroup ;0
+3295;rest doc integr xdrfile restructur coordin section ;0
+3296;maintain script coverag report ;0
+3297;merg branch featur persistentoffset develop ;0
+3298;slight perform tweak guess atom element ;0
+3299;gropars perform updat ;0
+3300;merg branch develop http code googl com mdanalysi develop ;0
+3301;creat branch releas ;0
