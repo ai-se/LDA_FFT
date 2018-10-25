@@ -16,6 +16,7 @@ import numpy as np
 from random import seed, shuffle
 import time
 import operator
+import pandas as pd
 import multiprocessing as mp
 
 
@@ -77,13 +78,13 @@ def mining_parallel(MLS, corpus, labels, train_index, test_index, end_time, m):
     return result
 
 
-def parallel_test(res=''):
+def parallel_test(fname=''):
     seed(1)
     np.random.seed(1)
-    raw_p = res.split("_")
+    raw_p = fname.split("_")
     folder = ROOT + "/../data/" + ("%s_preprocessed" % raw_p[0])
-    path = folder + "/" + res + ".csv"
-    raw_data,labels=readfile(path)
+    path = folder + "/" + fname + ".csv"
+    raw_data, labels = readfile(path)
     temp={}
 
     for m in metrics:
@@ -121,7 +122,7 @@ def parallel_test(res=''):
 
         #import pdb
         #pdb.set_trace()
-        with open('../dump/untuned_' + res + '_1.pickle', 'wb') as handle:
+        with open('../dump/untuned_' + fname + '_1.pickle', 'wb') as handle:
             pickle.dump(temp, handle)
 
 

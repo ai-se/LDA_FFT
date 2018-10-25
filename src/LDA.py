@@ -146,13 +146,13 @@ def getting_files():
 
 
 
-def parallel_test(res=''):
+def parallel_test(fname=''):
     seed(1)
     np.random.seed(1)
-    raw_p = res.split("_")
+    raw_p = fname.split("_")
     folder = ROOT + "/../data/" + ("%s_preprocessed" % raw_p[0])
-    path = folder + "/" + res + ".csv"
-    raw_data,labels=readfile(path)
+    path = folder + "/" + fname + ".csv"
+    raw_data, labels = readfile(path)
     temp={}
 
     for m in metrics:
@@ -192,7 +192,7 @@ def parallel_test(res=''):
                                 temp[m][fea][k][sub_k].append(res[k][sub_k])
         #import pdb
         #pdb.set_trace()
-        with open('../dump/LDA_' + res + '_1.pickle', 'wb') as handle:
+        with open('../dump/LDA_' + fname + '_1.pickle', 'wb') as handle:
             pickle.dump(temp, handle)
 
 
