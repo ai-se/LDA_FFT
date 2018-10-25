@@ -79,6 +79,7 @@ def mining_parallel(MLS, corpus, labels, train_index, test_index, end_time, m):
 
 
 def parallel_test(fname=''):
+    print(fname, "untuned")
     seed(1)
     np.random.seed(1)
     raw_p = fname.split("_")

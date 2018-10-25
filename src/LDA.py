@@ -147,6 +147,7 @@ def getting_files():
 
 
 def parallel_test(fname=''):
+    print(fname, "LDA")
     seed(1)
     np.random.seed(1)
     raw_p = fname.split("_")
