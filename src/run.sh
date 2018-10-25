@@ -16,7 +16,7 @@ rm log/*
 #source activate tensorflow_gpu
 for e in "untuned.py" "LDA.py" "LDADE.py";
 do
-for f in "cs_abinit" "cs_lammps" "cs_libmeh" "cs_mdanalysis";
+for f in "cs_abinit" "cs_lammps" "cs_libmesh" "cs_mdanalysis";
 do
     sbatch run.mpi $e $f
 done;
