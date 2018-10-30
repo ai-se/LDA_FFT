@@ -22,7 +22,8 @@ learners_para_bounds=[[(10,100), (0.1,1), (0.01,1)]]
 learners_para_categories=[[ "integer", "continuous", "continuous"]]
 ROOT=os.getcwd()
 files=["pitsA", "pitsB", "pitsC", "pitsD", "pitsE", "pitsF"]
-MLS=[DT,RF, SVM,  FFT1]
+#MLS=[DT,RF, SVM,  FFT1]
+MLS=[ FFT1]
 MLS_para_dic=[OrderedDict([("min_samples_split",2),("min_impurity_decrease",0.0), ("max_depth",None),
                                ("min_samples_leaf", 1)]), OrderedDict([("min_samples_split",2),
                                 ("max_leaf_nodes",None), ("min_samples_leaf",1), ("min_impurity_decrease",0.0),("n_estimators",10)]),
@@ -61,7 +62,7 @@ def _test(res=''):
         labels=labels[ranges]
         #print(raw_data)
         start_time=time.time()
-        de = DE(Goal="Max", GEN=5, NP=10,termination="Early")
+        de = DE(Goal="Max", GEN=3, NP=10,termination="Early")
         v, _ = de.solve(learners[0], OrderedDict(learners_para_dic[0]),
                         learners_para_bounds[0], learners_para_categories[0],
                         file=res, term=7, data_samples=raw_data)
@@ -77,7 +78,7 @@ def _test(res=''):
                 if le.__name__ not in temp:
                     temp[le.__name__]={}
                 start_time1=time.time()
-                _,val=MLS[j](MLS_para_dic[j], train_data, train_labels, test_data, test_labels, 'recall')
+                _,val=MLS[j](MLS_para_dic[j], train_data, train_labels, test_data, test_labels, 'd2h')
                 end_time1=time.time()-start_time1
                 for m in metrics:
                     if m not in temp[le.__name__]:
