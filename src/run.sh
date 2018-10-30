@@ -2,6 +2,7 @@
 rm out/*
 rm err/*
 rm log/*
+rm ../dump/*
 
 #datasets name
 #foreach VAR ("cs")

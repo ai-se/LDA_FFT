@@ -124,7 +124,7 @@ def main(*x, **r):
     topic_word_prior=l[0]['topic_word_prior']
 
     a = _test_LDA( data_samples=r['data_samples'],term=int(r['term'])
-                        ,random_state=r['random_state'],max_iter=r['max_iter'], n_components=n_components,
+                        ,random_state=1,max_iter=100, n_components=n_components,
                        doc_topic_prior=doc_topic_prior,topic_word_prior=topic_word_prior)
 
     return a, [{},[]]

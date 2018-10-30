@@ -12,10 +12,13 @@ from sklearn.metrics import f1_score, accuracy_score,confusion_matrix
 import numpy as np
 import pandas as pd
 from FFT import FFT
+import math
+from helpers import get_score
 
-metrics=['accuracy','recall','precision','false_alarm']
+metrics=['accuracy','recall','precision','false_alarm','Dist2Heaven']
 
 metrics_dic={'accuracy':-2,'recall':-6,'precision':-7,'false_alarm':-4}
+PRE, REC, SPEC, FPR, NPV, ACC, F1 = 7, 6, 5, 4, 3, 2, 1
 
 def DT(k,train_data,train_labels,test_data,test_labels, metric):
 
@@ -78,60 +81,39 @@ def FFT1(k,train_data,train_labels,test_data,test_labels, metric):
         fft.eval_tree(t_id)  # eval all the trees on TEST data
 
         description=fft.print_tree(t_id)
-
-        dic[i]=fft.performance_on_test[t_id][metrics_dic[i]]
-        dic1[i]=description
+        if i!='Dist2Heaven':
+            dic[i]=fft.performance_on_test[t_id][metrics_dic[i]]
+        else:
+            dic["Dist2Heaven"]=get_score("Dist2Heaven", fft.performance_on_test[t_id][:4])
+        dic1[i] = description
     return dic[metric], [dic, dic1]
 
+def get_performance(prediction, test_labels):
+    tn, fp, fn, tp = confusion_matrix(test_labels,prediction).ravel()
+    pre = 1.0 * tp / (tp + fp) if (tp + fp) != 0 else 0
+    rec = 1.0 * tp / (tp + fn) if (tp + fn) != 0 else 0
+    spec = 1.0 * tn / (tn + fp) if (tn + fp) != 0 else 0
+    fpr = 1 - spec
+    npv = 1.0 * tn / (tn + fn) if (tn + fn) != 0 else 0
+    acc = 1.0 * (tp + tn) / (tp + tn + fp + fn) if (tp + tn + fp + fn) != 0 else 0
+    f1 = 2.0 * tp / (2.0 * tp + fp + fn) if (2.0 * tp + fp + fn) != 0 else 0
+    return [round(x, 3) for x in [pre, rec, spec, fpr, npv, acc, f1]]
 
 def evaluation(measure, prediction, test_labels, class_target=1):
-    confu = confusion_matrix(test_labels, prediction)
-    fp = confu.sum(axis=0) - np.diag(confu)
-    fn = confu.sum(axis=1) - np.diag(confu)
-    tp = np.diag(confu)
-    tn = confu.sum() - (fp + fn + tp)
+    tn, fp, fn, tp = confusion_matrix(test_labels, prediction).ravel()
+    pre, rec, spec, fpr, npv, acc, f1 = get_performance(test_labels, prediction)
+    all_metrics = [tp, fp, tn, fn, pre, rec, spec, fpr, npv, acc, f1]
     if measure == "accuracy":
-        return accuracy_score(test_labels, prediction)
-    if measure == "recall":
-        recall = 0
-        if class_target == -1:
-            for m in range(len(tp)):
-                if tp[m] != 0 and (tp[m] + fn[m]) != 0:
-                    recall += float(tp[m]) / (tp[m] + fn[m])
-            return recall / len(tp)
-        else:
-            if tp[class_target] != 0 and (tp[class_target] + fn[class_target]) != 0:
-                return float(tp[class_target]) / (tp[class_target] + fn[class_target])
-            else:
-                return 0.0
-
-    if measure == "precision":
-        precision = 0
-        if class_target == -1:
-            for m in range(len(tp)):
-                if tp[m] != 0 and (tp[m] + fp[m]) != 0:
-                    precision += float(tp[m]) / (tp[m] + fp[m])
-            return precision / len(tp)
-        else:
-            if tp[class_target] != 0 and (tp[class_target] + fp[class_target]) != 0:
-                return float(tp[class_target]) / (tp[class_target] + fp[class_target])
-            else:
-                return 0.0
-    if measure == "false_alarm":
-        fals=0
-        if class_target==-1:
-            for m in range(len(fp)):
-                if fp[m] != 0 and (fp[m] + tn[m]) !=0 :
-                    fals+=float(fp[m])/(fp[m]+tn[m])
-            return fals/len(fp)
-        else:
-            if fp[class_target] != 0 and (fp[class_target] + tn[class_target]) != 0:
-                return float(fp[class_target]) / (fp[class_target] + tn[class_target])
-            else:
-                return 0.0
-
-    if measure == "f1":
-        if class_target==-1:
-            return f1_score(test_labels, prediction, average='macro')
-        else:
-            return f1_score(test_labels, prediction, pos_label=class_target, average='binary')
+        score = -all_metrics[-ACC]
+    elif measure == "recall":
+        score = -all_metrics[-REC]
+    elif measure == "precision":
+        score = -all_metrics[-PRE]
+    elif measure == "false_alarm":
+        score = -all_metrics[-FPR]
+    elif measure == "f1":
+        score = -all_metrics[-F1]
+    elif measure == "Dist2Heaven":
+        score = all_metrics[-FPR] ** 2 + (1 - all_metrics[-REC]) ** 2
+        score = math.sqrt(score) / math.sqrt(2)
+    return score

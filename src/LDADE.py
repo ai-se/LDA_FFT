@@ -23,14 +23,16 @@ learners_para_categories=[[ "integer", "continuous", "continuous"]]
 ROOT=os.getcwd()
 files=["pitsA", "pitsB", "pitsC", "pitsD", "pitsE", "pitsF"]
 #MLS=[DT,RF, SVM,  FFT1]
-MLS=[ FFT1]
-MLS_para_dic=[OrderedDict([("min_samples_split",2),("min_impurity_decrease",0.0), ("max_depth",None),
-                               ("min_samples_leaf", 1)]), OrderedDict([("min_samples_split",2),
-                                ("max_leaf_nodes",None), ("min_samples_leaf",1), ("min_impurity_decrease",0.0),("n_estimators",10)]),
-                   OrderedDict([("C", 1.0), ("kernel", 'linear'),
-                                ("degree", 3)]), OrderedDict()]
+MLS=[SVM, FFT1]
+MLS_para_dic = [OrderedDict([("C", 1.0), ("kernel", 'linear'),
+                             ("degree", 3)]), OrderedDict()]
+# MLS_para_dic=[OrderedDict([("min_samples_split",2),("min_impurity_decrease",0.0), ("max_depth",None),
+#                                ("min_samples_leaf", 1)]), OrderedDict([("min_samples_split",2),
+#                                 ("max_leaf_nodes",None), ("min_samples_leaf",1), ("min_impurity_decrease",0.0),("n_estimators",10)]),
+#                    OrderedDict([("C", 1.0), ("kernel", 'linear'),
+#                                 ("degree", 3)]), OrderedDict()]
 
-metrics=['accuracy','recall','precision','false_alarm']
+metrics=['accuracy','recall','precision','false_alarm',"Dist2Heaven"]
 def readfile1(filename=''):
     dict = []
     labels=[]
@@ -78,7 +80,7 @@ def _test(res=''):
                 if le.__name__ not in temp:
                     temp[le.__name__]={}
                 start_time1=time.time()
-                _,val=MLS[j](MLS_para_dic[j], train_data, train_labels, test_data, test_labels, 'd2h')
+                _,val=MLS[j](MLS_para_dic[j], train_data, train_labels, test_data, test_labels, 'Dist2Heaven')
                 end_time1=time.time()-start_time1
                 for m in metrics:
                     if m not in temp[le.__name__]:
@@ -94,7 +96,7 @@ def _test(res=''):
                     temp[le.__name__]['features'].append(val[1])
                 print(temp)
 
-    with open('../dump/LDADE' +res+ '.pickle', 'wb') as handle:
+    with open('../dump/LDADE_FFT_' +res+ '.pickle', 'wb') as handle:
         pickle.dump(temp, handle)
 
 if __name__ == '__main__':

@@ -66,7 +66,7 @@ def get_score(criteria, metrics):   # The smaller the better
     all_metrics = [tp, fp, tn, fn, pre, rec, spec, fpr, npv, acc, f1]
     if criteria == "accuracy":
         score = -all_metrics[-ACC]
-    elif criteria == "d2h":
+    elif criteria == "Dist2Heaven":
         score = all_metrics[-FPR] ** 2 + (1 - all_metrics[-REC]) ** 2
         score = math.sqrt(score) / math.sqrt(2)
     elif criteria == "Gini":
