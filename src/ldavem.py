@@ -116,7 +116,7 @@ def _test_LDA(data_samples=[], term=7, random_state=1,max_iter=100, **l):
         return lda1.score(tf)
 
 
-def ldavem(*x, **r):
+def main(*x, **r):
 
     l = np.asarray(x)
     n_components = l[0]['n_components']
