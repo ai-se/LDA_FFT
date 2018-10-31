@@ -34,7 +34,7 @@ MLS = [FFT1]
 MLS_para_dic = [OrderedDict([("C", 1.0), ("kernel", 'linear'),
                              ("degree", 3)]), OrderedDict()]
 
-metrics = ['precision', 'recall', 'f1']
+metrics = ['precision']
 features = ['10']
 #metrics = ['recall']
 #features = ['10']
@@ -122,6 +122,65 @@ def _test(res=''):
         pickle.dump(temp, handle)
 
 
+def run_experiment(MLS, raw_data, labels, result, m, repeat):
+    temp = {}
+    print(m, repeat)
+    ranges = list(range(len(labels)))
+    shuffle(ranges)
+    raw_data = raw_data[ranges]
+    labels = labels[ranges]
+    for fea in features:
+        if fea not in temp.keys():
+            temp[fea] = dict()
+            for le in MLS:
+                temp[fea][le.__name__] = {}
+        start_time = time.time()
+        corpus, _ = LDA_(raw_data, n_components=int(fea))
+        end_time = time.time() - start_time
+        skf = StratifiedKFold(n_splits=5)
+        results = []
+        for train_index, test_index in skf.split(corpus, labels):
+            results.append(mining_parallel(MLS, corpus, labels, train_index, test_index, end_time, m))
+        for res in results:
+            for k in res.keys():
+                for sub_k in res[k].keys():
+                    if sub_k not in temp[fea][k].keys():
+                        temp[fea][k][sub_k] = [res[k][sub_k]]
+                    else:
+                        temp[fea][k][sub_k].append(res[k][sub_k])
+    result[repeat] = temp
+    # import pdb
+    # pdb.set_trace()
+
+
+
+def parallel_final(fname='', metric='precision'):
+    print(fname, "LDA")
+    seed(1)
+    np.random.seed(1)
+    raw_p = fname.split("_")
+    folder = ROOT + "/../data/" + ("%s_preprocessed" % raw_p[0])
+    path = folder + "/" + fname + ".csv"
+    raw_data, labels = readfile(path)
+    temp = mp.Manager().dict()
+    start_time = time.time()
+    runs = []
+    for i in range(5):
+        t = mp.Process(target=run_experiment, args=(MLS, raw_data, labels, temp, metric, i,))
+        runs.append(t)
+        t.start()
+
+    for one_process in runs:
+        one_process.join()
+
+    print("It takes: ", time.time() - start_time)
+    import pdb
+    pdb.set_trace()
+    with open('../dump/LDA_' + fname + '_1.pickle', 'wb') as handle:
+        pickle.dump(temp, handle)
+
+
+
 def mining_parallel(MLS, corpus, labels, train_index, test_index, end_time, m):
     train_data, train_labels = corpus[train_index], labels[train_index]
     test_data, test_labels = corpus[test_index], labels[test_index]
@@ -155,7 +214,7 @@ def parallel_test(fname=''):
     path = folder + "/" + fname + ".csv"
     raw_data, labels = readfile(path)
     temp={}
-
+    start_running = time.time()
     for m in metrics:
         temp[m] = {}
         for i in range(5):
@@ -175,7 +234,6 @@ def parallel_test(fname=''):
                 skf = StratifiedKFold(n_splits=5)
                 results = []
                 pool = mp.Pool()
-                start_running = time.time()
                 for train_index, test_index in skf.split(corpus, labels):
                     #results.append(mining_parallel(MLS, corpus, labels, train_index, test_index, end_time, m))
                     pool.apply_async(mining_parallel,
@@ -183,7 +241,6 @@ def parallel_test(fname=''):
                                      callback=results.append)
                 pool.close()
                 pool.join()
-                print("time to run this", time.time() - start_running)
                 for res in results:
                     for k in res.keys():
                         for sub_k in res[k].keys():
@@ -191,10 +248,12 @@ def parallel_test(fname=''):
                                 temp[m][fea][k][sub_k] = [res[k][sub_k]]
                             else:
                                 temp[m][fea][k][sub_k].append(res[k][sub_k])
-        #import pdb
-        #pdb.set_trace()
-        with open('../dump/LDA_' + fname + '_1.pickle', 'wb') as handle:
-            pickle.dump(temp, handle)
+
+    print("time to run this", time.time() - start_running)
+    import pdb
+    pdb.set_trace()
+    with open('../dump/LDA_' + fname + '_1.pickle', 'wb') as handle:
+        pickle.dump(temp, handle)
 
 
 def testing(res=''):
