@@ -1,0 +1,2975 @@
+(dp0
+S'10'
+p1
+(dp2
+S'SVM'
+p3
+(dp4
+S'features'
+p5
+(lp6
+(lp7
+a(lp8
+a(lp9
+a(lp10
+a(lp11
+a(lp12
+a(lp13
+a(lp14
+a(lp15
+a(lp16
+a(lp17
+a(lp18
+a(lp19
+a(lp20
+a(lp21
+a(lp22
+a(lp23
+a(lp24
+a(lp25
+a(lp26
+a(lp27
+a(lp28
+a(lp29
+a(lp30
+asS'false_alarm'
+p31
+(lp32
+F-0.0
+aF-0.115
+aF-0.077
+aF-0.136
+aF-0.115
+aF-0.043
+aF-0.077
+aF-0.083
+aF-0.087
+aF-0.138
+aF-0.138
+aF-0.125
+aF-0.143
+aF-0.0
+aF-0.08
+aF-0.194
+aF-0.129
+aF-0.12
+aF-0.042
+aF-0.0
+aF-0.342
+aF-0.286
+aF-0.463
+aF-0.511
+aF-0.426
+asS'recall'
+p33
+(lp34
+F-0.902
+aF-0.846
+aF-0.895
+aF-0.786
+aF-0.868
+aF-0.837
+aF-0.872
+aF-0.85
+aF-0.829
+aF-0.914
+aF-0.892
+aF-0.805
+aF-0.889
+aF-0.9
+aF-0.872
+aF-0.886
+aF-0.941
+aF-0.846
+aF-0.875
+aF-0.9
+aF-0.857
+aF-0.586
+aF-0.739
+aF-0.684
+aF-0.941
+asS'Dist2Heaven'
+p35
+(lp36
+F0.069
+aF0.136
+aF0.092
+aF0.179
+aF0.124
+aF0.119
+aF0.106
+aF0.121
+aF0.136
+aF0.115
+aF0.124
+aF0.164
+aF0.128
+aF0.071
+aF0.107
+aF0.159
+aF0.1
+aF0.138
+aF0.093
+aF0.071
+aF0.262
+aF0.356
+aF0.376
+aF0.425
+aF0.304
+asS'precision'
+p37
+(lp38
+F-1.0
+aF-0.917
+aF-0.944
+aF-0.917
+aF-0.917
+aF-0.973
+aF-0.944
+aF-0.944
+aF-0.944
+aF-0.889
+aF-0.892
+aF-0.917
+aF-0.889
+aF-1.0
+aF-0.944
+aF-0.838
+aF-0.889
+aF-0.917
+aF-0.972
+aF-1.0
+aF-0.649
+aF-0.944
+aF-0.472
+aF-0.361
+aF-0.444
+asS'times'
+p39
+(lp40
+F141.38089108467102
+aF141.38137412071228
+aF141.38043808937073
+aF141.3807680606842
+aF149.66405081748962
+aF149.6647551059723
+aF149.66487097740173
+aF149.66451501846313
+aF149.66449689865112
+aF174.18998408317566
+aF174.18926215171814
+aF174.18985199928284
+aF174.19026112556458
+aF174.18981909751892
+aF171.49364304542542
+aF171.49314999580383
+aF171.49312210083008
+aF171.49296498298645
+aF171.49334406852722
+aF140.4297969341278
+aF140.4293088912964
+aF140.42967987060547
+aF140.42974591255188
+aF140.4294319152832
+asS'accuracy'
+p41
+(lp42
+F-0.939
+aF-0.862
+aF-0.906
+aF-0.813
+aF-0.875
+aF-0.879
+aF-0.892
+aF-0.875
+aF-0.859
+aF-0.891
+aF-0.879
+aF-0.831
+aF-0.875
+aF-0.938
+aF-0.891
+aF-0.848
+aF-0.908
+aF-0.859
+aF-0.906
+aF-0.938
+aF-0.742
+aF-0.6
+aF-0.609
+aF-0.547
+aF-0.672
+assS'FFT1'
+p43
+(dp44
+g5
+(lp45
+(dp46
+g31
+S"\t| 0 >  0.003225885475681682\t--> 'True'\tCorrect Rej: 15, Miss: 21\n\t| \t| 0 >  0.0025644884499911764\t--> 'True'\tCorrect Rej: 7, Miss: 3\n\t| \t| \t| 0 >  0.0023259718184678434\t--> 'True'\tCorrect Rej: 4, Miss: 6\n\t| \t| \t| \t| 0 >  0.0020835788402406383\t--> 'True'\tCorrect Rej: 1, Miss: 4\n"
+p47
+sg33
+S"\t| 0 >  0.003225885475681682\t--> 'False'\tFalse Alarm: 15, Hit: 21\n\t| \t| 0 >  0.0025644884499911764\t--> 'False'\tFalse Alarm: 7, Hit: 3\n\t| \t| \t| 0 >  0.0023259718184678434\t--> 'False'\tFalse Alarm: 4, Hit: 6\n\t| \t| \t| \t| 0 >  0.0020835788402406383\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p48
+sg35
+S"\t| 0 >  0.003225885475681682\t--> 'True'\tCorrect Rej: 15, Miss: 21\n\t| \t| 4 >  0.49738802160822826\t--> 'False'\tFalse Alarm: 4, Hit: 12\n\t| \t| \t| 9 >  0.9709669104694434\t--> 'True'\tCorrect Rej: 7, Miss: 2\n\t| \t| \t| \t| 5 >  0.2825865411754766\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p49
+sg37
+S"\t| 0 >  0.003225885475681682\t--> 'True'\tCorrect Rej: 15, Miss: 21\n\t| \t| 4 >  0.49738802160822826\t--> 'False'\tFalse Alarm: 4, Hit: 12\n\t| \t| \t| 0 >  0.0029412910337304737\t--> 'True'\tCorrect Rej: 5, Miss: 0\n\t| \t| \t| \t| 0 >  0.002500581728040162\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p50
+sg41
+S"\t| 4 >  0.22612004178021172\t--> 'False'\tFalse Alarm: 6, Hit: 24\n\t| \t| 9 >  0.9678558005837656\t--> 'True'\tCorrect Rej: 19, Miss: 2\n\t| \t| \t| 5 <  0.23259280575171248\t--> 'True'\tCorrect Rej: 4, Miss: 1\n\t| \t| \t| \t| 0 >  0.004000082672355563\t--> 'False'\tFalse Alarm: 0, Hit: 8\n"
+p51
+sa(dp52
+g31
+S"\t| 0 >  0.003225929883323425\t--> 'True'\tCorrect Rej: 12, Miss: 20\n\t| \t| 0 >  0.002564242261620553\t--> 'True'\tCorrect Rej: 9, Miss: 10\n\t| \t| \t| 0 >  0.002325906106822979\t--> 'True'\tCorrect Rej: 4, Miss: 1\n\t| \t| \t| \t| 0 >  0.0021279300789934464\t--> 'True'\tCorrect Rej: 0, Miss: 1\n"
+p53
+sg33
+S"\t| 0 >  0.003225929883323425\t--> 'False'\tFalse Alarm: 12, Hit: 20\n\t| \t| 0 >  0.002564242261620553\t--> 'False'\tFalse Alarm: 9, Hit: 10\n\t| \t| \t| 0 >  0.002325906106822979\t--> 'False'\tFalse Alarm: 4, Hit: 1\n\t| \t| \t| \t| 0 >  0.0021279300789934464\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p54
+sg35
+S"\t| 0 >  0.003225929883323425\t--> 'True'\tCorrect Rej: 12, Miss: 20\n\t| \t| 4 >  0.5078206971050166\t--> 'False'\tFalse Alarm: 2, Hit: 12\n\t| \t| \t| 9 >  0.9718735510441207\t--> 'True'\tCorrect Rej: 5, Miss: 0\n\t| \t| \t| \t| 4 >  0.03454227497257173\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p55
+sg37
+S"\t| 0 >  0.003225929883323425\t--> 'True'\tCorrect Rej: 12, Miss: 20\n\t| \t| 4 >  0.5078206971050166\t--> 'False'\tFalse Alarm: 2, Hit: 12\n\t| \t| \t| 0 >  0.002857239245186742\t--> 'True'\tCorrect Rej: 9, Miss: 3\n\t| \t| \t| \t| 0 >  0.002500581696695772\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p56
+sg41
+S"\t| 4 >  0.1871626472970544\t--> 'False'\tFalse Alarm: 2, Hit: 29\n\t| \t| 9 >  0.9684093844362447\t--> 'True'\tCorrect Rej: 13, Miss: 0\n\t| \t| \t| 2 >  0.0035714286340971305\t--> 'False'\tFalse Alarm: 1, Hit: 5\n\t| \t| \t| \t| 0 >  0.003448315450251976\t--> 'True'\tCorrect Rej: 6, Miss: 1\n"
+p57
+sa(dp58
+g31
+S"\t| 0 >  0.003225885476116349\t--> 'True'\tCorrect Rej: 15, Miss: 19\n\t| \t| 0 >  0.002564484403816159\t--> 'True'\tCorrect Rej: 4, Miss: 8\n\t| \t| \t| 0 >  0.002325906106822979\t--> 'True'\tCorrect Rej: 7, Miss: 3\n\t| \t| \t| \t| 0 >  0.0020835182948061655\t--> 'True'\tCorrect Rej: 2, Miss: 3\n"
+p59
+sg33
+S"\t| 0 >  0.003225885476116349\t--> 'False'\tFalse Alarm: 15, Hit: 19\n\t| \t| 0 >  0.002564484403816159\t--> 'False'\tFalse Alarm: 4, Hit: 8\n\t| \t| \t| 0 >  0.002325906106822979\t--> 'False'\tFalse Alarm: 7, Hit: 3\n\t| \t| \t| \t| 0 >  0.0020835182948061655\t--> 'False'\tFalse Alarm: 2, Hit: 3\n"
+p60
+sg35
+S"\t| 0 >  0.003225885476116349\t--> 'False'\tFalse Alarm: 15, Hit: 19\n\t| \t| 4 <  0.5029095587891624\t--> 'True'\tCorrect Rej: 10, Miss: 5\n\t| \t| \t| 0 >  0.002500135494224827\t--> 'False'\tFalse Alarm: 2, Hit: 6\n\t| \t| \t| \t| 5 <  0.0024391284453262564\t--> 'True'\tCorrect Rej: 0, Miss: 4\n"
+p61
+sg37
+S"\t| 4 >  0.15093815567817115\t--> 'False'\tFalse Alarm: 8, Hit: 27\n\t| \t| 0 >  0.003333417843807152\t--> 'True'\tCorrect Rej: 10, Miss: 6\n\t| \t| \t| 0 >  0.003125062754928319\t--> 'True'\tCorrect Rej: 3, Miss: 0\n\t| \t| \t| \t| 0 >  0.002564185338932779\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p62
+sg41
+S"\t| 4 >  0.15093815567817115\t--> 'False'\tFalse Alarm: 8, Hit: 27\n\t| \t| 1 <  0.0033333333562709675\t--> 'True'\tCorrect Rej: 10, Miss: 3\n\t| \t| \t| 5 <  0.0038465535072607837\t--> 'True'\tCorrect Rej: 9, Miss: 0\n\t| \t| \t| \t| 1 >  0.004000801044966315\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p63
+sa(dp64
+g31
+S"\t| 0 >  0.003225885476116349\t--> 'True'\tCorrect Rej: 14, Miss: 20\n\t| \t| 0 >  0.0025642573253901895\t--> 'True'\tCorrect Rej: 5, Miss: 11\n\t| \t| \t| 0 >  0.002273147775981156\t--> 'True'\tCorrect Rej: 5, Miss: 4\n\t| \t| \t| \t| 0 >  0.0020835788402406383\t--> 'True'\tCorrect Rej: 0, Miss: 1\n"
+p65
+sg33
+S"\t| 0 >  0.003225885476116349\t--> 'False'\tFalse Alarm: 14, Hit: 20\n\t| \t| 0 >  0.0025642573253901895\t--> 'False'\tFalse Alarm: 5, Hit: 11\n\t| \t| \t| 0 >  0.002273147775981156\t--> 'False'\tFalse Alarm: 5, Hit: 4\n\t| \t| \t| \t| 0 >  0.0020835788402406383\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p66
+sg35
+S"\t| 0 >  0.003225885476116349\t--> 'False'\tFalse Alarm: 14, Hit: 20\n\t| \t| 9 >  0.04456167801445386\t--> 'True'\tCorrect Rej: 9, Miss: 4\n\t| \t| \t| 0 >  0.002564198399586404\t--> 'False'\tFalse Alarm: 1, Hit: 7\n\t| \t| \t| \t| 5 <  0.002325640014782388\t--> 'True'\tCorrect Rej: 0, Miss: 0\n"
+p67
+sg37
+S"\t| 0 >  0.003225885476116349\t--> 'True'\tCorrect Rej: 14, Miss: 20\n\t| \t| 9 <  0.04456167801445386\t--> 'False'\tFalse Alarm: 5, Hit: 12\n\t| \t| \t| 0 >  0.00256471712848864\t--> 'True'\tCorrect Rej: 4, Miss: 3\n\t| \t| \t| \t| 0 >  0.002500034793765001\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p68
+sg41
+S"\t| 9 <  0.0798867014070048\t--> 'False'\tFalse Alarm: 8, Hit: 27\n\t| \t| 4 <  0.0033336037071647296\t--> 'True'\tCorrect Rej: 11, Miss: 2\n\t| \t| \t| 5 <  0.09872086622765704\t--> 'True'\tCorrect Rej: 6, Miss: 0\n\t| \t| \t| \t| 1 >  0.003705854119964473\t--> 'False'\tFalse Alarm: 0, Hit: 3\n"
+p69
+sa(dp70
+g31
+S"\t| 0 >  0.0032263249674693885\t--> 'True'\tCorrect Rej: 13, Miss: 19\n\t| \t| 0 >  0.0025645653623532195\t--> 'True'\tCorrect Rej: 11, Miss: 9\n\t| \t| \t| 0 >  0.0023811238781797847\t--> 'True'\tCorrect Rej: 2, Miss: 1\n\t| \t| \t| \t| 0 >  0.002083539163296997\t--> 'True'\tCorrect Rej: 2, Miss: 3\n"
+p71
+sg33
+S"\t| 0 >  0.0032263249674693885\t--> 'False'\tFalse Alarm: 13, Hit: 19\n\t| \t| 0 >  0.0025645653623532195\t--> 'False'\tFalse Alarm: 11, Hit: 9\n\t| \t| \t| 0 >  0.0023811238781797847\t--> 'False'\tFalse Alarm: 2, Hit: 1\n\t| \t| \t| \t| 0 >  0.002083539163296997\t--> 'False'\tFalse Alarm: 2, Hit: 3\n"
+p72
+sg35
+S"\t| 0 >  0.0032263249674693885\t--> 'False'\tFalse Alarm: 13, Hit: 19\n\t| \t| 8 >  0.06731536266428613\t--> 'True'\tCorrect Rej: 12, Miss: 2\n\t| \t| \t| 0 >  0.0025001099025960174\t--> 'False'\tFalse Alarm: 1, Hit: 9\n\t| \t| \t| \t| 0 <  0.0021280391895651097\t--> 'True'\tCorrect Rej: 1, Miss: 4\n"
+p73
+sg37
+S"\t| 8 <  0.005001900222795694\t--> 'False'\tFalse Alarm: 9, Hit: 28\n\t| \t| 0 >  0.003226246675426127\t--> 'True'\tCorrect Rej: 9, Miss: 4\n\t| \t| \t| 0 >  0.0025650737766359636\t--> 'True'\tCorrect Rej: 9, Miss: 2\n\t| \t| \t| \t| 0 >  0.002500251243518897\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p74
+sg41
+S"\t| 8 <  0.005001900222795694\t--> 'False'\tFalse Alarm: 9, Hit: 28\n\t| \t| 8 >  0.9678556427128127\t--> 'True'\tCorrect Rej: 17, Miss: 0\n\t| \t| \t| 8 >  0.40647389549047874\t--> 'True'\tCorrect Rej: 2, Miss: 0\n\t| \t| \t| \t| 1 <  0.26162104913092876\t--> 'False'\tFalse Alarm: 1, Hit: 6\n"
+p75
+sa(dp76
+g31
+S"\t| 0 >  0.0032273650396500942\t--> 'True'\tCorrect Rej: 10, Miss: 16\n\t| \t| 0 >  0.0025650737766359636\t--> 'True'\tCorrect Rej: 9, Miss: 8\n\t| \t| \t| 0 >  0.0023260635585429807\t--> 'True'\tCorrect Rej: 7, Miss: 5\n\t| \t| \t| \t| 0 >  0.002083539163296997\t--> 'True'\tCorrect Rej: 1, Miss: 3\n"
+p77
+sg33
+S"\t| 0 >  0.0032273650396500942\t--> 'False'\tFalse Alarm: 10, Hit: 16\n\t| \t| 0 >  0.0025650737766359636\t--> 'False'\tFalse Alarm: 9, Hit: 8\n\t| \t| \t| 0 >  0.0023260635585429807\t--> 'False'\tFalse Alarm: 7, Hit: 5\n\t| \t| \t| \t| 0 >  0.002083539163296997\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p78
+sg35
+S"\t| 0 >  0.0032273650396500942\t--> 'False'\tFalse Alarm: 10, Hit: 16\n\t| \t| 8 >  0.06654879315077156\t--> 'True'\tCorrect Rej: 17, Miss: 1\n\t| \t| \t| 9 >  0.002564175724548472\t--> 'False'\tFalse Alarm: 0, Hit: 9\n\t| \t| \t| \t| 4 >  0.0023257513492287558\t--> 'True'\tCorrect Rej: 1, Miss: 5\n"
+p79
+sg37
+S"\t| 8 <  0.005001008967630322\t--> 'False'\tFalse Alarm: 4, Hit: 30\n\t| \t| 0 >  0.0032263249674693885\t--> 'True'\tCorrect Rej: 9, Miss: 5\n\t| \t| \t| 0 >  0.002667680379810215\t--> 'True'\tCorrect Rej: 8, Miss: 1\n\t| \t| \t| \t| 0 >  0.0025002619329604204\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p80
+sg41
+S"\t| 8 <  0.005001008967630322\t--> 'False'\tFalse Alarm: 4, Hit: 30\n\t| \t| 8 >  0.9678558040470806\t--> 'True'\tCorrect Rej: 15, Miss: 0\n\t| \t| \t| 8 <  0.24970665880761708\t--> 'False'\tFalse Alarm: 2, Hit: 5\n\t| \t| \t| \t| 8 <  0.5804071627032188\t--> 'True'\tCorrect Rej: 4, Miss: 1\n"
+p81
+sa(dp82
+g31
+S"\t| 0 >  0.0032262250883449877\t--> 'True'\tCorrect Rej: 14, Miss: 21\n\t| \t| 0 >  0.0025644353855554026\t--> 'True'\tCorrect Rej: 8, Miss: 10\n\t| \t| \t| 0 >  0.0022994768800072224\t--> 'True'\tCorrect Rej: 4, Miss: 1\n\t| \t| \t| \t| 0 >  0.0019234324307550424\t--> 'True'\tCorrect Rej: 0, Miss: 2\n"
+p83
+sg33
+S"\t| 0 >  0.0032262250883449877\t--> 'False'\tFalse Alarm: 14, Hit: 21\n\t| \t| 0 >  0.0025644353855554026\t--> 'False'\tFalse Alarm: 8, Hit: 10\n\t| \t| \t| 0 >  0.0022994768800072224\t--> 'False'\tFalse Alarm: 4, Hit: 1\n\t| \t| \t| \t| 0 >  0.0019234324307550424\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p84
+sg35
+S"\t| 0 >  0.0032262250883449877\t--> 'False'\tFalse Alarm: 14, Hit: 21\n\t| \t| 8 >  0.029529794334870605\t--> 'True'\tCorrect Rej: 12, Miss: 2\n\t| \t| \t| 0 >  0.002500081866391425\t--> 'False'\tFalse Alarm: 1, Hit: 9\n\t| \t| \t| \t| 3 <  0.002174283501409109\t--> 'True'\tCorrect Rej: 0, Miss: 0\n"
+p85
+sg37
+S"\t| 0 >  0.0032262250883449877\t--> 'True'\tCorrect Rej: 14, Miss: 21\n\t| \t| 8 <  0.029529794334870605\t--> 'False'\tFalse Alarm: 2, Hit: 13\n\t| \t| \t| 0 >  0.0026321746217074114\t--> 'True'\tCorrect Rej: 5, Miss: 1\n\t| \t| \t| \t| 0 >  0.0025002619329604204\t--> 'True'\tCorrect Rej: 4, Miss: 0\n"
+p86
+sg41
+S"\t| 8 <  0.004763329730412242\t--> 'False'\tFalse Alarm: 2, Hit: 27\n\t| \t| 8 >  0.9678558139255018\t--> 'True'\tCorrect Rej: 14, Miss: 0\n\t| \t| \t| 8 >  0.29454215443857346\t--> 'True'\tCorrect Rej: 6, Miss: 2\n\t| \t| \t| \t| 1 <  0.005556330717228447\t--> 'False'\tFalse Alarm: 2, Hit: 4\n"
+p87
+sa(dp88
+g31
+S"\t| 0 >  0.0032261883653380745\t--> 'True'\tCorrect Rej: 20, Miss: 20\n\t| \t| 0 >  0.00256459876857846\t--> 'True'\tCorrect Rej: 4, Miss: 6\n\t| \t| \t| 0 >  0.002325667619213842\t--> 'True'\tCorrect Rej: 3, Miss: 4\n\t| \t| \t| \t| 0 >  0.0019232697023853673\t--> 'True'\tCorrect Rej: 1, Miss: 4\n"
+p89
+sg33
+S"\t| 0 >  0.0032261883653380745\t--> 'False'\tFalse Alarm: 20, Hit: 20\n\t| \t| 0 >  0.00256459876857846\t--> 'False'\tFalse Alarm: 4, Hit: 6\n\t| \t| \t| 0 >  0.002325667619213842\t--> 'False'\tFalse Alarm: 3, Hit: 4\n\t| \t| \t| \t| 0 >  0.0019232697023853673\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p90
+sg35
+S"\t| 0 >  0.0032261883653380745\t--> 'False'\tFalse Alarm: 20, Hit: 20\n\t| \t| 8 >  0.003125536703877463\t--> 'True'\tCorrect Rej: 7, Miss: 5\n\t| \t| \t| 0 >  0.00250062646497983\t--> 'False'\tFalse Alarm: 0, Hit: 4\n\t| \t| \t| \t| 0 <  0.002222293374402402\t--> 'True'\tCorrect Rej: 1, Miss: 4\n"
+p91
+sg37
+S"\t| 8 <  0.0050009883212048375\t--> 'False'\tFalse Alarm: 2, Hit: 30\n\t| \t| 0 >  0.003226206967683579\t--> 'True'\tCorrect Rej: 19, Miss: 2\n\t| \t| \t| 0 >  0.002565178320181603\t--> 'True'\tCorrect Rej: 4, Miss: 1\n\t| \t| \t| \t| 0 >  0.0025002619329604204\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p92
+sg41
+S"\t| 8 <  0.0050009883212048375\t--> 'False'\tFalse Alarm: 2, Hit: 30\n\t| \t| 8 >  0.9678558187220936\t--> 'True'\tCorrect Rej: 12, Miss: 1\n\t| \t| \t| 8 >  0.24720461558018617\t--> 'True'\tCorrect Rej: 11, Miss: 1\n\t| \t| \t| \t| 4 <  0.003846410289132885\t--> 'False'\tFalse Alarm: 2, Hit: 3\n"
+p93
+sa(dp94
+g31
+S"\t| 0 >  0.0032266001845137047\t--> 'True'\tCorrect Rej: 9, Miss: 19\n\t| \t| 0 >  0.0025648163054773415\t--> 'True'\tCorrect Rej: 9, Miss: 8\n\t| \t| \t| 0 >  0.002325667619213842\t--> 'True'\tCorrect Rej: 8, Miss: 4\n\t| \t| \t| \t| 0 >  0.0018870465598405772\t--> 'True'\tCorrect Rej: 1, Miss: 5\n"
+p95
+sg33
+S"\t| 0 >  0.0032266001845137047\t--> 'False'\tFalse Alarm: 9, Hit: 19\n\t| \t| 0 >  0.0025648163054773415\t--> 'False'\tFalse Alarm: 9, Hit: 8\n\t| \t| \t| 0 >  0.002325667619213842\t--> 'False'\tFalse Alarm: 8, Hit: 4\n\t| \t| \t| \t| 0 >  0.0018870465598405772\t--> 'False'\tFalse Alarm: 1, Hit: 5\n"
+p96
+sg35
+S"\t| 0 >  0.0032266001845137047\t--> 'False'\tFalse Alarm: 9, Hit: 19\n\t| \t| 8 >  0.0031255853635409094\t--> 'True'\tCorrect Rej: 18, Miss: 5\n\t| \t| \t| 9 >  0.002564134020873865\t--> 'False'\tFalse Alarm: 0, Hit: 5\n\t| \t| \t| \t| 4 >  0.002326167653427553\t--> 'True'\tCorrect Rej: 0, Miss: 3\n"
+p97
+sg37
+S"\t| 8 <  0.0047630563831003335\t--> 'False'\tFalse Alarm: 2, Hit: 26\n\t| \t| 0 >  0.003280633750730952\t--> 'True'\tCorrect Rej: 8, Miss: 6\n\t| \t| \t| 0 >  0.0028575175396011545\t--> 'True'\tCorrect Rej: 8, Miss: 1\n\t| \t| \t| \t| 0 >  0.0025002619329604204\t--> 'True'\tCorrect Rej: 7, Miss: 2\n"
+p98
+sg41
+S"\t| 8 <  0.0047630563831003335\t--> 'False'\tFalse Alarm: 2, Hit: 26\n\t| \t| 8 >  0.9237257373264594\t--> 'True'\tCorrect Rej: 22, Miss: 2\n\t| \t| \t| 8 <  0.19964588099026095\t--> 'False'\tFalse Alarm: 0, Hit: 6\n\t| \t| \t| \t| 9 <  0.003125021825541624\t--> 'True'\tCorrect Rej: 3, Miss: 1\n"
+p99
+sa(dp100
+g31
+S"\t| 0 >  0.00312500019905889\t--> 'True'\tCorrect Rej: 16, Miss: 12\n\t| \t| 0 >  0.002500000459047088\t--> 'True'\tCorrect Rej: 11, Miss: 11\n\t| \t| \t| 0 >  0.002272727388308773\t--> 'True'\tCorrect Rej: 0, Miss: 6\n\t| \t| \t| \t| 0 >  0.001818181917328414\t--> 'True'\tCorrect Rej: 1, Miss: 5\n"
+p101
+sg33
+S"\t| 0 >  0.00312500019905889\t--> 'False'\tFalse Alarm: 16, Hit: 12\n\t| \t| 0 >  0.002500000459047088\t--> 'False'\tFalse Alarm: 11, Hit: 11\n\t| \t| \t| 0 >  0.002272727388308773\t--> 'False'\tFalse Alarm: 0, Hit: 6\n\t| \t| \t| \t| 0 >  0.001818181917328414\t--> 'False'\tFalse Alarm: 1, Hit: 5\n"
+p102
+sg35
+S"\t| 0 >  0.00312500019905889\t--> 'True'\tCorrect Rej: 16, Miss: 12\n\t| \t| 3 >  0.05144334234752396\t--> 'False'\tFalse Alarm: 1, Hit: 16\n\t| \t| \t| 9 >  0.003125456560219917\t--> 'False'\tFalse Alarm: 1, Hit: 9\n\t| \t| \t| \t| 0 <  0.0025641026134237224\t--> 'True'\tCorrect Rej: 6, Miss: 0\n"
+p103
+sg37
+S"\t| 0 >  0.00312500019905889\t--> 'True'\tCorrect Rej: 16, Miss: 12\n\t| \t| 0 >  0.002500000459047088\t--> 'True'\tCorrect Rej: 11, Miss: 11\n\t| \t| \t| 0 >  0.002272727388308773\t--> 'True'\tCorrect Rej: 0, Miss: 6\n\t| \t| \t| \t| 8 >  0.002083799386479971\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p104
+sg41
+S"\t| 9 >  0.0034493428250481585\t--> 'False'\tFalse Alarm: 8, Hit: 27\n\t| \t| 3 <  0.0034485601764638486\t--> 'True'\tCorrect Rej: 19, Miss: 0\n\t| \t| \t| 3 >  0.8668859030735382\t--> 'False'\tFalse Alarm: 0, Hit: 6\n\t| \t| \t| \t| 7 >  0.29137253402312696\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p105
+sa(dp106
+g31
+S"\t| 0 >  0.003125000053642085\t--> 'True'\tCorrect Rej: 18, Miss: 19\n\t| \t| 0 >  0.0025000002464223383\t--> 'True'\tCorrect Rej: 3, Miss: 10\n\t| \t| \t| 0 >  0.002222222267020487\t--> 'True'\tCorrect Rej: 4, Miss: 3\n\t| \t| \t| \t| 0 >  0.0018181819609665421\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p107
+sg33
+S"\t| 0 >  0.003125000053642085\t--> 'False'\tFalse Alarm: 18, Hit: 19\n\t| \t| 0 >  0.0025000002464223383\t--> 'False'\tFalse Alarm: 3, Hit: 10\n\t| \t| \t| 0 >  0.002222222267020487\t--> 'False'\tFalse Alarm: 4, Hit: 3\n\t| \t| \t| \t| 0 >  0.0018181819609665421\t--> 'False'\tFalse Alarm: 3, Hit: 0\n"
+p108
+sg35
+S"\t| 0 >  0.003125000053642085\t--> 'True'\tCorrect Rej: 18, Miss: 19\n\t| \t| 3 >  0.05144334234752396\t--> 'False'\tFalse Alarm: 7, Hit: 10\n\t| \t| \t| 9 >  0.003125316831858513\t--> 'False'\tFalse Alarm: 2, Hit: 7\n\t| \t| \t| \t| 0 <  0.00256410258716686\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p109
+sg37
+S"\t| 0 >  0.003125000053642085\t--> 'True'\tCorrect Rej: 18, Miss: 19\n\t| \t| 0 >  0.0025000002464223383\t--> 'True'\tCorrect Rej: 3, Miss: 10\n\t| \t| \t| 0 >  0.002222222267020487\t--> 'True'\tCorrect Rej: 4, Miss: 3\n\t| \t| \t| \t| 3 >  0.5755413478160278\t--> 'False'\tFalse Alarm: 0, Hit: 0\n"
+p110
+sg41
+S"\t| 3 >  0.0035716788553118873\t--> 'False'\tFalse Alarm: 13, Hit: 24\n\t| \t| 9 <  0.003333745520915936\t--> 'True'\tCorrect Rej: 9, Miss: 1\n\t| \t| \t| 9 >  0.6072474848351171\t--> 'False'\tFalse Alarm: 1, Hit: 11\n\t| \t| \t| \t| 7 >  0.9678553062356927\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p111
+sa(dp112
+g31
+S"\t| 0 >  0.0031250001418337897\t--> 'True'\tCorrect Rej: 16, Miss: 15\n\t| \t| 0 >  0.0025641025838601694\t--> 'True'\tCorrect Rej: 5, Miss: 10\n\t| \t| \t| 0 >  0.0022222224938035985\t--> 'True'\tCorrect Rej: 5, Miss: 5\n\t| \t| \t| \t| 0 >  0.001770050255039458\t--> 'True'\tCorrect Rej: 1, Miss: 5\n"
+p113
+sg33
+S"\t| 0 >  0.0031250001418337897\t--> 'False'\tFalse Alarm: 16, Hit: 15\n\t| \t| 0 >  0.0025641025838601694\t--> 'False'\tFalse Alarm: 5, Hit: 10\n\t| \t| \t| 0 >  0.0022222224938035985\t--> 'False'\tFalse Alarm: 5, Hit: 5\n\t| \t| \t| \t| 0 >  0.001770050255039458\t--> 'False'\tFalse Alarm: 1, Hit: 5\n"
+p114
+sg35
+S"\t| 0 >  0.0031250001418337897\t--> 'True'\tCorrect Rej: 16, Miss: 15\n\t| \t| 3 >  0.05446346713972048\t--> 'False'\tFalse Alarm: 5, Hit: 10\n\t| \t| \t| 9 >  0.003125334144948181\t--> 'False'\tFalse Alarm: 0, Hit: 9\n\t| \t| \t| \t| 0 <  0.002564102589062417\t--> 'True'\tCorrect Rej: 4, Miss: 0\n"
+p115
+sg37
+S"\t| 3 >  0.003703909027637565\t--> 'False'\tFalse Alarm: 6, Hit: 23\n\t| \t| 0 >  0.0031250001889120043\t--> 'True'\tCorrect Rej: 15, Miss: 2\n\t| \t| \t| 9 >  0.003125334144948181\t--> 'False'\tFalse Alarm: 0, Hit: 9\n\t| \t| \t| \t| 0 >  0.002564102589062417\t--> 'True'\tCorrect Rej: 3, Miss: 2\n"
+p116
+sg41
+S"\t| 3 >  0.003703909027637565\t--> 'False'\tFalse Alarm: 6, Hit: 23\n\t| \t| 9 <  0.0034488036329620186\t--> 'True'\tCorrect Rej: 16, Miss: 2\n\t| \t| \t| 9 >  0.6296378095065375\t--> 'False'\tFalse Alarm: 0, Hit: 7\n\t| \t| \t| \t| 9 <  0.003704069415658322\t--> 'True'\tCorrect Rej: 5, Miss: 0\n"
+p117
+sa(dp118
+g31
+S"\t| 0 >  0.003125000221866546\t--> 'True'\tCorrect Rej: 9, Miss: 17\n\t| \t| 0 >  0.0025641025838601694\t--> 'True'\tCorrect Rej: 11, Miss: 8\n\t| \t| \t| 0 >  0.0022727274087062255\t--> 'True'\tCorrect Rej: 4, Miss: 5\n\t| \t| \t| \t| 0 >  0.0018518520293474\t--> 'True'\tCorrect Rej: 1, Miss: 2\n"
+p119
+sg33
+S"\t| 0 >  0.003125000221866546\t--> 'False'\tFalse Alarm: 9, Hit: 17\n\t| \t| 0 >  0.0025641025838601694\t--> 'False'\tFalse Alarm: 11, Hit: 8\n\t| \t| \t| 0 >  0.0022727274087062255\t--> 'False'\tFalse Alarm: 4, Hit: 5\n\t| \t| \t| \t| 0 >  0.0018518520293474\t--> 'False'\tFalse Alarm: 1, Hit: 2\n"
+p120
+sg35
+S"\t| 0 >  0.003125000221866546\t--> 'True'\tCorrect Rej: 9, Miss: 17\n\t| \t| 2 <  0.0027783647947736126\t--> 'False'\tFalse Alarm: 6, Hit: 10\n\t| \t| \t| 9 >  0.003125003093996176\t--> 'False'\tFalse Alarm: 6, Hit: 8\n\t| \t| \t| \t| 2 >  0.7394324281164947\t--> 'True'\tCorrect Rej: 5, Miss: 0\n"
+p121
+sg37
+S"\t| 3 >  0.0035716939465746623\t--> 'False'\tFalse Alarm: 7, Hit: 27\n\t| \t| 0 >  0.003125000105697595\t--> 'True'\tCorrect Rej: 12, Miss: 4\n\t| \t| \t| 9 >  0.0031256432791391025\t--> 'False'\tFalse Alarm: 1, Hit: 5\n\t| \t| \t| \t| 0 >  0.002564102589062417\t--> 'True'\tCorrect Rej: 4, Miss: 0\n"
+p122
+sg41
+S"\t| 3 >  0.0035716939465746623\t--> 'False'\tFalse Alarm: 7, Hit: 27\n\t| \t| 9 <  0.00344836924675262\t--> 'True'\tCorrect Rej: 15, Miss: 0\n\t| \t| \t| 9 >  0.6216892520933721\t--> 'False'\tFalse Alarm: 1, Hit: 7\n\t| \t| \t| \t| 0 >  0.0034482758895919585\t--> 'True'\tCorrect Rej: 4, Miss: 2\n"
+p123
+sa(dp124
+g31
+S"\t| 0 >  0.003125000060485884\t--> 'True'\tCorrect Rej: 13, Miss: 23\n\t| \t| 0 >  0.002500000220113645\t--> 'True'\tCorrect Rej: 8, Miss: 6\n\t| \t| \t| 0 >  0.0021739131175815374\t--> 'True'\tCorrect Rej: 5, Miss: 5\n\t| \t| \t| \t| 0 >  0.0017241380750776974\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p125
+sg33
+S"\t| 0 >  0.003125000060485884\t--> 'False'\tFalse Alarm: 13, Hit: 23\n\t| \t| 0 >  0.002500000220113645\t--> 'False'\tFalse Alarm: 8, Hit: 6\n\t| \t| \t| 0 >  0.0021739131175815374\t--> 'False'\tFalse Alarm: 5, Hit: 5\n\t| \t| \t| \t| 0 >  0.0017241380750776974\t--> 'False'\tFalse Alarm: 2, Hit: 1\n"
+p126
+sg35
+S"\t| 0 >  0.003125000060485884\t--> 'True'\tCorrect Rej: 13, Miss: 23\n\t| \t| 3 >  0.09375404336343385\t--> 'False'\tFalse Alarm: 3, Hit: 9\n\t| \t| \t| 9 >  0.003125316835699293\t--> 'False'\tFalse Alarm: 3, Hit: 4\n\t| \t| \t| \t| 2 >  0.4195997956180007\t--> 'True'\tCorrect Rej: 5, Miss: 0\n"
+p127
+sg37
+S"\t| 0 >  0.003125000060485884\t--> 'True'\tCorrect Rej: 13, Miss: 23\n\t| \t| 0 >  0.002500000220113645\t--> 'True'\tCorrect Rej: 8, Miss: 6\n\t| \t| \t| 0 >  0.0021739131175815374\t--> 'True'\tCorrect Rej: 5, Miss: 5\n\t| \t| \t| \t| 3 >  0.3727539831596583\t--> 'False'\tFalse Alarm: 2, Hit: 1\n"
+p128
+sg41
+S"\t| 9 >  0.003571863091684036\t--> 'False'\tFalse Alarm: 6, Hit: 24\n\t| \t| 3 <  0.003448445511874049\t--> 'True'\tCorrect Rej: 17, Miss: 0\n\t| \t| \t| 3 >  0.5346160386302172\t--> 'False'\tFalse Alarm: 2, Hit: 11\n\t| \t| \t| \t| 0 >  0.0025641027738219978\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p129
+sa(dp130
+g31
+S"\t| 0 >  0.0032261307556206505\t--> 'True'\tCorrect Rej: 15, Miss: 19\n\t| \t| 0 >  0.002564856726515498\t--> 'True'\tCorrect Rej: 5, Miss: 10\n\t| \t| \t| 0 >  0.0022732745881189806\t--> 'True'\tCorrect Rej: 7, Miss: 3\n\t| \t| \t| \t| 0 >  0.0018526280274785967\t--> 'True'\tCorrect Rej: 0, Miss: 3\n"
+p131
+sg33
+S"\t| 0 >  0.0032261307556206505\t--> 'False'\tFalse Alarm: 15, Hit: 19\n\t| \t| 0 >  0.002564856726515498\t--> 'False'\tFalse Alarm: 5, Hit: 10\n\t| \t| \t| 0 >  0.0022732745881189806\t--> 'False'\tFalse Alarm: 7, Hit: 3\n\t| \t| \t| \t| 0 >  0.0018526280274785967\t--> 'False'\tFalse Alarm: 0, Hit: 3\n"
+p132
+sg35
+S"\t| 0 >  0.0032261307556206505\t--> 'False'\tFalse Alarm: 15, Hit: 19\n\t| \t| 7 >  0.0031257096122947487\t--> 'True'\tCorrect Rej: 10, Miss: 3\n\t| \t| \t| 1 >  0.0028572800861536\t--> 'False'\tFalse Alarm: 1, Hit: 11\n\t| \t| \t| \t| 3 <  0.002439348521511771\t--> 'True'\tCorrect Rej: 1, Miss: 1\n"
+p133
+sg37
+S"\t| 7 <  0.00500176344800829\t--> 'False'\tFalse Alarm: 5, Hit: 33\n\t| \t| 0 >  0.0032261357845097356\t--> 'True'\tCorrect Rej: 14, Miss: 2\n\t| \t| \t| 0 >  0.0027032620377673675\t--> 'True'\tCorrect Rej: 4, Miss: 1\n\t| \t| \t| \t| 0 >  0.002564305250639089\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p134
+sg41
+S"\t| 7 <  0.00500176344800829\t--> 'False'\tFalse Alarm: 5, Hit: 33\n\t| \t| 7 >  0.9678553232788882\t--> 'True'\tCorrect Rej: 16, Miss: 0\n\t| \t| \t| 5 >  0.003704017050869448\t--> 'False'\tFalse Alarm: 2, Hit: 1\n\t| \t| \t| \t| 7 >  0.3794855668257637\t--> 'True'\tCorrect Rej: 3, Miss: 3\n"
+p135
+sa(dp136
+g31
+S"\t| 0 >  0.0032261307556206505\t--> 'True'\tCorrect Rej: 15, Miss: 19\n\t| \t| 0 >  0.002565013399641846\t--> 'True'\tCorrect Rej: 6, Miss: 5\n\t| \t| \t| 0 >  0.0022736466122823774\t--> 'True'\tCorrect Rej: 7, Miss: 5\n\t| \t| \t| \t| 0 >  0.0018869111825787776\t--> 'True'\tCorrect Rej: 0, Miss: 3\n"
+p137
+sg33
+S"\t| 0 >  0.0032261307556206505\t--> 'False'\tFalse Alarm: 15, Hit: 19\n\t| \t| 0 >  0.002565013399641846\t--> 'False'\tFalse Alarm: 6, Hit: 5\n\t| \t| \t| 0 >  0.0022736466122823774\t--> 'False'\tFalse Alarm: 7, Hit: 5\n\t| \t| \t| \t| 0 >  0.0018869111825787776\t--> 'False'\tFalse Alarm: 0, Hit: 3\n"
+p138
+sg35
+S"\t| 0 >  0.0032261307556206505\t--> 'False'\tFalse Alarm: 15, Hit: 19\n\t| \t| 7 >  0.0031255235481453857\t--> 'True'\tCorrect Rej: 13, Miss: 2\n\t| \t| \t| 1 >  0.00285744474293026\t--> 'False'\tFalse Alarm: 0, Hit: 8\n\t| \t| \t| \t| 3 <  0.002778160878236589\t--> 'True'\tCorrect Rej: 1, Miss: 4\n"
+p139
+sg37
+S"\t| 7 <  0.004654202564709912\t--> 'False'\tFalse Alarm: 4, Hit: 26\n\t| \t| 0 >  0.003226581461768563\t--> 'True'\tCorrect Rej: 12, Miss: 9\n\t| \t| \t| 0 >  0.0027781326439826094\t--> 'True'\tCorrect Rej: 5, Miss: 0\n\t| \t| \t| \t| 0 >  0.00250110867105826\t--> 'True'\tCorrect Rej: 5, Miss: 0\n"
+p140
+sg41
+S"\t| 7 <  0.004654202564709912\t--> 'False'\tFalse Alarm: 4, Hit: 26\n\t| \t| 7 >  0.9678553106904719\t--> 'True'\tCorrect Rej: 17, Miss: 0\n\t| \t| \t| 5 >  0.003704277196592191\t--> 'False'\tFalse Alarm: 1, Hit: 8\n\t| \t| \t| \t| 9 >  0.003704785259933408\t--> 'True'\tCorrect Rej: 5, Miss: 0\n"
+p141
+sa(dp142
+g31
+S"\t| 0 >  0.0032261307550317288\t--> 'True'\tCorrect Rej: 14, Miss: 21\n\t| \t| 0 >  0.0025648379605773524\t--> 'True'\tCorrect Rej: 8, Miss: 5\n\t| \t| \t| 0 >  0.00232590684757563\t--> 'True'\tCorrect Rej: 3, Miss: 1\n\t| \t| \t| \t| 0 >  0.0017858664014012322\t--> 'True'\tCorrect Rej: 3, Miss: 8\n"
+p143
+sg33
+S"\t| 0 >  0.0032261307550317288\t--> 'False'\tFalse Alarm: 14, Hit: 21\n\t| \t| 0 >  0.0025648379605773524\t--> 'False'\tFalse Alarm: 8, Hit: 5\n\t| \t| \t| 0 >  0.00232590684757563\t--> 'False'\tFalse Alarm: 3, Hit: 1\n\t| \t| \t| \t| 0 >  0.0017858664014012322\t--> 'False'\tFalse Alarm: 3, Hit: 8\n"
+p144
+sg35
+S"\t| 0 >  0.0032261307550317288\t--> 'False'\tFalse Alarm: 14, Hit: 21\n\t| \t| 7 >  0.0030780375139127228\t--> 'True'\tCorrect Rej: 12, Miss: 6\n\t| \t| \t| 1 >  0.002778504454809262\t--> 'False'\tFalse Alarm: 0, Hit: 6\n\t| \t| \t| \t| 3 <  0.002439348521511771\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p145
+sg37
+S"\t| 7 <  0.005001220614197906\t--> 'False'\tFalse Alarm: 8, Hit: 26\n\t| \t| 0 >  0.003333528670906783\t--> 'True'\tCorrect Rej: 6, Miss: 4\n\t| \t| \t| 0 >  0.0028575089985582386\t--> 'True'\tCorrect Rej: 8, Miss: 2\n\t| \t| \t| \t| 0 >  0.002564305250639089\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p146
+sg41
+S"\t| 7 <  0.005001220614197906\t--> 'False'\tFalse Alarm: 8, Hit: 26\n\t| \t| 7 >  0.9678552298642578\t--> 'True'\tCorrect Rej: 17, Miss: 2\n\t| \t| \t| 5 >  0.003704277196592191\t--> 'False'\tFalse Alarm: 0, Hit: 5\n\t| \t| \t| \t| 1 <  0.0033336814038291396\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p147
+sa(dp148
+g31
+S"\t| 0 >  0.0032264118658927106\t--> 'True'\tCorrect Rej: 10, Miss: 19\n\t| \t| 0 >  0.002564566393199236\t--> 'True'\tCorrect Rej: 10, Miss: 12\n\t| \t| \t| 0 >  0.0023257546210134154\t--> 'True'\tCorrect Rej: 3, Miss: 0\n\t| \t| \t| \t| 0 >  0.0018526280274785967\t--> 'True'\tCorrect Rej: 3, Miss: 3\n"
+p149
+sg33
+S"\t| 0 >  0.0032264118658927106\t--> 'False'\tFalse Alarm: 10, Hit: 19\n\t| \t| 0 >  0.002564566393199236\t--> 'False'\tFalse Alarm: 10, Hit: 12\n\t| \t| \t| 0 >  0.0023257546210134154\t--> 'False'\tFalse Alarm: 3, Hit: 0\n\t| \t| \t| \t| 0 >  0.0018526280274785967\t--> 'False'\tFalse Alarm: 3, Hit: 3\n"
+p150
+sg35
+S"\t| 0 >  0.0032264118658927106\t--> 'False'\tFalse Alarm: 10, Hit: 19\n\t| \t| 7 >  0.0031256078683339515\t--> 'True'\tCorrect Rej: 14, Miss: 4\n\t| \t| \t| 1 >  0.002941603124494339\t--> 'False'\tFalse Alarm: 1, Hit: 5\n\t| \t| \t| \t| 3 <  0.0027785519056546353\t--> 'True'\tCorrect Rej: 3, Miss: 3\n"
+p151
+sg37
+S"\t| 0 >  0.0032264118658927106\t--> 'True'\tCorrect Rej: 10, Miss: 19\n\t| \t| 0 >  0.002564566393199236\t--> 'True'\tCorrect Rej: 10, Miss: 12\n\t| \t| \t| 0 >  0.0023257546210134154\t--> 'True'\tCorrect Rej: 3, Miss: 0\n\t| \t| \t| \t| 1 >  0.002174429781791177\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p152
+sg41
+S"\t| 7 <  0.004545932884677477\t--> 'False'\tFalse Alarm: 4, Hit: 25\n\t| \t| 7 >  0.9678554658423053\t--> 'True'\tCorrect Rej: 11, Miss: 0\n\t| \t| \t| 5 >  0.003571634428918679\t--> 'False'\tFalse Alarm: 3, Hit: 11\n\t| \t| \t| \t| 9 >  0.08017036066225804\t--> 'True'\tCorrect Rej: 4, Miss: 0\n"
+p153
+sa(dp154
+g31
+S"\t| 0 >  0.0032264958908135707\t--> 'True'\tCorrect Rej: 11, Miss: 17\n\t| \t| 0 >  0.002564763291494704\t--> 'True'\tCorrect Rej: 9, Miss: 12\n\t| \t| \t| 0 >  0.0022729795359823193\t--> 'True'\tCorrect Rej: 5, Miss: 4\n\t| \t| \t| \t| 0 >  0.0018869111825787776\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p155
+sg33
+S"\t| 0 >  0.0032264958908135707\t--> 'False'\tFalse Alarm: 11, Hit: 17\n\t| \t| 0 >  0.002564763291494704\t--> 'False'\tFalse Alarm: 9, Hit: 12\n\t| \t| \t| 0 >  0.0022729795359823193\t--> 'False'\tFalse Alarm: 5, Hit: 4\n\t| \t| \t| \t| 0 >  0.0018869111825787776\t--> 'False'\tFalse Alarm: 1, Hit: 0\n"
+p156
+sg35
+S"\t| 0 >  0.0032264958908135707\t--> 'False'\tFalse Alarm: 11, Hit: 17\n\t| \t| 7 >  0.0031256642904590568\t--> 'True'\tCorrect Rej: 12, Miss: 6\n\t| \t| \t| 1 >  0.00294175452600935\t--> 'False'\tFalse Alarm: 1, Hit: 5\n\t| \t| \t| \t| 3 <  0.002778160878236589\t--> 'True'\tCorrect Rej: 2, Miss: 3\n"
+p157
+sg37
+S"\t| 0 >  0.0032264958908135707\t--> 'True'\tCorrect Rej: 11, Miss: 17\n\t| \t| 0 >  0.002564763291494704\t--> 'True'\tCorrect Rej: 9, Miss: 12\n\t| \t| \t| 0 >  0.0022729795359823193\t--> 'True'\tCorrect Rej: 5, Miss: 4\n\t| \t| \t| \t| 1 >  0.002128316835430519\t--> 'False'\tFalse Alarm: 1, Hit: 0\n"
+p158
+sg41
+S"\t| 7 <  0.004545932884677477\t--> 'False'\tFalse Alarm: 5, Hit: 24\n\t| \t| 7 >  0.9678552298642578\t--> 'True'\tCorrect Rej: 19, Miss: 0\n\t| \t| \t| 5 >  0.0038463090023975063\t--> 'False'\tFalse Alarm: 0, Hit: 9\n\t| \t| \t| \t| 1 <  0.0032266741107220874\t--> 'True'\tCorrect Rej: 1, Miss: 1\n"
+p159
+sa(dp160
+g31
+S"\t| 0 >  0.0031283483955285196\t--> 'True'\tCorrect Rej: 17, Miss: 21\n\t| \t| 0 >  0.002564106529051703\t--> 'True'\tCorrect Rej: 8, Miss: 7\n\t| \t| \t| 0 >  0.002272778966500482\t--> 'True'\tCorrect Rej: 2, Miss: 5\n\t| \t| \t| \t| 0 >  0.001818392188664888\t--> 'True'\tCorrect Rej: 1, Miss: 3\n"
+p161
+sg33
+S"\t| 0 >  0.0031283483955285196\t--> 'False'\tFalse Alarm: 17, Hit: 21\n\t| \t| 0 >  0.002564106529051703\t--> 'False'\tFalse Alarm: 8, Hit: 7\n\t| \t| \t| 0 >  0.002272778966500482\t--> 'False'\tFalse Alarm: 2, Hit: 5\n\t| \t| \t| \t| 0 >  0.001818392188664888\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p162
+sg35
+S"\t| 0 >  0.0031283483955285196\t--> 'True'\tCorrect Rej: 17, Miss: 21\n\t| \t| 1 >  0.002704006170313364\t--> 'False'\tFalse Alarm: 8, Hit: 11\n\t| \t| \t| 6 >  0.0025641025757937746\t--> 'False'\tFalse Alarm: 1, Hit: 2\n\t| \t| \t| \t| 0 >  0.002273640011829602\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p163
+sg37
+S"\t| 0 >  0.0031283483955285196\t--> 'True'\tCorrect Rej: 17, Miss: 21\n\t| \t| 0 >  0.002564106529051703\t--> 'True'\tCorrect Rej: 8, Miss: 7\n\t| \t| \t| 1 >  0.0025003621336990114\t--> 'False'\tFalse Alarm: 3, Hit: 5\n\t| \t| \t| \t| 0 >  0.0021750229641993883\t--> 'True'\tCorrect Rej: 0, Miss: 3\n"
+p164
+sg41
+S"\t| 4 >  0.003448540590707571\t--> 'False'\tFalse Alarm: 10, Hit: 25\n\t| \t| 2 >  0.003030666258638181\t--> 'True'\tCorrect Rej: 10, Miss: 4\n\t| \t| \t| 1 >  0.0026321077935712203\t--> 'False'\tFalse Alarm: 5, Hit: 4\n\t| \t| \t| \t| 6 <  0.002564102576887295\t--> 'True'\tCorrect Rej: 3, Miss: 4\n"
+p165
+sa(dp166
+g31
+S"\t| 0 >  0.0032258145352852593\t--> 'True'\tCorrect Rej: 14, Miss: 20\n\t| \t| 0 >  0.002564106646452905\t--> 'True'\tCorrect Rej: 7, Miss: 10\n\t| \t| \t| 0 >  0.002272778966500482\t--> 'True'\tCorrect Rej: 6, Miss: 2\n\t| \t| \t| \t| 0 >  0.0018186493398285554\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p167
+sg33
+S"\t| 0 >  0.0032258145352852593\t--> 'False'\tFalse Alarm: 14, Hit: 20\n\t| \t| 0 >  0.002564106646452905\t--> 'False'\tFalse Alarm: 7, Hit: 10\n\t| \t| \t| 0 >  0.002272778966500482\t--> 'False'\tFalse Alarm: 6, Hit: 2\n\t| \t| \t| \t| 0 >  0.0018186493398285554\t--> 'False'\tFalse Alarm: 2, Hit: 1\n"
+p168
+sg35
+S"\t| 0 >  0.0032258145352852593\t--> 'True'\tCorrect Rej: 14, Miss: 20\n\t| \t| 9 <  0.6484836016984851\t--> 'False'\tFalse Alarm: 4, Hit: 7\n\t| \t| \t| 9 <  0.9718732581623463\t--> 'False'\tFalse Alarm: 1, Hit: 6\n\t| \t| \t| \t| 0 >  0.00256426646900578\t--> 'True'\tCorrect Rej: 3, Miss: 3\n"
+p169
+sg37
+S"\t| 0 >  0.0032258145352852593\t--> 'True'\tCorrect Rej: 14, Miss: 20\n\t| \t| 0 >  0.002564106646452905\t--> 'True'\tCorrect Rej: 7, Miss: 10\n\t| \t| \t| 1 >  0.002500647060522528\t--> 'False'\tFalse Alarm: 0, Hit: 2\n\t| \t| \t| \t| 0 >  0.0022742946549697573\t--> 'True'\tCorrect Rej: 6, Miss: 1\n"
+p170
+sg41
+S"\t| 4 >  0.0034486271147017916\t--> 'False'\tFalse Alarm: 6, Hit: 25\n\t| \t| 0 >  0.0031250061602091698\t--> 'True'\tCorrect Rej: 11, Miss: 3\n\t| \t| \t| 1 >  0.002941487896741852\t--> 'False'\tFalse Alarm: 0, Hit: 4\n\t| \t| \t| \t| 6 >  0.0025643492173193835\t--> 'False'\tFalse Alarm: 3, Hit: 4\n"
+p171
+sa(dp172
+g31
+S"\t| 0 >  0.003225836686259926\t--> 'True'\tCorrect Rej: 10, Miss: 15\n\t| \t| 0 >  0.002564107704199562\t--> 'True'\tCorrect Rej: 12, Miss: 12\n\t| \t| \t| 0 >  0.002274412092670994\t--> 'True'\tCorrect Rej: 1, Miss: 3\n\t| \t| \t| \t| 0 >  0.0019232512597102038\t--> 'True'\tCorrect Rej: 0, Miss: 3\n"
+p173
+sg33
+S"\t| 0 >  0.003225836686259926\t--> 'False'\tFalse Alarm: 10, Hit: 15\n\t| \t| 0 >  0.002564107704199562\t--> 'False'\tFalse Alarm: 12, Hit: 12\n\t| \t| \t| 0 >  0.002274412092670994\t--> 'False'\tFalse Alarm: 1, Hit: 3\n\t| \t| \t| \t| 0 >  0.0019232512597102038\t--> 'False'\tFalse Alarm: 0, Hit: 3\n"
+p174
+sg35
+S"\t| 0 >  0.003225836686259926\t--> 'False'\tFalse Alarm: 10, Hit: 15\n\t| \t| 9 >  0.8231141746936124\t--> 'True'\tCorrect Rej: 10, Miss: 7\n\t| \t| \t| 1 >  0.0027783425715714976\t--> 'False'\tFalse Alarm: 4, Hit: 9\n\t| \t| \t| \t| 4 <  0.7333986147486167\t--> 'True'\tCorrect Rej: 3, Miss: 1\n"
+p175
+sg37
+S"\t| 0 >  0.003225836686259926\t--> 'True'\tCorrect Rej: 10, Miss: 15\n\t| \t| 0 >  0.002564107704199562\t--> 'True'\tCorrect Rej: 12, Miss: 12\n\t| \t| \t| 0 >  0.002274412092670994\t--> 'True'\tCorrect Rej: 1, Miss: 3\n\t| \t| \t| \t| 1 >  0.0022733946413227087\t--> 'False'\tFalse Alarm: 2, Hit: 3\n"
+p176
+sg41
+S"\t| 4 >  0.003448540590707571\t--> 'False'\tFalse Alarm: 12, Hit: 22\n\t| \t| 2 >  0.003030609685517466\t--> 'True'\tCorrect Rej: 10, Miss: 5\n\t| \t| \t| 1 >  0.0025650057080553483\t--> 'False'\tFalse Alarm: 1, Hit: 9\n\t| \t| \t| \t| 4 >  0.002500338700833723\t--> 'True'\tCorrect Rej: 4, Miss: 0\n"
+p177
+sa(dp178
+g31
+S"\t| 0 >  0.0032258320166775323\t--> 'True'\tCorrect Rej: 14, Miss: 17\n\t| \t| 0 >  0.0025641377235508366\t--> 'True'\tCorrect Rej: 8, Miss: 9\n\t| \t| \t| 0 >  0.0022728251022109043\t--> 'True'\tCorrect Rej: 4, Miss: 5\n\t| \t| \t| \t| 0 >  0.0018869095915946227\t--> 'True'\tCorrect Rej: 1, Miss: 1\n"
+p179
+sg33
+S"\t| 0 >  0.0032258320166775323\t--> 'False'\tFalse Alarm: 14, Hit: 17\n\t| \t| 0 >  0.0025641377235508366\t--> 'False'\tFalse Alarm: 8, Hit: 9\n\t| \t| \t| 0 >  0.0022728251022109043\t--> 'False'\tFalse Alarm: 4, Hit: 5\n\t| \t| \t| \t| 0 >  0.0018869095915946227\t--> 'False'\tFalse Alarm: 1, Hit: 1\n"
+p180
+sg35
+S"\t| 0 >  0.0032258320166775323\t--> 'True'\tCorrect Rej: 14, Miss: 17\n\t| \t| 9 <  0.7072802894735759\t--> 'False'\tFalse Alarm: 6, Hit: 10\n\t| \t| \t| 9 <  0.9718741938684825\t--> 'False'\tFalse Alarm: 5, Hit: 6\n\t| \t| \t| \t| 1 <  0.0025644463789201025\t--> 'True'\tCorrect Rej: 3, Miss: 1\n"
+p181
+sg37
+S"\t| 0 >  0.0032258320166775323\t--> 'True'\tCorrect Rej: 14, Miss: 17\n\t| \t| 0 >  0.0025641377235508366\t--> 'True'\tCorrect Rej: 8, Miss: 9\n\t| \t| \t| 0 >  0.0022728251022109043\t--> 'True'\tCorrect Rej: 4, Miss: 5\n\t| \t| \t| \t| 0 >  0.0018869095915946227\t--> 'False'\tFalse Alarm: 1, Hit: 1\n"
+p182
+sg41
+S"\t| 1 >  0.003333542716605515\t--> 'False'\tFalse Alarm: 13, Hit: 21\n\t| \t| 9 >  0.9699978871209962\t--> 'True'\tCorrect Rej: 9, Miss: 5\n\t| \t| \t| 6 >  0.002777777857479997\t--> 'False'\tFalse Alarm: 3, Hit: 4\n\t| \t| \t| \t| 4 >  0.48067515555038115\t--> 'False'\tFalse Alarm: 2, Hit: 4\n"
+p183
+sa(dp184
+g31
+S"\t| 0 >  0.0032258320166775323\t--> 'True'\tCorrect Rej: 18, Miss: 13\n\t| \t| 0 >  0.00256426646900578\t--> 'True'\tCorrect Rej: 3, Miss: 6\n\t| \t| \t| 0 >  0.002325625269513417\t--> 'True'\tCorrect Rej: 5, Miss: 7\n\t| \t| \t| \t| 0 >  0.0018356296772712927\t--> 'True'\tCorrect Rej: 2, Miss: 7\n"
+p185
+sg33
+S"\t| 0 >  0.0032258320166775323\t--> 'False'\tFalse Alarm: 18, Hit: 13\n\t| \t| 0 >  0.00256426646900578\t--> 'False'\tFalse Alarm: 3, Hit: 6\n\t| \t| \t| 0 >  0.002325625269513417\t--> 'False'\tFalse Alarm: 5, Hit: 7\n\t| \t| \t| \t| 0 >  0.0018356296772712927\t--> 'False'\tFalse Alarm: 2, Hit: 7\n"
+p186
+sg35
+S"\t| 0 >  0.0032258320166775323\t--> 'False'\tFalse Alarm: 18, Hit: 13\n\t| \t| 9 >  0.7916569768388098\t--> 'True'\tCorrect Rej: 5, Miss: 9\n\t| \t| \t| 9 >  0.05085425665571729\t--> 'True'\tCorrect Rej: 2, Miss: 4\n\t| \t| \t| \t| 1 >  0.12570713463658534\t--> 'False'\tFalse Alarm: 0, Hit: 6\n"
+p187
+sg37
+S"\t| 0 >  0.0032258320166775323\t--> 'True'\tCorrect Rej: 18, Miss: 13\n\t| \t| 0 >  0.00256426646900578\t--> 'True'\tCorrect Rej: 3, Miss: 6\n\t| \t| \t| 0 >  0.002325625269513417\t--> 'True'\tCorrect Rej: 5, Miss: 7\n\t| \t| \t| \t| 0 >  0.0018356296772712927\t--> 'False'\tFalse Alarm: 2, Hit: 7\n"
+p188
+sg41
+S"\t| 4 >  0.003448833735108864\t--> 'False'\tFalse Alarm: 6, Hit: 18\n\t| \t| 9 >  0.9699973923732967\t--> 'True'\tCorrect Rej: 15, Miss: 5\n\t| \t| \t| 0 <  0.003033160949460673\t--> 'False'\tFalse Alarm: 2, Hit: 9\n\t| \t| \t| \t| 3 >  0.003225806750998759\t--> 'True'\tCorrect Rej: 3, Miss: 2\n"
+p189
+sasg31
+(lp190
+F0.069
+aF0.069
+aF0.107
+aF0.0
+aF0.143
+aF0.034
+aF0.069
+aF0.071
+aF0.0
+aF0.036
+aF0.034
+aF0.034
+aF0.036
+aF0.107
+aF0.0
+aF0.069
+aF0.034
+aF0.0
+aF0.071
+aF0.071
+aF0.034
+aF0.0
+aF0.179
+aF0.036
+aF0.0
+asg33
+(lp191
+F0.946
+aF0.944
+aF0.889
+aF0.917
+aF1.0
+aF0.865
+aF0.889
+aF0.944
+aF0.944
+aF1.0
+aF0.919
+aF0.889
+aF0.972
+aF0.889
+aF0.972
+aF0.946
+aF0.889
+aF0.972
+aF0.944
+aF0.917
+aF0.973
+aF0.917
+aF0.917
+aF0.889
+aF0.917
+asg35
+(lp192
+F0.344
+aF0.462
+aF0.4
+aF0.488
+aF0.486
+aF0.407
+aF0.293
+aF0.406
+aF0.535
+aF0.297
+aF0.286
+aF0.446
+aF0.358
+aF0.486
+aF0.518
+aF0.446
+aF0.384
+aF0.373
+aF0.31
+aF0.395
+aF0.486
+aF0.538
+aF0.41
+aF0.45
+aF0.564
+asg37
+(lp193
+F0.857
+aF0.714
+aF0.706
+aF0.69
+aF0.6
+aF0.775
+aF0.769
+aF0.737
+aF0.892
+aF0.844
+aF0.8
+aF0.0
+aF0.762
+aF0.727
+aF0.333
+aF0.773
+aF0.794
+aF0.707
+aF1.0
+aF0.0
+aF0.6
+aF0.714
+aF0.6
+aF0.5
+aF0.778
+asg39
+(lp194
+F158.26449298858643
+aF158.3388910293579
+aF158.1013889312744
+aF158.09430694580078
+aF166.4566469192505
+aF166.61664295196533
+aF166.66156005859375
+aF166.57162714004517
+aF166.67648482322693
+aF190.86870193481445
+aF190.96559810638428
+aF190.96315217018127
+aF190.90360808372498
+aF190.9290611743927
+aF188.4148030281067
+aF188.35337209701538
+aF188.3067820072174
+aF188.27023315429688
+aF188.2505931854248
+aF157.22659182548523
+aF157.22879195213318
+aF157.30741500854492
+aF157.20602893829346
+aF157.2293677330017
+asg41
+(lp195
+F0.848
+aF0.846
+aF0.844
+aF0.781
+aF0.781
+aF0.803
+aF0.831
+aF0.859
+aF0.891
+aF0.906
+aF0.864
+aF0.723
+aF0.859
+aF0.828
+aF0.859
+aF0.803
+aF0.892
+aF0.813
+aF0.797
+aF0.859
+aF0.636
+aF0.815
+aF0.703
+aF0.609
+aF0.734
+asssS'100'
+p196
+(dp197
+g3
+(dp198
+g5
+(lp199
+(lp200
+a(lp201
+a(lp202
+a(lp203
+a(lp204
+a(lp205
+a(lp206
+a(lp207
+a(lp208
+a(lp209
+a(lp210
+a(lp211
+a(lp212
+a(lp213
+a(lp214
+a(lp215
+a(lp216
+a(lp217
+a(lp218
+a(lp219
+a(lp220
+a(lp221
+a(lp222
+a(lp223
+asg31
+(lp224
+F-0.037
+aF-0.077
+aF-0.071
+aF-0.091
+aF-0.12
+aF-0.04
+aF-0.0
+aF-0.077
+aF-0.194
+aF-0.138
+aF-0.148
+aF-0.087
+aF-0.111
+aF-0.0
+aF-0.045
+aF-0.148
+aF-0.074
+aF-0.185
+aF-0.045
+aF-0.0
+aF-0.185
+aF-0.074
+aF-0.0
+aF-0.083
+aF-0.08
+asg33
+(lp225
+F-0.923
+aF-0.872
+aF-0.944
+aF-0.81
+aF-0.846
+aF-0.878
+aF-0.857
+aF-0.895
+aF-0.909
+aF-0.914
+aF-0.846
+aF-0.81
+aF-0.892
+aF-0.9
+aF-0.833
+aF-0.846
+aF-0.895
+aF-0.838
+aF-0.833
+aF-0.857
+aF-0.821
+aF-0.895
+aF-0.878
+aF-0.85
+aF-0.872
+asg35
+(lp226
+F0.06
+aF0.106
+aF0.064
+aF0.149
+aF0.138
+aF0.091
+aF0.101
+aF0.092
+aF0.152
+aF0.115
+aF0.151
+aF0.148
+aF0.11
+aF0.071
+aF0.122
+aF0.151
+aF0.091
+aF0.174
+aF0.122
+aF0.101
+aF0.182
+aF0.091
+aF0.086
+aF0.121
+aF0.107
+asg37
+(lp227
+F-0.973
+aF-0.944
+aF-0.944
+aF-0.944
+aF-0.917
+aF-0.973
+aF-1.0
+aF-0.944
+aF-0.833
+aF-0.889
+aF-0.892
+aF-0.944
+aF-0.917
+aF-1.0
+aF-0.972
+aF-0.892
+aF-0.944
+aF-0.861
+aF-0.972
+aF-1.0
+aF-0.865
+aF-0.944
+aF-1.0
+aF-0.944
+aF-0.944
+asg39
+(lp228
+F292.2661020755768
+aF292.26636004447937
+aF292.2658450603485
+aF292.266175031662
+aF275.998752117157
+aF275.99827885627747
+aF275.99897384643555
+aF275.9981589317322
+aF275.9979450702667
+aF267.0595281124115
+aF267.0613350868225
+aF267.0602300167084
+aF267.0611810684204
+aF267.0602970123291
+aF252.0575270652771
+aF252.05635619163513
+aF252.0556149482727
+aF252.0592761039734
+aF252.05727100372314
+aF264.31401109695435
+aF264.31122374534607
+aF264.31140184402466
+aF264.31082105636597
+aF264.31085181236267
+asg41
+(lp229
+F-0.939
+aF-0.892
+aF-0.938
+aF-0.844
+aF-0.859
+aF-0.909
+aF-0.908
+aF-0.906
+aF-0.859
+aF-0.891
+aF-0.848
+aF-0.846
+aF-0.891
+aF-0.938
+aF-0.875
+aF-0.848
+aF-0.908
+aF-0.828
+aF-0.875
+aF-0.906
+aF-0.818
+aF-0.908
+aF-0.922
+aF-0.875
+aF-0.891
+assg43
+(dp230
+g5
+(lp231
+(dp232
+g31
+S"\t| 0 >  0.000312500000000007\t--> 'True'\tCorrect Rej: 17, Miss: 18\n\t| \t| 0 >  0.0002564102564102624\t--> 'True'\tCorrect Rej: 6, Miss: 5\n\t| \t| \t| 0 >  0.00022222222222222497\t--> 'True'\tCorrect Rej: 3, Miss: 8\n\t| \t| \t| \t| 0 >  0.00018181818181822932\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p233
+sg33
+S"\t| 0 >  0.000312500000000007\t--> 'False'\tFalse Alarm: 17, Hit: 18\n\t| \t| 0 >  0.0002564102564102624\t--> 'False'\tFalse Alarm: 6, Hit: 5\n\t| \t| \t| 0 >  0.00022222222222222497\t--> 'False'\tFalse Alarm: 3, Hit: 8\n\t| \t| \t| \t| 0 >  0.00018181818181822932\t--> 'False'\tFalse Alarm: 2, Hit: 0\n"
+p234
+sg35
+S"\t| 0 >  0.000312500000000007\t--> 'True'\tCorrect Rej: 17, Miss: 18\n\t| \t| 56 <  0.00029411764705885625\t--> 'False'\tFalse Alarm: 4, Hit: 16\n\t| \t| \t| 56 >  0.2858641478630859\t--> 'True'\tCorrect Rej: 7, Miss: 2\n\t| \t| \t| \t| 56 <  0.07542302397594909\t--> 'False'\tFalse Alarm: 1, Hit: 0\n"
+p235
+sg37
+S"\t| 56 <  0.0004761904761905459\t--> 'False'\tFalse Alarm: 6, Hit: 30\n\t| \t| 0 >  0.00032258064516129574\t--> 'True'\tCorrect Rej: 15, Miss: 4\n\t| \t| \t| 0 >  0.00025641025641026666\t--> 'True'\tCorrect Rej: 3, Miss: 0\n\t| \t| \t| \t| 0 >  0.00024390243902440957\t--> 'True'\tCorrect Rej: 4, Miss: 0\n"
+p236
+sg41
+S"\t| 56 <  0.0004761904761905459\t--> 'False'\tFalse Alarm: 6, Hit: 30\n\t| \t| 56 >  0.7086506923137516\t--> 'True'\tCorrect Rej: 18, Miss: 0\n\t| \t| \t| 56 >  0.17417993013559446\t--> 'True'\tCorrect Rej: 4, Miss: 4\n\t| \t| \t| \t| 46 <  0.0003846153846154107\t--> 'False'\tFalse Alarm: 0, Hit: 0\n"
+p237
+sa(dp238
+g31
+S"\t| 0 >  0.0003125000000000101\t--> 'True'\tCorrect Rej: 16, Miss: 16\n\t| \t| 0 >  0.0002564102564102624\t--> 'True'\tCorrect Rej: 4, Miss: 10\n\t| \t| \t| 0 >  0.00022727272727273595\t--> 'True'\tCorrect Rej: 5, Miss: 3\n\t| \t| \t| \t| 0 >  0.00018181818181822932\t--> 'True'\tCorrect Rej: 1, Miss: 3\n"
+p239
+sg33
+S"\t| 0 >  0.0003125000000000101\t--> 'False'\tFalse Alarm: 16, Hit: 16\n\t| \t| 0 >  0.0002564102564102624\t--> 'False'\tFalse Alarm: 4, Hit: 10\n\t| \t| \t| 0 >  0.00022727272727273595\t--> 'False'\tFalse Alarm: 5, Hit: 3\n\t| \t| \t| \t| 0 >  0.00018181818181822932\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p240
+sg35
+S"\t| 0 >  0.0003125000000000101\t--> 'True'\tCorrect Rej: 16, Miss: 16\n\t| \t| 56 <  0.0002941176470588402\t--> 'False'\tFalse Alarm: 2, Hit: 15\n\t| \t| \t| 56 >  0.3749401747209758\t--> 'True'\tCorrect Rej: 6, Miss: 0\n\t| \t| \t| \t| 56 <  0.07661914168012536\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p241
+sg37
+S"\t| 0 >  0.0003125000000000101\t--> 'True'\tCorrect Rej: 16, Miss: 16\n\t| \t| 0 >  0.0002564102564102624\t--> 'True'\tCorrect Rej: 4, Miss: 10\n\t| \t| \t| 0 >  0.00022727272727273595\t--> 'True'\tCorrect Rej: 5, Miss: 3\n\t| \t| \t| \t| 91 >  0.07669602405593252\t--> 'False'\tFalse Alarm: 2, Hit: 5\n"
+p242
+sg41
+S"\t| 56 <  0.0004761904761904934\t--> 'False'\tFalse Alarm: 3, Hit: 30\n\t| \t| 56 >  0.7086506923137516\t--> 'True'\tCorrect Rej: 16, Miss: 2\n\t| \t| \t| 56 <  0.1564389258393623\t--> 'False'\tFalse Alarm: 0, Hit: 4\n\t| \t| \t| \t| 37 <  0.000333333333333344\t--> 'True'\tCorrect Rej: 8, Miss: 0\n"
+p243
+sa(dp244
+g31
+S"\t| 0 >  0.0003125000000000094\t--> 'True'\tCorrect Rej: 14, Miss: 19\n\t| \t| 0 >  0.00025641025641026226\t--> 'True'\tCorrect Rej: 7, Miss: 7\n\t| \t| \t| 0 >  0.00022727272727272977\t--> 'True'\tCorrect Rej: 5, Miss: 2\n\t| \t| \t| \t| 0 >  0.00017543859649124887\t--> 'True'\tCorrect Rej: 2, Miss: 6\n"
+p245
+sg33
+S"\t| 0 >  0.0003125000000000094\t--> 'False'\tFalse Alarm: 14, Hit: 19\n\t| \t| 0 >  0.00025641025641026226\t--> 'False'\tFalse Alarm: 7, Hit: 7\n\t| \t| \t| 0 >  0.00022727272727272977\t--> 'False'\tFalse Alarm: 5, Hit: 2\n\t| \t| \t| \t| 0 >  0.00017543859649124887\t--> 'False'\tFalse Alarm: 2, Hit: 6\n"
+p246
+sg35
+S"\t| 0 >  0.0003125000000000094\t--> 'True'\tCorrect Rej: 14, Miss: 19\n\t| \t| 56 <  0.0002941176470588346\t--> 'False'\tFalse Alarm: 3, Hit: 10\n\t| \t| \t| 56 <  0.35607390429986124\t--> 'False'\tFalse Alarm: 6, Hit: 6\n\t| \t| \t| \t| 0 >  0.00025641025641026243\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p247
+sg37
+S"\t| 56 <  0.0004545454545454904\t--> 'False'\tFalse Alarm: 5, Hit: 25\n\t| \t| 0 >  0.0003225806451612992\t--> 'True'\tCorrect Rej: 11, Miss: 5\n\t| \t| \t| 0 >  0.0002702702702702738\t--> 'True'\tCorrect Rej: 3, Miss: 2\n\t| \t| \t| \t| 0 >  0.00025000000000000553\t--> 'True'\tCorrect Rej: 6, Miss: 1\n"
+p248
+sg41
+S"\t| 56 <  0.0004545454545454904\t--> 'False'\tFalse Alarm: 5, Hit: 25\n\t| \t| 56 >  0.7325330785794089\t--> 'True'\tCorrect Rej: 12, Miss: 0\n\t| \t| \t| 56 <  0.24275687005916377\t--> 'False'\tFalse Alarm: 6, Hit: 9\n\t| \t| \t| \t| 37 <  0.0002777777777778075\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p249
+sa(dp250
+g31
+S"\t| 0 >  0.0003125000000000057\t--> 'True'\tCorrect Rej: 19, Miss: 20\n\t| \t| 0 >  0.0002500000000000337\t--> 'True'\tCorrect Rej: 0, Miss: 10\n\t| \t| \t| 0 >  0.00021739130434783938\t--> 'True'\tCorrect Rej: 5, Miss: 4\n\t| \t| \t| \t| 0 >  0.0001818181818182093\t--> 'True'\tCorrect Rej: 0, Miss: 1\n"
+p251
+sg33
+S"\t| 0 >  0.0003125000000000057\t--> 'False'\tFalse Alarm: 19, Hit: 20\n\t| \t| 0 >  0.0002500000000000337\t--> 'False'\tFalse Alarm: 0, Hit: 10\n\t| \t| \t| 0 >  0.00021739130434783938\t--> 'False'\tFalse Alarm: 5, Hit: 4\n\t| \t| \t| \t| 0 >  0.0001818181818182093\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p252
+sg35
+S"\t| 0 >  0.0003125000000000057\t--> 'True'\tCorrect Rej: 19, Miss: 20\n\t| \t| 56 <  0.00029411764705883863\t--> 'False'\tFalse Alarm: 5, Hit: 10\n\t| \t| \t| 56 >  0.2885307068054885\t--> 'True'\tCorrect Rej: 4, Miss: 1\n\t| \t| \t| \t| 56 <  0.07542302397594909\t--> 'False'\tFalse Alarm: 0, Hit: 4\n"
+p253
+sg37
+S"\t| 56 <  0.0004761904761904934\t--> 'False'\tFalse Alarm: 7, Hit: 26\n\t| \t| 0 >  0.0003225806451612966\t--> 'True'\tCorrect Rej: 13, Miss: 5\n\t| \t| \t| 0 >  0.00025641025641026487\t--> 'True'\tCorrect Rej: 4, Miss: 4\n\t| \t| \t| \t| 0 >  0.00024390243902440434\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p254
+sg41
+S"\t| 56 <  0.0004761904761904934\t--> 'False'\tFalse Alarm: 7, Hit: 26\n\t| \t| 56 >  0.7313903024411369\t--> 'True'\tCorrect Rej: 14, Miss: 1\n\t| \t| \t| 56 >  0.21945930672581349\t--> 'True'\tCorrect Rej: 6, Miss: 1\n\t| \t| \t| \t| 27 <  0.00047619047619049484\t--> 'False'\tFalse Alarm: 0, Hit: 4\n"
+p255
+sa(dp256
+g31
+S"\t| 0 >  0.0003125000000000091\t--> 'True'\tCorrect Rej: 15, Miss: 19\n\t| \t| 0 >  0.0002500000000000159\t--> 'True'\tCorrect Rej: 9, Miss: 9\n\t| \t| \t| 0 >  0.00022222222222222492\t--> 'True'\tCorrect Rej: 3, Miss: 3\n\t| \t| \t| \t| 0 >  0.0001754385964912523\t--> 'True'\tCorrect Rej: 2, Miss: 4\n"
+p257
+sg33
+S"\t| 0 >  0.0003125000000000091\t--> 'False'\tFalse Alarm: 15, Hit: 19\n\t| \t| 0 >  0.0002500000000000159\t--> 'False'\tFalse Alarm: 9, Hit: 9\n\t| \t| \t| 0 >  0.00022222222222222492\t--> 'False'\tFalse Alarm: 3, Hit: 3\n\t| \t| \t| \t| 0 >  0.0001754385964912523\t--> 'False'\tFalse Alarm: 2, Hit: 4\n"
+p258
+sg35
+S"\t| 0 >  0.0003125000000000091\t--> 'True'\tCorrect Rej: 15, Miss: 19\n\t| \t| 98 <  0.0003030303030303251\t--> 'False'\tFalse Alarm: 7, Hit: 14\n\t| \t| \t| 98 >  0.45086286771271034\t--> 'True'\tCorrect Rej: 5, Miss: 0\n\t| \t| \t| \t| 98 <  0.1660814344807986\t--> 'False'\tFalse Alarm: 0, Hit: 4\n"
+p259
+sg37
+S"\t| 0 >  0.0003125000000000091\t--> 'True'\tCorrect Rej: 15, Miss: 19\n\t| \t| 98 <  0.0003030303030303251\t--> 'False'\tFalse Alarm: 7, Hit: 14\n\t| \t| \t| 0 >  0.00025641025641026205\t--> 'True'\tCorrect Rej: 5, Miss: 1\n\t| \t| \t| \t| 0 >  0.00024390243902441892\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p260
+sg41
+S"\t| 98 <  0.054685796490173744\t--> 'False'\tFalse Alarm: 9, Hit: 26\n\t| \t| 98 >  0.7659705366600971\t--> 'True'\tCorrect Rej: 14, Miss: 0\n\t| \t| \t| 16 <  0.0002817460317460486\t--> 'True'\tCorrect Rej: 3, Miss: 1\n\t| \t| \t| \t| 5 >  0.0003846153846154095\t--> 'False'\tFalse Alarm: 1, Hit: 6\n"
+p261
+sa(dp262
+g31
+S"\t| 0 >  0.00031250000000002174\t--> 'True'\tCorrect Rej: 14, Miss: 12\n\t| \t| 0 >  0.0002564102564102611\t--> 'True'\tCorrect Rej: 4, Miss: 14\n\t| \t| \t| 0 >  0.00022727272727274096\t--> 'True'\tCorrect Rej: 7, Miss: 4\n\t| \t| \t| \t| 0 >  0.00018518518518520298\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p263
+sg33
+S"\t| 0 >  0.00031250000000002174\t--> 'False'\tFalse Alarm: 14, Hit: 12\n\t| \t| 0 >  0.0002564102564102611\t--> 'False'\tFalse Alarm: 4, Hit: 14\n\t| \t| \t| 0 >  0.00022727272727274096\t--> 'False'\tFalse Alarm: 7, Hit: 4\n\t| \t| \t| \t| 0 >  0.00018518518518520298\t--> 'False'\tFalse Alarm: 2, Hit: 1\n"
+p264
+sg35
+S"\t| 0 >  0.00031250000000002174\t--> 'True'\tCorrect Rej: 14, Miss: 12\n\t| \t| 98 <  0.0003030303030303251\t--> 'False'\tFalse Alarm: 3, Hit: 18\n\t| \t| \t| 98 >  0.3722732043292571\t--> 'True'\tCorrect Rej: 11, Miss: 0\n\t| \t| \t| \t| 98 <  0.11811093596889609\t--> 'False'\tFalse Alarm: 0, Hit: 5\n"
+p265
+sg37
+S"\t| 0 >  0.00031250000000002174\t--> 'True'\tCorrect Rej: 14, Miss: 12\n\t| \t| 0 >  0.0002564102564102611\t--> 'True'\tCorrect Rej: 4, Miss: 14\n\t| \t| \t| 0 >  0.00022727272727274096\t--> 'True'\tCorrect Rej: 7, Miss: 4\n\t| \t| \t| \t| 29 >  0.11256871671701359\t--> 'False'\tFalse Alarm: 2, Hit: 5\n"
+p266
+sg41
+S"\t| 98 <  0.0571739240794559\t--> 'False'\tFalse Alarm: 5, Hit: 32\n\t| \t| 98 >  0.763833111827899\t--> 'True'\tCorrect Rej: 17, Miss: 0\n\t| \t| \t| 98 <  0.2667326360603871\t--> 'False'\tFalse Alarm: 2, Hit: 3\n\t| \t| \t| \t| 73 <  0.00027777777777779827\t--> 'True'\tCorrect Rej: 4, Miss: 0\n"
+p267
+sa(dp268
+g31
+S"\t| 0 >  0.0003125000000000067\t--> 'True'\tCorrect Rej: 16, Miss: 20\n\t| \t| 0 >  0.0002500000000000102\t--> 'True'\tCorrect Rej: 6, Miss: 10\n\t| \t| \t| 0 >  0.00021739130434784076\t--> 'True'\tCorrect Rej: 3, Miss: 3\n\t| \t| \t| \t| 0 >  0.00018181818181819127\t--> 'True'\tCorrect Rej: 0, Miss: 1\n"
+p269
+sg33
+S"\t| 0 >  0.0003125000000000067\t--> 'False'\tFalse Alarm: 16, Hit: 20\n\t| \t| 0 >  0.0002500000000000102\t--> 'False'\tFalse Alarm: 6, Hit: 10\n\t| \t| \t| 0 >  0.00021739130434784076\t--> 'False'\tFalse Alarm: 3, Hit: 3\n\t| \t| \t| \t| 0 >  0.00018181818181819127\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p270
+sg35
+S"\t| 0 >  0.0003125000000000067\t--> 'True'\tCorrect Rej: 16, Miss: 20\n\t| \t| 98 <  0.0002941176470588469\t--> 'False'\tFalse Alarm: 2, Hit: 12\n\t| \t| \t| 98 >  0.44688506121105853\t--> 'True'\tCorrect Rej: 5, Miss: 0\n\t| \t| \t| \t| 98 <  0.0937114597423924\t--> 'False'\tFalse Alarm: 1, Hit: 2\n"
+p271
+sg37
+S"\t| 0 >  0.0003125000000000067\t--> 'True'\tCorrect Rej: 16, Miss: 20\n\t| \t| 0 >  0.0002500000000000102\t--> 'True'\tCorrect Rej: 6, Miss: 10\n\t| \t| \t| 0 >  0.00021739130434784076\t--> 'True'\tCorrect Rej: 3, Miss: 3\n\t| \t| \t| \t| 29 >  0.18384445232495106\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p272
+sg41
+S"\t| 98 <  0.052767857640773574\t--> 'False'\tFalse Alarm: 6, Hit: 26\n\t| \t| 98 >  0.7659705366600971\t--> 'True'\tCorrect Rej: 13, Miss: 0\n\t| \t| \t| 98 >  0.2816223581084578\t--> 'True'\tCorrect Rej: 7, Miss: 2\n\t| \t| \t| \t| 0 >  0.00034482758620690135\t--> 'False'\tFalse Alarm: 1, Hit: 5\n"
+p273
+sa(dp274
+g31
+S"\t| 0 >  0.0003125000000000097\t--> 'True'\tCorrect Rej: 17, Miss: 15\n\t| \t| 0 >  0.0002564102564102611\t--> 'True'\tCorrect Rej: 5, Miss: 6\n\t| \t| \t| 0 >  0.00022727272727274183\t--> 'True'\tCorrect Rej: 3, Miss: 7\n\t| \t| \t| \t| 0 >  0.00018181818181819127\t--> 'True'\tCorrect Rej: 2, Miss: 4\n"
+p275
+sg33
+S"\t| 0 >  0.0003125000000000097\t--> 'False'\tFalse Alarm: 17, Hit: 15\n\t| \t| 0 >  0.0002564102564102611\t--> 'False'\tFalse Alarm: 5, Hit: 6\n\t| \t| \t| 0 >  0.00022727272727274183\t--> 'False'\tFalse Alarm: 3, Hit: 7\n\t| \t| \t| \t| 0 >  0.00018181818181819127\t--> 'False'\tFalse Alarm: 2, Hit: 4\n"
+p276
+sg35
+S"\t| 0 >  0.0003125000000000097\t--> 'True'\tCorrect Rej: 17, Miss: 15\n\t| \t| 98 <  0.0002941176470588491\t--> 'False'\tFalse Alarm: 1, Hit: 14\n\t| \t| \t| 98 >  0.45086286771271034\t--> 'True'\tCorrect Rej: 4, Miss: 1\n\t| \t| \t| \t| 98 <  0.08434050209457998\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p277
+sg37
+S"\t| 0 >  0.0003125000000000097\t--> 'True'\tCorrect Rej: 17, Miss: 15\n\t| \t| 0 >  0.0002564102564102611\t--> 'True'\tCorrect Rej: 5, Miss: 6\n\t| \t| \t| 0 >  0.00022727272727274183\t--> 'True'\tCorrect Rej: 3, Miss: 7\n\t| \t| \t| \t| 29 >  0.2340774854657232\t--> 'False'\tFalse Alarm: 0, Hit: 5\n"
+p278
+sg41
+S"\t| 98 <  0.05313888750644803\t--> 'False'\tFalse Alarm: 3, Hit: 30\n\t| \t| 98 >  0.7613298775724562\t--> 'True'\tCorrect Rej: 16, Miss: 1\n\t| \t| \t| 98 <  0.25481406113457716\t--> 'False'\tFalse Alarm: 2, Hit: 4\n\t| \t| \t| \t| 16 <  0.00025641025641027555\t--> 'True'\tCorrect Rej: 3, Miss: 1\n"
+p279
+sa(dp280
+g31
+S"\t| 0 >  0.0003125000000000097\t--> 'True'\tCorrect Rej: 13, Miss: 19\n\t| \t| 0 >  0.0002500000000000125\t--> 'True'\tCorrect Rej: 11, Miss: 9\n\t| \t| \t| 0 >  0.00021739130434784076\t--> 'True'\tCorrect Rej: 2, Miss: 4\n\t| \t| \t| \t| 0 >  0.0001754385964912523\t--> 'True'\tCorrect Rej: 1, Miss: 3\n"
+p281
+sg33
+S"\t| 0 >  0.0003125000000000097\t--> 'False'\tFalse Alarm: 13, Hit: 19\n\t| \t| 0 >  0.0002500000000000125\t--> 'False'\tFalse Alarm: 11, Hit: 9\n\t| \t| \t| 0 >  0.00021739130434784076\t--> 'False'\tFalse Alarm: 2, Hit: 4\n\t| \t| \t| \t| 0 >  0.0001754385964912523\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p282
+sg35
+S"\t| 0 >  0.0003125000000000097\t--> 'True'\tCorrect Rej: 13, Miss: 19\n\t| \t| 98 <  0.0002941176470588349\t--> 'False'\tFalse Alarm: 2, Hit: 9\n\t| \t| \t| 98 <  0.3193659399732079\t--> 'False'\tFalse Alarm: 2, Hit: 6\n\t| \t| \t| \t| 0 >  0.0002564102564102611\t--> 'True'\tCorrect Rej: 7, Miss: 1\n"
+p283
+sg37
+S"\t| 0 >  0.0003125000000000097\t--> 'True'\tCorrect Rej: 13, Miss: 19\n\t| \t| 0 >  0.0002500000000000125\t--> 'True'\tCorrect Rej: 11, Miss: 9\n\t| \t| \t| 0 >  0.00021739130434784076\t--> 'True'\tCorrect Rej: 2, Miss: 4\n\t| \t| \t| \t| 29 >  0.2937201326007561\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p284
+sg41
+S"\t| 98 <  0.03815038875946931\t--> 'False'\tFalse Alarm: 3, Hit: 22\n\t| \t| 98 >  0.7432871823455911\t--> 'True'\tCorrect Rej: 17, Miss: 3\n\t| \t| \t| 98 <  0.19026566708986953\t--> 'False'\tFalse Alarm: 0, Hit: 9\n\t| \t| \t| \t| 29 <  0.0003125000000000067\t--> 'True'\tCorrect Rej: 6, Miss: 1\n"
+p285
+sa(dp286
+g31
+S"\t| 0 >  0.00031250000000002874\t--> 'True'\tCorrect Rej: 15, Miss: 13\n\t| \t| 0 >  0.0002564102564102607\t--> 'True'\tCorrect Rej: 10, Miss: 12\n\t| \t| \t| 0 >  0.00022727272727274375\t--> 'True'\tCorrect Rej: 2, Miss: 5\n\t| \t| \t| \t| 0 >  0.00018181818181819872\t--> 'True'\tCorrect Rej: 1, Miss: 4\n"
+p287
+sg33
+S"\t| 0 >  0.00031250000000002874\t--> 'False'\tFalse Alarm: 15, Hit: 13\n\t| \t| 0 >  0.0002564102564102607\t--> 'False'\tFalse Alarm: 10, Hit: 12\n\t| \t| \t| 0 >  0.00022727272727274375\t--> 'False'\tFalse Alarm: 2, Hit: 5\n\t| \t| \t| \t| 0 >  0.00018181818181819872\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p288
+sg35
+S"\t| 0 >  0.00031250000000002874\t--> 'True'\tCorrect Rej: 15, Miss: 13\n\t| \t| 1 <  0.0002941176470588456\t--> 'False'\tFalse Alarm: 2, Hit: 18\n\t| \t| \t| 1 >  0.3769350962651233\t--> 'True'\tCorrect Rej: 10, Miss: 0\n\t| \t| \t| \t| 0 >  0.00027777777777779713\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p289
+sg37
+S"\t| 1 <  0.0004545454545454986\t--> 'False'\tFalse Alarm: 5, Hit: 28\n\t| \t| 0 >  0.00033333333333333506\t--> 'True'\tCorrect Rej: 8, Miss: 6\n\t| \t| \t| 0 >  0.0002777777777777911\t--> 'True'\tCorrect Rej: 10, Miss: 1\n\t| \t| \t| \t| 0 >  0.0002500000000000046\t--> 'True'\tCorrect Rej: 6, Miss: 0\n"
+p290
+sg41
+S"\t| 1 <  0.0004545454545454986\t--> 'False'\tFalse Alarm: 5, Hit: 28\n\t| \t| 1 >  0.8289877688991624\t--> 'True'\tCorrect Rej: 18, Miss: 0\n\t| \t| \t| 0 <  0.0003448275862068995\t--> 'True'\tCorrect Rej: 3, Miss: 3\n\t| \t| \t| \t| 24 >  0.7879690509272534\t--> 'False'\tFalse Alarm: 1, Hit: 2\n"
+p291
+sa(dp292
+g31
+S"\t| 0 >  0.00031250000000000987\t--> 'True'\tCorrect Rej: 18, Miss: 20\n\t| \t| 0 >  0.0002564102564102607\t--> 'True'\tCorrect Rej: 3, Miss: 10\n\t| \t| \t| 0 >  0.00022727272727274793\t--> 'True'\tCorrect Rej: 3, Miss: 2\n\t| \t| \t| \t| 0 >  0.00018693221523411748\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p293
+sg33
+S"\t| 0 >  0.00031250000000000987\t--> 'False'\tFalse Alarm: 18, Hit: 20\n\t| \t| 0 >  0.0002564102564102607\t--> 'False'\tFalse Alarm: 3, Hit: 10\n\t| \t| \t| 0 >  0.00022727272727274793\t--> 'False'\tFalse Alarm: 3, Hit: 2\n\t| \t| \t| \t| 0 >  0.00018693221523411748\t--> 'False'\tFalse Alarm: 3, Hit: 0\n"
+p294
+sg35
+S"\t| 0 >  0.00031250000000000987\t--> 'True'\tCorrect Rej: 18, Miss: 20\n\t| \t| 1 <  0.0002941176470588363\t--> 'False'\tFalse Alarm: 3, Hit: 14\n\t| \t| \t| 1 >  0.5723248729126527\t--> 'True'\tCorrect Rej: 1, Miss: 1\n\t| \t| \t| \t| 0 >  0.0002941176470588362\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p295
+sg37
+S"\t| 1 <  0.0004347826086957109\t--> 'False'\tFalse Alarm: 5, Hit: 25\n\t| \t| 0 >  0.00032258064516129965\t--> 'True'\tCorrect Rej: 15, Miss: 10\n\t| \t| \t| 0 >  0.00027027027027030014\t--> 'True'\tCorrect Rej: 3, Miss: 0\n\t| \t| \t| \t| 0 >  0.0002500000000000299\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p296
+sg41
+S"\t| 1 <  0.0004347826086957109\t--> 'False'\tFalse Alarm: 5, Hit: 25\n\t| \t| 1 >  0.8753124999999973\t--> 'True'\tCorrect Rej: 12, Miss: 0\n\t| \t| \t| 0 >  0.0003448275862068996\t--> 'False'\tFalse Alarm: 5, Hit: 9\n\t| \t| \t| \t| 1 >  0.29763298092665863\t--> 'True'\tCorrect Rej: 5, Miss: 2\n"
+p297
+sa(dp298
+g31
+S"\t| 0 >  0.0003125000000000198\t--> 'True'\tCorrect Rej: 16, Miss: 17\n\t| \t| 0 >  0.0002564102564102614\t--> 'True'\tCorrect Rej: 4, Miss: 9\n\t| \t| \t| 0 >  0.00022727272727274034\t--> 'True'\tCorrect Rej: 6, Miss: 4\n\t| \t| \t| \t| 0 >  0.00017857142857143548\t--> 'True'\tCorrect Rej: 1, Miss: 5\n"
+p299
+sg33
+S"\t| 0 >  0.0003125000000000198\t--> 'False'\tFalse Alarm: 16, Hit: 17\n\t| \t| 0 >  0.0002564102564102614\t--> 'False'\tFalse Alarm: 4, Hit: 9\n\t| \t| \t| 0 >  0.00022727272727274034\t--> 'False'\tFalse Alarm: 6, Hit: 4\n\t| \t| \t| \t| 0 >  0.00017857142857143548\t--> 'False'\tFalse Alarm: 1, Hit: 5\n"
+p300
+sg35
+S"\t| 0 >  0.0003125000000000198\t--> 'True'\tCorrect Rej: 16, Miss: 17\n\t| \t| 1 <  0.0002941176470588302\t--> 'False'\tFalse Alarm: 1, Hit: 13\n\t| \t| \t| 1 >  0.3686846037648755\t--> 'True'\tCorrect Rej: 8, Miss: 0\n\t| \t| \t| \t| 1 <  0.00031250000000054184\t--> 'False'\tFalse Alarm: 0, Hit: 5\n"
+p301
+sg37
+S"\t| 1 <  0.00043478260869572277\t--> 'False'\tFalse Alarm: 2, Hit: 28\n\t| \t| 0 >  0.00032258064516131363\t--> 'True'\tCorrect Rej: 11, Miss: 7\n\t| \t| \t| 0 >  0.0002777777777777911\t--> 'True'\tCorrect Rej: 7, Miss: 1\n\t| \t| \t| \t| 0 >  0.0002500000000000299\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p302
+sg41
+S"\t| 1 <  0.00043478260869572277\t--> 'False'\tFalse Alarm: 2, Hit: 28\n\t| \t| 1 >  0.7727294737561843\t--> 'True'\tCorrect Rej: 20, Miss: 1\n\t| \t| \t| 0 <  0.00034482758620690276\t--> 'True'\tCorrect Rej: 6, Miss: 1\n\t| \t| \t| \t| 80 <  0.0004761904761904911\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p303
+sa(dp304
+g31
+S"\t| 0 >  0.0003125000000000261\t--> 'True'\tCorrect Rej: 11, Miss: 17\n\t| \t| 0 >  0.00025641025641026205\t--> 'True'\tCorrect Rej: 8, Miss: 9\n\t| \t| \t| 0 >  0.00022727272727274793\t--> 'True'\tCorrect Rej: 5, Miss: 4\n\t| \t| \t| \t| 0 >  0.00018518518518520746\t--> 'True'\tCorrect Rej: 1, Miss: 3\n"
+p305
+sg33
+S"\t| 0 >  0.0003125000000000261\t--> 'False'\tFalse Alarm: 11, Hit: 17\n\t| \t| 0 >  0.00025641025641026205\t--> 'False'\tFalse Alarm: 8, Hit: 9\n\t| \t| \t| 0 >  0.00022727272727274793\t--> 'False'\tFalse Alarm: 5, Hit: 4\n\t| \t| \t| \t| 0 >  0.00018518518518520746\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p306
+sg35
+S"\t| 0 >  0.0003125000000000261\t--> 'True'\tCorrect Rej: 11, Miss: 17\n\t| \t| 1 <  0.00029411764705884985\t--> 'False'\tFalse Alarm: 4, Hit: 17\n\t| \t| \t| 1 >  0.3708187736463179\t--> 'True'\tCorrect Rej: 10, Miss: 0\n\t| \t| \t| \t| 0 >  0.0002941176470588378\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p307
+sg37
+S"\t| 0 >  0.0003125000000000261\t--> 'True'\tCorrect Rej: 11, Miss: 17\n\t| \t| 1 <  0.00029411764705884985\t--> 'False'\tFalse Alarm: 4, Hit: 17\n\t| \t| \t| 0 >  0.0002777777777777911\t--> 'True'\tCorrect Rej: 6, Miss: 1\n\t| \t| \t| \t| 0 >  0.00025000000000000575\t--> 'True'\tCorrect Rej: 3, Miss: 1\n"
+p308
+sg41
+S"\t| 1 <  0.00047619047619053897\t--> 'False'\tFalse Alarm: 4, Hit: 31\n\t| \t| 1 >  0.8357920819745501\t--> 'True'\tCorrect Rej: 17, Miss: 0\n\t| \t| \t| 0 >  0.0003448275862069061\t--> 'False'\tFalse Alarm: 0, Hit: 3\n\t| \t| \t| \t| 11 <  0.00029437229437231027\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p309
+sa(dp310
+g31
+S"\t| 0 >  0.00031250000000001903\t--> 'True'\tCorrect Rej: 13, Miss: 22\n\t| \t| 0 >  0.0002564102564102607\t--> 'True'\tCorrect Rej: 6, Miss: 7\n\t| \t| \t| 0 >  0.00022233201581029104\t--> 'True'\tCorrect Rej: 7, Miss: 3\n\t| \t| \t| \t| 0 >  0.00017543859649124657\t--> 'True'\tCorrect Rej: 2, Miss: 3\n"
+p311
+sg33
+S"\t| 0 >  0.00031250000000001903\t--> 'False'\tFalse Alarm: 13, Hit: 22\n\t| \t| 0 >  0.0002564102564102607\t--> 'False'\tFalse Alarm: 6, Hit: 7\n\t| \t| \t| 0 >  0.00022233201581029104\t--> 'False'\tFalse Alarm: 7, Hit: 3\n\t| \t| \t| \t| 0 >  0.00017543859649124657\t--> 'False'\tFalse Alarm: 2, Hit: 3\n"
+p312
+sg35
+S"\t| 0 >  0.00031250000000001903\t--> 'True'\tCorrect Rej: 13, Miss: 22\n\t| \t| 1 <  0.0002817460317460647\t--> 'False'\tFalse Alarm: 2, Hit: 8\n\t| \t| \t| 1 >  0.32855749730347933\t--> 'True'\tCorrect Rej: 9, Miss: 0\n\t| \t| \t| \t| 0 >  0.00029411764705882594\t--> 'False'\tFalse Alarm: 1, Hit: 6\n"
+p313
+sg37
+S"\t| 1 <  0.00047619047619053897\t--> 'False'\tFalse Alarm: 4, Hit: 31\n\t| \t| 0 >  0.00032258070207721065\t--> 'True'\tCorrect Rej: 8, Miss: 4\n\t| \t| \t| 0 >  0.0002777777777778104\t--> 'True'\tCorrect Rej: 6, Miss: 1\n\t| \t| \t| \t| 0 >  0.0002500000000000046\t--> 'True'\tCorrect Rej: 8, Miss: 0\n"
+p314
+sg41
+S"\t| 1 <  0.00047619047619053897\t--> 'False'\tFalse Alarm: 4, Hit: 31\n\t| \t| 1 >  0.8426112574835496\t--> 'True'\tCorrect Rej: 14, Miss: 0\n\t| \t| \t| 1 >  0.2242645492197621\t--> 'True'\tCorrect Rej: 6, Miss: 1\n\t| \t| \t| \t| 24 >  0.767361905188223\t--> 'False'\tFalse Alarm: 1, Hit: 2\n"
+p315
+sa(dp316
+g31
+S"\t| 0 >  0.0003125000000000081\t--> 'True'\tCorrect Rej: 19, Miss: 18\n\t| \t| 0 >  0.00025641025641026053\t--> 'True'\tCorrect Rej: 3, Miss: 9\n\t| \t| \t| 0 >  0.00021739130434784252\t--> 'True'\tCorrect Rej: 5, Miss: 5\n\t| \t| \t| \t| 0 >  0.00018181818181818758\t--> 'True'\tCorrect Rej: 0, Miss: 3\n"
+p317
+sg33
+S"\t| 0 >  0.0003125000000000081\t--> 'False'\tFalse Alarm: 19, Hit: 18\n\t| \t| 0 >  0.00025641025641026053\t--> 'False'\tFalse Alarm: 3, Hit: 9\n\t| \t| \t| 0 >  0.00021739130434784252\t--> 'False'\tFalse Alarm: 5, Hit: 5\n\t| \t| \t| \t| 0 >  0.00018181818181818758\t--> 'False'\tFalse Alarm: 0, Hit: 3\n"
+p318
+sg35
+S"\t| 0 >  0.0003125000000000081\t--> 'True'\tCorrect Rej: 19, Miss: 18\n\t| \t| 51 <  0.0002941176470588358\t--> 'False'\tFalse Alarm: 3, Hit: 13\n\t| \t| \t| 51 >  0.550079212657544\t--> 'True'\tCorrect Rej: 4, Miss: 0\n\t| \t| \t| \t| 16 >  0.0002777777777777851\t--> 'False'\tFalse Alarm: 0, Hit: 5\n"
+p319
+sg37
+S"\t| 51 <  0.028674839338510127\t--> 'False'\tFalse Alarm: 5, Hit: 33\n\t| \t| 0 >  0.0003225806451612966\t--> 'True'\tCorrect Rej: 14, Miss: 2\n\t| \t| \t| 0 >  0.00026315789473687224\t--> 'True'\tCorrect Rej: 3, Miss: 1\n\t| \t| \t| \t| 0 >  0.0002500000000000048\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p320
+sg41
+S"\t| 51 <  0.028674839338510127\t--> 'False'\tFalse Alarm: 5, Hit: 33\n\t| \t| 51 >  0.9003333333333318\t--> 'True'\tCorrect Rej: 16, Miss: 0\n\t| \t| \t| 62 >  0.00034482758620696624\t--> 'False'\tFalse Alarm: 2, Hit: 2\n\t| \t| \t| \t| 13 >  0.0003030303030303443\t--> 'True'\tCorrect Rej: 3, Miss: 1\n"
+p321
+sa(dp322
+g31
+S"\t| 0 >  0.0003125000000000094\t--> 'True'\tCorrect Rej: 16, Miss: 19\n\t| \t| 0 >  0.0002500000000000152\t--> 'True'\tCorrect Rej: 9, Miss: 7\n\t| \t| \t| 0 >  0.0002173913043478409\t--> 'True'\tCorrect Rej: 3, Miss: 5\n\t| \t| \t| \t| 0 >  0.00018181818181819045\t--> 'True'\tCorrect Rej: 0, Miss: 1\n"
+p323
+sg33
+S"\t| 0 >  0.0003125000000000094\t--> 'False'\tFalse Alarm: 16, Hit: 19\n\t| \t| 0 >  0.0002500000000000152\t--> 'False'\tFalse Alarm: 9, Hit: 7\n\t| \t| \t| 0 >  0.0002173913043478409\t--> 'False'\tFalse Alarm: 3, Hit: 5\n\t| \t| \t| \t| 0 >  0.00018181818181819045\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p324
+sg35
+S"\t| 0 >  0.0003125000000000094\t--> 'True'\tCorrect Rej: 16, Miss: 19\n\t| \t| 51 <  0.00029411764705883657\t--> 'False'\tFalse Alarm: 3, Hit: 14\n\t| \t| \t| 51 <  0.32832376731018087\t--> 'False'\tFalse Alarm: 1, Hit: 3\n\t| \t| \t| \t| 51 >  0.9690624999869639\t--> 'True'\tCorrect Rej: 7, Miss: 0\n"
+p325
+sg37
+S"\t| 51 <  0.0005409356725146813\t--> 'False'\tFalse Alarm: 6, Hit: 27\n\t| \t| 0 >  0.00032258064516129764\t--> 'True'\tCorrect Rej: 7, Miss: 8\n\t| \t| \t| 0 >  0.00025978407557356443\t--> 'True'\tCorrect Rej: 10, Miss: 0\n\t| \t| \t| \t| 0 >  0.00024390243902441507\t--> 'True'\tCorrect Rej: 5, Miss: 0\n"
+p326
+sg41
+S"\t| 51 <  0.0005409356725146813\t--> 'False'\tFalse Alarm: 6, Hit: 27\n\t| \t| 51 >  0.9072173365267178\t--> 'True'\tCorrect Rej: 15, Miss: 0\n\t| \t| \t| 81 >  0.00034482758620692434\t--> 'False'\tFalse Alarm: 2, Hit: 8\n\t| \t| \t| \t| 13 >  0.0003125000000000583\t--> 'True'\tCorrect Rej: 4, Miss: 1\n"
+p327
+sa(dp328
+g31
+S"\t| 0 >  0.0003125000000000127\t--> 'True'\tCorrect Rej: 16, Miss: 15\n\t| \t| 0 >  0.000256410256410261\t--> 'True'\tCorrect Rej: 4, Miss: 6\n\t| \t| \t| 0 >  0.00022727272727274397\t--> 'True'\tCorrect Rej: 5, Miss: 5\n\t| \t| \t| \t| 0 >  0.00017543859649124898\t--> 'True'\tCorrect Rej: 3, Miss: 8\n"
+p329
+sg33
+S"\t| 0 >  0.0003125000000000127\t--> 'False'\tFalse Alarm: 16, Hit: 15\n\t| \t| 0 >  0.000256410256410261\t--> 'False'\tFalse Alarm: 4, Hit: 6\n\t| \t| \t| 0 >  0.00022727272727274397\t--> 'False'\tFalse Alarm: 5, Hit: 5\n\t| \t| \t| \t| 0 >  0.00017543859649124898\t--> 'False'\tFalse Alarm: 3, Hit: 8\n"
+p330
+sg35
+S"\t| 0 >  0.0003125000000000127\t--> 'True'\tCorrect Rej: 16, Miss: 15\n\t| \t| 51 <  0.0002941176470588362\t--> 'False'\tFalse Alarm: 4, Hit: 12\n\t| \t| \t| 51 >  0.461353812164555\t--> 'True'\tCorrect Rej: 7, Miss: 3\n\t| \t| \t| \t| 0 >  0.0002857142857143\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p331
+sg37
+S"\t| 51 <  0.0005000000000000144\t--> 'False'\tFalse Alarm: 8, Hit: 23\n\t| \t| 0 >  0.0003225806451613002\t--> 'True'\tCorrect Rej: 7, Miss: 5\n\t| \t| \t| 0 >  0.0002702702702702878\t--> 'True'\tCorrect Rej: 9, Miss: 2\n\t| \t| \t| \t| 0 >  0.0002500000000000065\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p332
+sg41
+S"\t| 51 <  0.0005000000000000144\t--> 'False'\tFalse Alarm: 8, Hit: 23\n\t| \t| 51 >  0.8642672804058918\t--> 'True'\tCorrect Rej: 16, Miss: 2\n\t| \t| \t| 62 <  0.0014423076923077939\t--> 'True'\tCorrect Rej: 4, Miss: 5\n\t| \t| \t| \t| 81 <  0.00047619047619048774\t--> 'False'\tFalse Alarm: 0, Hit: 4\n"
+p333
+sa(dp334
+g31
+S"\t| 0 >  0.0003125000000000151\t--> 'True'\tCorrect Rej: 12, Miss: 16\n\t| \t| 0 >  0.00025000000000002174\t--> 'True'\tCorrect Rej: 9, Miss: 13\n\t| \t| \t| 0 >  0.00022222222222224478\t--> 'True'\tCorrect Rej: 2, Miss: 3\n\t| \t| \t| \t| 0 >  0.00018181818181818758\t--> 'True'\tCorrect Rej: 3, Miss: 2\n"
+p335
+sg33
+S"\t| 0 >  0.0003125000000000151\t--> 'False'\tFalse Alarm: 12, Hit: 16\n\t| \t| 0 >  0.00025000000000002174\t--> 'False'\tFalse Alarm: 9, Hit: 13\n\t| \t| \t| 0 >  0.00022222222222224478\t--> 'False'\tFalse Alarm: 2, Hit: 3\n\t| \t| \t| \t| 0 >  0.00018181818181818758\t--> 'False'\tFalse Alarm: 3, Hit: 2\n"
+p336
+sg35
+S"\t| 0 >  0.0003125000000000151\t--> 'True'\tCorrect Rej: 12, Miss: 16\n\t| \t| 51 <  0.0002941176470588378\t--> 'False'\tFalse Alarm: 3, Hit: 15\n\t| \t| \t| 51 >  0.6571617675031023\t--> 'True'\tCorrect Rej: 7, Miss: 0\n\t| \t| \t| \t| 51 <  0.07548167950398542\t--> 'False'\tFalse Alarm: 2, Hit: 4\n"
+p337
+sg37
+S"\t| 51 <  0.0005263157894737726\t--> 'False'\tFalse Alarm: 5, Hit: 27\n\t| \t| 0 >  0.00032258064516129737\t--> 'True'\tCorrect Rej: 9, Miss: 7\n\t| \t| \t| 0 >  0.00025641025641027153\t--> 'True'\tCorrect Rej: 8, Miss: 2\n\t| \t| \t| \t| 0 >  0.00025000000000000456\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p338
+sg41
+S"\t| 51 <  0.0005263157894737726\t--> 'False'\tFalse Alarm: 5, Hit: 27\n\t| \t| 51 >  0.9037753349300248\t--> 'True'\tCorrect Rej: 15, Miss: 0\n\t| \t| \t| 62 >  0.00034482758620692434\t--> 'False'\tFalse Alarm: 1, Hit: 9\n\t| \t| \t| \t| 13 >  0.0003030303030303443\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p339
+sa(dp340
+g31
+S"\t| 0 >  0.0003125000000000127\t--> 'True'\tCorrect Rej: 14, Miss: 17\n\t| \t| 0 >  0.00025000000000002174\t--> 'True'\tCorrect Rej: 7, Miss: 12\n\t| \t| \t| 0 >  0.00021739130434784252\t--> 'True'\tCorrect Rej: 3, Miss: 4\n\t| \t| \t| \t| 0 >  0.0001818181818181943\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p341
+sg33
+S"\t| 0 >  0.0003125000000000127\t--> 'False'\tFalse Alarm: 14, Hit: 17\n\t| \t| 0 >  0.00025000000000002174\t--> 'False'\tFalse Alarm: 7, Hit: 12\n\t| \t| \t| 0 >  0.00021739130434784252\t--> 'False'\tFalse Alarm: 3, Hit: 4\n\t| \t| \t| \t| 0 >  0.0001818181818181943\t--> 'False'\tFalse Alarm: 1, Hit: 0\n"
+p342
+sg35
+S"\t| 0 >  0.0003125000000000127\t--> 'True'\tCorrect Rej: 14, Miss: 17\n\t| \t| 51 <  0.0002899159663865636\t--> 'False'\tFalse Alarm: 2, Hit: 11\n\t| \t| \t| 51 >  0.550079212657544\t--> 'True'\tCorrect Rej: 8, Miss: 0\n\t| \t| \t| \t| 16 >  0.0002941176470588262\t--> 'False'\tFalse Alarm: 0, Hit: 6\n"
+p343
+sg37
+S"\t| 51 <  0.0005000000000000128\t--> 'False'\tFalse Alarm: 2, Hit: 27\n\t| \t| 0 >  0.00032258064516129737\t--> 'True'\tCorrect Rej: 13, Miss: 6\n\t| \t| \t| 0 >  0.00027027027027028556\t--> 'True'\tCorrect Rej: 5, Miss: 1\n\t| \t| \t| \t| 0 >  0.00025000000000000456\t--> 'True'\tCorrect Rej: 5, Miss: 2\n"
+p344
+sg41
+S"\t| 51 <  0.0005000000000000128\t--> 'False'\tFalse Alarm: 2, Hit: 27\n\t| \t| 51 >  0.8822521430729637\t--> 'True'\tCorrect Rej: 18, Miss: 0\n\t| \t| \t| 62 >  0.0025000000000001193\t--> 'False'\tFalse Alarm: 1, Hit: 6\n\t| \t| \t| \t| 16 <  0.0003125000000000127\t--> 'True'\tCorrect Rej: 4, Miss: 3\n"
+p345
+sa(dp346
+g31
+S"\t| 0 >  0.0003125000000000051\t--> 'True'\tCorrect Rej: 16, Miss: 21\n\t| \t| 0 >  0.00025000000000002115\t--> 'True'\tCorrect Rej: 8, Miss: 6\n\t| \t| \t| 0 >  0.0002173913043478357\t--> 'True'\tCorrect Rej: 3, Miss: 7\n\t| \t| \t| \t| 0 >  0.000175438596491243\t--> 'True'\tCorrect Rej: 1, Miss: 2\n"
+p347
+sg33
+S"\t| 0 >  0.0003125000000000051\t--> 'False'\tFalse Alarm: 16, Hit: 21\n\t| \t| 0 >  0.00025000000000002115\t--> 'False'\tFalse Alarm: 8, Hit: 6\n\t| \t| \t| 0 >  0.0002173913043478357\t--> 'False'\tFalse Alarm: 3, Hit: 7\n\t| \t| \t| \t| 0 >  0.000175438596491243\t--> 'False'\tFalse Alarm: 1, Hit: 2\n"
+p348
+sg35
+S"\t| 0 >  0.0003125000000000051\t--> 'True'\tCorrect Rej: 16, Miss: 21\n\t| \t| 1 <  0.00027777777777778585\t--> 'False'\tFalse Alarm: 0, Hit: 10\n\t| \t| \t| 1 <  0.2254670938506231\t--> 'False'\tFalse Alarm: 5, Hit: 4\n\t| \t| \t| \t| 1 >  0.9690624999999988\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p349
+sg37
+S"\t| 1 <  0.00041666666666674443\t--> 'False'\tFalse Alarm: 1, Hit: 25\n\t| \t| 0 >  0.00032258064516131716\t--> 'True'\tCorrect Rej: 10, Miss: 9\n\t| \t| \t| 0 >  0.0002777777777777844\t--> 'True'\tCorrect Rej: 11, Miss: 0\n\t| \t| \t| \t| 0 >  0.0002564102564102609\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p350
+sg41
+S"\t| 1 <  0.00041666666666674443\t--> 'False'\tFalse Alarm: 1, Hit: 25\n\t| \t| 1 >  0.897126513937243\t--> 'True'\tCorrect Rej: 16, Miss: 0\n\t| \t| \t| 43 >  0.0003448275862069479\t--> 'False'\tFalse Alarm: 3, Hit: 7\n\t| \t| \t| \t| 75 >  0.00032258064516129563\t--> 'True'\tCorrect Rej: 2, Miss: 2\n"
+p351
+sa(dp352
+g31
+S"\t| 0 >  0.00031250000000001096\t--> 'True'\tCorrect Rej: 15, Miss: 19\n\t| \t| 0 >  0.00025000000000001546\t--> 'True'\tCorrect Rej: 6, Miss: 11\n\t| \t| \t| 0 >  0.0002173913043478577\t--> 'True'\tCorrect Rej: 6, Miss: 1\n\t| \t| \t| \t| 0 >  0.00018181818181818728\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p353
+sg33
+S"\t| 0 >  0.00031250000000001096\t--> 'False'\tFalse Alarm: 15, Hit: 19\n\t| \t| 0 >  0.00025000000000001546\t--> 'False'\tFalse Alarm: 6, Hit: 11\n\t| \t| \t| 0 >  0.0002173913043478577\t--> 'False'\tFalse Alarm: 6, Hit: 1\n\t| \t| \t| \t| 0 >  0.00018181818181818728\t--> 'False'\tFalse Alarm: 2, Hit: 1\n"
+p354
+sg35
+S"\t| 0 >  0.00031250000000001096\t--> 'True'\tCorrect Rej: 15, Miss: 19\n\t| \t| 1 <  0.00027777777777778585\t--> 'False'\tFalse Alarm: 2, Hit: 8\n\t| \t| \t| 1 <  0.19387744640815993\t--> 'False'\tFalse Alarm: 1, Hit: 8\n\t| \t| \t| \t| 0 >  0.0002564102564102633\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p355
+sg37
+S"\t| 1 <  0.0004347826086956984\t--> 'False'\tFalse Alarm: 3, Hit: 27\n\t| \t| 0 >  0.0003225806451612982\t--> 'True'\tCorrect Rej: 12, Miss: 7\n\t| \t| \t| 0 >  0.000285714285714334\t--> 'True'\tCorrect Rej: 2, Miss: 2\n\t| \t| \t| \t| 0 >  0.00025000000000001144\t--> 'True'\tCorrect Rej: 6, Miss: 0\n"
+p356
+sg41
+S"\t| 1 <  0.0004347826086956984\t--> 'False'\tFalse Alarm: 3, Hit: 27\n\t| \t| 1 >  0.8385553373719354\t--> 'True'\tCorrect Rej: 20, Miss: 0\n\t| \t| \t| 51 >  0.0003448275862069024\t--> 'False'\tFalse Alarm: 1, Hit: 7\n\t| \t| \t| \t| 88 <  0.00029411764705883814\t--> 'True'\tCorrect Rej: 3, Miss: 1\n"
+p357
+sa(dp358
+g31
+S"\t| 0 >  0.0003125000000000192\t--> 'True'\tCorrect Rej: 11, Miss: 16\n\t| \t| 0 >  0.000253205128205147\t--> 'True'\tCorrect Rej: 11, Miss: 10\n\t| \t| \t| 0 >  0.00022727272727274283\t--> 'True'\tCorrect Rej: 1, Miss: 4\n\t| \t| \t| \t| 0 >  0.00018867924528302455\t--> 'True'\tCorrect Rej: 0, Miss: 3\n"
+p359
+sg33
+S"\t| 0 >  0.0003125000000000192\t--> 'False'\tFalse Alarm: 11, Hit: 16\n\t| \t| 0 >  0.000253205128205147\t--> 'False'\tFalse Alarm: 11, Hit: 10\n\t| \t| \t| 0 >  0.00022727272727274283\t--> 'False'\tFalse Alarm: 1, Hit: 4\n\t| \t| \t| \t| 0 >  0.00018867924528302455\t--> 'False'\tFalse Alarm: 0, Hit: 3\n"
+p360
+sg35
+S"\t| 0 >  0.0003125000000000192\t--> 'True'\tCorrect Rej: 11, Miss: 16\n\t| \t| 1 <  0.0002941176470588353\t--> 'False'\tFalse Alarm: 4, Hit: 16\n\t| \t| \t| 1 >  0.4333793155177954\t--> 'True'\tCorrect Rej: 10, Miss: 0\n\t| \t| \t| \t| 0 >  0.000294117647058838\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p361
+sg37
+S"\t| 0 >  0.0003125000000000192\t--> 'True'\tCorrect Rej: 11, Miss: 16\n\t| \t| 0 >  0.000253205128205147\t--> 'True'\tCorrect Rej: 11, Miss: 10\n\t| \t| \t| 0 >  0.00022727272727274283\t--> 'True'\tCorrect Rej: 1, Miss: 4\n\t| \t| \t| \t| 1 <  0.00020408163265306283\t--> 'False'\tFalse Alarm: 4, Hit: 3\n"
+p362
+sg41
+S"\t| 1 <  0.0004761904804670691\t--> 'False'\tFalse Alarm: 6, Hit: 31\n\t| \t| 1 >  0.9021796230458745\t--> 'True'\tCorrect Rej: 14, Miss: 0\n\t| \t| \t| 99 >  0.0003703703703703764\t--> 'False'\tFalse Alarm: 3, Hit: 4\n\t| \t| \t| \t| 58 >  0.0003333333333333362\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p363
+sa(dp364
+g31
+S"\t| 0 >  0.00031250000000001014\t--> 'True'\tCorrect Rej: 16, Miss: 18\n\t| \t| 0 >  0.00025000000000001833\t--> 'True'\tCorrect Rej: 5, Miss: 11\n\t| \t| \t| 0 >  0.0002173913043478577\t--> 'True'\tCorrect Rej: 4, Miss: 3\n\t| \t| \t| \t| 0 >  0.00018181818181818728\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p365
+sg33
+S"\t| 0 >  0.00031250000000001014\t--> 'False'\tFalse Alarm: 16, Hit: 18\n\t| \t| 0 >  0.00025000000000001833\t--> 'False'\tFalse Alarm: 5, Hit: 11\n\t| \t| \t| 0 >  0.0002173913043478577\t--> 'False'\tFalse Alarm: 4, Hit: 3\n\t| \t| \t| \t| 0 >  0.00018181818181818728\t--> 'False'\tFalse Alarm: 2, Hit: 1\n"
+p366
+sg35
+S"\t| 0 >  0.00031250000000001014\t--> 'True'\tCorrect Rej: 16, Miss: 18\n\t| \t| 1 <  0.0002941176470588301\t--> 'False'\tFalse Alarm: 6, Hit: 13\n\t| \t| \t| 1 >  0.4508122625542184\t--> 'True'\tCorrect Rej: 5, Miss: 0\n\t| \t| \t| \t| 0 >  0.00028571428571433306\t--> 'False'\tFalse Alarm: 0, Hit: 3\n"
+p367
+sg37
+S"\t| 1 <  0.000476190476190541\t--> 'False'\tFalse Alarm: 8, Hit: 27\n\t| \t| 0 >  0.00032258064516129683\t--> 'True'\tCorrect Rej: 12, Miss: 6\n\t| \t| \t| 0 >  0.00025641025641028156\t--> 'True'\tCorrect Rej: 4, Miss: 2\n\t| \t| \t| \t| 0 >  0.0002500000000000053\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p368
+sg41
+S"\t| 1 <  0.000476190476190541\t--> 'False'\tFalse Alarm: 8, Hit: 27\n\t| \t| 1 >  0.9104810108338784\t--> 'True'\tCorrect Rej: 13, Miss: 0\n\t| \t| \t| 51 <  0.00033333333333336775\t--> 'True'\tCorrect Rej: 4, Miss: 3\n\t| \t| \t| \t| 17 <  0.00045454545454547975\t--> 'False'\tFalse Alarm: 3, Hit: 2\n"
+p369
+sa(dp370
+g31
+S"\t| 0 >  0.00031250000000001394\t--> 'True'\tCorrect Rej: 18, Miss: 12\n\t| \t| 0 >  0.0002564102564102612\t--> 'True'\tCorrect Rej: 4, Miss: 9\n\t| \t| \t| 0 >  0.0002272727272727362\t--> 'True'\tCorrect Rej: 5, Miss: 6\n\t| \t| \t| \t| 0 >  0.00017241379310348678\t--> 'True'\tCorrect Rej: 1, Miss: 8\n"
+p371
+sg33
+S"\t| 0 >  0.00031250000000001394\t--> 'False'\tFalse Alarm: 18, Hit: 12\n\t| \t| 0 >  0.0002564102564102612\t--> 'False'\tFalse Alarm: 4, Hit: 9\n\t| \t| \t| 0 >  0.0002272727272727362\t--> 'False'\tFalse Alarm: 5, Hit: 6\n\t| \t| \t| \t| 0 >  0.00017241379310348678\t--> 'False'\tFalse Alarm: 1, Hit: 8\n"
+p372
+sg35
+S"\t| 0 >  0.00031250000000001394\t--> 'True'\tCorrect Rej: 18, Miss: 12\n\t| \t| 1 <  0.00029411764705883977\t--> 'False'\tFalse Alarm: 3, Hit: 19\n\t| \t| \t| 1 >  0.5224589021716953\t--> 'True'\tCorrect Rej: 4, Miss: 1\n\t| \t| \t| \t| 20 >  0.00028571428571433306\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p373
+sg37
+S"\t| 1 <  0.0004761904761904863\t--> 'False'\tFalse Alarm: 5, Hit: 28\n\t| \t| 0 >  0.0003225806451612993\t--> 'True'\tCorrect Rej: 9, Miss: 5\n\t| \t| \t| 0 >  0.00026315789473685283\t--> 'True'\tCorrect Rej: 10, Miss: 1\n\t| \t| \t| \t| 0 >  0.00025000000000000743\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p374
+sg41
+S"\t| 1 <  0.0004761904761904863\t--> 'False'\tFalse Alarm: 5, Hit: 28\n\t| \t| 1 >  0.8648991360865024\t--> 'True'\tCorrect Rej: 18, Miss: 0\n\t| \t| \t| 25 >  0.0334564479285158\t--> 'False'\tFalse Alarm: 1, Hit: 5\n\t| \t| \t| \t| 90 >  0.0003333333333333362\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p375
+sasg31
+(lp376
+F0.0
+aF0.034
+aF0.071
+aF0.0
+aF0.143
+aF0.0
+aF0.069
+aF0.107
+aF0.036
+aF0.036
+aF0.034
+aF0.069
+aF0.036
+aF0.107
+aF0.0
+aF0.069
+aF0.034
+aF0.0
+aF0.071
+aF0.107
+aF0.034
+aF0.0
+aF0.179
+aF0.036
+aF0.0
+asg33
+(lp377
+F1.0
+aF0.861
+aF0.889
+aF0.944
+aF0.972
+aF0.946
+aF0.861
+aF0.944
+aF0.889
+aF0.972
+aF0.919
+aF0.889
+aF0.972
+aF0.917
+aF0.972
+aF0.946
+aF0.889
+aF0.944
+aF0.944
+aF0.917
+aF0.973
+aF0.889
+aF0.917
+aF0.917
+aF0.972
+asg35
+(lp378
+F0.276
+aF0.412
+aF0.342
+aF0.497
+aF0.45
+aF0.401
+aF0.265
+aF0.439
+aF0.394
+aF0.442
+aF0.295
+aF0.419
+aF0.354
+aF0.368
+aF0.439
+aF0.371
+aF0.401
+aF0.444
+aF0.357
+aF0.377
+aF0.47
+aF0.49
+aF0.357
+aF0.421
+aF0.293
+asg37
+(lp379
+F0.912
+aF0.821
+aF0.714
+aF0.778
+aF0.743
+aF0.708
+aF0.714
+aF0.75
+aF1.0
+aF1.0
+aF0.857
+aF0.722
+aF0.778
+aF0.68
+aF0.838
+aF0.773
+aF0.8
+aF0.737
+aF0.75
+aF0.844
+aF0.818
+aF0.75
+aF0.429
+aF0.73
+aF0.789
+asg39
+(lp380
+F457.976900100708
+aF458.33543491363525
+aF457.50129413604736
+aF458.5306041240692
+aF440.85148072242737
+aF440.51472997665405
+aF440.78879594802856
+aF440.77347683906555
+aF441.25006794929504
+aF434.5102300643921
+aF434.32011890411377
+aF432.8946051597595
+aF433.45068311691284
+aF433.5747489929199
+aF417.8109700679779
+aF417.12368726730347
+aF417.1063482761383
+aF417.40807604789734
+aF416.7995512485504
+aF430.85443592071533
+aF431.2314028739929
+aF429.2573437690735
+aF429.25514698028564
+aF428.51306080818176
+asg41
+(lp381
+F0.924
+aF0.815
+aF0.906
+aF0.797
+aF0.797
+aF0.773
+aF0.877
+aF0.813
+aF0.828
+aF0.859
+aF0.803
+aF0.785
+aF0.875
+aF0.844
+aF0.875
+aF0.833
+aF0.831
+aF0.734
+aF0.844
+aF0.859
+aF0.803
+aF0.892
+aF0.797
+aF0.719
+aF0.859
+asssS'50'
+p382
+(dp383
+g3
+(dp384
+g5
+(lp385
+(lp386
+a(lp387
+a(lp388
+a(lp389
+a(lp390
+a(lp391
+a(lp392
+a(lp393
+a(lp394
+a(lp395
+a(lp396
+a(lp397
+a(lp398
+a(lp399
+a(lp400
+a(lp401
+a(lp402
+a(lp403
+a(lp404
+a(lp405
+a(lp406
+a(lp407
+a(lp408
+a(lp409
+asg31
+(lp410
+F-0.037
+aF-0.111
+aF-0.074
+aF-0.15
+aF-0.111
+aF-0.083
+aF-0.04
+aF-0.087
+aF-0.148
+aF-0.138
+aF-0.107
+aF-0.095
+aF-0.138
+aF-0.0
+aF-0.045
+aF-0.138
+aF-0.129
+aF-0.148
+aF-0.038
+aF-0.0
+aF-0.207
+aF-0.103
+aF-0.0
+aF-0.091
+aF-0.043
+asg33
+(lp411
+F-0.923
+aF-0.868
+aF-0.919
+aF-0.75
+aF-0.892
+aF-0.833
+aF-0.875
+aF-0.829
+aF-0.865
+aF-0.914
+aF-0.895
+aF-0.773
+aF-0.914
+aF-0.878
+aF-0.833
+aF-0.892
+aF-0.941
+aF-0.865
+aF-0.921
+aF-0.857
+aF-0.838
+aF-0.917
+aF-0.9
+aF-0.81
+aF-0.854
+asg35
+(lp412
+F0.06
+aF0.122
+aF0.078
+aF0.206
+aF0.11
+aF0.132
+aF0.093
+aF0.136
+aF0.142
+aF0.115
+aF0.106
+aF0.174
+aF0.115
+aF0.086
+aF0.122
+aF0.124
+aF0.1
+aF0.142
+aF0.062
+aF0.101
+aF0.186
+aF0.094
+aF0.071
+aF0.149
+aF0.108
+asg37
+(lp413
+F-0.973
+aF-0.917
+aF-0.944
+aF-0.917
+aF-0.917
+aF-0.946
+aF-0.972
+aF-0.944
+aF-0.889
+aF-0.889
+aF-0.919
+aF-0.944
+aF-0.889
+aF-1.0
+aF-0.972
+aF-0.892
+aF-0.889
+aF-0.889
+aF-0.972
+aF-1.0
+aF-0.838
+aF-0.917
+aF-1.0
+aF-0.944
+aF-0.972
+asg39
+(lp414
+F194.78865599632263
+aF194.78860592842102
+aF194.7889666557312
+aF194.7884247303009
+aF196.6120901107788
+aF196.61067509651184
+aF196.61145091056824
+aF196.61123609542847
+aF196.61106514930725
+aF193.0172519683838
+aF193.01826977729797
+aF193.0179979801178
+aF193.01824593544006
+aF193.01797795295715
+aF200.14075803756714
+aF200.14006304740906
+aF200.139817237854
+aF200.1403613090515
+aF200.14115619659424
+aF196.85056805610657
+aF196.84957599639893
+aF196.85020804405212
+aF196.84926009178162
+aF196.849858045578
+asg41
+(lp415
+F-0.939
+aF-0.877
+aF-0.922
+aF-0.781
+aF-0.891
+aF-0.864
+aF-0.908
+aF-0.859
+aF-0.859
+aF-0.891
+aF-0.894
+aF-0.815
+aF-0.891
+aF-0.922
+aF-0.875
+aF-0.879
+aF-0.908
+aF-0.859
+aF-0.938
+aF-0.906
+aF-0.818
+aF-0.908
+aF-0.938
+aF-0.844
+aF-0.891
+assg43
+(dp416
+g5
+(lp417
+(dp418
+g31
+S"\t| 0 >  0.0006250000000000292\t--> 'True'\tCorrect Rej: 16, Miss: 17\n\t| \t| 0 >  0.0005128205128205206\t--> 'True'\tCorrect Rej: 6, Miss: 6\n\t| \t| \t| 0 >  0.00044444444444446333\t--> 'True'\tCorrect Rej: 4, Miss: 7\n\t| \t| \t| \t| 0 >  0.00036363636363642384\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p419
+sg33
+S"\t| 0 >  0.0006250000000000292\t--> 'False'\tFalse Alarm: 16, Hit: 17\n\t| \t| 0 >  0.0005128205128205206\t--> 'False'\tFalse Alarm: 6, Hit: 6\n\t| \t| \t| 0 >  0.00044444444444446333\t--> 'False'\tFalse Alarm: 4, Hit: 7\n\t| \t| \t| \t| 0 >  0.00036363636363642384\t--> 'False'\tFalse Alarm: 2, Hit: 1\n"
+p420
+sg35
+S"\t| 0 >  0.0006250000000000292\t--> 'True'\tCorrect Rej: 16, Miss: 17\n\t| \t| 46 <  0.0005882352941176927\t--> 'False'\tFalse Alarm: 3, Hit: 17\n\t| \t| \t| 46 <  0.28392418848598516\t--> 'False'\tFalse Alarm: 1, Hit: 1\n\t| \t| \t| \t| 0 >  0.0005128205128205259\t--> 'True'\tCorrect Rej: 4, Miss: 0\n"
+p421
+sg37
+S"\t| 0 >  0.0006250000000000292\t--> 'True'\tCorrect Rej: 16, Miss: 17\n\t| \t| 0 >  0.0005128205128205206\t--> 'True'\tCorrect Rej: 6, Miss: 6\n\t| \t| \t| 0 >  0.00044444444444446333\t--> 'True'\tCorrect Rej: 4, Miss: 7\n\t| \t| \t| \t| 30 >  0.5086068626502656\t--> 'False'\tFalse Alarm: 2, Hit: 4\n"
+p422
+sg41
+S"\t| 46 <  0.0008000000000000417\t--> 'False'\tFalse Alarm: 4, Hit: 22\n\t| \t| 46 >  0.7515626706334185\t--> 'True'\tCorrect Rej: 19, Miss: 0\n\t| \t| \t| 46 <  0.1239819987712775\t--> 'False'\tFalse Alarm: 2, Hit: 11\n\t| \t| \t| \t| 30 <  0.0006451612903227024\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p423
+sa(dp424
+g31
+S"\t| 0 >  0.0006250000000000304\t--> 'True'\tCorrect Rej: 16, Miss: 16\n\t| \t| 0 >  0.0005128205128205206\t--> 'True'\tCorrect Rej: 5, Miss: 10\n\t| \t| \t| 0 >  0.00045454545454548295\t--> 'True'\tCorrect Rej: 4, Miss: 3\n\t| \t| \t| \t| 0 >  0.0003670033670034189\t--> 'True'\tCorrect Rej: 1, Miss: 3\n"
+p425
+sg33
+S"\t| 0 >  0.0006250000000000304\t--> 'False'\tFalse Alarm: 16, Hit: 16\n\t| \t| 0 >  0.0005128205128205206\t--> 'False'\tFalse Alarm: 5, Hit: 10\n\t| \t| \t| 0 >  0.00045454545454548295\t--> 'False'\tFalse Alarm: 4, Hit: 3\n\t| \t| \t| \t| 0 >  0.0003670033670034189\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p426
+sg35
+S"\t| 0 >  0.0006250000000000304\t--> 'True'\tCorrect Rej: 16, Miss: 16\n\t| \t| 46 <  0.00056349206349211\t--> 'False'\tFalse Alarm: 3, Hit: 11\n\t| \t| \t| 46 >  0.3859706117550704\t--> 'True'\tCorrect Rej: 6, Miss: 0\n\t| \t| \t| \t| 0 >  0.0005714285714286084\t--> 'False'\tFalse Alarm: 1, Hit: 7\n"
+p427
+sg37
+S"\t| 0 >  0.0006250000000000304\t--> 'True'\tCorrect Rej: 16, Miss: 16\n\t| \t| 0 >  0.0005128205128205206\t--> 'True'\tCorrect Rej: 5, Miss: 10\n\t| \t| \t| 0 >  0.00045454545454548295\t--> 'True'\tCorrect Rej: 4, Miss: 3\n\t| \t| \t| \t| 30 >  0.5451152271317459\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p428
+sg41
+S"\t| 46 <  0.0008333333333335173\t--> 'False'\tFalse Alarm: 5, Hit: 29\n\t| \t| 46 >  0.8574479524411674\t--> 'True'\tCorrect Rej: 16, Miss: 0\n\t| \t| \t| 0 >  0.0006896551724138055\t--> 'False'\tFalse Alarm: 0, Hit: 5\n\t| \t| \t| \t| 46 >  0.2460135826578316\t--> 'True'\tCorrect Rej: 7, Miss: 1\n"
+p429
+sa(dp430
+g31
+S"\t| 0 >  0.0006250000000000267\t--> 'True'\tCorrect Rej: 15, Miss: 19\n\t| \t| 0 >  0.0005128205128205206\t--> 'True'\tCorrect Rej: 5, Miss: 7\n\t| \t| \t| 0 >  0.00045454545454547655\t--> 'True'\tCorrect Rej: 6, Miss: 2\n\t| \t| \t| \t| 0 >  0.0003540100250627059\t--> 'True'\tCorrect Rej: 2, Miss: 6\n"
+p431
+sg33
+S"\t| 0 >  0.0006250000000000267\t--> 'False'\tFalse Alarm: 15, Hit: 19\n\t| \t| 0 >  0.0005128205128205206\t--> 'False'\tFalse Alarm: 5, Hit: 7\n\t| \t| \t| 0 >  0.00045454545454547655\t--> 'False'\tFalse Alarm: 6, Hit: 2\n\t| \t| \t| \t| 0 >  0.0003540100250627059\t--> 'False'\tFalse Alarm: 2, Hit: 6\n"
+p432
+sg35
+S"\t| 0 >  0.0006250000000000267\t--> 'True'\tCorrect Rej: 15, Miss: 19\n\t| \t| 46 <  0.0005714285714286012\t--> 'False'\tFalse Alarm: 3, Hit: 12\n\t| \t| \t| 46 <  0.3859706117550704\t--> 'False'\tFalse Alarm: 4, Hit: 5\n\t| \t| \t| \t| 30 >  0.0005128205128205259\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p433
+sg37
+S"\t| 46 <  0.0008333333333335898\t--> 'False'\tFalse Alarm: 7, Hit: 28\n\t| \t| 0 >  0.0006451612903226035\t--> 'True'\tCorrect Rej: 9, Miss: 4\n\t| \t| \t| 0 >  0.0005634920634921224\t--> 'True'\tCorrect Rej: 4, Miss: 2\n\t| \t| \t| \t| 0 >  0.0005128205128205206\t--> 'True'\tCorrect Rej: 1, Miss: 1\n"
+p434
+sg41
+S"\t| 46 <  0.0008333333333335898\t--> 'False'\tFalse Alarm: 7, Hit: 28\n\t| \t| 46 >  0.926675627240138\t--> 'True'\tCorrect Rej: 13, Miss: 0\n\t| \t| \t| 46 <  0.13244601169054368\t--> 'False'\tFalse Alarm: 3, Hit: 4\n\t| \t| \t| \t| 30 <  0.0006666666666666988\t--> 'True'\tCorrect Rej: 4, Miss: 2\n"
+p435
+sa(dp436
+g31
+S"\t| 0 >  0.0006250000000000125\t--> 'True'\tCorrect Rej: 18, Miss: 20\n\t| \t| 0 >  0.0005000000000000763\t--> 'True'\tCorrect Rej: 1, Miss: 10\n\t| \t| \t| 0 >  0.00043478260869568493\t--> 'True'\tCorrect Rej: 5, Miss: 4\n\t| \t| \t| \t| 0 >  0.00036363636363640975\t--> 'True'\tCorrect Rej: 0, Miss: 1\n"
+p437
+sg33
+S"\t| 0 >  0.0006250000000000125\t--> 'False'\tFalse Alarm: 18, Hit: 20\n\t| \t| 0 >  0.0005000000000000763\t--> 'False'\tFalse Alarm: 1, Hit: 10\n\t| \t| \t| 0 >  0.00043478260869568493\t--> 'False'\tFalse Alarm: 5, Hit: 4\n\t| \t| \t| \t| 0 >  0.00036363636363640975\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p438
+sg35
+S"\t| 0 >  0.0006250000000000125\t--> 'True'\tCorrect Rej: 18, Miss: 20\n\t| \t| 46 <  0.0005634920634921027\t--> 'False'\tFalse Alarm: 5, Hit: 9\n\t| \t| \t| 46 >  0.3859706117550704\t--> 'True'\tCorrect Rej: 4, Miss: 0\n\t| \t| \t| \t| 0 >  0.0005555555555555845\t--> 'False'\tFalse Alarm: 0, Hit: 6\n"
+p439
+sg37
+S"\t| 0 >  0.0006250000000000125\t--> 'True'\tCorrect Rej: 18, Miss: 20\n\t| \t| 0 >  0.0005000000000000763\t--> 'True'\tCorrect Rej: 1, Miss: 10\n\t| \t| \t| 0 >  0.00043478260869568493\t--> 'True'\tCorrect Rej: 5, Miss: 4\n\t| \t| \t| \t| 20 <  0.00037735849056605685\t--> 'False'\tFalse Alarm: 3, Hit: 1\n"
+p440
+sg41
+S"\t| 46 <  0.0008333333333333622\t--> 'False'\tFalse Alarm: 9, Hit: 21\n\t| \t| 46 >  0.8640974345546402\t--> 'True'\tCorrect Rej: 16, Miss: 0\n\t| \t| \t| 46 <  0.1749669160662093\t--> 'False'\tFalse Alarm: 2, Hit: 14\n\t| \t| \t| \t| 0 <  0.0005714285714286122\t--> 'True'\tCorrect Rej: 0, Miss: 0\n"
+p441
+sa(dp442
+g31
+S"\t| 0 >  0.18994850140423106\t--> 'True'\tCorrect Rej: 20, Miss: 6\n\t| \t| 0 >  0.0007692307692307792\t--> 'True'\tCorrect Rej: 2, Miss: 18\n\t| \t| \t| 0 >  0.0005000000000000467\t--> 'True'\tCorrect Rej: 3, Miss: 7\n\t| \t| \t| \t| 0 >  0.00038461538461539714\t--> 'True'\tCorrect Rej: 3, Miss: 3\n"
+p443
+sg33
+S"\t| 0 >  0.18994850140423106\t--> 'False'\tFalse Alarm: 20, Hit: 6\n\t| \t| 0 >  0.0007692307692307792\t--> 'False'\tFalse Alarm: 2, Hit: 18\n\t| \t| \t| 0 >  0.0005000000000000467\t--> 'False'\tFalse Alarm: 3, Hit: 7\n\t| \t| \t| \t| 0 >  0.00038461538461539714\t--> 'False'\tFalse Alarm: 3, Hit: 3\n"
+p444
+sg35
+S"\t| 0 >  0.18994850140423106\t--> 'True'\tCorrect Rej: 20, Miss: 6\n\t| \t| 0 >  0.0007692307692307792\t--> 'False'\tFalse Alarm: 2, Hit: 18\n\t| \t| \t| 0 >  0.0005000000000000467\t--> 'False'\tFalse Alarm: 3, Hit: 7\n\t| \t| \t| \t| 1 >  0.0004166666666666878\t--> 'False'\tFalse Alarm: 3, Hit: 3\n"
+p445
+sg37
+S"\t| 0 >  0.18994850140423106\t--> 'True'\tCorrect Rej: 20, Miss: 6\n\t| \t| 0 >  0.0007692307692307792\t--> 'False'\tFalse Alarm: 2, Hit: 18\n\t| \t| \t| 0 >  0.0005000000000000467\t--> 'True'\tCorrect Rej: 3, Miss: 7\n\t| \t| \t| \t| 0 >  0.00038461538461539714\t--> 'True'\tCorrect Rej: 3, Miss: 3\n"
+p446
+sg41
+S"\t| 0 <  0.18994850140423106\t--> 'False'\tFalse Alarm: 9, Hit: 31\n\t| \t| 0 >  0.9096969696969682\t--> 'True'\tCorrect Rej: 12, Miss: 0\n\t| \t| \t| 14 >  0.04373370645435825\t--> 'False'\tFalse Alarm: 0, Hit: 6\n\t| \t| \t| \t| 1 >  0.0006060606060606586\t--> 'True'\tCorrect Rej: 6, Miss: 0\n"
+p447
+sa(dp448
+g31
+S"\t| 0 >  0.14574514869147484\t--> 'True'\tCorrect Rej: 24, Miss: 14\n\t| \t| 0 >  0.0007407407407407647\t--> 'True'\tCorrect Rej: 0, Miss: 9\n\t| \t| \t| 0 >  0.000512820512820522\t--> 'True'\tCorrect Rej: 2, Miss: 5\n\t| \t| \t| \t| 0 >  0.00041666666666667894\t--> 'True'\tCorrect Rej: 1, Miss: 3\n"
+p449
+sg33
+S"\t| 0 >  0.14574514869147484\t--> 'False'\tFalse Alarm: 24, Hit: 14\n\t| \t| 0 >  0.0007407407407407647\t--> 'False'\tFalse Alarm: 0, Hit: 9\n\t| \t| \t| 0 >  0.000512820512820522\t--> 'False'\tFalse Alarm: 2, Hit: 5\n\t| \t| \t| \t| 0 >  0.00041666666666667894\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p450
+sg35
+S"\t| 0 >  0.14574514869147484\t--> 'True'\tCorrect Rej: 24, Miss: 14\n\t| \t| 1 >  0.0006666666666666864\t--> 'False'\tFalse Alarm: 2, Hit: 7\n\t| \t| \t| 18 >  0.4569970709905303\t--> 'False'\tFalse Alarm: 2, Hit: 8\n\t| \t| \t| \t| 0 >  0.0006060606060606604\t--> 'False'\tFalse Alarm: 0, Hit: 4\n"
+p451
+sg37
+S"\t| 0 >  0.14574514869147484\t--> 'True'\tCorrect Rej: 24, Miss: 14\n\t| \t| 0 >  0.0007407407407407647\t--> 'True'\tCorrect Rej: 0, Miss: 9\n\t| \t| \t| 18 >  0.830625520143907\t--> 'False'\tFalse Alarm: 3, Hit: 7\n\t| \t| \t| \t| 0 >  0.0004347826086957004\t--> 'True'\tCorrect Rej: 1, Miss: 2\n"
+p452
+sg41
+S"\t| 0 <  0.14574514869147484\t--> 'False'\tFalse Alarm: 5, Hit: 22\n\t| \t| 0 >  0.9068749999999975\t--> 'True'\tCorrect Rej: 15, Miss: 0\n\t| \t| \t| 14 >  0.1122343117242244\t--> 'False'\tFalse Alarm: 1, Hit: 13\n\t| \t| \t| \t| 0 <  0.6331272080398168\t--> 'True'\tCorrect Rej: 4, Miss: 1\n"
+p453
+sa(dp454
+g31
+S"\t| 0 >  0.16870136032826172\t--> 'True'\tCorrect Rej: 22, Miss: 12\n\t| \t| 0 >  0.0006896551724138427\t--> 'True'\tCorrect Rej: 3, Miss: 15\n\t| \t| \t| 0 >  0.00047619047619050183\t--> 'True'\tCorrect Rej: 1, Miss: 5\n\t| \t| \t| \t| 0 >  0.00038461538461539714\t--> 'True'\tCorrect Rej: 1, Miss: 1\n"
+p455
+sg33
+S"\t| 0 >  0.16870136032826172\t--> 'False'\tFalse Alarm: 22, Hit: 12\n\t| \t| 0 >  0.0006896551724138427\t--> 'False'\tFalse Alarm: 3, Hit: 15\n\t| \t| \t| 0 >  0.00047619047619050183\t--> 'False'\tFalse Alarm: 1, Hit: 5\n\t| \t| \t| \t| 0 >  0.00038461538461539714\t--> 'False'\tFalse Alarm: 1, Hit: 1\n"
+p456
+sg35
+S"\t| 0 >  0.16870136032826172\t--> 'True'\tCorrect Rej: 22, Miss: 12\n\t| \t| 0 >  0.0006896551724138427\t--> 'False'\tFalse Alarm: 3, Hit: 15\n\t| \t| \t| 18 >  0.8118654157227359\t--> 'False'\tFalse Alarm: 0, Hit: 6\n\t| \t| \t| \t| 18 >  0.0006896551724138009\t--> 'False'\tFalse Alarm: 1, Hit: 2\n"
+p457
+sg37
+S"\t| 0 >  0.16870136032826172\t--> 'True'\tCorrect Rej: 22, Miss: 12\n\t| \t| 0 >  0.0006896551724138427\t--> 'False'\tFalse Alarm: 3, Hit: 15\n\t| \t| \t| 0 >  0.00047619047619050183\t--> 'True'\tCorrect Rej: 1, Miss: 5\n\t| \t| \t| \t| 0 >  0.00038461538461539714\t--> 'True'\tCorrect Rej: 1, Miss: 1\n"
+p458
+sg41
+S"\t| 0 <  0.16870136032826172\t--> 'False'\tFalse Alarm: 6, Hit: 24\n\t| \t| 0 >  0.9082102272727235\t--> 'True'\tCorrect Rej: 13, Miss: 0\n\t| \t| \t| 14 >  0.1351149291245469\t--> 'False'\tFalse Alarm: 1, Hit: 9\n\t| \t| \t| \t| 0 <  0.5430993426147278\t--> 'True'\tCorrect Rej: 4, Miss: 1\n"
+p459
+sa(dp460
+g31
+S"\t| 0 >  0.18286722155068705\t--> 'True'\tCorrect Rej: 25, Miss: 4\n\t| \t| 0 >  0.0007142857142857326\t--> 'True'\tCorrect Rej: 2, Miss: 18\n\t| \t| \t| 0 >  0.0005000000000000189\t--> 'True'\tCorrect Rej: 0, Miss: 6\n\t| \t| \t| \t| 0 >  0.0003846153846153935\t--> 'True'\tCorrect Rej: 1, Miss: 5\n"
+p461
+sg33
+S"\t| 0 >  0.18286722155068705\t--> 'False'\tFalse Alarm: 25, Hit: 4\n\t| \t| 0 >  0.0007142857142857326\t--> 'False'\tFalse Alarm: 2, Hit: 18\n\t| \t| \t| 0 >  0.0005000000000000189\t--> 'False'\tFalse Alarm: 0, Hit: 6\n\t| \t| \t| \t| 0 >  0.0003846153846153935\t--> 'False'\tFalse Alarm: 1, Hit: 5\n"
+p462
+sg35
+S"\t| 0 >  0.18286722155068705\t--> 'True'\tCorrect Rej: 25, Miss: 4\n\t| \t| 0 >  0.0007142857142857326\t--> 'False'\tFalse Alarm: 2, Hit: 18\n\t| \t| \t| 18 >  0.7996447011395814\t--> 'False'\tFalse Alarm: 0, Hit: 9\n\t| \t| \t| \t| 1 >  0.0004878048780487936\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p463
+sg37
+S"\t| 0 >  0.18286722155068705\t--> 'True'\tCorrect Rej: 25, Miss: 4\n\t| \t| 0 >  0.0007142857142857326\t--> 'False'\tFalse Alarm: 2, Hit: 18\n\t| \t| \t| 0 >  0.0005000000000000189\t--> 'True'\tCorrect Rej: 0, Miss: 6\n\t| \t| \t| \t| 0 >  0.0003846153846153935\t--> 'True'\tCorrect Rej: 1, Miss: 5\n"
+p464
+sg41
+S"\t| 0 <  0.18286722155068705\t--> 'False'\tFalse Alarm: 3, Hit: 32\n\t| \t| 0 >  0.9038709677419381\t--> 'True'\tCorrect Rej: 16, Miss: 0\n\t| \t| \t| 14 >  0.2651825595642116\t--> 'False'\tFalse Alarm: 1, Hit: 2\n\t| \t| \t| \t| 7 <  0.0006666666666666751\t--> 'True'\tCorrect Rej: 5, Miss: 2\n"
+p465
+sa(dp466
+g31
+S"\t| 0 >  0.151043013430244\t--> 'True'\tCorrect Rej: 25, Miss: 11\n\t| \t| 0 >  0.0007142857142857595\t--> 'True'\tCorrect Rej: 0, Miss: 12\n\t| \t| \t| 0 >  0.00047619047619050183\t--> 'True'\tCorrect Rej: 1, Miss: 9\n\t| \t| \t| \t| 0 >  0.0003773584905660961\t--> 'True'\tCorrect Rej: 1, Miss: 3\n"
+p467
+sg33
+S"\t| 0 >  0.151043013430244\t--> 'False'\tFalse Alarm: 25, Hit: 11\n\t| \t| 0 >  0.0007142857142857595\t--> 'False'\tFalse Alarm: 0, Hit: 12\n\t| \t| \t| 0 >  0.00047619047619050183\t--> 'False'\tFalse Alarm: 1, Hit: 9\n\t| \t| \t| \t| 0 >  0.0003773584905660961\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p468
+sg35
+S"\t| 0 >  0.151043013430244\t--> 'True'\tCorrect Rej: 25, Miss: 11\n\t| \t| 0 >  0.0007142857142857595\t--> 'False'\tFalse Alarm: 0, Hit: 12\n\t| \t| \t| 18 >  0.7996447011395814\t--> 'False'\tFalse Alarm: 1, Hit: 9\n\t| \t| \t| \t| 0 <  0.00043478260869566206\t--> 'False'\tFalse Alarm: 2, Hit: 1\n"
+p469
+sg37
+S"\t| 0 >  0.151043013430244\t--> 'True'\tCorrect Rej: 25, Miss: 11\n\t| \t| 0 >  0.0007142857142857595\t--> 'True'\tCorrect Rej: 0, Miss: 12\n\t| \t| \t| 0 >  0.00047619047619050183\t--> 'True'\tCorrect Rej: 1, Miss: 9\n\t| \t| \t| \t| 41 <  0.000408163265306144\t--> 'False'\tFalse Alarm: 1, Hit: 1\n"
+p470
+sg41
+S"\t| 0 <  0.151043013430244\t--> 'False'\tFalse Alarm: 3, Hit: 25\n\t| \t| 0 >  0.8762478632471848\t--> 'True'\tCorrect Rej: 21, Miss: 2\n\t| \t| \t| 14 >  0.3215382165741779\t--> 'False'\tFalse Alarm: 0, Hit: 6\n\t| \t| \t| \t| 14 <  0.0006451612903225903\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p471
+sa(dp472
+g31
+S"\t| 0 >  0.0006250000000000322\t--> 'True'\tCorrect Rej: 16, Miss: 12\n\t| \t| 0 >  0.00050000000000007\t--> 'True'\tCorrect Rej: 11, Miss: 11\n\t| \t| \t| 0 >  0.00045454545454546045\t--> 'True'\tCorrect Rej: 0, Miss: 6\n\t| \t| \t| \t| 0 >  0.00036363636363638904\t--> 'True'\tCorrect Rej: 1, Miss: 5\n"
+p473
+sg33
+S"\t| 0 >  0.0006250000000000322\t--> 'False'\tFalse Alarm: 16, Hit: 12\n\t| \t| 0 >  0.00050000000000007\t--> 'False'\tFalse Alarm: 11, Hit: 11\n\t| \t| \t| 0 >  0.00045454545454546045\t--> 'False'\tFalse Alarm: 0, Hit: 6\n\t| \t| \t| \t| 0 >  0.00036363636363638904\t--> 'False'\tFalse Alarm: 1, Hit: 5\n"
+p474
+sg35
+S"\t| 0 >  0.0006250000000000322\t--> 'True'\tCorrect Rej: 16, Miss: 12\n\t| \t| 3 <  0.0005882352941176792\t--> 'False'\tFalse Alarm: 2, Hit: 18\n\t| \t| \t| 3 >  0.31310185180783656\t--> 'True'\tCorrect Rej: 10, Miss: 1\n\t| \t| \t| \t| 0 >  0.0005882352941176792\t--> 'False'\tFalse Alarm: 0, Hit: 4\n"
+p475
+sg37
+S"\t| 3 <  0.0008333333333334266\t--> 'False'\tFalse Alarm: 7, Hit: 25\n\t| \t| 0 >  0.0006666666666666711\t--> 'True'\tCorrect Rej: 7, Miss: 8\n\t| \t| \t| 0 >  0.0005263157894737354\t--> 'True'\tCorrect Rej: 10, Miss: 1\n\t| \t| \t| \t| 0 >  0.0005000000000000077\t--> 'True'\tCorrect Rej: 5, Miss: 1\n"
+p476
+sg41
+S"\t| 3 <  0.0008333333333334266\t--> 'False'\tFalse Alarm: 7, Hit: 25\n\t| \t| 3 >  0.7600988431891016\t--> 'True'\tCorrect Rej: 18, Miss: 1\n\t| \t| \t| 0 >  0.0006896551724138009\t--> 'False'\tFalse Alarm: 2, Hit: 7\n\t| \t| \t| \t| 15 >  0.0006250000000000246\t--> 'True'\tCorrect Rej: 0, Miss: 0\n"
+p477
+sa(dp478
+g31
+S"\t| 0 >  0.0006250000000000117\t--> 'True'\tCorrect Rej: 19, Miss: 19\n\t| \t| 0 >  0.0005000000000000332\t--> 'True'\tCorrect Rej: 2, Miss: 11\n\t| \t| \t| 0 >  0.00044444444444445287\t--> 'True'\tCorrect Rej: 4, Miss: 2\n\t| \t| \t| \t| 0 >  0.0003636363636364063\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p479
+sg33
+S"\t| 0 >  0.0006250000000000117\t--> 'False'\tFalse Alarm: 19, Hit: 19\n\t| \t| 0 >  0.0005000000000000332\t--> 'False'\tFalse Alarm: 2, Hit: 11\n\t| \t| \t| 0 >  0.00044444444444445287\t--> 'False'\tFalse Alarm: 4, Hit: 2\n\t| \t| \t| \t| 0 >  0.0003636363636364063\t--> 'False'\tFalse Alarm: 3, Hit: 0\n"
+p480
+sg35
+S"\t| 0 >  0.0006250000000000117\t--> 'True'\tCorrect Rej: 19, Miss: 19\n\t| \t| 3 <  0.0005882352941176743\t--> 'False'\tFalse Alarm: 3, Hit: 15\n\t| \t| \t| 3 <  0.29404107638897053\t--> 'False'\tFalse Alarm: 3, Hit: 1\n\t| \t| \t| \t| 0 >  0.0005128205128205202\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p481
+sg37
+S"\t| 0 >  0.0006250000000000117\t--> 'True'\tCorrect Rej: 19, Miss: 19\n\t| \t| 0 >  0.0005000000000000332\t--> 'True'\tCorrect Rej: 2, Miss: 11\n\t| \t| \t| 15 <  0.00046511627906979826\t--> 'False'\tFalse Alarm: 3, Hit: 4\n\t| \t| \t| \t| 0 >  0.00048780487804880423\t--> 'True'\tCorrect Rej: 0, Miss: 1\n"
+p482
+sg41
+S"\t| 3 <  0.0008333333333469806\t--> 'False'\tFalse Alarm: 6, Hit: 27\n\t| \t| 3 >  0.8550559808844439\t--> 'True'\tCorrect Rej: 14, Miss: 0\n\t| \t| \t| 31 >  0.0007407407407407721\t--> 'False'\tFalse Alarm: 3, Hit: 8\n\t| \t| \t| \t| 3 >  0.2599008415229428\t--> 'True'\tCorrect Rej: 3, Miss: 1\n"
+p483
+sa(dp484
+g31
+S"\t| 0 >  0.0006250000000000228\t--> 'True'\tCorrect Rej: 16, Miss: 15\n\t| \t| 0 >  0.0005128205128205202\t--> 'True'\tCorrect Rej: 5, Miss: 10\n\t| \t| \t| 0 >  0.0004494949494949685\t--> 'True'\tCorrect Rej: 5, Miss: 5\n\t| \t| \t| \t| 0 >  0.0003540100250627009\t--> 'True'\tCorrect Rej: 1, Miss: 5\n"
+p485
+sg33
+S"\t| 0 >  0.0006250000000000228\t--> 'False'\tFalse Alarm: 16, Hit: 15\n\t| \t| 0 >  0.0005128205128205202\t--> 'False'\tFalse Alarm: 5, Hit: 10\n\t| \t| \t| 0 >  0.0004494949494949685\t--> 'False'\tFalse Alarm: 5, Hit: 5\n\t| \t| \t| \t| 0 >  0.0003540100250627009\t--> 'False'\tFalse Alarm: 1, Hit: 5\n"
+p486
+sg35
+S"\t| 0 >  0.0006250000000000228\t--> 'True'\tCorrect Rej: 16, Miss: 15\n\t| \t| 3 <  0.0005634920634922057\t--> 'False'\tFalse Alarm: 2, Hit: 11\n\t| \t| \t| 3 >  0.31310185180783656\t--> 'True'\tCorrect Rej: 7, Miss: 1\n\t| \t| \t| \t| 0 >  0.00057142857142864\t--> 'False'\tFalse Alarm: 1, Hit: 8\n"
+p487
+sg37
+S"\t| 22 >  0.0007142857142858128\t--> 'False'\tFalse Alarm: 4, Hit: 25\n\t| \t| 0 >  0.0006250000000000112\t--> 'True'\tCorrect Rej: 14, Miss: 2\n\t| \t| \t| 6 >  0.13738327720222676\t--> 'False'\tFalse Alarm: 1, Hit: 6\n\t| \t| \t| \t| 0 >  0.0005128205128205202\t--> 'True'\tCorrect Rej: 5, Miss: 2\n"
+p488
+sg41
+S"\t| 22 >  0.0007142857142858128\t--> 'False'\tFalse Alarm: 4, Hit: 25\n\t| \t| 3 >  0.7322474169832113\t--> 'True'\tCorrect Rej: 17, Miss: 0\n\t| \t| \t| 6 >  0.8466233380766782\t--> 'False'\tFalse Alarm: 1, Hit: 6\n\t| \t| \t| \t| 5 >  0.0006250000000000063\t--> 'True'\tCorrect Rej: 4, Miss: 0\n"
+p489
+sa(dp490
+g31
+S"\t| 0 >  0.0006250000000000282\t--> 'True'\tCorrect Rej: 11, Miss: 17\n\t| \t| 0 >  0.0005128205128205202\t--> 'True'\tCorrect Rej: 9, Miss: 8\n\t| \t| \t| 0 >  0.00045454545454547975\t--> 'True'\tCorrect Rej: 4, Miss: 5\n\t| \t| \t| \t| 0 >  0.00037386443046824136\t--> 'True'\tCorrect Rej: 1, Miss: 2\n"
+p491
+sg33
+S"\t| 0 >  0.0006250000000000282\t--> 'False'\tFalse Alarm: 11, Hit: 17\n\t| \t| 0 >  0.0005128205128205202\t--> 'False'\tFalse Alarm: 9, Hit: 8\n\t| \t| \t| 0 >  0.00045454545454547975\t--> 'False'\tFalse Alarm: 4, Hit: 5\n\t| \t| \t| \t| 0 >  0.00037386443046824136\t--> 'False'\tFalse Alarm: 1, Hit: 2\n"
+p492
+sg35
+S"\t| 0 >  0.0006250000000000282\t--> 'True'\tCorrect Rej: 11, Miss: 17\n\t| \t| 3 <  0.0005882352941176706\t--> 'False'\tFalse Alarm: 5, Hit: 12\n\t| \t| \t| 3 >  0.3813050183939311\t--> 'True'\tCorrect Rej: 8, Miss: 0\n\t| \t| \t| \t| 0 >  0.0005882352941176792\t--> 'False'\tFalse Alarm: 1, Hit: 2\n"
+p493
+sg37
+S"\t| 0 >  0.0006250000000000282\t--> 'True'\tCorrect Rej: 11, Miss: 17\n\t| \t| 0 >  0.0005128205128205202\t--> 'True'\tCorrect Rej: 9, Miss: 8\n\t| \t| \t| 0 >  0.00045454545454547975\t--> 'True'\tCorrect Rej: 4, Miss: 5\n\t| \t| \t| \t| 3 <  0.00038461538461541096\t--> 'False'\tFalse Alarm: 2, Hit: 2\n"
+p494
+sg41
+S"\t| 3 <  0.0008333333333334529\t--> 'False'\tFalse Alarm: 6, Hit: 26\n\t| \t| 3 >  0.8247071290188823\t--> 'True'\tCorrect Rej: 15, Miss: 0\n\t| \t| \t| 22 >  0.6574801039488679\t--> 'False'\tFalse Alarm: 0, Hit: 4\n\t| \t| \t| \t| 6 <  0.0006250000000000282\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p495
+sa(dp496
+g31
+S"\t| 0 >  0.0006250000000000127\t--> 'True'\tCorrect Rej: 13, Miss: 23\n\t| \t| 0 >  0.0005000000000000321\t--> 'True'\tCorrect Rej: 9, Miss: 6\n\t| \t| \t| 0 >  0.0004347826086956592\t--> 'True'\tCorrect Rej: 4, Miss: 5\n\t| \t| \t| \t| 0 >  0.0003448275862070092\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p497
+sg33
+S"\t| 0 >  0.0006250000000000127\t--> 'False'\tFalse Alarm: 13, Hit: 23\n\t| \t| 0 >  0.0005000000000000321\t--> 'False'\tFalse Alarm: 9, Hit: 6\n\t| \t| \t| 0 >  0.0004347826086956592\t--> 'False'\tFalse Alarm: 4, Hit: 5\n\t| \t| \t| \t| 0 >  0.0003448275862070092\t--> 'False'\tFalse Alarm: 2, Hit: 1\n"
+p498
+sg35
+S"\t| 0 >  0.0006250000000000127\t--> 'True'\tCorrect Rej: 13, Miss: 23\n\t| \t| 3 <  0.0005555555555556003\t--> 'False'\tFalse Alarm: 2, Hit: 7\n\t| \t| \t| 3 <  0.2508828015720641\t--> 'False'\tFalse Alarm: 3, Hit: 6\n\t| \t| \t| \t| 0 >  0.000512820512820521\t--> 'True'\tCorrect Rej: 4, Miss: 0\n"
+p499
+sg37
+S"\t| 0 >  0.0006250000000000127\t--> 'True'\tCorrect Rej: 13, Miss: 23\n\t| \t| 0 >  0.0005000000000000321\t--> 'True'\tCorrect Rej: 9, Miss: 6\n\t| \t| \t| 0 >  0.0004347826086956592\t--> 'True'\tCorrect Rej: 4, Miss: 5\n\t| \t| \t| \t| 15 <  0.00041666666666669326\t--> 'False'\tFalse Alarm: 1, Hit: 2\n"
+p500
+sg41
+S"\t| 22 >  0.0007142857142858128\t--> 'False'\tFalse Alarm: 6, Hit: 23\n\t| \t| 3 >  0.7631826775248514\t--> 'True'\tCorrect Rej: 16, Miss: 0\n\t| \t| \t| 6 >  0.7262845591234527\t--> 'False'\tFalse Alarm: 2, Hit: 12\n\t| \t| \t| \t| 5 >  0.0006250000000000177\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p501
+sa(dp502
+g31
+S"\t| 0 >  0.0006250000000000184\t--> 'True'\tCorrect Rej: 19, Miss: 18\n\t| \t| 0 >  0.0005128205128205216\t--> 'True'\tCorrect Rej: 3, Miss: 9\n\t| \t| \t| 0 >  0.0004347826086957109\t--> 'True'\tCorrect Rej: 5, Miss: 5\n\t| \t| \t| \t| 0 >  0.00036363636363640357\t--> 'True'\tCorrect Rej: 0, Miss: 2\n"
+p503
+sg33
+S"\t| 0 >  0.0006250000000000184\t--> 'False'\tFalse Alarm: 19, Hit: 18\n\t| \t| 0 >  0.0005128205128205216\t--> 'False'\tFalse Alarm: 3, Hit: 9\n\t| \t| \t| 0 >  0.0004347826086957109\t--> 'False'\tFalse Alarm: 5, Hit: 5\n\t| \t| \t| \t| 0 >  0.00036363636363640357\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p504
+sg35
+S"\t| 0 >  0.0006250000000000184\t--> 'True'\tCorrect Rej: 19, Miss: 18\n\t| \t| 20 <  0.0005882352941176515\t--> 'False'\tFalse Alarm: 3, Hit: 12\n\t| \t| \t| 20 >  0.49415647962348785\t--> 'True'\tCorrect Rej: 3, Miss: 1\n\t| \t| \t| \t| 5 >  0.0005714285714287065\t--> 'False'\tFalse Alarm: 0, Hit: 5\n"
+p505
+sg37
+S"\t| 20 <  0.0009523809523810172\t--> 'False'\tFalse Alarm: 4, Hit: 29\n\t| \t| 0 >  0.0006451612903225966\t--> 'True'\tCorrect Rej: 15, Miss: 4\n\t| \t| \t| 0 >  0.000526315789473696\t--> 'True'\tCorrect Rej: 3, Miss: 2\n\t| \t| \t| \t| 0 >  0.0005000000000000155\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p506
+sg41
+S"\t| 20 <  0.0009523809523810172\t--> 'False'\tFalse Alarm: 4, Hit: 29\n\t| \t| 37 <  0.0006666666666666991\t--> 'True'\tCorrect Rej: 14, Miss: 6\n\t| \t| \t| 20 <  0.2870910155680783\t--> 'False'\tFalse Alarm: 3, Hit: 2\n\t| \t| \t| \t| 0 <  0.0006896551724138326\t--> 'True'\tCorrect Rej: 7, Miss: 0\n"
+p507
+sa(dp508
+g31
+S"\t| 0 >  0.00062500000000002\t--> 'True'\tCorrect Rej: 15, Miss: 19\n\t| \t| 0 >  0.0005000000000000367\t--> 'True'\tCorrect Rej: 10, Miss: 7\n\t| \t| \t| 0 >  0.0004347826086957109\t--> 'True'\tCorrect Rej: 3, Miss: 4\n\t| \t| \t| \t| 0 >  0.00036363636363640357\t--> 'True'\tCorrect Rej: 0, Miss: 2\n"
+p509
+sg33
+S"\t| 0 >  0.00062500000000002\t--> 'False'\tFalse Alarm: 15, Hit: 19\n\t| \t| 0 >  0.0005000000000000367\t--> 'False'\tFalse Alarm: 10, Hit: 7\n\t| \t| \t| 0 >  0.0004347826086957109\t--> 'False'\tFalse Alarm: 3, Hit: 4\n\t| \t| \t| \t| 0 >  0.00036363636363640357\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p510
+sg35
+S"\t| 0 >  0.00062500000000002\t--> 'True'\tCorrect Rej: 15, Miss: 19\n\t| \t| 20 <  0.0005882352941176606\t--> 'False'\tFalse Alarm: 3, Hit: 13\n\t| \t| \t| 20 <  0.32168024111665033\t--> 'False'\tFalse Alarm: 0, Hit: 4\n\t| \t| \t| \t| 25 >  0.0006250000000014545\t--> 'True'\tCorrect Rej: 7, Miss: 0\n"
+p511
+sg37
+S"\t| 20 <  0.0009761904761905167\t--> 'False'\tFalse Alarm: 5, Hit: 29\n\t| \t| 0 >  0.0006451612903225988\t--> 'True'\tCorrect Rej: 8, Miss: 6\n\t| \t| \t| 0 >  0.0005128205128205443\t--> 'True'\tCorrect Rej: 10, Miss: 0\n\t| \t| \t| \t| 0 >  0.0004878048780488265\t--> 'True'\tCorrect Rej: 5, Miss: 0\n"
+p512
+sg41
+S"\t| 20 <  0.0009761904761905167\t--> 'False'\tFalse Alarm: 5, Hit: 29\n\t| \t| 20 >  0.7290429351555501\t--> 'True'\tCorrect Rej: 13, Miss: 1\n\t| \t| \t| 20 >  0.2248581890358419\t--> 'True'\tCorrect Rej: 10, Miss: 1\n\t| \t| \t| \t| 22 >  0.1874517663600673\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p513
+sa(dp514
+g31
+S"\t| 0 >  0.0006250000000000272\t--> 'True'\tCorrect Rej: 16, Miss: 15\n\t| \t| 0 >  0.0005128205128205271\t--> 'True'\tCorrect Rej: 4, Miss: 6\n\t| \t| \t| 0 >  0.0004545454545455045\t--> 'True'\tCorrect Rej: 5, Miss: 3\n\t| \t| \t| \t| 0 >  0.0003540100250626946\t--> 'True'\tCorrect Rej: 3, Miss: 10\n"
+p515
+sg33
+S"\t| 0 >  0.0006250000000000272\t--> 'False'\tFalse Alarm: 16, Hit: 15\n\t| \t| 0 >  0.0005128205128205271\t--> 'False'\tFalse Alarm: 4, Hit: 6\n\t| \t| \t| 0 >  0.0004545454545455045\t--> 'False'\tFalse Alarm: 5, Hit: 3\n\t| \t| \t| \t| 0 >  0.0003540100250626946\t--> 'False'\tFalse Alarm: 3, Hit: 10\n"
+p516
+sg35
+S"\t| 0 >  0.0006250000000000272\t--> 'True'\tCorrect Rej: 16, Miss: 15\n\t| \t| 20 <  0.0005882352941176724\t--> 'False'\tFalse Alarm: 4, Hit: 14\n\t| \t| \t| 20 >  0.37399177765446384\t--> 'True'\tCorrect Rej: 7, Miss: 3\n\t| \t| \t| \t| 0 >  0.0005882352941176749\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p517
+sg37
+S"\t| 20 <  0.0009523809523810365\t--> 'False'\tFalse Alarm: 8, Hit: 25\n\t| \t| 0 >  0.0006451612903226004\t--> 'True'\tCorrect Rej: 8, Miss: 5\n\t| \t| \t| 0 >  0.000526315789473696\t--> 'True'\tCorrect Rej: 8, Miss: 1\n\t| \t| \t| \t| 0 >  0.0005000000000000155\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p518
+sg41
+S"\t| 20 <  0.0009523809523810365\t--> 'False'\tFalse Alarm: 8, Hit: 25\n\t| \t| 20 >  0.721950212451774\t--> 'True'\tCorrect Rej: 14, Miss: 2\n\t| \t| \t| 20 >  0.2248581890358419\t--> 'True'\tCorrect Rej: 6, Miss: 2\n\t| \t| \t| \t| 22 >  0.15516776287130785\t--> 'False'\tFalse Alarm: 0, Hit: 3\n"
+p519
+sa(dp520
+g31
+S"\t| 0 >  0.000625000000000035\t--> 'True'\tCorrect Rej: 12, Miss: 17\n\t| \t| 0 >  0.0005000000000000384\t--> 'True'\tCorrect Rej: 9, Miss: 12\n\t| \t| \t| 0 >  0.0004444444444444883\t--> 'True'\tCorrect Rej: 2, Miss: 3\n\t| \t| \t| \t| 0 >  0.0003636363636363907\t--> 'True'\tCorrect Rej: 3, Miss: 2\n"
+p521
+sg33
+S"\t| 0 >  0.000625000000000035\t--> 'False'\tFalse Alarm: 12, Hit: 17\n\t| \t| 0 >  0.0005000000000000384\t--> 'False'\tFalse Alarm: 9, Hit: 12\n\t| \t| \t| 0 >  0.0004444444444444883\t--> 'False'\tFalse Alarm: 2, Hit: 3\n\t| \t| \t| \t| 0 >  0.0003636363636363907\t--> 'False'\tFalse Alarm: 3, Hit: 2\n"
+p522
+sg35
+S"\t| 0 >  0.000625000000000035\t--> 'True'\tCorrect Rej: 12, Miss: 17\n\t| \t| 20 <  0.0005882352941176666\t--> 'False'\tFalse Alarm: 2, Hit: 15\n\t| \t| \t| 20 >  0.4858768224184976\t--> 'True'\tCorrect Rej: 7, Miss: 0\n\t| \t| \t| \t| 0 >  0.0005405405405406207\t--> 'False'\tFalse Alarm: 3, Hit: 4\n"
+p523
+sg37
+S"\t| 20 <  0.0010000000000000163\t--> 'False'\tFalse Alarm: 3, Hit: 31\n\t| \t| 0 >  0.0006451612903225988\t--> 'True'\tCorrect Rej: 10, Miss: 4\n\t| \t| \t| 0 >  0.0005128205128205516\t--> 'True'\tCorrect Rej: 8, Miss: 1\n\t| \t| \t| \t| 0 >  0.000500000000000014\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p524
+sg41
+S"\t| 20 <  0.0010000000000000163\t--> 'False'\tFalse Alarm: 3, Hit: 31\n\t| \t| 20 >  0.7290429351555501\t--> 'True'\tCorrect Rej: 13, Miss: 1\n\t| \t| \t| 20 >  0.26197075159768285\t--> 'True'\tCorrect Rej: 9, Miss: 0\n\t| \t| \t| \t| 22 >  0.15516776287130785\t--> 'False'\tFalse Alarm: 0, Hit: 3\n"
+p525
+sa(dp526
+g31
+S"\t| 0 >  0.0006250000000000272\t--> 'True'\tCorrect Rej: 14, Miss: 17\n\t| \t| 0 >  0.0005000000000000382\t--> 'True'\tCorrect Rej: 7, Miss: 12\n\t| \t| \t| 0 >  0.0004347826086957109\t--> 'True'\tCorrect Rej: 3, Miss: 4\n\t| \t| \t| \t| 0 >  0.00036363636363643024\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p527
+sg33
+S"\t| 0 >  0.0006250000000000272\t--> 'False'\tFalse Alarm: 14, Hit: 17\n\t| \t| 0 >  0.0005000000000000382\t--> 'False'\tFalse Alarm: 7, Hit: 12\n\t| \t| \t| 0 >  0.0004347826086957109\t--> 'False'\tFalse Alarm: 3, Hit: 4\n\t| \t| \t| \t| 0 >  0.00036363636363643024\t--> 'False'\tFalse Alarm: 1, Hit: 0\n"
+p528
+sg35
+S"\t| 0 >  0.0006250000000000272\t--> 'True'\tCorrect Rej: 14, Miss: 17\n\t| \t| 20 <  0.0005798319327731224\t--> 'False'\tFalse Alarm: 2, Hit: 12\n\t| \t| \t| 20 >  0.41002569335848305\t--> 'True'\tCorrect Rej: 8, Miss: 0\n\t| \t| \t| \t| 0 >  0.0005882352941176515\t--> 'False'\tFalse Alarm: 0, Hit: 6\n"
+p529
+sg37
+S"\t| 20 <  0.0008695652173913725\t--> 'False'\tFalse Alarm: 2, Hit: 26\n\t| \t| 0 >  0.0006451612903225993\t--> 'True'\tCorrect Rej: 11, Miss: 8\n\t| \t| \t| 0 >  0.000526315789473696\t--> 'True'\tCorrect Rej: 7, Miss: 1\n\t| \t| \t| \t| 0 >  0.0005000000000000093\t--> 'True'\tCorrect Rej: 5, Miss: 1\n"
+p530
+sg41
+S"\t| 20 <  0.0008695652173913725\t--> 'False'\tFalse Alarm: 2, Hit: 26\n\t| \t| 20 >  0.7094351114805999\t--> 'True'\tCorrect Rej: 18, Miss: 0\n\t| \t| \t| 20 >  0.242579757628827\t--> 'True'\tCorrect Rej: 6, Miss: 0\n\t| \t| \t| \t| 49 <  0.00090909090909097\t--> 'False'\tFalse Alarm: 2, Hit: 5\n"
+p531
+sa(dp532
+g31
+S"\t| 0 >  0.0006250000000000978\t--> 'True'\tCorrect Rej: 14, Miss: 20\n\t| \t| 0 >  0.0005128205128205197\t--> 'True'\tCorrect Rej: 10, Miss: 8\n\t| \t| \t| 0 >  0.00045454545454545986\t--> 'True'\tCorrect Rej: 2, Miss: 5\n\t| \t| \t| \t| 0 >  0.0003636363636363809\t--> 'True'\tCorrect Rej: 2, Miss: 3\n"
+p533
+sg33
+S"\t| 0 >  0.0006250000000000978\t--> 'False'\tFalse Alarm: 14, Hit: 20\n\t| \t| 0 >  0.0005128205128205197\t--> 'False'\tFalse Alarm: 10, Hit: 8\n\t| \t| \t| 0 >  0.00045454545454545986\t--> 'False'\tFalse Alarm: 2, Hit: 5\n\t| \t| \t| \t| 0 >  0.0003636363636363809\t--> 'False'\tFalse Alarm: 2, Hit: 3\n"
+p534
+sg35
+S"\t| 0 >  0.0006250000000000978\t--> 'True'\tCorrect Rej: 14, Miss: 20\n\t| \t| 40 <  0.0005555555555555994\t--> 'False'\tFalse Alarm: 1, Hit: 8\n\t| \t| \t| 40 <  0.28576396899369544\t--> 'False'\tFalse Alarm: 5, Hit: 7\n\t| \t| \t| \t| 0 <  0.0005128205128205243\t--> 'True'\tCorrect Rej: 2, Miss: 2\n"
+p535
+sg37
+S"\t| 0 >  0.0006250000000000978\t--> 'True'\tCorrect Rej: 14, Miss: 20\n\t| \t| 0 >  0.0005128205128205197\t--> 'True'\tCorrect Rej: 10, Miss: 8\n\t| \t| \t| 0 >  0.00045454545454545986\t--> 'True'\tCorrect Rej: 2, Miss: 5\n\t| \t| \t| \t| 13 <  0.0004081632653061427\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p536
+sg41
+S"\t| 40 <  0.0007692307692308554\t--> 'False'\tFalse Alarm: 2, Hit: 19\n\t| \t| 40 >  0.6000582645280812\t--> 'True'\tCorrect Rej: 15, Miss: 0\n\t| \t| \t| 19 >  0.6408507460519931\t--> 'False'\tFalse Alarm: 1, Hit: 11\n\t| \t| \t| \t| 29 <  0.0006666666666666725\t--> 'True'\tCorrect Rej: 7, Miss: 1\n"
+p537
+sa(dp538
+g31
+S"\t| 0 >  0.0006250000000000665\t--> 'True'\tCorrect Rej: 16, Miss: 20\n\t| \t| 0 >  0.0005128205128205213\t--> 'True'\tCorrect Rej: 3, Miss: 9\n\t| \t| \t| 0 >  0.00045454545454545986\t--> 'True'\tCorrect Rej: 8, Miss: 2\n\t| \t| \t| \t| 0 >  0.0003636363636364165\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p539
+sg33
+S"\t| 0 >  0.0006250000000000665\t--> 'False'\tFalse Alarm: 16, Hit: 20\n\t| \t| 0 >  0.0005128205128205213\t--> 'False'\tFalse Alarm: 3, Hit: 9\n\t| \t| \t| 0 >  0.00045454545454545986\t--> 'False'\tFalse Alarm: 8, Hit: 2\n\t| \t| \t| \t| 0 >  0.0003636363636364165\t--> 'False'\tFalse Alarm: 2, Hit: 1\n"
+p540
+sg35
+S"\t| 0 >  0.0006250000000000665\t--> 'True'\tCorrect Rej: 16, Miss: 20\n\t| \t| 40 <  0.0005555555555555994\t--> 'False'\tFalse Alarm: 2, Hit: 7\n\t| \t| \t| 40 <  0.23339316619905748\t--> 'False'\tFalse Alarm: 2, Hit: 8\n\t| \t| \t| \t| 0 >  0.0005555555555556908\t--> 'True'\tCorrect Rej: 0, Miss: 1\n"
+p541
+sg37
+S"\t| 0 >  0.0006250000000000665\t--> 'True'\tCorrect Rej: 16, Miss: 20\n\t| \t| 0 >  0.0005128205128205213\t--> 'True'\tCorrect Rej: 3, Miss: 9\n\t| \t| \t| 13 <  0.0004651162790698096\t--> 'False'\tFalse Alarm: 1, Hit: 4\n\t| \t| \t| \t| 0 >  0.00048780487804880694\t--> 'True'\tCorrect Rej: 6, Miss: 1\n"
+p542
+sg41
+S"\t| 40 <  0.0008333333333334313\t--> 'False'\tFalse Alarm: 4, Hit: 28\n\t| \t| 40 >  0.5127631793193087\t--> 'True'\tCorrect Rej: 21, Miss: 0\n\t| \t| \t| 0 >  0.0007692307692309146\t--> 'False'\tFalse Alarm: 1, Hit: 5\n\t| \t| \t| \t| 40 >  0.23339316619905748\t--> 'True'\tCorrect Rej: 1, Miss: 1\n"
+p543
+sa(dp544
+g31
+S"\t| 0 >  0.0006451612903225947\t--> 'True'\tCorrect Rej: 10, Miss: 15\n\t| \t| 0 >  0.0005128205128205233\t--> 'True'\tCorrect Rej: 9, Miss: 12\n\t| \t| \t| 0 >  0.0004545454545454862\t--> 'True'\tCorrect Rej: 4, Miss: 4\n\t| \t| \t| \t| 0 >  0.0003846153846154118\t--> 'True'\tCorrect Rej: 0, Miss: 2\n"
+p545
+sg33
+S"\t| 0 >  0.0006451612903225947\t--> 'False'\tFalse Alarm: 10, Hit: 15\n\t| \t| 0 >  0.0005128205128205233\t--> 'False'\tFalse Alarm: 9, Hit: 12\n\t| \t| \t| 0 >  0.0004545454545454862\t--> 'False'\tFalse Alarm: 4, Hit: 4\n\t| \t| \t| \t| 0 >  0.0003846153846154118\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p546
+sg35
+S"\t| 0 >  0.0006451612903225947\t--> 'True'\tCorrect Rej: 10, Miss: 15\n\t| \t| 40 <  0.0005882352941176837\t--> 'False'\tFalse Alarm: 5, Hit: 16\n\t| \t| \t| 40 >  0.39244957461556895\t--> 'True'\tCorrect Rej: 8, Miss: 0\n\t| \t| \t| \t| 40 <  0.08085411621280439\t--> 'False'\tFalse Alarm: 0, Hit: 4\n"
+p547
+sg37
+S"\t| 0 >  0.0006451612903225947\t--> 'True'\tCorrect Rej: 10, Miss: 15\n\t| \t| 0 >  0.0005128205128205233\t--> 'True'\tCorrect Rej: 9, Miss: 12\n\t| \t| \t| 0 >  0.0004545454545454862\t--> 'True'\tCorrect Rej: 4, Miss: 4\n\t| \t| \t| \t| 3 <  0.00038461538461541383\t--> 'False'\tFalse Alarm: 5, Hit: 3\n"
+p548
+sg41
+S"\t| 40 <  0.0008695652173913912\t--> 'False'\tFalse Alarm: 7, Hit: 30\n\t| \t| 40 >  0.594775213558821\t--> 'True'\tCorrect Rej: 15, Miss: 0\n\t| \t| \t| 2 >  0.0006896551724140698\t--> 'False'\tFalse Alarm: 1, Hit: 4\n\t| \t| \t| \t| 13 >  0.0006250000000000282\t--> 'True'\tCorrect Rej: 3, Miss: 1\n"
+p549
+sa(dp550
+g31
+S"\t| 0 >  0.0006250000000000596\t--> 'True'\tCorrect Rej: 19, Miss: 19\n\t| \t| 0 >  0.0005128205128205197\t--> 'True'\tCorrect Rej: 1, Miss: 12\n\t| \t| \t| 0 >  0.0004444444444444551\t--> 'True'\tCorrect Rej: 5, Miss: 3\n\t| \t| \t| \t| 0 >  0.00036363636363640476\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p551
+sg33
+S"\t| 0 >  0.0006250000000000596\t--> 'False'\tFalse Alarm: 19, Hit: 19\n\t| \t| 0 >  0.0005128205128205197\t--> 'False'\tFalse Alarm: 1, Hit: 12\n\t| \t| \t| 0 >  0.0004444444444444551\t--> 'False'\tFalse Alarm: 5, Hit: 3\n\t| \t| \t| \t| 0 >  0.00036363636363640476\t--> 'False'\tFalse Alarm: 2, Hit: 0\n"
+p552
+sg35
+S"\t| 0 >  0.0006250000000000596\t--> 'True'\tCorrect Rej: 19, Miss: 19\n\t| \t| 40 <  0.0005882352941176554\t--> 'False'\tFalse Alarm: 4, Hit: 10\n\t| \t| \t| 40 >  0.3542874761570316\t--> 'True'\tCorrect Rej: 4, Miss: 0\n\t| \t| \t| \t| 0 >  0.0005882352941176678\t--> 'False'\tFalse Alarm: 0, Hit: 5\n"
+p553
+sg37
+S"\t| 40 <  0.0008333333333334512\t--> 'False'\tFalse Alarm: 9, Hit: 24\n\t| \t| 0 >  0.0006559139784947283\t--> 'True'\tCorrect Rej: 10, Miss: 10\n\t| \t| \t| 0 >  0.0005714285714286747\t--> 'True'\tCorrect Rej: 4, Miss: 1\n\t| \t| \t| \t| 0 >  0.0005000000000000117\t--> 'True'\tCorrect Rej: 3, Miss: 1\n"
+p554
+sg41
+S"\t| 40 <  0.0008333333333334512\t--> 'False'\tFalse Alarm: 9, Hit: 24\n\t| \t| 40 >  0.6054535216213962\t--> 'True'\tCorrect Rej: 13, Miss: 0\n\t| \t| \t| 2 >  0.0006896551724138063\t--> 'False'\tFalse Alarm: 1, Hit: 9\n\t| \t| \t| \t| 13 >  0.0006250000000000282\t--> 'True'\tCorrect Rej: 4, Miss: 1\n"
+p555
+sa(dp556
+g31
+S"\t| 0 >  0.0006451612903225908\t--> 'True'\tCorrect Rej: 16, Miss: 12\n\t| \t| 0 >  0.0005128205128205268\t--> 'True'\tCorrect Rej: 7, Miss: 9\n\t| \t| \t| 0 >  0.00045454545454550366\t--> 'True'\tCorrect Rej: 4, Miss: 4\n\t| \t| \t| \t| 0 >  0.0003636363636364165\t--> 'True'\tCorrect Rej: 1, Miss: 7\n"
+p557
+sg33
+S"\t| 0 >  0.0006451612903225908\t--> 'False'\tFalse Alarm: 16, Hit: 12\n\t| \t| 0 >  0.0005128205128205268\t--> 'False'\tFalse Alarm: 7, Hit: 9\n\t| \t| \t| 0 >  0.00045454545454550366\t--> 'False'\tFalse Alarm: 4, Hit: 4\n\t| \t| \t| \t| 0 >  0.0003636363636364165\t--> 'False'\tFalse Alarm: 1, Hit: 7\n"
+p558
+sg35
+S"\t| 0 >  0.0006451612903225908\t--> 'False'\tFalse Alarm: 16, Hit: 12\n\t| \t| 40 >  0.0006060606060606455\t--> 'True'\tCorrect Rej: 7, Miss: 3\n\t| \t| \t| 3 >  0.000476190476190512\t--> 'False'\tFalse Alarm: 3, Hit: 11\n\t| \t| \t| \t| 13 >  0.000454545454545479\t--> 'True'\tCorrect Rej: 1, Miss: 2\n"
+p559
+sg37
+S"\t| 40 <  0.0008695652173913678\t--> 'False'\tFalse Alarm: 7, Hit: 29\n\t| \t| 0 >  0.0006666666666667316\t--> 'True'\tCorrect Rej: 8, Miss: 4\n\t| \t| \t| 0 >  0.0005555555555556908\t--> 'True'\tCorrect Rej: 11, Miss: 1\n\t| \t| \t| \t| 0 >  0.0005128205128205197\t--> 'True'\tCorrect Rej: 0, Miss: 0\n"
+p560
+sg41
+S"\t| 40 <  0.0008695652173913678\t--> 'False'\tFalse Alarm: 7, Hit: 29\n\t| \t| 40 >  0.5473543436152304\t--> 'True'\tCorrect Rej: 17, Miss: 0\n\t| \t| \t| 0 >  0.0007692307692307749\t--> 'False'\tFalse Alarm: 2, Hit: 3\n\t| \t| \t| \t| 11 <  0.0005882352941176835\t--> 'True'\tCorrect Rej: 1, Miss: 2\n"
+p561
+sasg31
+(lp562
+F0.0
+aF0.034
+aF0.071
+aF0.0
+aF0.143
+aF0.034
+aF0.069
+aF0.036
+aF0.0
+aF0.036
+aF0.034
+aF0.034
+aF0.036
+aF0.107
+aF0.0
+aF0.069
+aF0.034
+aF0.0
+aF0.071
+aF0.107
+aF0.034
+aF0.0
+aF0.179
+aF0.036
+aF0.0
+asg33
+(lp563
+F1.0
+aF0.861
+aF0.889
+aF0.944
+aF0.972
+aF0.919
+aF0.861
+aF0.917
+aF0.917
+aF0.972
+aF0.919
+aF0.889
+aF0.972
+aF0.889
+aF0.972
+aF0.919
+aF0.889
+aF0.944
+aF0.944
+aF0.917
+aF0.973
+aF0.889
+aF0.917
+aF0.944
+aF0.889
+asg35
+(lp564
+F0.344
+aF0.399
+aF0.368
+aF0.465
+aF0.431
+aF0.26
+aF0.348
+aF0.275
+aF0.165
+aF0.285
+aF0.291
+aF0.421
+aF0.342
+aF0.458
+aF0.53
+aF0.389
+aF0.41
+aF0.424
+aF0.357
+aF0.357
+aF0.527
+aF0.52
+aF0.339
+aF0.424
+aF0.514
+asg37
+(lp565
+F0.8
+aF0.667
+aF0.8
+aF0.674
+aF0.25
+aF0.875
+aF0.733
+aF0.818
+aF0.913
+aF0.5
+aF0.794
+aF0.385
+aF0.78
+aF0.5
+aF0.667
+aF0.775
+aF0.833
+aF0.744
+aF0.816
+aF0.839
+aF1.0
+aF0.6
+aF0.375
+aF0.686
+aF0.775
+asg39
+(lp566
+F278.6444628238678
+aF278.329421043396
+aF277.84922885894775
+aF277.553347826004
+aF279.300420999527
+aF279.10669708251953
+aF279.1723940372467
+aF278.7273840904236
+aF279.00063014030457
+aF275.8090069293976
+aF275.680380821228
+aF275.4723107814789
+aF275.5923159122467
+aF276.06216311454773
+aF283.1854901313782
+aF282.6467123031616
+aF282.79360818862915
+aF282.6813862323761
+aF282.9853391647339
+aF279.9532301425934
+aF278.74716806411743
+aF278.8969032764435
+aF278.7458529472351
+aF279.3930151462555
+asg41
+(lp567
+F0.909
+aF0.862
+aF0.906
+aF0.797
+aF0.813
+aF0.833
+aF0.831
+aF0.813
+aF0.859
+aF0.875
+aF0.818
+aF0.8
+aF0.891
+aF0.844
+aF0.844
+aF0.788
+aF0.846
+aF0.75
+aF0.922
+aF0.859
+aF0.879
+aF0.877
+aF0.828
+aF0.813
+aF0.813
+asssS'25'
+p568
+(dp569
+g3
+(dp570
+g5
+(lp571
+(lp572
+a(lp573
+a(lp574
+a(lp575
+a(lp576
+a(lp577
+a(lp578
+a(lp579
+a(lp580
+a(lp581
+a(lp582
+a(lp583
+a(lp584
+a(lp585
+a(lp586
+a(lp587
+a(lp588
+a(lp589
+a(lp590
+a(lp591
+a(lp592
+a(lp593
+a(lp594
+a(lp595
+asg31
+(lp596
+F-0.0
+aF-0.12
+aF-0.077
+aF-0.125
+aF-0.241
+aF-0.0
+aF-0.04
+aF-0.095
+aF-0.13
+aF-0.143
+aF-0.182
+aF-0.08
+aF-0.161
+aF-0.103
+aF-0.04
+aF-0.167
+aF-0.103
+aF-0.154
+aF-0.042
+aF-0.0
+aF-0.179
+aF-0.129
+aF-0.0
+aF-0.091
+aF-0.083
+asg33
+(lp597
+F-0.949
+aF-0.825
+aF-0.895
+aF-0.825
+aF-0.829
+aF-0.841
+aF-0.875
+aF-0.791
+aF-0.805
+aF-0.889
+aF-0.939
+aF-0.85
+aF-0.939
+aF-0.943
+aF-0.897
+aF-0.889
+aF-0.917
+aF-0.842
+aF-0.875
+aF-0.878
+aF-0.842
+aF-0.941
+aF-0.9
+aF-0.81
+aF-0.85
+asg35
+(lp598
+F0.036
+aF0.15
+aF0.092
+aF0.152
+aF0.209
+aF0.112
+aF0.093
+aF0.162
+aF0.166
+aF0.128
+aF0.136
+aF0.12
+aF0.122
+aF0.083
+aF0.078
+aF0.142
+aF0.094
+aF0.156
+aF0.093
+aF0.086
+aF0.169
+aF0.1
+aF0.071
+aF0.149
+aF0.121
+asg37
+(lp599
+F-1.0
+aF-0.917
+aF-0.944
+aF-0.917
+aF-0.806
+aF-1.0
+aF-0.972
+aF-0.944
+aF-0.917
+aF-0.889
+aF-0.838
+aF-0.944
+aF-0.861
+aF-0.917
+aF-0.972
+aF-0.865
+aF-0.917
+aF-0.889
+aF-0.972
+aF-1.0
+aF-0.865
+aF-0.889
+aF-1.0
+aF-0.944
+aF-0.944
+asg39
+(lp600
+F181.6327919960022
+aF181.63350701332092
+aF181.63347482681274
+aF181.63352012634277
+aF164.79401397705078
+aF164.79316878318787
+aF164.793438911438
+aF164.79317784309387
+aF164.7929527759552
+aF167.57539176940918
+aF167.57604694366455
+aF167.57617783546448
+aF167.57587099075317
+aF167.57570886611938
+aF198.96266722679138
+aF198.96104621887207
+aF198.9614441394806
+aF198.96148800849915
+aF198.9618182182312
+aF159.90980625152588
+aF159.9095733165741
+aF159.90907216072083
+aF159.90885615348816
+aF159.90920209884644
+asg41
+(lp601
+F-0.97
+aF-0.846
+aF-0.906
+aF-0.844
+aF-0.797
+aF-0.894
+aF-0.908
+aF-0.828
+aF-0.828
+aF-0.875
+aF-0.879
+aF-0.877
+aF-0.891
+aF-0.922
+aF-0.922
+aF-0.864
+aF-0.908
+aF-0.844
+aF-0.906
+aF-0.922
+aF-0.833
+aF-0.908
+aF-0.938
+aF-0.844
+aF-0.875
+assg43
+(dp602
+g5
+(lp603
+(dp604
+g31
+S"\t| 0 >  0.0012500000002222227\t--> 'True'\tCorrect Rej: 17, Miss: 19\n\t| \t| 0 >  0.001025641025646108\t--> 'True'\tCorrect Rej: 6, Miss: 4\n\t| \t| \t| 0 >  0.0009090909091107042\t--> 'True'\tCorrect Rej: 2, Miss: 6\n\t| \t| \t| \t| 0 >  0.0007272727274220102\t--> 'True'\tCorrect Rej: 3, Miss: 3\n"
+p605
+sg33
+S"\t| 0 >  0.0012500000002222227\t--> 'False'\tFalse Alarm: 17, Hit: 19\n\t| \t| 0 >  0.001025641025646108\t--> 'False'\tFalse Alarm: 6, Hit: 4\n\t| \t| \t| 0 >  0.0009090909091107042\t--> 'False'\tFalse Alarm: 2, Hit: 6\n\t| \t| \t| \t| 0 >  0.0007272727274220102\t--> 'False'\tFalse Alarm: 3, Hit: 3\n"
+p606
+sg35
+S"\t| 0 >  0.0012500000002222227\t--> 'True'\tCorrect Rej: 17, Miss: 19\n\t| \t| 21 <  0.001212121212234038\t--> 'False'\tFalse Alarm: 3, Hit: 14\n\t| \t| \t| 21 >  0.5853760187835795\t--> 'True'\tCorrect Rej: 7, Miss: 1\n\t| \t| \t| \t| 3 >  0.0011764705884005433\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p607
+sg37
+S"\t| 21 <  0.0020000000002149357\t--> 'False'\tFalse Alarm: 4, Hit: 28\n\t| \t| 0 >  0.001290322580662055\t--> 'True'\tCorrect Rej: 14, Miss: 6\n\t| \t| \t| 0 >  0.001066856330110497\t--> 'True'\tCorrect Rej: 6, Miss: 0\n\t| \t| \t| \t| 0 >  0.0010000000000100347\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p608
+sg41
+S"\t| 21 <  0.0020000000002149357\t--> 'False'\tFalse Alarm: 4, Hit: 28\n\t| \t| 21 >  0.9657142857136951\t--> 'True'\tCorrect Rej: 17, Miss: 1\n\t| \t| \t| 21 <  0.20732048893169072\t--> 'False'\tFalse Alarm: 2, Hit: 5\n\t| \t| \t| \t| 1 <  0.001250000000000258\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p609
+sa(dp610
+g31
+S"\t| 0 >  0.0012903225806494899\t--> 'True'\tCorrect Rej: 15, Miss: 16\n\t| \t| 0 >  0.0010256410256436785\t--> 'True'\tCorrect Rej: 6, Miss: 10\n\t| \t| \t| 0 >  0.0009090909090997627\t--> 'True'\tCorrect Rej: 4, Miss: 3\n\t| \t| \t| \t| 0 >  0.0007407407409317807\t--> 'True'\tCorrect Rej: 1, Miss: 3\n"
+p611
+sg33
+S"\t| 0 >  0.0012903225806494899\t--> 'False'\tFalse Alarm: 15, Hit: 16\n\t| \t| 0 >  0.0010256410256436785\t--> 'False'\tFalse Alarm: 6, Hit: 10\n\t| \t| \t| 0 >  0.0009090909090997627\t--> 'False'\tFalse Alarm: 4, Hit: 3\n\t| \t| \t| \t| 0 >  0.0007407407409317807\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p612
+sg35
+S"\t| 0 >  0.0012903225806494899\t--> 'True'\tCorrect Rej: 15, Miss: 16\n\t| \t| 21 <  0.0012121212123483564\t--> 'False'\tFalse Alarm: 2, Hit: 16\n\t| \t| \t| 21 >  0.7863821494784521\t--> 'True'\tCorrect Rej: 8, Miss: 0\n\t| \t| \t| \t| 3 >  0.0011764705884005433\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p613
+sg37
+S"\t| 21 <  0.0020000000002149357\t--> 'False'\tFalse Alarm: 3, Hit: 29\n\t| \t| 0 >  0.0012903225807442877\t--> 'True'\tCorrect Rej: 9, Miss: 6\n\t| \t| \t| 0 >  0.001066856330110497\t--> 'True'\tCorrect Rej: 10, Miss: 0\n\t| \t| \t| \t| 0 >  0.0010000000000100347\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p614
+sg41
+S"\t| 21 <  0.0020000000002149357\t--> 'False'\tFalse Alarm: 3, Hit: 29\n\t| \t| 21 >  0.9657142857139037\t--> 'True'\tCorrect Rej: 14, Miss: 0\n\t| \t| \t| 21 >  0.19122542855550226\t--> 'True'\tCorrect Rej: 11, Miss: 2\n\t| \t| \t| \t| 8 <  0.0020000000001925717\t--> 'False'\tFalse Alarm: 0, Hit: 3\n"
+p615
+sa(dp616
+g31
+S"\t| 0 >  0.0012903225806494899\t--> 'True'\tCorrect Rej: 16, Miss: 15\n\t| \t| 0 >  0.0010256410256448839\t--> 'True'\tCorrect Rej: 5, Miss: 10\n\t| \t| \t| 0 >  0.0009090909090938608\t--> 'True'\tCorrect Rej: 6, Miss: 3\n\t| \t| \t| \t| 0 >  0.0007142857142869543\t--> 'True'\tCorrect Rej: 1, Miss: 6\n"
+p617
+sg33
+S"\t| 0 >  0.0012903225806494899\t--> 'False'\tFalse Alarm: 16, Hit: 15\n\t| \t| 0 >  0.0010256410256448839\t--> 'False'\tFalse Alarm: 5, Hit: 10\n\t| \t| \t| 0 >  0.0009090909090938608\t--> 'False'\tFalse Alarm: 6, Hit: 3\n\t| \t| \t| \t| 0 >  0.0007142857142869543\t--> 'False'\tFalse Alarm: 1, Hit: 6\n"
+p618
+sg35
+S"\t| 0 >  0.0012903225806494899\t--> 'True'\tCorrect Rej: 16, Miss: 15\n\t| \t| 21 <  0.0011764705884836472\t--> 'False'\tFalse Alarm: 1, Hit: 10\n\t| \t| \t| 21 >  0.9699999999840279\t--> 'True'\tCorrect Rej: 5, Miss: 1\n\t| \t| \t| \t| 8 <  0.0012500000000940346\t--> 'False'\tFalse Alarm: 4, Hit: 2\n"
+p619
+sg37
+S"\t| 21 <  0.0020000000005817773\t--> 'False'\tFalse Alarm: 7, Hit: 27\n\t| \t| 0 >  0.0012903225807443023\t--> 'True'\tCorrect Rej: 9, Miss: 3\n\t| \t| \t| 0 >  0.0011111111135279571\t--> 'True'\tCorrect Rej: 3, Miss: 2\n\t| \t| \t| \t| 0 >  0.001000000000010043\t--> 'True'\tCorrect Rej: 5, Miss: 1\n"
+p620
+sg41
+S"\t| 21 <  0.0020000000005817773\t--> 'False'\tFalse Alarm: 7, Hit: 27\n\t| \t| 21 >  0.9668965516789483\t--> 'True'\tCorrect Rej: 12, Miss: 1\n\t| \t| \t| 21 >  0.2793030412177284\t--> 'True'\tCorrect Rej: 5, Miss: 1\n\t| \t| \t| \t| 24 >  0.771985067821226\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p621
+sa(dp622
+g31
+S"\t| 0 >  0.0012500000002230495\t--> 'True'\tCorrect Rej: 15, Miss: 20\n\t| \t| 0 >  0.001025641025643342\t--> 'True'\tCorrect Rej: 4, Miss: 10\n\t| \t| \t| 0 >  0.0008888888888973472\t--> 'True'\tCorrect Rej: 5, Miss: 4\n\t| \t| \t| \t| 0 >  0.0007272727274220102\t--> 'True'\tCorrect Rej: 0, Miss: 1\n"
+p623
+sg33
+S"\t| 0 >  0.0012500000002230495\t--> 'False'\tFalse Alarm: 15, Hit: 20\n\t| \t| 0 >  0.001025641025643342\t--> 'False'\tFalse Alarm: 4, Hit: 10\n\t| \t| \t| 0 >  0.0008888888888973472\t--> 'False'\tFalse Alarm: 5, Hit: 4\n\t| \t| \t| \t| 0 >  0.0007272727274220102\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p624
+sg35
+S"\t| 0 >  0.0012500000002230495\t--> 'True'\tCorrect Rej: 15, Miss: 20\n\t| \t| 21 <  0.0012121212122170365\t--> 'False'\tFalse Alarm: 5, Hit: 10\n\t| \t| \t| 21 >  0.9085726424993426\t--> 'True'\tCorrect Rej: 6, Miss: 1\n\t| \t| \t| \t| 3 >  0.0011111111111780914\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p625
+sg37
+S"\t| 0 >  0.0012500000002230495\t--> 'True'\tCorrect Rej: 15, Miss: 20\n\t| \t| 21 <  0.0012121212122170365\t--> 'False'\tFalse Alarm: 5, Hit: 10\n\t| \t| \t| 0 >  0.0010256410257387261\t--> 'True'\tCorrect Rej: 4, Miss: 5\n\t| \t| \t| \t| 0 >  0.0010000000000100347\t--> 'True'\tCorrect Rej: 0, Miss: 1\n"
+p626
+sg41
+S"\t| 21 <  0.0020000000002149357\t--> 'False'\tFalse Alarm: 7, Hit: 24\n\t| \t| 21 >  0.9657142857137869\t--> 'True'\tCorrect Rej: 16, Miss: 1\n\t| \t| \t| 21 >  0.273567592427142\t--> 'True'\tCorrect Rej: 2, Miss: 1\n\t| \t| \t| \t| 24 >  0.6769892183320099\t--> 'False'\tFalse Alarm: 0, Hit: 7\n"
+p627
+sa(dp628
+g31
+S"\t| 0 >  0.001250000000000048\t--> 'True'\tCorrect Rej: 16, Miss: 19\n\t| \t| 0 >  0.0010000000000001195\t--> 'True'\tCorrect Rej: 8, Miss: 8\n\t| \t| \t| 0 >  0.0008888888888889202\t--> 'True'\tCorrect Rej: 3, Miss: 4\n\t| \t| \t| \t| 0 >  0.0007017543859650061\t--> 'True'\tCorrect Rej: 2, Miss: 4\n"
+p629
+sg33
+S"\t| 0 >  0.001250000000000048\t--> 'False'\tFalse Alarm: 16, Hit: 19\n\t| \t| 0 >  0.0010000000000001195\t--> 'False'\tFalse Alarm: 8, Hit: 8\n\t| \t| \t| 0 >  0.0008888888888889202\t--> 'False'\tFalse Alarm: 3, Hit: 4\n\t| \t| \t| \t| 0 >  0.0007017543859650061\t--> 'False'\tFalse Alarm: 2, Hit: 4\n"
+p630
+sg35
+S"\t| 0 >  0.001250000000000048\t--> 'True'\tCorrect Rej: 16, Miss: 19\n\t| \t| 15 <  0.0012121212122213462\t--> 'False'\tFalse Alarm: 7, Hit: 15\n\t| \t| \t| 15 >  0.7517180935995342\t--> 'True'\tCorrect Rej: 4, Miss: 0\n\t| \t| \t| \t| 15 <  0.12708445099193974\t--> 'False'\tFalse Alarm: 0, Hit: 3\n"
+p631
+sg37
+S"\t| 15 <  0.0022222222225544127\t--> 'False'\tFalse Alarm: 9, Hit: 29\n\t| \t| 0 >  0.001290322580645188\t--> 'True'\tCorrect Rej: 11, Miss: 4\n\t| \t| \t| 0 >  0.0010256410256410495\t--> 'True'\tCorrect Rej: 7, Miss: 2\n\t| \t| \t| \t| 0 >  0.000975609756097618\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p632
+sg41
+S"\t| 15 <  0.0022222222225544127\t--> 'False'\tFalse Alarm: 9, Hit: 29\n\t| \t| 15 >  0.9657142857109855\t--> 'True'\tCorrect Rej: 16, Miss: 0\n\t| \t| \t| 15 >  0.32825278877933584\t--> 'True'\tCorrect Rej: 3, Miss: 0\n\t| \t| \t| \t| 0 >  0.001176470588235314\t--> 'False'\tFalse Alarm: 0, Hit: 5\n"
+p633
+sa(dp634
+g31
+S"\t| 0 >  0.0012500000000000835\t--> 'True'\tCorrect Rej: 14, Miss: 12\n\t| \t| 0 >  0.001025641025641043\t--> 'True'\tCorrect Rej: 4, Miss: 14\n\t| \t| \t| 0 >  0.0009090909090909534\t--> 'True'\tCorrect Rej: 7, Miss: 4\n\t| \t| \t| \t| 0 >  0.0007407407407408271\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p635
+sg33
+S"\t| 0 >  0.0012500000000000835\t--> 'False'\tFalse Alarm: 14, Hit: 12\n\t| \t| 0 >  0.001025641025641043\t--> 'False'\tFalse Alarm: 4, Hit: 14\n\t| \t| \t| 0 >  0.0009090909090909534\t--> 'False'\tFalse Alarm: 7, Hit: 4\n\t| \t| \t| \t| 0 >  0.0007407407407408271\t--> 'False'\tFalse Alarm: 2, Hit: 1\n"
+p636
+sg35
+S"\t| 0 >  0.0012500000000000835\t--> 'True'\tCorrect Rej: 14, Miss: 12\n\t| \t| 15 <  0.0012121212122087031\t--> 'False'\tFalse Alarm: 3, Hit: 18\n\t| \t| \t| 15 >  0.47758648990955727\t--> 'True'\tCorrect Rej: 10, Miss: 0\n\t| \t| \t| \t| 15 <  0.11663012560205421\t--> 'False'\tFalse Alarm: 0, Hit: 6\n"
+p637
+sg37
+S"\t| 15 <  0.002052631585688954\t--> 'False'\tFalse Alarm: 5, Hit: 30\n\t| \t| 0 >  0.0012903225806451897\t--> 'True'\tCorrect Rej: 10, Miss: 4\n\t| \t| \t| 0 >  0.0010256410256411833\t--> 'True'\tCorrect Rej: 6, Miss: 1\n\t| \t| \t| \t| 0 >  0.0010000000000000182\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p638
+sg41
+S"\t| 15 <  0.002052631585688954\t--> 'False'\tFalse Alarm: 5, Hit: 30\n\t| \t| 15 >  0.9657142857080503\t--> 'True'\tCorrect Rej: 19, Miss: 0\n\t| \t| \t| 15 <  0.21619769876647627\t--> 'False'\tFalse Alarm: 1, Hit: 5\n\t| \t| \t| \t| 2 >  0.0015384615424566342\t--> 'True'\tCorrect Rej: 4, Miss: 1\n"
+p639
+sa(dp640
+g31
+S"\t| 0 >  0.0012500000000000419\t--> 'True'\tCorrect Rej: 16, Miss: 20\n\t| \t| 0 >  0.0010000000000000623\t--> 'True'\tCorrect Rej: 6, Miss: 10\n\t| \t| \t| 0 >  0.0008695652173914101\t--> 'True'\tCorrect Rej: 3, Miss: 3\n\t| \t| \t| \t| 0 >  0.0007272727272727918\t--> 'True'\tCorrect Rej: 0, Miss: 1\n"
+p641
+sg33
+S"\t| 0 >  0.0012500000000000419\t--> 'False'\tFalse Alarm: 16, Hit: 20\n\t| \t| 0 >  0.0010000000000000623\t--> 'False'\tFalse Alarm: 6, Hit: 10\n\t| \t| \t| 0 >  0.0008695652173914101\t--> 'False'\tFalse Alarm: 3, Hit: 3\n\t| \t| \t| \t| 0 >  0.0007272727272727918\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p642
+sg35
+S"\t| 0 >  0.0012500000000000419\t--> 'True'\tCorrect Rej: 16, Miss: 20\n\t| \t| 15 <  0.0011269841274336734\t--> 'False'\tFalse Alarm: 2, Hit: 7\n\t| \t| \t| 15 >  0.6065068431865512\t--> 'True'\tCorrect Rej: 6, Miss: 0\n\t| \t| \t| \t| 15 <  0.08567013549191128\t--> 'False'\tFalse Alarm: 1, Hit: 7\n"
+p643
+sg37
+S"\t| 15 <  0.00200000000038318\t--> 'False'\tFalse Alarm: 3, Hit: 27\n\t| \t| 0 >  0.0012903225806451895\t--> 'True'\tCorrect Rej: 14, Miss: 6\n\t| \t| \t| 0 >  0.0010256410256410942\t--> 'True'\tCorrect Rej: 6, Miss: 2\n\t| \t| \t| \t| 0 >  0.0010000000000000182\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p644
+sg41
+S"\t| 15 <  0.00200000000038318\t--> 'False'\tFalse Alarm: 3, Hit: 27\n\t| \t| 15 >  0.9657142857128713\t--> 'True'\tCorrect Rej: 13, Miss: 0\n\t| \t| \t| 15 <  0.23350781248133962\t--> 'False'\tFalse Alarm: 6, Hit: 6\n\t| \t| \t| \t| 10 >  0.001333333333333409\t--> 'True'\tCorrect Rej: 2, Miss: 2\n"
+p645
+sa(dp646
+g31
+S"\t| 0 >  0.001250000000000053\t--> 'True'\tCorrect Rej: 17, Miss: 15\n\t| \t| 0 >  0.0010256410256410434\t--> 'True'\tCorrect Rej: 5, Miss: 6\n\t| \t| \t| 0 >  0.0009090909090909752\t--> 'True'\tCorrect Rej: 3, Miss: 7\n\t| \t| \t| \t| 0 >  0.0007272727272727918\t--> 'True'\tCorrect Rej: 2, Miss: 4\n"
+p647
+sg33
+S"\t| 0 >  0.001250000000000053\t--> 'False'\tFalse Alarm: 17, Hit: 15\n\t| \t| 0 >  0.0010256410256410434\t--> 'False'\tFalse Alarm: 5, Hit: 6\n\t| \t| \t| 0 >  0.0009090909090909752\t--> 'False'\tFalse Alarm: 3, Hit: 7\n\t| \t| \t| \t| 0 >  0.0007272727272727918\t--> 'False'\tFalse Alarm: 2, Hit: 4\n"
+p648
+sg35
+S"\t| 0 >  0.001250000000000053\t--> 'True'\tCorrect Rej: 17, Miss: 15\n\t| \t| 15 <  0.0011764705883916642\t--> 'False'\tFalse Alarm: 1, Hit: 14\n\t| \t| \t| 15 >  0.6417149592664697\t--> 'True'\tCorrect Rej: 5, Miss: 2\n\t| \t| \t| \t| 4 >  0.0011428571428594876\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p649
+sg37
+S"\t| 15 <  0.00200000000038318\t--> 'False'\tFalse Alarm: 2, Hit: 28\n\t| \t| 0 >  0.00129032258064519\t--> 'True'\tCorrect Rej: 16, Miss: 2\n\t| \t| \t| 0 >  0.0010526315789473985\t--> 'True'\tCorrect Rej: 4, Miss: 2\n\t| \t| \t| \t| 0 >  0.0010000000000000182\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p650
+sg41
+S"\t| 15 <  0.00200000000038318\t--> 'False'\tFalse Alarm: 2, Hit: 28\n\t| \t| 15 >  0.9657142857135452\t--> 'True'\tCorrect Rej: 12, Miss: 0\n\t| \t| \t| 15 <  0.17867583576808405\t--> 'False'\tFalse Alarm: 3, Hit: 6\n\t| \t| \t| \t| 0 <  0.0012903225806455698\t--> 'True'\tCorrect Rej: 5, Miss: 2\n"
+p651
+sa(dp652
+g31
+S"\t| 0 >  0.001250000000000053\t--> 'True'\tCorrect Rej: 13, Miss: 19\n\t| \t| 0 >  0.0010000000000000917\t--> 'True'\tCorrect Rej: 10, Miss: 8\n\t| \t| \t| 0 >  0.0008695652173914101\t--> 'True'\tCorrect Rej: 3, Miss: 5\n\t| \t| \t| \t| 0 >  0.0007017543859650061\t--> 'True'\tCorrect Rej: 1, Miss: 3\n"
+p653
+sg33
+S"\t| 0 >  0.001250000000000053\t--> 'False'\tFalse Alarm: 13, Hit: 19\n\t| \t| 0 >  0.0010000000000000917\t--> 'False'\tFalse Alarm: 10, Hit: 8\n\t| \t| \t| 0 >  0.0008695652173914101\t--> 'False'\tFalse Alarm: 3, Hit: 5\n\t| \t| \t| \t| 0 >  0.0007017543859650061\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p654
+sg35
+S"\t| 0 >  0.001250000000000053\t--> 'True'\tCorrect Rej: 13, Miss: 19\n\t| \t| 15 <  0.0011764705883331283\t--> 'False'\tFalse Alarm: 2, Hit: 11\n\t| \t| \t| 15 <  0.3119107027019106\t--> 'False'\tFalse Alarm: 1, Hit: 4\n\t| \t| \t| \t| 0 >  0.0010256410256410426\t--> 'True'\tCorrect Rej: 8, Miss: 1\n"
+p655
+sg37
+S"\t| 15 <  0.0019047620901015746\t--> 'False'\tFalse Alarm: 3, Hit: 26\n\t| \t| 0 >  0.0012903225806452086\t--> 'True'\tCorrect Rej: 8, Miss: 6\n\t| \t| \t| 0 >  0.0010526315789475243\t--> 'True'\tCorrect Rej: 9, Miss: 1\n\t| \t| \t| \t| 0 >  0.0009756097560978088\t--> 'True'\tCorrect Rej: 6, Miss: 2\n"
+p656
+sg41
+S"\t| 15 <  0.0019047620901015746\t--> 'False'\tFalse Alarm: 3, Hit: 26\n\t| \t| 15 >  0.9063192051421445\t--> 'True'\tCorrect Rej: 21, Miss: 3\n\t| \t| \t| 15 <  0.1502646779626489\t--> 'False'\tFalse Alarm: 0, Hit: 5\n\t| \t| \t| \t| 4 <  0.0012500000001172528\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p657
+sa(dp658
+g31
+S"\t| 0 >  0.001250000000000067\t--> 'True'\tCorrect Rej: 16, Miss: 12\n\t| \t| 0 >  0.0010000000000001202\t--> 'True'\tCorrect Rej: 11, Miss: 12\n\t| \t| \t| 0 >  0.0009090909090909631\t--> 'True'\tCorrect Rej: 0, Miss: 5\n\t| \t| \t| \t| 0 >  0.0007272727272727798\t--> 'True'\tCorrect Rej: 1, Miss: 5\n"
+p659
+sg33
+S"\t| 0 >  0.001250000000000067\t--> 'False'\tFalse Alarm: 16, Hit: 12\n\t| \t| 0 >  0.0010000000000001202\t--> 'False'\tFalse Alarm: 11, Hit: 12\n\t| \t| \t| 0 >  0.0009090909090909631\t--> 'False'\tFalse Alarm: 0, Hit: 5\n\t| \t| \t| \t| 0 >  0.0007272727272727798\t--> 'False'\tFalse Alarm: 1, Hit: 5\n"
+p660
+sg35
+S"\t| 0 >  0.001250000000000067\t--> 'True'\tCorrect Rej: 16, Miss: 12\n\t| \t| 9 <  0.0011764705885148423\t--> 'False'\tFalse Alarm: 2, Hit: 17\n\t| \t| \t| 9 >  0.5718145073208546\t--> 'True'\tCorrect Rej: 9, Miss: 1\n\t| \t| \t| \t| 9 <  0.0586855229231446\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p661
+sg37
+S"\t| 9 <  0.0020000000002197713\t--> 'False'\tFalse Alarm: 5, Hit: 25\n\t| \t| 0 >  0.001290322580645211\t--> 'True'\tCorrect Rej: 9, Miss: 6\n\t| \t| \t| 0 >  0.0010256410256411067\t--> 'True'\tCorrect Rej: 10, Miss: 1\n\t| \t| \t| \t| 0 >  0.0010000000000000172\t--> 'True'\tCorrect Rej: 5, Miss: 1\n"
+p662
+sg41
+S"\t| 9 <  0.0020000000002197713\t--> 'False'\tFalse Alarm: 5, Hit: 25\n\t| \t| 9 >  0.9367741935478006\t--> 'True'\tCorrect Rej: 18, Miss: 0\n\t| \t| \t| 7 <  0.001333333333333546\t--> 'True'\tCorrect Rej: 3, Miss: 4\n\t| \t| \t| \t| 3 >  0.7032633257810887\t--> 'False'\tFalse Alarm: 0, Hit: 5\n"
+p663
+sa(dp664
+g31
+S"\t| 0 >  0.0012500000000000245\t--> 'True'\tCorrect Rej: 19, Miss: 19\n\t| \t| 0 >  0.0010000000000001202\t--> 'True'\tCorrect Rej: 2, Miss: 10\n\t| \t| \t| 0 >  0.0008888888888889147\t--> 'True'\tCorrect Rej: 4, Miss: 3\n\t| \t| \t| \t| 0 >  0.0007272727272728158\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p665
+sg33
+S"\t| 0 >  0.0012500000000000245\t--> 'False'\tFalse Alarm: 19, Hit: 19\n\t| \t| 0 >  0.0010000000000001202\t--> 'False'\tFalse Alarm: 2, Hit: 10\n\t| \t| \t| 0 >  0.0008888888888889147\t--> 'False'\tFalse Alarm: 4, Hit: 3\n\t| \t| \t| \t| 0 >  0.0007272727272728158\t--> 'False'\tFalse Alarm: 3, Hit: 0\n"
+p666
+sg35
+S"\t| 0 >  0.0012500000000000245\t--> 'True'\tCorrect Rej: 19, Miss: 19\n\t| \t| 9 <  0.0011764705884591943\t--> 'False'\tFalse Alarm: 3, Hit: 15\n\t| \t| \t| 9 >  0.7649802154415556\t--> 'True'\tCorrect Rej: 1, Miss: 1\n\t| \t| \t| \t| 9 <  0.0586855229231446\t--> 'False'\tFalse Alarm: 0, Hit: 1\n"
+p667
+sg37
+S"\t| 9 <  0.0020000000002197713\t--> 'False'\tFalse Alarm: 5, Hit: 25\n\t| \t| 0 >  0.0012903225806451808\t--> 'True'\tCorrect Rej: 16, Miss: 10\n\t| \t| \t| 0 >  0.00102564102564106\t--> 'True'\tCorrect Rej: 3, Miss: 0\n\t| \t| \t| \t| 0 >  0.0010000000000000182\t--> 'True'\tCorrect Rej: 0, Miss: 0\n"
+p668
+sg41
+S"\t| 9 <  0.0020000000002197713\t--> 'False'\tFalse Alarm: 5, Hit: 25\n\t| \t| 9 >  0.9630769230609693\t--> 'True'\tCorrect Rej: 13, Miss: 0\n\t| \t| \t| 11 >  0.001481481481546256\t--> 'False'\tFalse Alarm: 3, Hit: 9\n\t| \t| \t| \t| 7 <  0.001290322580645211\t--> 'True'\tCorrect Rej: 7, Miss: 0\n"
+p669
+sa(dp670
+g31
+S"\t| 0 >  0.0012500000000000512\t--> 'True'\tCorrect Rej: 14, Miss: 15\n\t| \t| 0 >  0.0010256410256410423\t--> 'True'\tCorrect Rej: 7, Miss: 10\n\t| \t| \t| 0 >  0.0008989898989899727\t--> 'True'\tCorrect Rej: 5, Miss: 5\n\t| \t| \t| \t| 0 >  0.0007080200501253999\t--> 'True'\tCorrect Rej: 1, Miss: 5\n"
+p671
+sg33
+S"\t| 0 >  0.0012500000000000512\t--> 'False'\tFalse Alarm: 14, Hit: 15\n\t| \t| 0 >  0.0010256410256410423\t--> 'False'\tFalse Alarm: 7, Hit: 10\n\t| \t| \t| 0 >  0.0008989898989899727\t--> 'False'\tFalse Alarm: 5, Hit: 5\n\t| \t| \t| \t| 0 >  0.0007080200501253999\t--> 'False'\tFalse Alarm: 1, Hit: 5\n"
+p672
+sg35
+S"\t| 0 >  0.0012500000000000512\t--> 'True'\tCorrect Rej: 14, Miss: 15\n\t| \t| 9 <  0.0011764705883590266\t--> 'False'\tFalse Alarm: 1, Hit: 13\n\t| \t| \t| 9 >  0.3628274108025633\t--> 'True'\tCorrect Rej: 10, Miss: 2\n\t| \t| \t| \t| 7 >  0.0011111111111237642\t--> 'False'\tFalse Alarm: 0, Hit: 6\n"
+p673
+sg37
+S"\t| 0 >  0.0012500000000000512\t--> 'True'\tCorrect Rej: 14, Miss: 15\n\t| \t| 0 >  0.0010256410256410423\t--> 'True'\tCorrect Rej: 7, Miss: 10\n\t| \t| \t| 0 >  0.0008989898989899727\t--> 'True'\tCorrect Rej: 5, Miss: 5\n\t| \t| \t| \t| 11 >  0.6151118066941548\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p674
+sg41
+S"\t| 9 <  0.002000000000375376\t--> 'False'\tFalse Alarm: 1, Hit: 30\n\t| \t| 9 >  0.9395635673612235\t--> 'True'\tCorrect Rej: 16, Miss: 1\n\t| \t| \t| 7 >  0.0013793103448276113\t--> 'False'\tFalse Alarm: 2, Hit: 3\n\t| \t| \t| \t| 5 >  0.0012500000001025664\t--> 'True'\tCorrect Rej: 5, Miss: 1\n"
+p675
+sa(dp676
+g31
+S"\t| 0 >  0.0012500000000000512\t--> 'True'\tCorrect Rej: 12, Miss: 17\n\t| \t| 0 >  0.0010256410256410423\t--> 'True'\tCorrect Rej: 8, Miss: 8\n\t| \t| \t| 0 >  0.0009090909090910033\t--> 'True'\tCorrect Rej: 4, Miss: 3\n\t| \t| \t| \t| 0 >  0.0007477288609364743\t--> 'True'\tCorrect Rej: 1, Miss: 4\n"
+p677
+sg33
+S"\t| 0 >  0.0012500000000000512\t--> 'False'\tFalse Alarm: 12, Hit: 17\n\t| \t| 0 >  0.0010256410256410423\t--> 'False'\tFalse Alarm: 8, Hit: 8\n\t| \t| \t| 0 >  0.0009090909090910033\t--> 'False'\tFalse Alarm: 4, Hit: 3\n\t| \t| \t| \t| 0 >  0.0007477288609364743\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p678
+sg35
+S"\t| 0 >  0.0012500000000000512\t--> 'True'\tCorrect Rej: 12, Miss: 17\n\t| \t| 9 <  0.0011764705886471239\t--> 'False'\tFalse Alarm: 5, Hit: 14\n\t| \t| \t| 7 <  0.0010810810810812095\t--> 'True'\tCorrect Rej: 6, Miss: 3\n\t| \t| \t| \t| 9 <  0.5718145073208546\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p679
+sg37
+S"\t| 0 >  0.0012500000000000512\t--> 'True'\tCorrect Rej: 12, Miss: 17\n\t| \t| 0 >  0.0010256410256410423\t--> 'True'\tCorrect Rej: 8, Miss: 8\n\t| \t| \t| 0 >  0.0009090909090910033\t--> 'True'\tCorrect Rej: 4, Miss: 3\n\t| \t| \t| \t| 11 >  0.5737146993548461\t--> 'False'\tFalse Alarm: 1, Hit: 5\n"
+p680
+sg41
+S"\t| 9 <  0.0020000000117575047\t--> 'False'\tFalse Alarm: 5, Hit: 28\n\t| \t| 9 >  0.9367741935478006\t--> 'True'\tCorrect Rej: 18, Miss: 0\n\t| \t| \t| 3 <  0.0013793103449423355\t--> 'True'\tCorrect Rej: 3, Miss: 3\n\t| \t| \t| \t| 3 >  0.749865021290717\t--> 'False'\tFalse Alarm: 0, Hit: 3\n"
+p681
+sa(dp682
+g31
+S"\t| 0 >  0.0012500000000000252\t--> 'True'\tCorrect Rej: 13, Miss: 23\n\t| \t| 0 >  0.0010000000000000696\t--> 'True'\tCorrect Rej: 9, Miss: 6\n\t| \t| \t| 0 >  0.0008695652173913201\t--> 'True'\tCorrect Rej: 4, Miss: 5\n\t| \t| \t| \t| 0 >  0.0006896551724138455\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p683
+sg33
+S"\t| 0 >  0.0012500000000000252\t--> 'False'\tFalse Alarm: 13, Hit: 23\n\t| \t| 0 >  0.0010000000000000696\t--> 'False'\tFalse Alarm: 9, Hit: 6\n\t| \t| \t| 0 >  0.0008695652173913201\t--> 'False'\tFalse Alarm: 4, Hit: 5\n\t| \t| \t| \t| 0 >  0.0006896551724138455\t--> 'False'\tFalse Alarm: 2, Hit: 1\n"
+p684
+sg35
+S"\t| 0 >  0.0012500000000000252\t--> 'True'\tCorrect Rej: 13, Miss: 23\n\t| \t| 9 <  0.0011428571430111391\t--> 'False'\tFalse Alarm: 3, Hit: 7\n\t| \t| \t| 9 <  0.43596938089104015\t--> 'False'\tFalse Alarm: 4, Hit: 6\n\t| \t| \t| \t| 7 <  0.0010810810810812095\t--> 'True'\tCorrect Rej: 6, Miss: 0\n"
+p685
+sg37
+S"\t| 0 >  0.0012500000000000252\t--> 'True'\tCorrect Rej: 13, Miss: 23\n\t| \t| 0 >  0.0010000000000000696\t--> 'True'\tCorrect Rej: 9, Miss: 6\n\t| \t| \t| 0 >  0.0008695652173913201\t--> 'True'\tCorrect Rej: 4, Miss: 5\n\t| \t| \t| \t| 11 >  0.5310717862585512\t--> 'False'\tFalse Alarm: 1, Hit: 2\n"
+p686
+sg41
+S"\t| 9 <  0.002222222222660435\t--> 'False'\tFalse Alarm: 6, Hit: 30\n\t| \t| 9 >  0.9414795008889043\t--> 'True'\tCorrect Rej: 15, Miss: 1\n\t| \t| \t| 7 >  0.0013333333333334634\t--> 'False'\tFalse Alarm: 3, Hit: 3\n\t| \t| \t| \t| 9 >  0.34099161651015625\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p687
+sa(dp688
+g31
+S"\t| 0 >  0.0012500000000000267\t--> 'True'\tCorrect Rej: 19, Miss: 18\n\t| \t| 0 >  0.001025641025641034\t--> 'True'\tCorrect Rej: 3, Miss: 9\n\t| \t| \t| 0 >  0.0008888888888889352\t--> 'True'\tCorrect Rej: 5, Miss: 5\n\t| \t| \t| \t| 0 >  0.0007272727272728469\t--> 'True'\tCorrect Rej: 0, Miss: 2\n"
+p689
+sg33
+S"\t| 0 >  0.0012500000000000267\t--> 'False'\tFalse Alarm: 19, Hit: 18\n\t| \t| 0 >  0.001025641025641034\t--> 'False'\tFalse Alarm: 3, Hit: 9\n\t| \t| \t| 0 >  0.0008888888888889352\t--> 'False'\tFalse Alarm: 5, Hit: 5\n\t| \t| \t| \t| 0 >  0.0007272727272728469\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p690
+sg35
+S"\t| 0 >  0.0012500000000000267\t--> 'True'\tCorrect Rej: 19, Miss: 18\n\t| \t| 3 >  0.0012121212121848231\t--> 'False'\tFalse Alarm: 1, Hit: 9\n\t| \t| \t| 21 >  0.0011764705884381068\t--> 'False'\tFalse Alarm: 0, Hit: 8\n\t| \t| \t| \t| 5 >  0.9455555555542604\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p691
+sg37
+S"\t| 3 >  0.001379310344956793\t--> 'False'\tFalse Alarm: 7, Hit: 21\n\t| \t| 0 >  0.0012121212121212516\t--> 'True'\tCorrect Rej: 13, Miss: 7\n\t| \t| \t| 21 >  0.0011764705884381068\t--> 'False'\tFalse Alarm: 0, Hit: 7\n\t| \t| \t| \t| 0 >  0.001025641025641034\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p692
+sg41
+S"\t| 3 >  0.001379310344956793\t--> 'False'\tFalse Alarm: 7, Hit: 21\n\t| \t| 21 <  0.0012903225808388466\t--> 'True'\tCorrect Rej: 13, Miss: 3\n\t| \t| \t| 4 <  0.0012500000001170331\t--> 'False'\tFalse Alarm: 0, Hit: 10\n\t| \t| \t| \t| 21 <  0.0013793103449751072\t--> 'True'\tCorrect Rej: 9, Miss: 2\n"
+p693
+sa(dp694
+g31
+S"\t| 0 >  0.001250000000000038\t--> 'True'\tCorrect Rej: 14, Miss: 19\n\t| \t| 0 >  0.001000000000000099\t--> 'True'\tCorrect Rej: 11, Miss: 7\n\t| \t| \t| 0 >  0.0008695652173915185\t--> 'True'\tCorrect Rej: 3, Miss: 4\n\t| \t| \t| \t| 0 >  0.0007272727272727862\t--> 'True'\tCorrect Rej: 0, Miss: 2\n"
+p695
+sg33
+S"\t| 0 >  0.001250000000000038\t--> 'False'\tFalse Alarm: 14, Hit: 19\n\t| \t| 0 >  0.001000000000000099\t--> 'False'\tFalse Alarm: 11, Hit: 7\n\t| \t| \t| 0 >  0.0008695652173915185\t--> 'False'\tFalse Alarm: 3, Hit: 4\n\t| \t| \t| \t| 0 >  0.0007272727272727862\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p696
+sg35
+S"\t| 0 >  0.001250000000000038\t--> 'True'\tCorrect Rej: 14, Miss: 19\n\t| \t| 21 >  0.0010810810814142367\t--> 'False'\tFalse Alarm: 7, Hit: 7\n\t| \t| \t| 3 >  0.3315595108808738\t--> 'False'\tFalse Alarm: 0, Hit: 9\n\t| \t| \t| \t| 2 >  0.0010000000000118794\t--> 'True'\tCorrect Rej: 7, Miss: 0\n"
+p697
+sg37
+S"\t| 0 >  0.001250000000000038\t--> 'True'\tCorrect Rej: 14, Miss: 19\n\t| \t| 0 >  0.001000000000000099\t--> 'True'\tCorrect Rej: 11, Miss: 7\n\t| \t| \t| 0 >  0.0008695652173915185\t--> 'True'\tCorrect Rej: 3, Miss: 4\n\t| \t| \t| \t| 24 <  0.0007692307692910359\t--> 'False'\tFalse Alarm: 1, Hit: 3\n"
+p698
+sg41
+S"\t| 21 >  0.0013563218392460509\t--> 'False'\tFalse Alarm: 10, Hit: 25\n\t| \t| 3 <  0.0013333333333755545\t--> 'True'\tCorrect Rej: 17, Miss: 1\n\t| \t| \t| 3 >  0.8421685664947662\t--> 'False'\tFalse Alarm: 0, Hit: 5\n\t| \t| \t| \t| 3 <  0.06116221916719987\t--> 'True'\tCorrect Rej: 2, Miss: 0\n"
+p699
+sa(dp700
+g31
+S"\t| 0 >  0.0012500000000000519\t--> 'True'\tCorrect Rej: 14, Miss: 15\n\t| \t| 0 >  0.0010256410256410371\t--> 'True'\tCorrect Rej: 6, Miss: 6\n\t| \t| \t| 0 >  0.0009090909090909721\t--> 'True'\tCorrect Rej: 6, Miss: 5\n\t| \t| \t| \t| 0 >  0.0007017543859650501\t--> 'True'\tCorrect Rej: 2, Miss: 8\n"
+p701
+sg33
+S"\t| 0 >  0.0012500000000000519\t--> 'False'\tFalse Alarm: 14, Hit: 15\n\t| \t| 0 >  0.0010256410256410371\t--> 'False'\tFalse Alarm: 6, Hit: 6\n\t| \t| \t| 0 >  0.0009090909090909721\t--> 'False'\tFalse Alarm: 6, Hit: 5\n\t| \t| \t| \t| 0 >  0.0007017543859650501\t--> 'False'\tFalse Alarm: 2, Hit: 8\n"
+p702
+sg35
+S"\t| 0 >  0.0012500000000000519\t--> 'True'\tCorrect Rej: 14, Miss: 15\n\t| \t| 3 >  0.0012121212122783596\t--> 'False'\tFalse Alarm: 5, Hit: 8\n\t| \t| \t| 21 >  0.001142857142919633\t--> 'False'\tFalse Alarm: 2, Hit: 11\n\t| \t| \t| \t| 2 >  0.0010000000000133784\t--> 'True'\tCorrect Rej: 5, Miss: 0\n"
+p703
+sg37
+S"\t| 0 >  0.0012500000000000519\t--> 'True'\tCorrect Rej: 14, Miss: 15\n\t| \t| 0 >  0.0010256410256410371\t--> 'True'\tCorrect Rej: 6, Miss: 6\n\t| \t| \t| 0 >  0.0009090909090909721\t--> 'True'\tCorrect Rej: 6, Miss: 5\n\t| \t| \t| \t| 3 >  0.40020524842135785\t--> 'False'\tFalse Alarm: 1, Hit: 7\n"
+p704
+sg41
+S"\t| 3 >  0.0013793103449598178\t--> 'False'\tFalse Alarm: 5, Hit: 20\n\t| \t| 21 <  0.001333333333431363\t--> 'True'\tCorrect Rej: 15, Miss: 4\n\t| \t| \t| 21 >  0.6359046474030046\t--> 'False'\tFalse Alarm: 0, Hit: 7\n\t| \t| \t| \t| 24 >  0.9668965516498058\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p705
+sa(dp706
+g31
+S"\t| 0 >  0.0012500000000000477\t--> 'True'\tCorrect Rej: 13, Miss: 17\n\t| \t| 0 >  0.0010000000000001045\t--> 'True'\tCorrect Rej: 8, Miss: 12\n\t| \t| \t| 0 >  0.0008888888888889564\t--> 'True'\tCorrect Rej: 2, Miss: 3\n\t| \t| \t| \t| 0 >  0.0007272727272727833\t--> 'True'\tCorrect Rej: 3, Miss: 2\n"
+p707
+sg33
+S"\t| 0 >  0.0012500000000000477\t--> 'False'\tFalse Alarm: 13, Hit: 17\n\t| \t| 0 >  0.0010000000000001045\t--> 'False'\tFalse Alarm: 8, Hit: 12\n\t| \t| \t| 0 >  0.0008888888888889564\t--> 'False'\tFalse Alarm: 2, Hit: 3\n\t| \t| \t| \t| 0 >  0.0007272727272727833\t--> 'False'\tFalse Alarm: 3, Hit: 2\n"
+p708
+sg35
+S"\t| 0 >  0.0012500000000000477\t--> 'True'\tCorrect Rej: 13, Miss: 17\n\t| \t| 5 <  0.0010526315790223523\t--> 'False'\tFalse Alarm: 6, Hit: 7\n\t| \t| \t| 5 <  0.0012500000256889495\t--> 'False'\tFalse Alarm: 2, Hit: 9\n\t| \t| \t| \t| 5 >  0.969999999998848\t--> 'True'\tCorrect Rej: 4, Miss: 0\n"
+p709
+sg37
+S"\t| 0 >  0.0012500000000000477\t--> 'True'\tCorrect Rej: 13, Miss: 17\n\t| \t| 0 >  0.0010000000000001045\t--> 'True'\tCorrect Rej: 8, Miss: 12\n\t| \t| \t| 0 >  0.0008888888888889564\t--> 'True'\tCorrect Rej: 2, Miss: 3\n\t| \t| \t| \t| 3 >  0.5691052406671396\t--> 'False'\tFalse Alarm: 1, Hit: 1\n"
+p710
+sg41
+S"\t| 3 >  0.0013793103448835433\t--> 'False'\tFalse Alarm: 11, Hit: 24\n\t| \t| 21 <  0.0012903225811906616\t--> 'True'\tCorrect Rej: 15, Miss: 1\n\t| \t| \t| 4 <  0.0012903225807107967\t--> 'False'\tFalse Alarm: 1, Hit: 11\n\t| \t| \t| \t| 21 <  0.0013333333336474225\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p711
+sa(dp712
+g31
+S"\t| 0 >  0.001250000000000045\t--> 'True'\tCorrect Rej: 14, Miss: 17\n\t| \t| 0 >  0.0010000000000001045\t--> 'True'\tCorrect Rej: 7, Miss: 12\n\t| \t| \t| 0 >  0.0008695652173915185\t--> 'True'\tCorrect Rej: 3, Miss: 4\n\t| \t| \t| \t| 0 >  0.0007272727272729076\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p713
+sg33
+S"\t| 0 >  0.001250000000000045\t--> 'False'\tFalse Alarm: 14, Hit: 17\n\t| \t| 0 >  0.0010000000000001045\t--> 'False'\tFalse Alarm: 7, Hit: 12\n\t| \t| \t| 0 >  0.0008695652173915185\t--> 'False'\tFalse Alarm: 3, Hit: 4\n\t| \t| \t| \t| 0 >  0.0007272727272729076\t--> 'False'\tFalse Alarm: 1, Hit: 0\n"
+p714
+sg35
+S"\t| 0 >  0.001250000000000045\t--> 'True'\tCorrect Rej: 14, Miss: 17\n\t| \t| 3 >  0.0011764705883182548\t--> 'False'\tFalse Alarm: 8, Hit: 12\n\t| \t| \t| 21 >  0.0011111111112116956\t--> 'False'\tFalse Alarm: 1, Hit: 6\n\t| \t| \t| \t| 0 >  0.0010000000000000102\t--> 'True'\tCorrect Rej: 4, Miss: 0\n"
+p715
+sg37
+S"\t| 0 >  0.001250000000000045\t--> 'True'\tCorrect Rej: 14, Miss: 17\n\t| \t| 0 >  0.0010000000000001045\t--> 'True'\tCorrect Rej: 7, Miss: 12\n\t| \t| \t| 0 >  0.0008695652173915185\t--> 'True'\tCorrect Rej: 3, Miss: 4\n\t| \t| \t| \t| 3 >  0.4698138101183898\t--> 'False'\tFalse Alarm: 2, Hit: 2\n"
+p716
+sg41
+S"\t| 3 >  0.0013793103448728132\t--> 'False'\tFalse Alarm: 12, Hit: 25\n\t| \t| 21 <  0.0012903225808229121\t--> 'True'\tCorrect Rej: 12, Miss: 1\n\t| \t| \t| 21 >  0.5850091556975601\t--> 'False'\tFalse Alarm: 0, Hit: 7\n\t| \t| \t| \t| 7 <  0.0013333333334502515\t--> 'True'\tCorrect Rej: 3, Miss: 0\n"
+p717
+sa(dp718
+g31
+S"\t| 0 >  0.0012903225806543514\t--> 'True'\tCorrect Rej: 14, Miss: 18\n\t| \t| 0 >  0.0010256410256570946\t--> 'True'\tCorrect Rej: 8, Miss: 6\n\t| \t| \t| 0 >  0.0009090909091039468\t--> 'True'\tCorrect Rej: 4, Miss: 8\n\t| \t| \t| \t| 0 >  0.0007477288609449274\t--> 'True'\tCorrect Rej: 1, Miss: 4\n"
+p719
+sg33
+S"\t| 0 >  0.0012903225806543514\t--> 'False'\tFalse Alarm: 14, Hit: 18\n\t| \t| 0 >  0.0010256410256570946\t--> 'False'\tFalse Alarm: 8, Hit: 6\n\t| \t| \t| 0 >  0.0009090909091039468\t--> 'False'\tFalse Alarm: 4, Hit: 8\n\t| \t| \t| \t| 0 >  0.0007477288609449274\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p720
+sg35
+S"\t| 0 >  0.0012903225806543514\t--> 'True'\tCorrect Rej: 14, Miss: 18\n\t| \t| 9 <  0.0012121212123461424\t--> 'False'\tFalse Alarm: 1, Hit: 12\n\t| \t| \t| 9 >  0.4296618473218695\t--> 'True'\tCorrect Rej: 9, Miss: 1\n\t| \t| \t| \t| 9 <  0.09590368308494147\t--> 'False'\tFalse Alarm: 1, Hit: 4\n"
+p721
+sg37
+S"\t| 0 >  0.0012903225806543514\t--> 'True'\tCorrect Rej: 14, Miss: 18\n\t| \t| 9 <  0.0012121212123461424\t--> 'False'\tFalse Alarm: 1, Hit: 12\n\t| \t| \t| 0 >  0.001025641025780089\t--> 'True'\tCorrect Rej: 8, Miss: 4\n\t| \t| \t| \t| 0 >  0.0010000000000076673\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p722
+sg41
+S"\t| 9 <  0.06548242389726742\t--> 'False'\tFalse Alarm: 4, Hit: 27\n\t| \t| 9 >  0.9367741935469265\t--> 'True'\tCorrect Rej: 13, Miss: 0\n\t| \t| \t| 9 <  0.20168770672084288\t--> 'False'\tFalse Alarm: 2, Hit: 5\n\t| \t| \t| \t| 4 <  0.0013333333336136074\t--> 'True'\tCorrect Rej: 7, Miss: 2\n"
+p723
+sa(dp724
+g31
+S"\t| 0 >  0.0012500000000185885\t--> 'True'\tCorrect Rej: 16, Miss: 21\n\t| \t| 0 >  0.0010256410256477748\t--> 'True'\tCorrect Rej: 7, Miss: 9\n\t| \t| \t| 0 >  0.0009090909090983475\t--> 'True'\tCorrect Rej: 5, Miss: 2\n\t| \t| \t| \t| 0 >  0.0007407407407478015\t--> 'True'\tCorrect Rej: 1, Miss: 1\n"
+p725
+sg33
+S"\t| 0 >  0.0012500000000185885\t--> 'False'\tFalse Alarm: 16, Hit: 21\n\t| \t| 0 >  0.0010256410256477748\t--> 'False'\tFalse Alarm: 7, Hit: 9\n\t| \t| \t| 0 >  0.0009090909090983475\t--> 'False'\tFalse Alarm: 5, Hit: 2\n\t| \t| \t| \t| 0 >  0.0007407407407478015\t--> 'False'\tFalse Alarm: 1, Hit: 1\n"
+p726
+sg35
+S"\t| 0 >  0.0012500000000185885\t--> 'True'\tCorrect Rej: 16, Miss: 21\n\t| \t| 9 <  0.0012121212123461424\t--> 'False'\tFalse Alarm: 1, Hit: 12\n\t| \t| \t| 9 >  0.42337857447359045\t--> 'True'\tCorrect Rej: 10, Miss: 1\n\t| \t| \t| \t| 9 <  0.15871476800627035\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p727
+sg37
+S"\t| 0 >  0.0012500000000185885\t--> 'True'\tCorrect Rej: 16, Miss: 21\n\t| \t| 9 <  0.0012121212123461424\t--> 'False'\tFalse Alarm: 1, Hit: 12\n\t| \t| \t| 0 >  0.001025641025780089\t--> 'True'\tCorrect Rej: 3, Miss: 2\n\t| \t| \t| \t| 0 >  0.000975609756112076\t--> 'True'\tCorrect Rej: 8, Miss: 0\n"
+p728
+sg41
+S"\t| 9 <  0.05768163555104168\t--> 'False'\tFalse Alarm: 3, Hit: 22\n\t| \t| 9 >  0.905312624833757\t--> 'True'\tCorrect Rej: 21, Miss: 0\n\t| \t| \t| 9 <  0.19232212269657148\t--> 'False'\tFalse Alarm: 0, Hit: 9\n\t| \t| \t| \t| 4 <  0.0013333333336737329\t--> 'True'\tCorrect Rej: 2, Miss: 2\n"
+p729
+sa(dp730
+g31
+S"\t| 0 >  0.0012903225806554428\t--> 'True'\tCorrect Rej: 11, Miss: 14\n\t| \t| 0 >  0.0010256410256510482\t--> 'True'\tCorrect Rej: 12, Miss: 13\n\t| \t| \t| 0 >  0.0009090909091039468\t--> 'True'\tCorrect Rej: 1, Miss: 4\n\t| \t| \t| \t| 0 >  0.0007692307692401128\t--> 'True'\tCorrect Rej: 0, Miss: 2\n"
+p731
+sg33
+S"\t| 0 >  0.0012903225806554428\t--> 'False'\tFalse Alarm: 11, Hit: 14\n\t| \t| 0 >  0.0010256410256510482\t--> 'False'\tFalse Alarm: 12, Hit: 13\n\t| \t| \t| 0 >  0.0009090909091039468\t--> 'False'\tFalse Alarm: 1, Hit: 4\n\t| \t| \t| \t| 0 >  0.0007692307692401128\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p732
+sg35
+S"\t| 0 >  0.0012903225806554428\t--> 'True'\tCorrect Rej: 11, Miss: 14\n\t| \t| 9 <  0.0012500000002049947\t--> 'False'\tFalse Alarm: 3, Hit: 16\n\t| \t| \t| 9 >  0.905312624833757\t--> 'True'\tCorrect Rej: 8, Miss: 0\n\t| \t| \t| \t| 21 <  0.0012500000004144944\t--> 'False'\tFalse Alarm: 4, Hit: 2\n"
+p733
+sg37
+S"\t| 0 >  0.0012903225806554428\t--> 'True'\tCorrect Rej: 11, Miss: 14\n\t| \t| 9 <  0.0012500000002049947\t--> 'False'\tFalse Alarm: 3, Hit: 16\n\t| \t| \t| 0 >  0.0010256410256640266\t--> 'True'\tCorrect Rej: 9, Miss: 4\n\t| \t| \t| \t| 0 >  0.000975609756112076\t--> 'True'\tCorrect Rej: 4, Miss: 0\n"
+p734
+sg41
+S"\t| 9 <  0.07410630977638841\t--> 'False'\tFalse Alarm: 7, Hit: 30\n\t| \t| 9 >  0.9357204301058559\t--> 'True'\tCorrect Rej: 15, Miss: 0\n\t| \t| \t| 9 >  0.2677475922426233\t--> 'True'\tCorrect Rej: 4, Miss: 0\n\t| \t| \t| \t| 21 <  0.2826978395941948\t--> 'False'\tFalse Alarm: 2, Hit: 4\n"
+p735
+sa(dp736
+g31
+S"\t| 0 >  0.0012500000000105276\t--> 'True'\tCorrect Rej: 17, Miss: 21\n\t| \t| 0 >  0.0010256410256562027\t--> 'True'\tCorrect Rej: 5, Miss: 4\n\t| \t| \t| 0 >  0.0009090909091010464\t--> 'True'\tCorrect Rej: 3, Miss: 6\n\t| \t| \t| \t| 0 >  0.0007547169811475777\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p737
+sg33
+S"\t| 0 >  0.0012500000000105276\t--> 'False'\tFalse Alarm: 17, Hit: 21\n\t| \t| 0 >  0.0010256410256562027\t--> 'False'\tFalse Alarm: 5, Hit: 4\n\t| \t| \t| 0 >  0.0009090909091010464\t--> 'False'\tFalse Alarm: 3, Hit: 6\n\t| \t| \t| \t| 0 >  0.0007547169811475777\t--> 'False'\tFalse Alarm: 2, Hit: 1\n"
+p738
+sg35
+S"\t| 0 >  0.0012500000000105276\t--> 'True'\tCorrect Rej: 17, Miss: 21\n\t| \t| 9 <  0.0012500000001137062\t--> 'False'\tFalse Alarm: 4, Hit: 12\n\t| \t| \t| 9 >  0.516628695477774\t--> 'True'\tCorrect Rej: 6, Miss: 0\n\t| \t| \t| \t| 9 <  0.17793048749115775\t--> 'False'\tFalse Alarm: 0, Hit: 2\n"
+p739
+sg37
+S"\t| 0 >  0.0012500000000105276\t--> 'True'\tCorrect Rej: 17, Miss: 21\n\t| \t| 9 <  0.0012500000001137062\t--> 'False'\tFalse Alarm: 4, Hit: 12\n\t| \t| \t| 0 >  0.0010256410256571035\t--> 'True'\tCorrect Rej: 3, Miss: 1\n\t| \t| \t| \t| 0 >  0.000975609756112076\t--> 'True'\tCorrect Rej: 2, Miss: 1\n"
+p740
+sg41
+S"\t| 9 <  0.07410630977638841\t--> 'False'\tFalse Alarm: 8, Hit: 29\n\t| \t| 9 >  0.9357204301058559\t--> 'True'\tCorrect Rej: 14, Miss: 1\n\t| \t| \t| 9 <  0.237702175864034\t--> 'False'\tFalse Alarm: 1, Hit: 4\n\t| \t| \t| \t| 2 <  0.0012903225807090828\t--> 'True'\tCorrect Rej: 1, Miss: 1\n"
+p741
+sa(dp742
+g31
+S"\t| 0 >  0.0012903225806554263\t--> 'True'\tCorrect Rej: 17, Miss: 13\n\t| \t| 0 >  0.0010256410256570946\t--> 'True'\tCorrect Rej: 6, Miss: 8\n\t| \t| \t| 0 >  0.0009302325581541164\t--> 'True'\tCorrect Rej: 3, Miss: 5\n\t| \t| \t| \t| 0 >  0.0007477288609449274\t--> 'True'\tCorrect Rej: 2, Miss: 7\n"
+p743
+sg33
+S"\t| 0 >  0.0012903225806554263\t--> 'False'\tFalse Alarm: 17, Hit: 13\n\t| \t| 0 >  0.0010256410256570946\t--> 'False'\tFalse Alarm: 6, Hit: 8\n\t| \t| \t| 0 >  0.0009302325581541164\t--> 'False'\tFalse Alarm: 3, Hit: 5\n\t| \t| \t| \t| 0 >  0.0007477288609449274\t--> 'False'\tFalse Alarm: 2, Hit: 7\n"
+p744
+sg35
+S"\t| 0 >  0.0012903225806554263\t--> 'True'\tCorrect Rej: 17, Miss: 13\n\t| \t| 9 <  0.0012500000002049947\t--> 'False'\tFalse Alarm: 2, Hit: 17\n\t| \t| \t| 9 >  0.6413915904084723\t--> 'True'\tCorrect Rej: 5, Miss: 0\n\t| \t| \t| \t| 9 <  0.19720378718989165\t--> 'False'\tFalse Alarm: 1, Hit: 5\n"
+p745
+sg37
+S"\t| 0 >  0.0012903225806554263\t--> 'True'\tCorrect Rej: 17, Miss: 13\n\t| \t| 9 <  0.0012500000002049947\t--> 'False'\tFalse Alarm: 2, Hit: 17\n\t| \t| \t| 0 >  0.001025641025780089\t--> 'True'\tCorrect Rej: 4, Miss: 1\n\t| \t| \t| \t| 0 >  0.0010000000000152628\t--> 'True'\tCorrect Rej: 1, Miss: 0\n"
+p746
+sg41
+S"\t| 9 <  0.06671430196972869\t--> 'False'\tFalse Alarm: 4, Hit: 28\n\t| \t| 9 >  0.9315660619568468\t--> 'True'\tCorrect Rej: 17, Miss: 0\n\t| \t| \t| 9 >  0.22165032453475514\t--> 'True'\tCorrect Rej: 5, Miss: 2\n\t| \t| \t| \t| 0 >  0.001333333333355369\t--> 'False'\tFalse Alarm: 1, Hit: 1\n"
+p747
+sasg31
+(lp748
+F0.0
+aF0.034
+aF0.071
+aF0.0
+aF0.143
+aF0.0
+aF0.069
+aF0.107
+aF0.036
+aF0.036
+aF0.034
+aF0.034
+aF0.036
+aF0.107
+aF0.0
+aF0.069
+aF0.034
+aF0.0
+aF0.071
+aF0.107
+aF0.069
+aF0.0
+aF0.143
+aF0.036
+aF0.0
+asg33
+(lp749
+F1.0
+aF0.889
+aF0.889
+aF0.944
+aF0.972
+aF0.946
+aF0.861
+aF0.944
+aF0.889
+aF0.972
+aF0.919
+aF0.889
+aF0.972
+aF0.889
+aF0.972
+aF0.919
+aF0.889
+aF0.944
+aF0.944
+aF0.917
+aF0.973
+aF0.917
+aF0.917
+aF0.889
+aF0.917
+asg35
+(lp750
+F0.272
+aF0.419
+aF0.342
+aF0.488
+aF0.458
+aF0.401
+aF0.246
+aF0.439
+aF0.377
+aF0.431
+aF0.314
+aF0.4
+aF0.335
+aF0.413
+aF0.506
+aF0.395
+aF0.421
+aF0.372
+aF0.434
+aF0.418
+aF0.405
+aF0.433
+aF0.395
+aF0.444
+aF0.285
+asg37
+(lp751
+F0.912
+aF0.811
+aF0.811
+aF0.732
+aF0.526
+aF0.775
+aF0.756
+aF0.8
+aF0.865
+aF0.844
+aF0.853
+aF0.722
+aF0.8
+aF0.833
+aF0.667
+aF0.698
+aF0.75
+aF0.875
+aF0.5
+aF0.5
+aF0.737
+aF0.867
+aF0.818
+aF0.684
+aF0.786
+asg39
+(lp752
+F223.26757884025574
+aF223.2142789363861
+aF223.0863778591156
+aF223.06437802314758
+aF206.55219101905823
+aF206.1352949142456
+aF206.55567598342896
+aF206.5898518562317
+aF206.52671098709106
+aF208.76022100448608
+aF208.8886218070984
+aF208.85965776443481
+aF208.8546290397644
+aF209.04882287979126
+aF241.82942509651184
+aF240.112389087677
+aF240.21702098846436
+aF240.29092621803284
+aF240.5575671195984
+aF201.47199511528015
+aF201.1032702922821
+aF201.5916290283203
+aF201.9817361831665
+aF201.73698329925537
+asg41
+(lp753
+F0.909
+aF0.815
+aF0.891
+aF0.766
+aF0.813
+aF0.818
+aF0.892
+aF0.766
+aF0.797
+aF0.891
+aF0.818
+aF0.862
+aF0.859
+aF0.844
+aF0.797
+aF0.818
+aF0.831
+aF0.781
+aF0.797
+aF0.781
+aF0.833
+aF0.877
+aF0.828
+aF0.766
+aF0.813
+asss.
